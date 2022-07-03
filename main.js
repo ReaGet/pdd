@@ -20,7 +20,6 @@ let testDone = false;
 function init() {
     const fisrtTab = document.querySelector('.elemNavpdd');
     statisticsData = getStatisticsData();
-    console.log(statisticsData)
 
     setTab(fisrtTab);
     setCategoriesTestCount();
@@ -36,28 +35,44 @@ function setCategoriesTestCount() {
         let key = Object.keys(category).at(0);
         let count = category[key].length;
         key = key.match(/[a-z]+/i).at(0);
-        if (!cache[key]) cache[key] = 0;
+        if (!cache[key]) cache[key] = {};
+        if (!cache[key]['total']) cache[key]['total'] = 0;
+        if (!cache[key]['done']) cache[key]['done'] = 0;
 
-        cache[key] += count;
+        cache[key].total += count;
     });
+
+    for (let i in statisticsData) {
+        let type = i.match(/[a-z]+/i).at(0);
+        if (type === 'total') {
+            continue;
+        }
+        for (let j in statisticsData[i]) {
+            cache[type].done += statisticsData[i][j].done ? 1 : 0; 
+        }
+    }
     
     pddCategories.forEach((item) => {
         const type = item.getAttribute('typequestoins');
         const h3 = item.querySelector('h3');
-        const count = cache[type];
+        let total = 0;
+
+        if (cache[type]) {
+            total = cache[type]['total'];
+        }
 
         if (!statisticsData['total']) {
             statisticsData['total'] = {};
         }
 
         if (!statisticsData['total'][type]) {
-            statisticsData['total'][type] = count;
+            statisticsData['total'][type] = total;
         }
 
-        if (!count) {
+        if (!total) {
             item.style.display = 'none';
         } else {
-            h3.innerHTML = `0 / ${count}`;
+            h3.innerHTML = `${cache[type].done} / ${total}`;
         }
     });
 }
@@ -70,6 +85,7 @@ function setContent(element) {
     const type = element.getAttribute('contenthtml');
     switch (type) {
         case 'menuQuestions':
+            setCategoriesTestCount();
             contentMain.innerHTML = categories.innerHTML;
             break;
         case 'examen':
@@ -367,7 +383,7 @@ function showResult() {
  */
 function showStatistics() {
     const data = getStatisticsData();
-    const counts = {
+    const cache = {
         AB: {
             correct: 0,
             incorrect: 0,
@@ -390,17 +406,16 @@ function showStatistics() {
         },
     };
     for (let i in data) {
-        let parsedKey = i.match(/[a-z]+/i).at(0);
-        if (parsedKey === 'total') {
+        let type = i.match(/[a-z]+/i).at(0);
+        if (type === 'total') {
             continue;
         }
         for (let j in data[i]) {
-            counts[parsedKey].correct += data[i][j].correct;
-            counts[parsedKey].incorrect += data[i][j].incorrect;
-            counts[parsedKey].done += data[i][j].done ? 1 : 0; 
+            cache[type].correct += data[i][j].correct;
+            cache[type].incorrect += data[i][j].incorrect;
+            cache[type].done += data[i][j].done ? 1 : 0; 
         }
     }
-    console.log(counts)
     const template = `
         <table class="table table-statistics">
             <tr>
@@ -412,24 +427,24 @@ function showStatistics() {
             </tr>
             <tr>
                 <td>Пройдено вопросов</td>
-                <td>${Math.round(counts.AB.done / data.total.AB * 100)}%</td>
-                <td>${Math.round(counts.C.done / data.total.E * 100)}%</td>
-                <td>${Math.round(counts.D.done / data.total.D * 100)}%</td>
-                <td>${Math.round(counts.E.done / data.total.E * 100)}%</td>
+                <td>${Math.round(cache.AB.done / data.total.AB * 100)}%</td>
+                <td>${Math.round(cache.C.done / data.total.E * 100)}%</td>
+                <td>${Math.round(cache.D.done / data.total.D * 100)}%</td>
+                <td>${Math.round(cache.E.done / data.total.E * 100)}%</td>
             </tr>
             <tr>
                 <td>Правильных ответов</td>
-                <td>${counts.AB.correct}</td>
-                <td>${counts.C.correct}</td>
-                <td>${counts.D.correct}</td>
-                <td>${counts.E.correct}</td>
+                <td>${cache.AB.correct}</td>
+                <td>${cache.C.correct}</td>
+                <td>${cache.D.correct}</td>
+                <td>${cache.E.correct}</td>
             </tr>
             <tr>
                 <td>Неверных ответов</td>
-                <td>${counts.AB.incorrect}</td>
-                <td>${counts.C.incorrect}</td>
-                <td>${counts.D.incorrect}</td>
-                <td>${counts.E.incorrect}</td>
+                <td>${cache.AB.incorrect}</td>
+                <td>${cache.C.incorrect}</td>
+                <td>${cache.D.incorrect}</td>
+                <td>${cache.E.incorrect}</td>
             </tr>
             <tr>
                 <td>Сложные вопросы</td>
