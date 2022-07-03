@@ -8,6 +8,7 @@ const categories = document.querySelector('#menuQuestions');
 const questionTemplate = document.querySelector('#pddQuestionAsCategory');
 const numQuestions = questionTemplate.querySelector('#numQuestion');
 let currentTest = null;
+let currentTestId = null;
 let currentTestProgress = {};
 let testDone = false;
 
@@ -121,15 +122,15 @@ function setCategoryContent(button) {
 function setTest(button) {
     const testType = button.getAttribute('bilettype');
     const testNumber = button.getAttribute('biletnum');
-    const testId = testType + testNumber;
-    currentTestProgress = {};
+    currentTestId = testType + testNumber;
     let questionsArray = [];
-    questionsArray = questionsALLJSON.filter((test) => testId in test).at(0);
-    currentTest = questionsArray[testId];
+    currentTestProgress = {};
+    questionsArray = questionsALLJSON.filter((test) => currentTestId in test).at(0);
+    currentTest = questionsArray[currentTestId];
     testDone = false;
-    setTestNavigationButtons(testId);
+    setTestNavigationButtons();
     contentMain.innerHTML = questionTemplate.innerHTML;
-    showCurrentQuestion(1, testId);
+    showCurrentQuestion(1);
 }
 /**
  * 
@@ -137,7 +138,7 @@ function setTest(button) {
  * @param {*} testId номер билета
  * @description Заполняет данными текущий вопрос на странице
  */
-function showCurrentQuestion(index, testId) {
+function showCurrentQuestion(index) {
     const otvety = contentMain.querySelector('#otvety');
     const questionText = contentMain.querySelector('.question');
     const imageElement = contentMain.querySelector('.foto img');
@@ -165,7 +166,7 @@ function showCurrentQuestion(index, testId) {
 
     questionText.innerHTML = `
         <p>
-        <strong id="questionNum">${testId} </strong>
+        <strong id="questionNum">${currentTestId} </strong>
         ${currentQuestion.name}
         </p>
     `;
@@ -184,11 +185,10 @@ function showCurrentQuestion(index, testId) {
  * @description Заменяет текст кнопку далее 
  */
 function handleNextButton(index) {
-    console.log(testDone)
     const nextQuestionElement = contentMain.querySelector('.btn-next');
     nextQuestionElement.setAttribute('nextQuestion', index + 1);
     if (testDone) {
-        nextQuestionElement.innerHTML = 'Завершить';
+        nextQuestionElement.innerHTML = 'Завершить';        
     }
 }
 /**
@@ -206,10 +206,10 @@ function updateNavigation(index) {
  * 
  * @param {*} testId Идентификатор
  */
-function setTestNavigationButtons(testId) {
+function setTestNavigationButtons() {
     numQuestions.innerHTML = '';
     for (let i = 1; i <= currentTest.length; i++) {
-        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" test-id="${testId}" question-id="${i}">${i}</div>`;
+        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" test-id="${currentTestId}" question-id="${i}">${i}</div>`;
     }
 }
 /**
@@ -221,6 +221,7 @@ function handleAnswer(answerIndex, questionIndex) {
     const currentNavigation = contentMain.querySelectorAll('.btnQuestion');
     const commentElement = contentMain.querySelector('#comment');
     const currentQuestion = currentTest[questionIndex];
+    const showCommentElement = contentMain.querySelector('.btn-comment');
     const buttons = contentMain.querySelectorAll('#otvety button');
 
     const correctAnswerIndex = currentQuestion.buttons.findIndex((button) => {
@@ -240,6 +241,7 @@ function handleAnswer(answerIndex, questionIndex) {
 
     currentTestProgress[questionIndex] = {
         currentAnswer: answerIndex,
+        correctAnswer: correctAnswerIndex,
     };
 
     if (Object.keys(currentTestProgress).length === currentTest.length) {
@@ -251,6 +253,7 @@ function handleAnswer(answerIndex, questionIndex) {
     handleNextButton(questionIndex + 1);
 
     commentElement.classList.remove('dnone');
+    showCommentElement.classList.add('dnone');
 }
 /**
  * 
@@ -267,19 +270,65 @@ function handleControls(target) {
         break;
         case 'next':
             let index = Number(target.getAttribute('nextQuestion'));
-            const testId = contentMain.querySelector('.btnQuestion.active').getAttribute('test-id');
+            // const testId = contentMain.querySelector('.btnQuestion.active').getAttribute('test-id');
             if (index > currentTest.length) {
                 index = 1;
             }
 
             if (testDone) {
+                console.log(currentTestProgress)
+                showResult();
                 return;
             }
 
             updateNavigation(index);
-            showCurrentQuestion(index, testId);
+            showCurrentQuestion(index);
         break;
     }
+}
+/**
+ * @description Показать результаты теста
+ */
+function showResult() {
+    const results = calculateResult();
+    const template = `
+        <table>
+            <tr>
+                <td>Категория</td>
+                <td>Правильно</td>
+                <td>Неверно</td>
+                <td>Время</td>
+            </tr>
+            <tr>
+                <td>${currentTestId}</td>
+                <td>${results.correct}</td>
+                <td>${results.incorrect}</td>
+                <td>10</td>
+            </tr>
+        </table>
+    `;
+    contentMain.innerHTML = template;
+}
+/**
+ * 
+ * @returns Подсчитываем кол-во правильных и неправильных ответов
+ */
+function calculateResult() {
+    let correct = 0;
+    let incorrect = 0;
+    for (let key in currentTestProgress) {
+        const item = currentTestProgress[key];
+        if (item.currentAnswer === item.correctAnswer) {
+            correct++
+        } else {
+            incorrect++;
+        }
+    }
+
+    return {
+        correct: correct,
+        incorrect: incorrect,
+    };
 }
 /**
  * 
@@ -304,9 +353,9 @@ function handleClick(event) {
     }
     if (checkClass(target, 'btnQuestion')) {
         const index = Number(target.getAttribute('question-id'));
-        const testId = target.getAttribute('test-id');
+        // const testId = target.getAttribute('test-id');
         updateNavigation(index);
-        showCurrentQuestion(index, testId);
+        showCurrentQuestion(index);
     }
     if (checkClass(target, 'btn-answer')) {
         const answerIndex = target.getAttribute('numberanswer');
