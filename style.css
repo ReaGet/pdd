@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --img-play: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA2ElEQVRIie3WMU4CQRSA4VlJjDaUtBbSewELGxoab8EVoLT0Cl6B1tKKEGMN4QaUEBtiYwKfBZkEiw2asG8a/m6TTb7s7szbSelcyfCOOR6j4cM+cF8Czr2iWwKGb7ygEw3nNnjCdTScW2KAVjScW6BfAs694a4EDFuMcRMN577wjHY0nFthiMtDo6qD//2ajjepquohX1w0ANT16yEj4HVKaZRS6h2980TfNnxxFdlO4QMkfGSG/yQ+7YfC1UnAP8DhB4Gd/Uq9bQSsgUMPe1PMRB9vzzXRD/pq4HseetmVAAAAAElFTkSuQmCC);
+}
+
 #main {
     width: 100%;
     min-height: 20%;
@@ -213,6 +217,50 @@ img{
 }
 
 #controls .btn:hover {
+    background-color: #235e6e;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr:first-child {
+    background-color: #eee;
+}
+
+.table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table td span {
+    display: inline-block;
+    padding: 0 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.table-statistics tr td:first-child {
+    max-width: 200px;
+}
+
+.btn-statistics {
+    margin-top: 5px;
+    background-color: #2a8098;
+    height: 35px;
+    padding: 0 20px;
+    border: none;
+    background-image: var(--img-play);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-statistics:hover {
     background-color: #235e6e;
 }
 
