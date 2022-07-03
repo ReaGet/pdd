@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    min-height: 20%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 26px;
+    color: #444;
+    text-shadow: none;
+}
+span{
+    text-shadow: none;
+}
+#contentMain{
+    padding: 0.2%;
+}
+#navpdd, .questionInfo{
+    width: 100%;
+    display: flex;
+}
+#pddmain, #contentMain{
+    border-top: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    transition: 1s;
+}
+#left{
+    min-width: 45%;
+    max-width: 46%;
+}
+.navSubmenu{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.pddCategory {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.pddCategory:hover,.bilet:hover {
+    border:#FF0 dashed 1px;
+    Box-shadow:0px 0px 0px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.pddCategory h2 {
+    font-size: 3em;
+}
+.pddCategory h3 {
+    font-size: 1.2em;
+}
+.imgCategory{
+    max-width: 80%;
+    padding: 2px 5px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#vopros{
+    min-width: 60%;
+}
+.elemNavpdd{
+    min-width: 33%;
+    min-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(10, 51, 61, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.elemNavpdd:hover, .btnQuestion:hover,.btn-default:hover{
+    cursor: pointer;
+    background-color: #2a8098;
+}
+#biletNums{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bilet{
+    margin: 5px;
+    padding: 10px;
+    width: 15%;
+    min-height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.foto{
+    padding-right: 5%;
+}
+.active{
+    background-color: #2a8098;
+    border-top-left-radius: 10px;
+    border-bottom: none;
+}
+#numQuestion{
+    display: flex;
+}
+.btnQuestion {
+    padding: 3px 0;
+    margin: 2px 1px;
+    width: 35px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(10, 51, 61, 0.1);
+    border-radius: 5px;
+}
+.btnQuestion.active {
+    background-color: #2a8098;
+    outline: 2px solid #88d5eb;
+}
+.dnone{
+    display: none;
+}
+.dblock{
+    display: block;
+}
+.verno{
+    background-color: green !important;
+    color: white;
+}
+.Neverno{
+    background-color: red !important;
+    color: white;
+}
+.question {
+    margin: 0.5em;
+    text-align: center;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(10, 51, 61, 0.1);
+    font-size: 1.2em;
+}
+.btn-default{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: rgba(10, 51, 61, 0.03);
+    font-size: 1.1em;
+    text-align: justify;
+    border: 0.5px solid #ccc;
+}
+#comment{
+    background-color: rgba(9, 34, 41, 0.01);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+/* вкладка статистика */
+#statistica{
+    width: 100%;
+    font-weight: 800;
+}
+.rowPDD{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 99.8%;
+}
+.colPDD{
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    min-width: 13%;
+    padding: 5px;
+    text-align: center;
+}
+.nameCol{
+    min-width: 29%;
+    border-left: 1px solid;
+}
+.topCol{
+    background-color: #f5f5f5;
+    border-top: 1px solid;
+}
+
+#controls {
+    border: 1px solid rgba(10, 51, 61, 0.1);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#controls .btn {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #2a8098;
+    color: #fff;
+}
+
+#controls .btn-comment {
+    align-self: flex-start;
+}
+
+#controls .btn-next {
+    margin-left: auto;
+}
+
+#controls .btn:hover {
+    background-color: #235e6e;
+}
+
+@media screen and (max-width: 1100px) {
+    .pddCategory{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .questionInfo{
+        display: block;
+    }
+    #left{
+        max-width: 100%;
+    }
+    .foto{
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+    .col{
+    min-width: 10.8%;
+    }
+    .nameCol{
+        min-width: 29%;
+    }
+    #contentMain{
+        font-size: 0.9em;
+    }
+    .navSubmenu{
+        display: block;
+    }
+    .pddCategory{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}
