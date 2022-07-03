@@ -35,13 +35,14 @@ function setCategoriesTestCount() {
         let key = Object.keys(category).at(0);
         let count = category[key].length;
         key = key.match(/[a-z]+/i).at(0);
+        
         if (!cache[key]) cache[key] = {};
         if (!cache[key]['total']) cache[key]['total'] = 0;
         if (!cache[key]['done']) cache[key]['done'] = 0;
 
         cache[key].total += count;
     });
-
+    
     for (let i in statisticsData) {
         let type = i.match(/[a-z]+/i).at(0);
         if (type === 'total') {
@@ -146,17 +147,9 @@ function setCategoryContent(button) {
 }
 /**
  * 
- * @param {*} button кнопка на которую нажали
  * @description Запускаем тест
  */
-function setTest(button) {
-    const testType = button.getAttribute('bilettype');
-    const testNumber = button.getAttribute('biletnum');
-    currentTestId = testType + testNumber;
-    let questionsArray = [];
-    currentTestProgress = {};
-    questionsArray = questionsALLJSON.filter((test) => currentTestId in test).at(0);
-    currentTest = questionsArray[currentTestId];
+function setTest() {
     testDone = false;
     setTestNavigationButtons();
     contentMain.innerHTML = questionTemplate.innerHTML;
@@ -176,6 +169,7 @@ function showCurrentQuestion(index) {
     const commentElement = contentMain.querySelector('#comment');
     const showCommentElement = contentMain.querySelector('.btn-comment');
     const currentQuestion = currentTest[index - 1];
+    console.log('asd', currentQuestion)
     
     otvety.innerHTML = '';
     for (let i = 0; i < currentQuestion.buttons.length; i++) {
@@ -341,7 +335,6 @@ function handleControls(target) {
             }
 
             if (testDone) {
-                console.log(currentTestProgress)
                 showResult();
                 return;
             }
@@ -405,6 +398,7 @@ function showStatistics() {
             done: 0,
         },
     };
+    
     for (let i in data) {
         let type = i.match(/[a-z]+/i).at(0);
         if (type === 'total') {
@@ -427,10 +421,10 @@ function showStatistics() {
             </tr>
             <tr>
                 <td>Пройдено вопросов</td>
-                <td>${Math.round(cache.AB.done / data.total.AB * 100)}%</td>
-                <td>${Math.round(cache.C.done / data.total.E * 100)}%</td>
-                <td>${Math.round(cache.D.done / data.total.D * 100)}%</td>
-                <td>${Math.round(cache.E.done / data.total.E * 100)}%</td>
+                <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
+                <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
+                <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
+                <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
             </tr>
             <tr>
                 <td>Правильных ответов</td>
@@ -448,10 +442,10 @@ function showStatistics() {
             </tr>
             <tr>
                 <td>Сложные вопросы</td>
-                <td><button class="btn-statistics typequestoins="AB"></button></td>
-                <td><button class="btn-statistics typequestoins="C"></button></td>
-                <td><button class="btn-statistics typequestoins="D"></button></td>
-                <td><button class="btn-statistics typequestoins="E"></button></td>
+                <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
+                <td><button class="btn-statistics" typeQuestoins="C"></button></td>
+                <td><button class="btn-statistics" typeQuestoins="D"></button></td>
+                <td><button class="btn-statistics" typeQuestoins="E"></button></td>
             </tr>
         </table>
     `;
@@ -483,7 +477,7 @@ function calculateResult() {
  * @param {*} event это значение передается при нажатии клика на элемент
  */
 function handleClick(event) {
-    const target = event.target;
+    let target = event.target;
     if (checkClass(target, 'elemNavpdd')) {
         setTab(
             getElementWithClass(target, 'elemNavpdd')
@@ -495,9 +489,15 @@ function handleClick(event) {
         );
     }
     if (checkClass(target, 'bilet')) {
-        setTest(
-            getElementWithClass(target, 'bilet')
-        );
+        target = getElementWithClass(target, 'bilet');
+        const testType = target.getAttribute('bilettype');
+        const testNumber = target.getAttribute('biletnum');
+        currentTestId = testType + testNumber;
+        let questionsArray = [];
+        currentTestProgress = {};
+        questionsArray = questionsALLJSON.filter((test) => currentTestId in test).at(0);
+        currentTest = questionsArray[currentTestId];
+        setTest();
     }
     if (checkClass(target, 'btnQuestion')) {
         const index = Number(target.getAttribute('question-id'));
@@ -511,6 +511,31 @@ function handleClick(event) {
     }
     if (checkClass(target, 'btn-controls')) {
         handleControls(target);
+    }
+    if (checkClass(target, 'btn-statistics')) {
+        let type = target.getAttribute('typeQuestoins');
+        let questionsArray = [];
+        currentTestProgress = {};
+        for (let key in statisticsData) {
+            let parsedKey = key.match(/[a-z]+/i).at(0);
+            if (key === 'total' || type != parsedKey) {
+                continue;
+            }
+            
+            for (let i in statisticsData[key]) {
+                let arr = questionsALLJSON.filter((test) => key in test).at(0);
+                console.log(arr, i)
+                questionsArray.push(arr[key].at(i));
+            }
+        }
+
+        if (questionsArray.length === 0) {
+            return;
+        }
+        
+        currentTest = questionsArray;
+        console.log(currentTest)
+        setTest();
     }
 }
 /**
