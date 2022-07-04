@@ -9,7 +9,7 @@ const categories = document.querySelector('#menuQuestions');
 const questionTemplate = document.querySelector('#pddQuestionAsCategory');
 const numQuestions = questionTemplate.querySelector('#numQuestion');
 let currentTest = null;
-let currentTestId = null;
+let currentQuestionId = null;
 let currentTestProgress = {};
 let statisticsData = {};
 let testDone = false;
@@ -169,7 +169,7 @@ function showCurrentQuestion(index) {
     const commentElement = contentMain.querySelector('#comment');
     const showCommentElement = contentMain.querySelector('.btn-comment');
     const currentQuestion = currentTest[index - 1];
-    console.log('asd', currentQuestion)
+    currentQuestionId = currentQuestion.type;
     
     otvety.innerHTML = '';
     for (let i = 0; i < currentQuestion.buttons.length; i++) {
@@ -191,7 +191,7 @@ function showCurrentQuestion(index) {
 
     questionText.innerHTML = `
         <p>
-        <strong id="questionNum">${currentTestId} </strong>
+        <strong id="questionNum">${currentQuestion.type} </strong>
         ${currentQuestion.name}
         </p>
     `;
@@ -234,7 +234,7 @@ function updateNavigation(index) {
 function setTestNavigationButtons() {
     numQuestions.innerHTML = '';
     for (let i = 1; i <= currentTest.length; i++) {
-        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" test-id="${currentTestId}" question-id="${i}">${i}</div>`;
+        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" test-id="${currentQuestionId}" question-id="${i}">${i}</div>`;
     }
 }
 /**
@@ -248,12 +248,13 @@ function handleAnswer(answerIndex, questionIndex) {
     const currentQuestion = currentTest[questionIndex];
     const showCommentElement = contentMain.querySelector('.btn-comment');
     const buttons = contentMain.querySelectorAll('#otvety button');
+    const testType = currentQuestion.type;
 
-    if (!statisticsData[currentTestId]) {
-        statisticsData[currentTestId] = {};
+    if (!statisticsData[testType]) {
+        statisticsData[testType] = {};
     }
-    if (!statisticsData[currentTestId][questionIndex]) {
-        statisticsData[currentTestId][questionIndex] = {
+    if (!statisticsData[testType][currentQuestion.index]) {
+        statisticsData[testType][currentQuestion.index] = {
             correct: 0,
             incorrect: 0,
             done: false,
@@ -269,13 +270,13 @@ function handleAnswer(answerIndex, questionIndex) {
     if (answerIndex === correctAnswerIndex) {
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('verno');
-        statisticsData[currentTestId][questionIndex].correct++;
-        statisticsData[currentTestId][questionIndex].done = true;
+        statisticsData[testType][currentQuestion.index].correct++;
+        statisticsData[testType][currentQuestion.index].done = true;
     } else {
         buttons.item(answerIndex).classList.add('Neverno');
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('Neverno');
-        statisticsData[currentTestId][questionIndex].incorrect++;
+        statisticsData[testType][currentQuestion.index].incorrect++;
     }
 
     currentTestProgress[questionIndex] = {
@@ -362,7 +363,7 @@ function showResult() {
                 <td>Время</td>
             </tr>
             <tr>
-                <td>${currentTestId}</td>
+                <td>${currentQuestionId}</td>
                 <td><span class="verno">${results.correct}</span></td>
                 <td><span class="Neverno">${results.incorrect}</span></td>
                 <td>${time}</td>
@@ -492,11 +493,15 @@ function handleClick(event) {
         target = getElementWithClass(target, 'bilet');
         const testType = target.getAttribute('bilettype');
         const testNumber = target.getAttribute('biletnum');
-        currentTestId = testType + testNumber;
+        const testId = testType + testNumber;
         let questionsArray = [];
         currentTestProgress = {};
-        questionsArray = questionsALLJSON.filter((test) => currentTestId in test).at(0);
-        currentTest = questionsArray[currentTestId];
+        questionsArray = questionsALLJSON.filter((test) => testId in test).at(0);
+        currentTest = questionsArray[testId];
+        currentTest.map((item, i) => {
+            item.index = i;
+            item.type = testId;
+        });
         setTest();
     }
     if (checkClass(target, 'btnQuestion')) {
@@ -524,8 +529,12 @@ function handleClick(event) {
             
             for (let i in statisticsData[key]) {
                 let arr = questionsALLJSON.filter((test) => key in test).at(0);
-                console.log(arr, i)
-                questionsArray.push(arr[key].at(i));
+                if (!statisticsData[key][i].done) {
+                    let question = arr[key].at(i);
+                    question.type = key;
+                    question.index = i;
+                    questionsArray.push(question);
+                }
             }
         }
 
@@ -534,7 +543,6 @@ function handleClick(event) {
         }
         
         currentTest = questionsArray;
-        console.log(currentTest)
         setTest();
     }
 }
