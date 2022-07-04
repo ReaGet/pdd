@@ -6,6 +6,7 @@ import Timer from './timer.js';
 
 const contentMain = document.querySelector('#contentMain');
 const categories = document.querySelector('#menuQuestions');
+const examenCategories = document.querySelector('#examenQuestions');
 const questionTemplate = document.querySelector('#pddQuestionAsCategory');
 const numQuestions = questionTemplate.querySelector('#numQuestion');
 let currentTest = null;
@@ -29,7 +30,7 @@ function init() {
  * @description Устанавливает количество вопросов каждой категории
  */
 function setCategoriesTestCount() {
-    const pddCategories = document.querySelectorAll('.pddCategory');
+    const pddCategories = categories.querySelectorAll('.pddCategory');
     const cache = {};
     questionsALLJSON.map((category) => {
         let key = Object.keys(category).at(0);
@@ -90,19 +91,64 @@ function setContent(element) {
             contentMain.innerHTML = categories.innerHTML;
             break;
         case 'examen':
-            contentMain.innerHTML = 'Экзамен';
+            contentMain.innerHTML = examenCategories.innerHTML;
             break;
         case 'statistica':
-            // contentMain.innerHTML = 'Статистика';
             showStatistics();
             break;
         case 'pddCategory':
-            setCategoryContent(element)
+            const examLong = element.getAttribute('examLong');
+            if (!examLong)
+                setCategoryContent(element);
+            else
+                setExamQuestions(element);
             break;
         default:
             contentMain.innerHTML = categories.innerHTML;
             break
     }
+}
+/**
+ * 
+ * @param {*} element кнопка категории, которую нужно запустить
+ * @description генерируем вопросы для экзамена по необходимому типу и запускаем тест
+ */
+function setExamQuestions(element) {
+    const type = element.getAttribute('typeQuestoins');
+    const examLong = +element.getAttribute('examLong');
+    const questionsCount = +element.getAttribute('questionsCount');
+
+    let questionsArray = [];
+    currentTestProgress = {};
+    currentTest = [];
+    
+    questionsArray = questionsALLJSON.filter((test, i) => {
+        let key = Object.keys(test).at(0);
+        return key.match(/[a-z]+/i).at(0) == type;
+    });
+
+    for (let i = 0; i < questionsCount; i++) {
+        const typeIndex = random(questionsArray.length);
+        const test = questionsArray[typeIndex];
+        const type = Object.keys(test).at(0);
+        const questions = questionsArray[typeIndex][type];
+        const questionIndex = random(questions.length);
+        let question = questions[questionIndex];
+
+        question['index'] = questionIndex;
+        question['type'] = type;
+        currentTest.push(question);
+    }
+
+    setTest();
+}
+/**
+ * 
+ * @param {*} number 
+ * @returns возращает случайное число, до указанного
+ */
+function random(number) {
+    return Math.floor(Math.random() * number);
 }
 /**
  * 
@@ -519,32 +565,41 @@ function handleClick(event) {
     }
     if (checkClass(target, 'btn-statistics')) {
         let type = target.getAttribute('typeQuestoins');
-        let questionsArray = [];
-        currentTestProgress = {};
-        for (let key in statisticsData) {
-            let parsedKey = key.match(/[a-z]+/i).at(0);
-            if (key === 'total' || type != parsedKey) {
-                continue;
-            }
-            
-            for (let i in statisticsData[key]) {
-                let arr = questionsALLJSON.filter((test) => key in test).at(0);
-                if (!statisticsData[key][i].done) {
-                    let question = arr[key].at(i);
-                    question.type = key;
-                    question.index = i;
-                    questionsArray.push(question);
-                }
-            }
-        }
+        let questionsArray = getHardTestQuestions(type);
 
-        if (questionsArray.length === 0) {
+        if (questionsArray.length === 0)
             return;
-        }
         
         currentTest = questionsArray;
         setTest();
     }
+}
+/**
+ * 
+ * @param {*} type тип вопроса
+ * @returns массив вопросов, на которые не смогли ответить
+ */
+function getHardTestQuestions(type) {
+    let questionsArray = [];
+    currentTestProgress = {};
+    for (let key in statisticsData) {
+        let parsedKey = key.match(/[a-z]+/i).at(0);
+        if (key === 'total' || type != parsedKey) {
+            continue;
+        }
+        
+        for (let i in statisticsData[key]) {
+            let arr = questionsALLJSON.filter((test) => key in test).at(0);
+            if (!statisticsData[key][i].done) {
+                let question = arr[key].at(i);
+                question.type = key;
+                question.index = i;
+                questionsArray.push(question);
+            }
+        }
+    }
+
+    return questionsArray;
 }
 /**
  * 
