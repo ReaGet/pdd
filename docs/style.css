@@ -109,6 +109,7 @@ img{
 }
 #numQuestion{
     display: flex;
+    flex-wrap: wrap;
 }
 .btnQuestion {
     padding: 3px 0;
@@ -124,7 +125,7 @@ img{
     outline: 2px solid #88d5eb;
 }
 .dnone{
-    display: none;
+    display: none !important;
 }
 .dblock{
     display: block;
@@ -262,6 +263,25 @@ img{
 
 .btn-statistics:hover {
     background-color: #235e6e;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.examTimerWrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.examTimerWrapper .timer {
+    background-color: #2a8098;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-top: 2px;
 }
 
 @media screen and (max-width: 1100px) {

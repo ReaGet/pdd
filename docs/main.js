@@ -9,11 +9,13 @@ const categories = document.querySelector('#menuQuestions');
 const examenCategories = document.querySelector('#examenQuestions');
 const questionTemplate = document.querySelector('#pddQuestionAsCategory');
 const numQuestions = questionTemplate.querySelector('#numQuestion');
+const examTimerWrapper = questionTemplate.querySelector('.examTimerWrapper');
 let currentTest = null;
 let currentQuestionId = null;
 let currentTestProgress = {};
 let statisticsData = {};
 let testDone = false;
+let isExam = false;
 
 /**
  * @description инициализирует работу скрипта
@@ -87,14 +89,20 @@ function setContent(element) {
     const type = element.getAttribute('contenthtml');
     switch (type) {
         case 'menuQuestions':
+            examTimerWrapper.classList.add('dnone');
             setCategoriesTestCount();
             contentMain.innerHTML = categories.innerHTML;
+            isExam = false;
             break;
         case 'examen':
+            examTimerWrapper.classList.add('dnone');
             contentMain.innerHTML = examenCategories.innerHTML;
+            isExam = true;
             break;
         case 'statistica':
+            examTimerWrapper.classList.add('dnone');
             showStatistics();
+            isExam = false;
             break;
         case 'pddCategory':
             const examLong = element.getAttribute('examLong');
@@ -140,7 +148,16 @@ function setExamQuestions(element) {
         currentTest.push(question);
     }
 
+    examTimerWrapper.classList.remove('dnone');
     setTest();
+    Timer.startCountdown(0, 20, 0, contentMain.querySelector('.examTimerWrapper .timer'));
+    Timer.bindToTimeout(function() {
+        contentMain.querySelector('.examTimerWrapper .timer').classList.add('Neverno');
+        const buttons = contentMain.querySelectorAll('#otvety button');
+        buttons.forEach((button) => button.disabled = true);
+        testDone = true;
+        handleNextButton(0);
+    });
 }
 /**
  * 
@@ -222,6 +239,11 @@ function showCurrentQuestion(index) {
         const text = currentQuestion.buttons[i].text;
         otvety.innerHTML += `<button numberAnswer="${i}" CurQuestion="${index}" type="button" class="btn btn-answer btn-default">${text}</button>`;
     }
+
+    if (testDone) {
+        const buttons = contentMain.querySelectorAll('#otvety button');
+        buttons.forEach((button) => button.disabled = true);
+    }
     
     imageElement.src = currentQuestion.image;
     commentElement.classList.add('dnone');
@@ -280,7 +302,7 @@ function updateNavigation(index) {
 function setTestNavigationButtons() {
     numQuestions.innerHTML = '';
     for (let i = 1; i <= currentTest.length; i++) {
-        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" test-id="${currentQuestionId}" question-id="${i}">${i}</div>`;
+        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" question-id="${i}">${i}</div>`;
     }
 }
 /**
@@ -375,10 +397,21 @@ function handleControls(target) {
             commentElement.classList.remove('dnone');
         break;
         case 'next':
-            let index = Number(target.getAttribute('nextQuestion'));
-            // const testId = contentMain.querySelector('.btnQuestion.active').getAttribute('test-id');
-            if (index > currentTest.length) {
-                index = 1;
+            const activeNavigationButton = contentMain.querySelector('.btnQuestion.active');
+            const navigationButtons = Array.from(contentMain.querySelectorAll('.btnQuestion'));
+            let index = [].indexOf.call(navigationButtons, activeNavigationButton) + 1;
+
+            index = Math.max(1, (index + 1) % (currentTest.length + 1));
+            let nextIndex = Math.max(1, (index + 1) % (currentTest.length + 1));
+
+            let nextQuestion = navigationButtons[index - 1];
+            while (nextQuestion.classList.contains('verno') ||
+                nextQuestion.classList.contains('Neverno')) {
+                index = Math.max(1, (index + 1) % (currentTest.length + 1));
+                nextQuestion = navigationButtons[index - 1];
+                if (nextQuestion.classList.contains('active')) {
+                    break;
+                }
             }
 
             if (testDone) {
@@ -398,7 +431,7 @@ function showResult() {
     Timer.stop();
 
     const results = calculateResult();
-    const time = Timer.getTime();
+    const time = isExam ? Timer.getRemainingTime() : Timer.getTime();
 
     const template = `
         <table class="table">
