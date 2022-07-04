@@ -59,6 +59,7 @@ span{
     font-size: 3em;
 }
 .pddCategory h3 {
+    flex-shrink: 0;
     font-size: 1.2em;
 }
 .imgCategory{

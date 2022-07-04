@@ -33,6 +33,7 @@ function init() {
  */
 function setCategoriesTestCount() {
     const pddCategories = categories.querySelectorAll('.pddCategory');
+    const pddCategoriesExamen = examenCategories.querySelectorAll('.pddCategory');
     const cache = {};
     questionsALLJSON.map((category) => {
         let key = Object.keys(category).at(0);
@@ -77,6 +78,20 @@ function setCategoriesTestCount() {
             item.style.display = 'none';
         } else {
             h3.innerHTML = `${cache[type].done} / ${total}`;
+        }
+    });
+
+    pddCategoriesExamen.forEach((item) => {
+        const type = item.getAttribute('typequestoins');
+        const h3 = item.querySelector('h3');
+        let total = 0;
+
+        if (cache[type]) {
+            total = cache[type]['total'];
+        }
+
+        if (!total) {
+            item.style.display = 'none';
         }
     });
 }
@@ -150,7 +165,7 @@ function setExamQuestions(element) {
 
     examTimerWrapper.classList.remove('dnone');
     setTest();
-    Timer.startCountdown(0, 20, 0, contentMain.querySelector('.examTimerWrapper .timer'));
+    Timer.startCountdown(0, examLong, 0, contentMain.querySelector('.examTimerWrapper .timer'));
     Timer.bindToTimeout(function() {
         contentMain.querySelector('.examTimerWrapper .timer').classList.add('Neverno');
         const buttons = contentMain.querySelectorAll('#otvety button');
@@ -394,7 +409,7 @@ function handleControls(target) {
     switch(type) {
         case 'comment':
             const commentElement = contentMain.querySelector('#comment');
-            commentElement.classList.remove('dnone');
+            commentElement.classList.toggle('dnone');
         break;
         case 'next':
             const activeNavigationButton = contentMain.querySelector('.btnQuestion.active');
@@ -477,6 +492,11 @@ function showStatistics() {
             incorrect: 0,
             done: 0,
         },
+        F: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
     };
     
     for (let i in data) {
@@ -498,6 +518,7 @@ function showStatistics() {
                 <td>C</td>
                 <td>D</td>
                 <td>E</td>
+                <td>F</td>
             </tr>
             <tr>
                 <td>Пройдено вопросов</td>
@@ -505,6 +526,7 @@ function showStatistics() {
                 <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
                 <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
                 <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
+                <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
             </tr>
             <tr>
                 <td>Правильных ответов</td>
@@ -512,6 +534,7 @@ function showStatistics() {
                 <td>${cache.C.correct}</td>
                 <td>${cache.D.correct}</td>
                 <td>${cache.E.correct}</td>
+                <td>${cache.F.correct}</td>
             </tr>
             <tr>
                 <td>Неверных ответов</td>
@@ -519,6 +542,7 @@ function showStatistics() {
                 <td>${cache.C.incorrect}</td>
                 <td>${cache.D.incorrect}</td>
                 <td>${cache.E.incorrect}</td>
+                <td>${cache.F.incorrect}</td>
             </tr>
             <tr>
                 <td>Сложные вопросы</td>
@@ -526,6 +550,7 @@ function showStatistics() {
                 <td><button class="btn-statistics" typeQuestoins="C"></button></td>
                 <td><button class="btn-statistics" typeQuestoins="D"></button></td>
                 <td><button class="btn-statistics" typeQuestoins="E"></button></td>
+                <td><button class="btn-statistics" typeQuestoins="F"></button></td>
             </tr>
         </table>
     `;
