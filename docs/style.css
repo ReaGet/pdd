@@ -103,10 +103,13 @@ img{
 .foto{
     padding-right: 5%;
 }
-.active{
+#main .active{
     background-color: #2a8098;
     border-top-left-radius: 10px;
     border-bottom: none;
+}
+#main .btn {
+	white-space: normal !important;
 }
 #numQuestion{
     display: flex;
