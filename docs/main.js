@@ -98,6 +98,11 @@ function setCategoriesTestCount() {
         }
     });
 }
+function countQuestionsInCategory(category) {
+    return questionsALLJSON.find((item) => {
+        return Object.keys(item).includes(category)
+    })[category].length;
+}
 /**
  * 
  * @param {*} element тип контента
@@ -209,6 +214,7 @@ function setTab(tab) {
 function setCategoryContent(button) {
     const categoryType = button.getAttribute('typeQuestoins');
     const wrapper = document.createElement('div');
+    const cache = {};
     let count = questionsALLJSON.filter((category) => {
         let key = Object.keys(category).at(0);
         key = key.match(/[a-z]+/i).at(0);
@@ -217,11 +223,46 @@ function setCategoryContent(button) {
 
     wrapper.setAttribute('id', 'biletNums');
 
+    // countQuestionsInCategory('AB1')
+
     contentMain.innerHTML = '';
+    
+    for (let key in statisticsData) {
+        if (key === 'total') {
+            continue;
+        }
+        let type = key.match(/[a-z]+/i).at(0);
+        let index = key.match(/[0-9]+/i).at(0);
+        if (!cache[type]) {
+            cache[type] = {};
+        }
+        
+        for (let idx in statisticsData[key]) {
+            if (!cache[type][index]) {
+                cache[type][index] = 0;
+            }
+            if (statisticsData[key][idx].done) {
+                cache[type][index]++;
+            }
+        }
+    }
 
     for (let i = 1; i < count + 1; i++) {
         let item = document.createElement('div');
-        item.innerHTML = `<div class="bilet" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
+        let check = cache[categoryType];
+        let count = 0;
+        let className = '';
+
+        if (check) {
+            check = check[i];
+        }
+
+        if (check !== undefined) {
+            count = countQuestionsInCategory(categoryType + i);
+            className = check === count ? 'verno' : 'Neverno';
+        }
+
+        item.innerHTML = `<div class="bilet ${className}" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
         wrapper.append(item.firstChild);
     }
     contentMain.append(wrapper);
@@ -514,48 +555,50 @@ function showStatistics() {
         }
     }
     const template = `
-        <table class="table table-statistics">
-            <tr>
-                <td>Категория</td>
-                <td>AB</td>
-                <td>C</td>
-                <td>D</td>
-                <td>E</td>
-                <td>F</td>
-            </tr>
-            <tr>
-                <td>Пройдено вопросов</td>
-                <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
-                <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
-                <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
-                <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
-                <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
-            </tr>
-            <tr>
-                <td>Правильных ответов</td>
-                <td>${cache.AB.correct}</td>
-                <td>${cache.C.correct}</td>
-                <td>${cache.D.correct}</td>
-                <td>${cache.E.correct}</td>
-                <td>${cache.F.correct}</td>
-            </tr>
-            <tr>
-                <td>Неверных ответов</td>
-                <td>${cache.AB.incorrect}</td>
-                <td>${cache.C.incorrect}</td>
-                <td>${cache.D.incorrect}</td>
-                <td>${cache.E.incorrect}</td>
-                <td>${cache.F.incorrect}</td>
-            </tr>
-            <tr>
-                <td>Сложные вопросы</td>
-                <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="C"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="D"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="E"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="F"></button></td>
-            </tr>
-        </table>
+        <div class="table-statistics__wrapper">
+            <table class="table table-statistics">
+                <tr>
+                    <td>Категория</td>
+                    <td>AB</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>Пройдено вопросов</td>
+                    <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
+                    <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
+                    <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
+                    <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
+                    <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
+                </tr>
+                <tr>
+                    <td>Правильных ответов</td>
+                    <td>${cache.AB.correct}</td>
+                    <td>${cache.C.correct}</td>
+                    <td>${cache.D.correct}</td>
+                    <td>${cache.E.correct}</td>
+                    <td>${cache.F.correct}</td>
+                </tr>
+                <tr>
+                    <td>Неверных ответов</td>
+                    <td>${cache.AB.incorrect}</td>
+                    <td>${cache.C.incorrect}</td>
+                    <td>${cache.D.incorrect}</td>
+                    <td>${cache.E.incorrect}</td>
+                    <td>${cache.F.incorrect}</td>
+                </tr>
+                <tr>
+                    <td>Сложные вопросы</td>
+                    <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="C"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="D"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="E"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="F"></button></td>
+                </tr>
+            </table>
+        </div>
         <div class="statistics-bottom">
             <button class="btn btn-remove">Удалить статистику</button>
         </div>

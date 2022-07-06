@@ -67,7 +67,7 @@ const Timer = {
     if (hours > 0)
       time += hours > 9 ? hours : `0${hours}` + ':';
   
-    time += minutes > 9 ? minutes : `0${minutes}` + ':';
+    time += (minutes > 9 ? minutes : `0${minutes}` + ':');
     time += seconds > 9 ? seconds : `0${seconds}`;
   
     return time;
@@ -77,9 +77,9 @@ const Timer = {
     if (this.hours > 0)
       time += this.hours > 9 ? this.hours : `0${this.hours}` + ':';
 
-    time += this.minutes > 9 ? this.minutes : `0${this.minutes}` + ':';
-    time += this.seconds > 9 ? this.seconds : `0${this.seconds}`;
-
+    time += (this.minutes > 9 ? this.minutes : `0${this.minutes}` + ':');
+    time += (':' + this.seconds > 9 ? this.seconds : `0${this.seconds}`);
+    
     return time;
   },
 };
