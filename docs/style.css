@@ -339,7 +339,6 @@ img{
         box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
         background-color: #56abc3;
     }
-    /* .table-statistics__wrapper */
     .table td {
         min-width: 50px;
         font-size: 12px;
@@ -350,6 +349,13 @@ img{
     .elemNavpdd {
         font-size: 14px;
         font-weight: 500;
+    }
+    .elemNavpdd span {
+        text-shadow: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
     }
     #comment {
         margin-top: 2px;
@@ -391,5 +397,8 @@ img{
         width: auto;
         display: flex;
         flex-direction: row;
+    }
+    .pddCategory + .pddCategory {
+        margin-top: 20px;
     }
 }
