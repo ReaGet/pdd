@@ -6,13 +6,16 @@ import Timer from './timer.js';
 
 const contentMain = document.querySelector('#contentMain');
 const categories = document.querySelector('#menuQuestions');
+const examenCategories = document.querySelector('#examenQuestions');
 const questionTemplate = document.querySelector('#pddQuestionAsCategory');
 const numQuestions = questionTemplate.querySelector('#numQuestion');
+const examTimerWrapper = questionTemplate.querySelector('.examTimerWrapper');
 let currentTest = null;
-let currentTestId = null;
+let currentQuestionId = null;
 let currentTestProgress = {};
 let statisticsData = {};
 let testDone = false;
+let isExam = false;
 
 /**
  * @description инициализирует работу скрипта
@@ -29,8 +32,12 @@ function init() {
  * @description Устанавливает количество вопросов каждой категории
  */
 function setCategoriesTestCount() {
-    const pddCategories = document.querySelectorAll('.pddCategory');
+    const pddCategories = categories.querySelectorAll('.pddCategory');
+    const pddCategoriesExamen = examenCategories.querySelectorAll('.pddCategory');
     const cache = {};
+
+    statisticsData = getStatisticsData();
+    
     questionsALLJSON.map((category) => {
         let key = Object.keys(category).at(0);
         let count = category[key].length;
@@ -76,6 +83,25 @@ function setCategoriesTestCount() {
             h3.innerHTML = `${cache[type].done} / ${total}`;
         }
     });
+
+    pddCategoriesExamen.forEach((item) => {
+        const type = item.getAttribute('typequestoins');
+        const h3 = item.querySelector('h3');
+        let total = 0;
+
+        if (cache[type]) {
+            total = cache[type]['total'];
+        }
+
+        if (!total) {
+            item.style.display = 'none';
+        }
+    });
+}
+function countQuestionsInCategory(category) {
+    return questionsALLJSON.find((item) => {
+        return Object.keys(item).includes(category)
+    })[category].length;
 }
 /**
  * 
@@ -86,23 +112,83 @@ function setContent(element) {
     const type = element.getAttribute('contenthtml');
     switch (type) {
         case 'menuQuestions':
+            examTimerWrapper.classList.add('dnone');
             setCategoriesTestCount();
             contentMain.innerHTML = categories.innerHTML;
+            isExam = false;
             break;
         case 'examen':
-            contentMain.innerHTML = 'Экзамен';
+            examTimerWrapper.classList.add('dnone');
+            contentMain.innerHTML = examenCategories.innerHTML;
+            isExam = true;
             break;
         case 'statistica':
-            // contentMain.innerHTML = 'Статистика';
+            examTimerWrapper.classList.add('dnone');
             showStatistics();
+            isExam = false;
             break;
         case 'pddCategory':
-            setCategoryContent(element)
+            const examLong = element.getAttribute('examLong');
+            if (!examLong)
+                setCategoryContent(element);
+            else
+                setExamQuestions(element);
             break;
         default:
             contentMain.innerHTML = categories.innerHTML;
             break
     }
+}
+/**
+ * 
+ * @param {*} element кнопка категории, которую нужно запустить
+ * @description генерируем вопросы для экзамена по необходимому типу и запускаем тест
+ */
+function setExamQuestions(element) {
+    const type = element.getAttribute('typeQuestoins');
+    const examLong = +element.getAttribute('examLong');
+    const questionsCount = +element.getAttribute('questionsCount');
+
+    let questionsArray = [];
+    currentTestProgress = {};
+    currentTest = [];
+    
+    questionsArray = questionsALLJSON.filter((test, i) => {
+        let key = Object.keys(test).at(0);
+        return key.match(/[a-z]+/i).at(0) == type;
+    });
+
+    for (let i = 0; i < questionsCount; i++) {
+        const typeIndex = random(questionsArray.length);
+        const test = questionsArray[typeIndex];
+        const type = Object.keys(test).at(0);
+        const questions = questionsArray[typeIndex][type];
+        const questionIndex = random(questions.length);
+        let question = questions[questionIndex];
+
+        question['index'] = questionIndex;
+        question['type'] = type;
+        currentTest.push(question);
+    }
+
+    examTimerWrapper.classList.remove('dnone');
+    setTest();
+    Timer.startCountdown(0, examLong, 0, contentMain.querySelector('.examTimerWrapper .timer'));
+    Timer.bindToTimeout(function() {
+        contentMain.querySelector('.examTimerWrapper .timer').classList.add('Neverno');
+        const buttons = contentMain.querySelectorAll('#otvety button');
+        buttons.forEach((button) => button.disabled = true);
+        testDone = true;
+        handleNextButton(0);
+    });
+}
+/**
+ * 
+ * @param {*} number 
+ * @returns возращает случайное число, до указанного
+ */
+function random(number) {
+    return Math.floor(Math.random() * number);
 }
 /**
  * 
@@ -128,6 +214,7 @@ function setTab(tab) {
 function setCategoryContent(button) {
     const categoryType = button.getAttribute('typeQuestoins');
     const wrapper = document.createElement('div');
+    const cache = {};
     let count = questionsALLJSON.filter((category) => {
         let key = Object.keys(category).at(0);
         key = key.match(/[a-z]+/i).at(0);
@@ -136,11 +223,46 @@ function setCategoryContent(button) {
 
     wrapper.setAttribute('id', 'biletNums');
 
+    // countQuestionsInCategory('AB1')
+
     contentMain.innerHTML = '';
+    
+    for (let key in statisticsData) {
+        if (key === 'total') {
+            continue;
+        }
+        let type = key.match(/[a-z]+/i).at(0);
+        let index = key.match(/[0-9]+/i).at(0);
+        if (!cache[type]) {
+            cache[type] = {};
+        }
+        
+        for (let idx in statisticsData[key]) {
+            if (!cache[type][index]) {
+                cache[type][index] = 0;
+            }
+            if (statisticsData[key][idx].done) {
+                cache[type][index]++;
+            }
+        }
+    }
 
     for (let i = 1; i < count + 1; i++) {
         let item = document.createElement('div');
-        item.innerHTML = `<div class="bilet" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
+        let check = cache[categoryType];
+        let count = 0;
+        let className = '';
+
+        if (check) {
+            check = check[i];
+        }
+
+        if (check !== undefined) {
+            count = countQuestionsInCategory(categoryType + i);
+            className = check === count ? 'verno' : 'Neverno';
+        }
+
+        item.innerHTML = `<div class="bilet ${className}" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
         wrapper.append(item.firstChild);
     }
     contentMain.append(wrapper);
@@ -169,12 +291,17 @@ function showCurrentQuestion(index) {
     const commentElement = contentMain.querySelector('#comment');
     const showCommentElement = contentMain.querySelector('.btn-comment');
     const currentQuestion = currentTest[index - 1];
-    console.log('asd', currentQuestion)
+    currentQuestionId = currentQuestion.type;
     
     otvety.innerHTML = '';
     for (let i = 0; i < currentQuestion.buttons.length; i++) {
         const text = currentQuestion.buttons[i].text;
         otvety.innerHTML += `<button numberAnswer="${i}" CurQuestion="${index}" type="button" class="btn btn-answer btn-default">${text}</button>`;
+    }
+
+    if (testDone) {
+        const buttons = contentMain.querySelectorAll('#otvety button');
+        buttons.forEach((button) => button.disabled = true);
     }
     
     imageElement.src = currentQuestion.image;
@@ -191,7 +318,7 @@ function showCurrentQuestion(index) {
 
     questionText.innerHTML = `
         <p>
-        <strong id="questionNum">${currentTestId} </strong>
+        <strong id="questionNum">${currentQuestion.type} </strong>
         ${currentQuestion.name}
         </p>
     `;
@@ -234,7 +361,7 @@ function updateNavigation(index) {
 function setTestNavigationButtons() {
     numQuestions.innerHTML = '';
     for (let i = 1; i <= currentTest.length; i++) {
-        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" test-id="${currentTestId}" question-id="${i}">${i}</div>`;
+        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" question-id="${i}">${i}</div>`;
     }
 }
 /**
@@ -248,12 +375,13 @@ function handleAnswer(answerIndex, questionIndex) {
     const currentQuestion = currentTest[questionIndex];
     const showCommentElement = contentMain.querySelector('.btn-comment');
     const buttons = contentMain.querySelectorAll('#otvety button');
+    const testType = currentQuestion.type;
 
-    if (!statisticsData[currentTestId]) {
-        statisticsData[currentTestId] = {};
+    if (!statisticsData[testType]) {
+        statisticsData[testType] = {};
     }
-    if (!statisticsData[currentTestId][questionIndex]) {
-        statisticsData[currentTestId][questionIndex] = {
+    if (!statisticsData[testType][currentQuestion.index]) {
+        statisticsData[testType][currentQuestion.index] = {
             correct: 0,
             incorrect: 0,
             done: false,
@@ -269,13 +397,13 @@ function handleAnswer(answerIndex, questionIndex) {
     if (answerIndex === correctAnswerIndex) {
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('verno');
-        statisticsData[currentTestId][questionIndex].correct++;
-        statisticsData[currentTestId][questionIndex].done = true;
+        statisticsData[testType][currentQuestion.index].correct++;
+        statisticsData[testType][currentQuestion.index].done = true;
     } else {
         buttons.item(answerIndex).classList.add('Neverno');
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('Neverno');
-        statisticsData[currentTestId][questionIndex].incorrect++;
+        statisticsData[testType][currentQuestion.index].incorrect++;
     }
 
     currentTestProgress[questionIndex] = {
@@ -325,13 +453,24 @@ function handleControls(target) {
     switch(type) {
         case 'comment':
             const commentElement = contentMain.querySelector('#comment');
-            commentElement.classList.remove('dnone');
+            commentElement.classList.toggle('dnone');
         break;
         case 'next':
-            let index = Number(target.getAttribute('nextQuestion'));
-            // const testId = contentMain.querySelector('.btnQuestion.active').getAttribute('test-id');
-            if (index > currentTest.length) {
-                index = 1;
+            const activeNavigationButton = contentMain.querySelector('.btnQuestion.active');
+            const navigationButtons = Array.from(contentMain.querySelectorAll('.btnQuestion'));
+            let index = [].indexOf.call(navigationButtons, activeNavigationButton) + 1;
+
+            index = Math.max(1, (index + 1) % (currentTest.length + 1));
+            let nextIndex = Math.max(1, (index + 1) % (currentTest.length + 1));
+
+            let nextQuestion = navigationButtons[index - 1];
+            while (nextQuestion.classList.contains('verno') ||
+                nextQuestion.classList.contains('Neverno')) {
+                index = Math.max(1, (index + 1) % (currentTest.length + 1));
+                nextQuestion = navigationButtons[index - 1];
+                if (nextQuestion.classList.contains('active')) {
+                    break;
+                }
             }
 
             if (testDone) {
@@ -351,7 +490,7 @@ function showResult() {
     Timer.stop();
 
     const results = calculateResult();
-    const time = Timer.getTime();
+    const time = isExam ? Timer.getRemainingTime() : Timer.getTime();
 
     const template = `
         <table class="table">
@@ -362,7 +501,7 @@ function showResult() {
                 <td>Время</td>
             </tr>
             <tr>
-                <td>${currentTestId}</td>
+                <td>${currentQuestionId}</td>
                 <td><span class="verno">${results.correct}</span></td>
                 <td><span class="Neverno">${results.incorrect}</span></td>
                 <td>${time}</td>
@@ -397,6 +536,11 @@ function showStatistics() {
             incorrect: 0,
             done: 0,
         },
+        F: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
     };
     
     for (let i in data) {
@@ -411,43 +555,53 @@ function showStatistics() {
         }
     }
     const template = `
-        <table class="table table-statistics">
-            <tr>
-                <td>Категория</td>
-                <td>AB</td>
-                <td>C</td>
-                <td>D</td>
-                <td>E</td>
-            </tr>
-            <tr>
-                <td>Пройдено вопросов</td>
-                <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
-                <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
-                <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
-                <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
-            </tr>
-            <tr>
-                <td>Правильных ответов</td>
-                <td>${cache.AB.correct}</td>
-                <td>${cache.C.correct}</td>
-                <td>${cache.D.correct}</td>
-                <td>${cache.E.correct}</td>
-            </tr>
-            <tr>
-                <td>Неверных ответов</td>
-                <td>${cache.AB.incorrect}</td>
-                <td>${cache.C.incorrect}</td>
-                <td>${cache.D.incorrect}</td>
-                <td>${cache.E.incorrect}</td>
-            </tr>
-            <tr>
-                <td>Сложные вопросы</td>
-                <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="C"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="D"></button></td>
-                <td><button class="btn-statistics" typeQuestoins="E"></button></td>
-            </tr>
-        </table>
+        <div class="table-statistics__wrapper">
+            <table class="table table-statistics">
+                <tr>
+                    <td>Категория</td>
+                    <td>AB</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>Пройдено вопросов</td>
+                    <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
+                    <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
+                    <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
+                    <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
+                    <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
+                </tr>
+                <tr>
+                    <td>Правильных ответов</td>
+                    <td>${cache.AB.correct}</td>
+                    <td>${cache.C.correct}</td>
+                    <td>${cache.D.correct}</td>
+                    <td>${cache.E.correct}</td>
+                    <td>${cache.F.correct}</td>
+                </tr>
+                <tr>
+                    <td>Неверных ответов</td>
+                    <td>${cache.AB.incorrect}</td>
+                    <td>${cache.C.incorrect}</td>
+                    <td>${cache.D.incorrect}</td>
+                    <td>${cache.E.incorrect}</td>
+                    <td>${cache.F.incorrect}</td>
+                </tr>
+                <tr>
+                    <td>Сложные вопросы</td>
+                    <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="C"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="D"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="E"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="F"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="statistics-bottom">
+            <button class="btn btn-remove">Удалить статистику</button>
+        </div>
     `;
     contentMain.innerHTML = template;
 }
@@ -492,11 +646,15 @@ function handleClick(event) {
         target = getElementWithClass(target, 'bilet');
         const testType = target.getAttribute('bilettype');
         const testNumber = target.getAttribute('biletnum');
-        currentTestId = testType + testNumber;
+        const testId = testType + testNumber;
         let questionsArray = [];
         currentTestProgress = {};
-        questionsArray = questionsALLJSON.filter((test) => currentTestId in test).at(0);
-        currentTest = questionsArray[currentTestId];
+        questionsArray = questionsALLJSON.filter((test) => testId in test).at(0);
+        currentTest = questionsArray[testId];
+        currentTest.map((item, i) => {
+            item.index = i;
+            item.type = testId;
+        });
         setTest();
     }
     if (checkClass(target, 'btnQuestion')) {
@@ -514,29 +672,45 @@ function handleClick(event) {
     }
     if (checkClass(target, 'btn-statistics')) {
         let type = target.getAttribute('typeQuestoins');
-        let questionsArray = [];
-        currentTestProgress = {};
-        for (let key in statisticsData) {
-            let parsedKey = key.match(/[a-z]+/i).at(0);
-            if (key === 'total' || type != parsedKey) {
-                continue;
-            }
-            
-            for (let i in statisticsData[key]) {
-                let arr = questionsALLJSON.filter((test) => key in test).at(0);
-                console.log(arr, i)
-                questionsArray.push(arr[key].at(i));
-            }
-        }
+        let questionsArray = getHardTestQuestions(type);
 
-        if (questionsArray.length === 0) {
+        if (questionsArray.length === 0)
             return;
-        }
         
         currentTest = questionsArray;
-        console.log(currentTest)
         setTest();
     }
+    if (checkClass(target, 'btn-remove')) {
+        localStorage.clear();
+        showStatistics();
+    }
+}
+/**
+ * 
+ * @param {*} type тип вопроса
+ * @returns массив вопросов, на которые не смогли ответить
+ */
+function getHardTestQuestions(type) {
+    let questionsArray = [];
+    currentTestProgress = {};
+    for (let key in statisticsData) {
+        let parsedKey = key.match(/[a-z]+/i).at(0);
+        if (key === 'total' || type != parsedKey) {
+            continue;
+        }
+        
+        for (let i in statisticsData[key]) {
+            let arr = questionsALLJSON.filter((test) => key in test).at(0);
+            if (!statisticsData[key][i].done) {
+                let question = arr[key].at(i);
+                question.type = key;
+                question.index = i;
+                questionsArray.push(question);
+            }
+        }
+    }
+
+    return questionsArray;
 }
 /**
  * 
