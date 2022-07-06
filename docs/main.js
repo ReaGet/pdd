@@ -1,7 +1,13 @@
-import {
-    arrQuestVars,
-    questionsALLJSON
-} from './tests.js';
+if (/(\/ru\/)/ig.test(location.href)) {
+    console.log(1)
+    var {arr, questionsALLJSON} = await import('./tests.js');
+} else {
+    var {arr, questionsALLJSON} = await import('./rum.tests.js');
+}
+// import {
+//     arrQuestVars,
+//     questionsALLJSON
+// } from './tests.js';
 import Timer from './timer.js';
 
 const contentMain = document.querySelector('#contentMain');
@@ -98,6 +104,11 @@ function setCategoriesTestCount() {
         }
     });
 }
+/**
+ * 
+ * @param {*} category номер билета. Пример, AB1
+ * @returns количество вопросов в билете
+ */
 function countQuestionsInCategory(category) {
     return questionsALLJSON.find((item) => {
         return Object.keys(item).includes(category)
@@ -259,7 +270,8 @@ function setCategoryContent(button) {
 
         if (check !== undefined) {
             count = countQuestionsInCategory(categoryType + i);
-            className = check === count ? 'verno' : 'Neverno';
+            className = count - check <= 2 ? 'verno' : 'Neverno';
+            console.log(count, check, count - check)
         }
 
         item.innerHTML = `<div class="bilet ${className}" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
@@ -551,9 +563,10 @@ function showStatistics() {
         for (let j in data[i]) {
             cache[type].correct += data[i][j].correct;
             cache[type].incorrect += data[i][j].incorrect;
-            cache[type].done += data[i][j].done ? 1 : 0; 
+            cache[type].done += data[i][j].done ? 1 : 0;
         }
     }
+    
     const template = `
         <div class="table-statistics__wrapper">
             <table class="table table-statistics">

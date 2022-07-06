@@ -75,10 +75,10 @@ const Timer = {
   getTime: function() {
     let time = '';
     if (this.hours > 0)
-      time += this.hours > 9 ? this.hours : `0${this.hours}` + ':';
+      time += (this.hours > 9 ? this.hours : `0${this.hours}`) + ':';
 
-    time += (this.minutes > 9 ? this.minutes : `0${this.minutes}` + ':');
-    time += (':' + this.seconds > 9 ? this.seconds : `0${this.seconds}`);
+    time += (this.minutes > 9 ? this.minutes : `0${this.minutes}`) + ':';
+    time += (this.seconds > 9 ? this.seconds : `0${this.seconds}`);
     
     return time;
   },
