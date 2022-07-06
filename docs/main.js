@@ -35,6 +35,9 @@ function setCategoriesTestCount() {
     const pddCategories = categories.querySelectorAll('.pddCategory');
     const pddCategoriesExamen = examenCategories.querySelectorAll('.pddCategory');
     const cache = {};
+
+    statisticsData = getStatisticsData();
+    
     questionsALLJSON.map((category) => {
         let key = Object.keys(category).at(0);
         let count = category[key].length;
@@ -553,6 +556,9 @@ function showStatistics() {
                 <td><button class="btn-statistics" typeQuestoins="F"></button></td>
             </tr>
         </table>
+        <div class="statistics-bottom">
+            <button class="btn btn-remove">Удалить статистику</button>
+        </div>
     `;
     contentMain.innerHTML = template;
 }
@@ -630,6 +636,10 @@ function handleClick(event) {
         
         currentTest = questionsArray;
         setTest();
+    }
+    if (checkClass(target, 'btn-remove')) {
+        localStorage.clear();
+        showStatistics();
     }
 }
 /**

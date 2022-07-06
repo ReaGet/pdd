@@ -1,9 +1,22 @@
-* {
-    box-sizing: border-box;
+/*
+Theme Name: DWT Listing
+Description: DWT Listing a complete directory listing for any type of business listing
+Author: Scripts Bundle
+Theme URI: http://listing.dwt_listing_directory.com/
+Author URI: http://scriptsbundle.com/
+Version: 3.2.0
+License: Themeforest Split Licence
+License URI: https://themeforest.net/user/scriptsbundle/
+Text Domain: dwt-listing
+Tags: translation-ready,theme-options, left-sidebar, right-sidebar, grid-layout, custom-menu, custom-logo,featured-images,  sticky-post,  threaded-comments
+*/
+
+.typed-hero-section .typed-cursor, .typed-hero-section .typed-cursor--blink {
+    display: none;
 }
 
-:root {
-    --img-play: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAA2ElEQVRIie3WMU4CQRSA4VlJjDaUtBbSewELGxoab8EVoLT0Cl6B1tKKEGMN4QaUEBtiYwKfBZkEiw2asG8a/m6TTb7s7szbSelcyfCOOR6j4cM+cF8Czr2iWwKGb7ygEw3nNnjCdTScW2KAVjScW6BfAs694a4EDFuMcRMN577wjHY0nFthiMtDo6qD//2ajjepquohX1w0ANT16yEj4HVKaZRS6h2980TfNnxxFdlO4QMkfGSG/yQ+7YfC1UnAP8DhB4Gd/Uq9bQSsgUMPe1PMRB9vzzXRD/pq4HseetmVAAAAAElFTkSuQmCC);
+input.form-control {
+    height: 30px;
 }
 
 #main {
@@ -46,7 +59,7 @@ span{
     display: flex;
     align-items: center;
     margin-right: 1%;
-    padding: 5px 10px;
+    padding: 5px 10px                                    ;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -59,7 +72,6 @@ span{
     font-size: 3em;
 }
 .pddCategory h3 {
-    flex-shrink: 0;
     font-size: 1.2em;
 }
 .imgCategory{
@@ -103,14 +115,9 @@ img{
 .foto{
     padding-right: 5%;
 }
-.active{
-    background-color: #2a8098;
-    border-top-left-radius: 10px;
-    border-bottom: none;
-}
+
 #numQuestion{
     display: flex;
-    flex-wrap: wrap;
 }
 .btnQuestion {
     padding: 3px 0;
@@ -120,24 +127,6 @@ img{
     cursor: pointer;
     background-color: rgba(10, 51, 61, 0.1);
     border-radius: 5px;
-}
-.btnQuestion.active {
-    background-color: #2a8098;
-    outline: 2px solid #88d5eb;
-}
-.dnone{
-    display: none !important;
-}
-.dblock{
-    display: block;
-}
-.verno{
-    background-color: green !important;
-    color: white;
-}
-.Neverno{
-    background-color: red !important;
-    color: white;
 }
 .question {
     margin: 0.5em;
@@ -190,115 +179,6 @@ img{
 .topCol{
     background-color: #f5f5f5;
     border-top: 1px solid;
-}
-
-#controls {
-    border: 1px solid rgba(10, 51, 61, 0.1);
-    margin: 0;
-    padding: 10px;
-    display: flex;
-    margin-top: 10px;
-    border-radius: 3px;
-}
-
-#controls .btn {
-    border: none;
-    padding: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    background-color: #2a8098;
-    color: #fff;
-}
-
-#controls .btn-comment {
-    align-self: flex-start;
-}
-
-#controls .btn-next {
-    margin-left: auto;
-}
-
-#controls .btn:hover {
-    background-color: #235e6e;
-}
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.table tr:first-child {
-    background-color: #eee;
-}
-
-.table td {
-    border: 1px solid #ccc;
-    text-align: center;
-    font-weight: bold;
-}
-
-.table td span {
-    display: inline-block;
-    padding: 0 7px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.table-statistics tr td:first-child {
-    max-width: 200px;
-}
-
-.btn-statistics,
-.btn-remove {
-    margin-top: 5px;
-    background-color: #2a8098;
-    height: 35px;
-    padding: 0 20px;
-    border: none;
-    background-image: var(--img-play);
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.btn-statistics:hover {
-    background-color: #235e6e;
-}
-
-.btn-remove {
-    background-image: none;
-    background-color: #ccc;
-}
-
-.btn-remove:hover {
-    background-color: #ddd;
-}
-
-.wrapper {
-    display: flex;
-    align-items: flex-start;
-}
-
-.examTimerWrapper {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-}
-
-.examTimerWrapper .timer {
-    background-color: #2a8098;
-    color: #fff;
-    padding: 3px 10px;
-    border-radius: 3px;
-    margin-top: 2px;
-}
-
-.statistics-bottom {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
 }
 
 @media screen and (max-width: 1100px) {
