@@ -1,8 +1,40 @@
+let prefix = '';
 if (/(\/ru\/)/ig.test(location.href)) {
-    console.log(1)
     var {arr, questionsALLJSON} = await import('./tests.js');
+	prefix = 'ru';
 } else {
     var {arr, questionsALLJSON} = await import('./rum.tests.js');
+	prefix = 'rum';
+}
+const locale = {
+	ru: {
+		category: 'Категория',
+		passedStat: 'Пройдено вопросов',
+		correctStat: 'Правильных ответов',
+		wrongStat: 'Неверных ответов',
+		hard: 'Сложные вопросы',
+		removeStat: 'Удалить статистику',
+		correct: 'Правильно',
+		wrong: 'Неверно',
+		time: 'Время',
+        comment: 'Комментарий',
+        next: 'Далее',
+        finish: 'Завершить'
+	},
+	rum: {
+		category: 'Categorie',
+		passedStat: 'Au trecut întrebări',
+		correctStat: 'Răspunsuri corecte',
+		wrongStat: 'Răspunsuri greșite',
+		hard: 'Întrebări dificile',
+		removeStat: 'Ștergeți statisticile',
+		correct: 'Corect',
+		wrong: 'Gresit',
+		time: 'Timp',
+        comment: 'Cometariu',
+        next: 'Mai departe',
+        finish: 'A termina'
+	}
 }
 // import {
 //     arrQuestVars,
@@ -43,7 +75,6 @@ function setCategoriesTestCount() {
     const cache = {};
 
     statisticsData = getStatisticsData();
-    
     questionsALLJSON.map((category) => {
         let key = Object.keys(category).at(0);
         let count = category[key].length;
@@ -102,6 +133,18 @@ function setCategoriesTestCount() {
         if (!total) {
             item.style.display = 'none';
         }
+    });
+}
+/**
+ * 
+ * @param {*} element элемент, к которому нужно прокрутить
+ */
+function scrollTo(element) {
+    const offsetTop = element.offsetTop;
+    window.scroll({
+        top: offsetTop, 
+        left: 0, 
+        behavior: 'smooth'
     });
 }
 /**
@@ -352,7 +395,7 @@ function handleNextButton(index) {
     const nextQuestionElement = contentMain.querySelector('.btn-next');
     nextQuestionElement.setAttribute('nextQuestion', index + 1);
     if (testDone) {
-        nextQuestionElement.innerHTML = 'Завершить';        
+        nextQuestionElement.innerHTML = locale[prefix].finish;        
     }
 }
 /**
@@ -441,14 +484,14 @@ function handleAnswer(answerIndex, questionIndex) {
  */
 function saveStatistics() {
     const data = JSON.stringify(statisticsData);
-    localStorage.setItem('statisticsData', data);
+    localStorage.setItem(`${prefix}__statisticsData`, data);
 }
 /**
  * 
  * @returns получаем данные их хранилища
  */
 function getStatisticsData() {
-    const data = localStorage.getItem('statisticsData');
+    const data = localStorage.getItem(`${prefix}__statisticsData`);
     if (!data)
         return {};
 
@@ -485,6 +528,8 @@ function handleControls(target) {
                 }
             }
 
+            setTimeout(() => scrollTo(contentMain), 300);
+
             if (testDone) {
                 showResult();
                 return;
@@ -507,10 +552,10 @@ function showResult() {
     const template = `
         <table class="table">
             <tr>
-                <td>Категория</td>
-                <td>Правильно</td>
-                <td>Неверно</td>
-                <td>Время</td>
+                <td>${locale[prefix].category}</td>
+                <td>${locale[prefix].correct}</td>
+                <td>${locale[prefix].wrong}</td>
+                <td>${locale[prefix].time}</td>
             </tr>
             <tr>
                 <td>${currentQuestionId}</td>
@@ -571,7 +616,7 @@ function showStatistics() {
         <div class="table-statistics__wrapper">
             <table class="table table-statistics">
                 <tr>
-                    <td>Категория</td>
+                    <td>${locale[prefix].category}</td>
                     <td>AB</td>
                     <td>C</td>
                     <td>D</td>
@@ -579,7 +624,7 @@ function showStatistics() {
                     <td>F</td>
                 </tr>
                 <tr>
-                    <td>Пройдено вопросов</td>
+                    <td>${locale[prefix].passedStat}</td>
                     <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
                     <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
                     <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
@@ -587,7 +632,7 @@ function showStatistics() {
                     <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
                 </tr>
                 <tr>
-                    <td>Правильных ответов</td>
+                    <td>${locale[prefix].correctStat}</td>
                     <td>${cache.AB.correct}</td>
                     <td>${cache.C.correct}</td>
                     <td>${cache.D.correct}</td>
@@ -595,7 +640,7 @@ function showStatistics() {
                     <td>${cache.F.correct}</td>
                 </tr>
                 <tr>
-                    <td>Неверных ответов</td>
+                    <td>${locale[prefix].wrongStat}</td>
                     <td>${cache.AB.incorrect}</td>
                     <td>${cache.C.incorrect}</td>
                     <td>${cache.D.incorrect}</td>
@@ -603,7 +648,7 @@ function showStatistics() {
                     <td>${cache.F.incorrect}</td>
                 </tr>
                 <tr>
-                    <td>Сложные вопросы</td>
+                    <td>${locale[prefix].hard}</td>
                     <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
                     <td><button class="btn-statistics" typeQuestoins="C"></button></td>
                     <td><button class="btn-statistics" typeQuestoins="D"></button></td>
@@ -613,7 +658,7 @@ function showStatistics() {
             </table>
         </div>
         <div class="statistics-bottom">
-            <button class="btn btn-remove">Удалить статистику</button>
+            <button class="btn btn-remove">${locale[prefix].removeStat}</button>
         </div>
     `;
     contentMain.innerHTML = template;
