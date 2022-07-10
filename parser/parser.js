@@ -9,15 +9,14 @@ let categories = {
   'F': 'F'
 }
 
-let a = [{b: 2}];
-
 let tests = [];
+let language = 'rom';
 
 for (let key in categories) {
   const type = categories[key];
 
   for (let index = 1; index < 50; index++) {
-    const test = await getTest(key, index);
+    const test = await getTest(key, index, language);
     const ticket = type+index;
     const exist = tests.find((item) => `${ticket}` in item);
     if (exist || !test) break;
@@ -28,11 +27,11 @@ for (let key in categories) {
     delay(500);
   }
 }
-write(tests);
+write(tests, language);
 console.log('Завершено');
 
-async function getTest(category, number) {
-  return await fetch(`https://pdd-md.online/core.php?cmd=get_q_ticket&lang=rus&category=${category}&ticket=${number}`)
+async function getTest(category, number, lang = 'rus') {
+  return await fetch(`https://pdd-md.online/core.php?cmd=get_q_ticket&lang=${lang}&category=${category}&ticket=${number}`)
   .then((res) => res.text())
   .then((text) => {
     return text.length ? JSON.parse(text) : null;
@@ -75,6 +74,6 @@ function delay(ms) {
   });
 }
 
-function write(obj) {
-  fs.writeFileSync('tests.js', JSON.stringify(obj, null, 2), 'utf-8');
+function write(obj, lang = 'rus') {
+  fs.writeFileSync(`../docs/${lang}.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
 }

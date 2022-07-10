@@ -1,10 +1,10 @@
 let prefix = '';
 if (/(\/ru\/)/ig.test(location.href)) {
-    var questionsALLJSON = await fetchData('./tests.js');
+    var questionsALLJSON = await fetchData('./rus.tests.js');
 	prefix = 'ru';
 } else {
-    var questionsALLJSON = await fetchData('../parser/tests.js');
-	prefix = 'rum';
+    var questionsALLJSON = await fetchData('./rom.tests.js');
+	prefix = 'rom';
 }
 const locale = {
 	ru: {
@@ -325,7 +325,6 @@ function setCategoryContent(button) {
         if (check !== undefined) {
             count = countQuestionsInCategory(categoryType + i);
             className = count - check <= 2 ? 'verno' : 'Neverno';
-            console.log(count, check, count - check)
         }
 
         item.innerHTML = `<div class="bilet ${className}" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
