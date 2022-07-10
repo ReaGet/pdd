@@ -1,9 +1,9 @@
 let prefix = '';
 if (/(\/ru\/)/ig.test(location.href)) {
-    var {arr, questionsALLJSON} = await import('./tests.js');
+    var questionsALLJSON = await fetchData('./tests.js');
 	prefix = 'ru';
 } else {
-    var {arr, questionsALLJSON} = await import('./rum.tests.js');
+    var questionsALLJSON = await fetchData('../parser/tests.js');
 	prefix = 'rum';
 }
 const locale = {
@@ -36,6 +36,7 @@ const locale = {
         finish: 'A termina'
 	}
 }
+console.log(questionsALLJSON)
 // import {
 //     arrQuestVars,
 //     questionsALLJSON
@@ -55,6 +56,16 @@ let statisticsData = {};
 let testDone = false;
 let isExam = false;
 
+/**
+ * 
+ * @param {*} url 
+ * @returns возвращает массив данных
+ */
+function fetchData(url) {
+    return fetch(url)
+        .then(res => res.json())
+        .then(data => data);
+}
 /**
  * @description инициализирует работу скрипта
  */
