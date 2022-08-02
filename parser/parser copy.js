@@ -1,8 +1,5 @@
 import fetch from 'node-fetch';
 import * as fs from 'fs';
-import * as http from 'http';
-import * as https from 'https';
-import { Stream, Transform } from 'stream';
 
 let categories = {
   'B': 'AB',
@@ -30,7 +27,7 @@ for (let key in categories) {
     delay(500);
   }
 }
-// write(tests, language);
+write(tests, language);
 console.log('Завершено');
 
 async function getTest(category, number, lang = 'rus') {
@@ -42,7 +39,6 @@ async function getTest(category, number, lang = 'rus') {
 }
 
 function parseTest(test, ticket) {
-  console.log(22222)
   const output = [];
   for (let i = 0; i < test.length; i++) {
     let buttons = [];
@@ -63,8 +59,6 @@ function parseTest(test, ticket) {
     current.image = item.has_img == '0' ? 
       `https://pdd-md.online/src/img/noimage.jpg` :
       `https://pdd-md.online/src/img/book/${item.category}/${item.qid}.jpg`;
-
-    // downloadImageFromURL(current.image, current.image.split('/').slice(-1)[0], `../src/img/book/${item.category}/`);
     current.name = item.question;
     output.push(current);
   }
@@ -73,29 +67,6 @@ function parseTest(test, ticket) {
     [ticket]: output,
   };
 }
-
-function downloadImageFromURL(url, filename, path) {
-  console.log(url, filename, path)
-  var client = http;
-  if (url.toString().indexOf("https") === 0){
-    client = https;
-   }
-
-  client.request(url, function(response) {                                        
-    var data = new Transform();                                                    
-
-    response.on('data', function(chunk) {                                       
-       data.push(chunk);                                                         
-    });                                                                         
-
-    response.on('end', function() {
-      if (!fs.existsSync(path)) {
-        fs.mkdirSync(path, { recursive: true })
-      }                                    
-      fs.writeFileSync(path + filename, data.read());                               
-    });                                                                         
- }).end();
-};
 
 function delay(ms) {
   return new Promise((resolve) => {
