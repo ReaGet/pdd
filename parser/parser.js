@@ -18,7 +18,18 @@ let language = 'rom';
 const categoryLinks = [];
 
 await loadMainPage();
-
+for (let link of categoryLinks) {
+  const ticketsLinks = await loadTicketsPage(link);
+  console.log(ticketsLinks);
+  // const ticket = type+index;
+  // const exist = tests.find((item) => `${ticket}` in item);
+  // if (exist || !test) break;
+  // console.log(ticket)
+  // tests.push(
+  //   parseTest(test, ticket)
+  // );
+  // delay(500);
+}
 // for (let key in categories) {
 //   const type = categories[key];
 
@@ -44,16 +55,22 @@ async function loadMainPage() {
     const document = parse(text);
     const items = document.querySelectorAll("#generate-section-1 .customBtn11 a");
     items.map((item) => {
-      categoryLinks.push(link);
+      categoryLinks.push(item.getAttribute("href"));
     })
   });
 }
 
-async function getTest(category, number, lang = 'rus') {
-  return await fetch(`https://pdd-md.online/core.php?cmd=get_q_ticket&lang=${lang}&category=${category}&ticket=${number}`)
+async function loadTicketsPage(link) {
+  return await fetch(link)
   .then((res) => res.text())
   .then((text) => {
-    return text.length ? JSON.parse(text) : null;
+    const links = [];
+    const document = parse(text);
+    const items = document.querySelectorAll(".testContainer a");
+    items.map((item) => {
+      links.push(item.getAttribute("href"));
+    });
+    return links;
   });
 }
 
