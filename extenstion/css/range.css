@@ -1,0 +1,99 @@
+.range {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.range--disabled {
+  pointer-events: none !important;
+}
+.range__label {
+  color: var(--exu-black);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.range__label-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.range__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  outline: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  pointer-events: none;
+}
+.range__input-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 12px;
+  background-color: #ffffff;
+}
+.range__input::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 5px;
+}
+.range__input::-moz-range-track {
+  -moz-appearance: none;
+  height: 5px;
+}
+.range__input::-ms-track {
+  appearance: none;
+  height: 5px;
+}
+.range__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-color: var(--exu-primary);
+  cursor: pointer;
+  margin-top: -6px;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+.range__input:active::-webkit-slider-thumb {
+  background-color: #ffffff;
+  border: 3px solid var(--exu-primary);
+}
+.range__input::-moz-range-thumb {
+  -moz-appearance: none;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-color: var(--exu-primary);
+  cursor: pointer;
+  margin-top: -6px;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+.range__input:active::-moz-range-thumb {
+  background-color: #ffffff;
+  border: 3px solid var(--exu-primary);
+}
+.range__input::-ms-thumb {
+  appearance: none;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-color: var(--exu-primary);
+  cursor: pointer;
+  margin-top: -6px;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+.range__input:active::-ms-thumb {
+  background-color: #ffffff;
+  border: 3px solid var(--exu-primary);
+}
+.range__track {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+}/*# sourceMappingURL=range.css.map */

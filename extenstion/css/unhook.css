@@ -1,0 +1,129 @@
+#masthead-ad.ytd-rich-grid-renderer.style-scope,
+div#home-page-skeleton,
+html[data-disable_annotations=true] .annOption,
+html[data-disable_autoplay=true] .autonav-endscreen,
+html[data-disable_autoplay=true] button[data-tooltip-target-id=ytp-autonav-toggle-button],
+html[data-disable_autoplay=true] ytd-watch-flexy:not([playlist]) .ytp-chrome-controls .ytp-next-button,
+html[data-hide_video_info_buttons_bar=true] #actions.ytd-watch-metadata,
+html[data-hide_video_info_buttons_bar=true] #info > #menu-container,
+html[data-hide_end_screen_cards=true] .ytp-ce-element,
+html[data-hide_video_info_channel=true] #owner.ytd-watch-metadata,
+html[data-hide_video_info_channel=true] #top-row.ytd-video-secondary-info-renderer,
+html[data-hide_video_info_channel=true][hide_video_info_description=true] #primary-inner > #meta,
+html[data-hide_video_sidebar_live_chat=true] ytd-live-chat-frame#chat,
+html[data-hide_comments_section=true] #comment-teaser,
+html[data-hide_comments_section=true] #comments,
+html[data-hide_video_info_description=true] #description.ytd-watch-metadata,
+html[data-hide_video_info_description=true] ytd-expander.ytd-video-secondary-info-renderer,
+html[data-hide_donate=true] #donation-shelf,
+html[data-hide_end_screen_feed=true] .html5-endscreen:not(.mweb-endscreen),
+html[data-hide_home_feed=true] ytd-browse[page-subtype=home] .ytd-rich-grid-renderer,
+html[data-hide_home_feed=true] ytd-browse[role=main]:not([page-subtype]) .ytd-rich-grid-renderer,
+html[data-hide_header=true] #guide-spacer,
+html[data-hide_header=true] #masthead-container,
+html[data-hide_merch_tickets_offers=true] #clarify-box,
+html[data-hide_merch_tickets_offers=true] #offer-module,
+html[data-hide_merch_tickets_offers=true] #ticket-shelf,
+html[data-hide_merch_tickets_offers=true] .ytp-drawer,
+html[data-hide_merch_tickets_offers=true] yt-alert-with-actions-renderer,
+html[data-hide_merch_tickets_offers=true] ytd-merch-shelf-renderer,
+html[data-hide_merch_tickets_offers=true] ytd-metadata-row-container-renderer > #always-shown,
+html[data-hide_video_info_all=true] #primary-inner > #info,
+html[data-hide_video_info_all=true] ytd-watch-metadata,
+html[data-hide_mixes=true] .ytp-videowall-still[data-is-mix=true],
+html[data-hide_mixes=true] ytd-browse[page-subtype=home] a[href$="start_radio=1"],
+html[data-hide_mixes=true] ytd-browse[page-subtype=home] ytd-video-meta-block[radio-meta],
+html[data-hide_mixes=true] ytd-compact-radio-renderer,
+html[data-hide_mixes=true] ytd-radio-renderer,
+html[data-hide_more_from_youtube=true] #sections > ytd-guide-section-renderer:nth-last-child(2),
+html[data-hide_header_notifications=true] #buttons.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead,
+html[data-hide_header_notifications=true] ytd-notification-topbar-button-shape-renderer,
+html[data-hide_video_sidebar_playlist=true] ytd-compact-playlist-renderer,
+html[data-hide_comments_profile_photos=true] .ytd-comment-renderer yt-img-shadow,
+html[data-hide_video_sidebar_recommended=true] #items.ytd-watch-next-secondary-results-renderer,
+html[data-hide_video_sidebar_recommended=true] .ytp-pause-overlay,
+html[data-hide_redirect_home=true][hide_home_feed=true][hide_subscribitions=false] .yt-simple-endpoint[href="/"],
+html[data-hide_redirect_home=true][hide_home_feed=true][hide_subscribitions=false] .yt-simple-endpoint[href^="/index"],
+html[data-hide_inapt_search_results=true] #primary > .ytd-two-column-search-results-renderer ytd-horizontal-card-list-renderer,
+html[data-hide_inapt_search_results=true] #primary > .ytd-two-column-search-results-renderer ytd-shelf-renderer,
+html[data-hide_shorts_tab=true] .yt-simple-endpoint[title=Shorts],
+html[data-hide_video_sidebar_all=true] #secondary.ytd-watch-flexy,
+html[data-hide_subscribitions=true] .yt-simple-endpoint[href^="/feed/subscriptions"],
+html[data-hide_subscribitions=true]:not([yt-signed-out]) #sections > ytd-guide-section-renderer:nth-child(2),
+html[data-hide_subscribitions=true] ytd-browse[page-subtype=subscriptions],
+html[data-hide_video_sidebar_transcript=true] #panels,
+html[data-hide_explore_trending=true] .yt-simple-endpoint[href^="/feed/explore"],
+html[data-hide_explore_trending=true] .yt-simple-endpoint[href^="/feed/trending"],
+html[data-hide_explore_trending=true]:not([yt-signed-out]) #sections > ytd-guide-section-renderer:nth-child(3),
+html[data-hide_explore_trending=true][yt-signed-out] #sections > ytd-guide-section-renderer:nth-child(4),
+html[data-hide_explore_trending=true] ytd-browse[page-subtype=trending],
+paper-dialog > ytd-single-option-survey-renderer[dialog][dialog][dialog],
+ytd-mealbar-promo-renderer[dialog],
+ytd-primetime-promo-renderer {
+  display: none !important;
+}
+
+html[data-hide_header=true] #header.ytd-c4-tabbed-header-renderer,
+html[data-hide_header=true] #page-manager.ytd-app {
+  margin-top: 0 !important;
+}
+
+html[data-hide_header=true] ytd-mini-guide-renderer.ytd-app {
+  top: 0 !important;
+}
+
+html[data-hide_video_info_channel=true][hide_video_info_description=false] ytd-video-primary-info-renderer {
+  border: 0 !important;
+}
+
+html[data-hide_video_sidebar_all=true] ytd-watch-flexy[flexy][is-two-columns_]:not([fullscreen]):not([theater]) {
+  --ytd-watch-flexy-max-player-width: calc(var(--ytd-watch-flexy-chat-max-height)*var(--ytd-watch-flexy-width-ratio)/var(--ytd-watch-flexy-height-ratio)) !important;
+}
+
+#content > #page-manager.ytd-app {
+  overflow-y: hidden !important;
+}
+
+#surveys,
+.mealbar-promo-renderer,
+html[data-disable_autoplay=true] .player-controls-middle > button:not(.player-control-play-pause-icon),
+html[data-disable_autoplay=true] .ytm-autonav-bar,
+html[data-disable_autoplay=true] .ytm-autonav-toggle-button-container,
+html[data-hide_video_info_buttons_bar=true] .slim-video-metadata-actions,
+html[data-hide_video_info_channel=true] ytm-slim-owner-renderer,
+html[data-data-hide_comments_section_section=true] ytm-comment-section-renderer,
+html[data-data-hide_comments_section_section=true] ytm-comments-entry-point-header-renderer,
+html[data-data-hide_comments_section_section=true] ytm-engagement-panel,
+html[data-hide_video_info_description=true] .slim-video-metadata-header-content > c3-icon,
+html[data-hide_video_info_description=true] .slim-video-metadata-info,
+html[data-hide_donate=true] ytm-donation-shelf-renderer-outer,
+html[data-hide_end_screen_feed=true] .ytp-mweb-endscreen-play-next,
+html[data-hide_end_screen_feed=true] .ytp-mweb-endscreen-play-previous,
+html[data-hide_home_feed=true] div[tab-identifier=FEwhat_to_watch],
+html[data-hide_header=true] .mobile-topbar-header,
+html[data-hide_merch_tickets_offers=true] ytm-compact-offer-module-renderer,
+html[data-hide_video_info_all=true] ytm-item-section-renderer[section-identifier=slim-video-metadata],
+html[data-hide_mixes=true] ytm-compact-radio-renderer,
+html[data-hide_mixes=true] ytm-radio-renderer,
+html[data-hide_playlists=true] ytm-playlist,
+html[data-hide_comments_section_profile_photos=true] .comment-icon-container,
+html[data-hide_video_sidebar_recommended=true] ytm-item-section-renderer[section-identifier=related-items],
+html[data-hide_redirect_home=true][hide_home_feed=true][hide_subscribitions=false] ytm-pivot-bar-renderer > ytm-pivot-bar-item-renderer > .pivot-w2w,
+html[data-hide_shorts_tab=true] a[role=tab][href$="/shorts"],
+html[data-hide_shorts_tab=true] ytm-pivot-bar-renderer > ytm-pivot-bar-item-renderer > .pivot-shorts,
+html[data-hide_subscribitions=true] div[tab-identifier=FEsubscriptions],
+html[data-hide_subscribitions=true] ytm-pivot-bar-renderer > ytm-pivot-bar-item-renderer > .pivot-subs,
+html[data-hide_explore_trending=true] div[tab-identifier=FEexplore],
+html[data-hide_explore_trending=true] div[tab-identifier=FEtrending],
+html[data-hide_explore_trending=true] ytm-pivot-bar-renderer > ytm-pivot-bar-item-renderer > .pivot-trending {
+  display: none !important;
+}
+
+html[data-hide_header=true] #player-container-id,
+html[data-hide_header=true] ytm-item-section-renderer[section-identifier=related-items] {
+  top: 0 !important;
+}
+
+html[data-hide_header=true] ytm-app.sticky-player {
+  padding-top: 0 !important;
+}/*# sourceMappingURL=unhook.css.map */
