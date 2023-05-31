@@ -2,508 +2,606 @@
   {
     "AB1": [
       {
+        "name": "Что следует сделать перед знаком \"Yield\"?",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Devansarea unui vehicul în mers, în cazul în care se impune ieşirea de pe banda de circulaţie iniţială. Deplasarea vehiculelor pe o bandă a părții carosabile cu o viteză mai mare decât viteza vehiculelor de pe banda alăturată nu se consideră depăşire.",
+            "text": "1) Сбавить скорость и приготовиться остановиться, если потребуется",
             "seccess": true
           },
           {
-            "text": "2) Devansarea unuia sau câtorva vehicule, care se deplasează cu o viteză mai mică pe banda de circulaţie din stânga.",
+            "text": "2) Уступить автомобилям экстренных служб",
             "seccess": false
           },
           {
-            "text": "3) Devansarea unuia sau câtorva vehicule, care se deplasează cu o viteză mai mică pe banda de circulaţie din dreapta.",
+            "text": "3) Полностью остановиться",
+            "seccess": false
+          },
+          {
+            "text": "4) Продолжать движение, следя за обстановкой по обеим сторонам",
             "seccess": false
           }
-        ],
-        "comment": "Depăşire - devansarea unui vehicul în mers, în cazul în care se impune ieşirea de pe banda de circulaţie iniţială. Deplasarea vehiculelor pe o bandă a părții carosabile cu o viteză mai mare decât viteza vehiculelor de pe banda alăturată nu se consideră depăşire. P. 7, alineatul 22.",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Prin termenul «depăşire» se înţelege:"
+        ]
       },
       {
+        "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Da, dacă în vehicul este loc liber.",
+            "text": "1) № 1",
             "seccess": false
           },
           {
-            "text": "2) Da, dacă conducătorul are timp liber.",
+            "text": "2) № 2",
             "seccess": false
           },
           {
-            "text": "3) Da, dacă unitatea medicală este dislocată în direcţia de deplasare.",
+            "text": "3) № 3",
             "seccess": false
           },
           {
-            "text": "4) Da, dacă nu este posibilă chemarea ambulanţei sau în cazurile de urgenţă.",
+            "text": "4) № 4",
             "seccess": true
           },
           {
-            "text": "5) Da, numai în cazul în care el este vinovat de producerea accidentului.",
+            "text": "5) № 5",
             "seccess": false
           }
-        ],
-        "comment": "Conducătorul de vehicul care a ajuns la locul unde s-a produs un accident în traficul rutier, în lipsa serviciilor de intervenţie, este obligat să oprească şi, în caz de necesitate să acorde primul ajutor, să cheme ambulanţa, iar dacă aceasta nu este posibil sau în cazurile de urgenţă - să transporte cu propriul vehicul persoana traumatizată la cea mai apropiată unitate medicală, să declare la unitatea medicală identitatea sa, prezentând permisul de conducere sau alt act, precum şi certificatul de înmatriculare a vehiculului. P. 12 2), a).",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Precizaţi dacă este obligat conducătorul de vehicul să asigure transportarea la unitatea medicală a persoanelor traumatizate în accidentul din traficul rutier?"
+        ]
       },
       {
+        "name": "Какие цвета у навигационных знаков?",
         "buttons": [
           {
-            "text": "1) Reglementează ordinea de trecere la intersecţiile cu circulaţia nedirijată sau pe sectoarele de drum unde este imposibilă trecerea simultană a două vehicule care se deplasează din sensuri opuse.",
+            "text": "1) Желтый фон с черными символами и буквами",
+            "seccess": false
+          },
+          {
+            "text": "2) Зеленый фон с белыми символами и буквами",
             "seccess": true
           },
           {
-            "text": "2) Informează participanţii la trafic despre apropierea de un sector de drum periculos.",
+            "text": "3) Белый фон с черными символами и буквами",
             "seccess": false
           },
           {
-            "text": "3) Stabilesc ori suspendă interdicţii sau restricţii.",
+            "text": "4) Белый фон с красными символами и буквами",
             "seccess": false
           }
-        ],
-        "comment": "Indicatoarele de prioritate 2.1 «Cedează trecerea», 2.2 «Trecerea fără oprire interzisă», 2.3 «Drum cu prioritate» şi 2.4 «Sfârşitul drumului cu prioritate» reglementează ordinea de trecere la intersecţiile cu circulaţia nedirijată, iar indicatoarele 2.5 «Prioritate pentru circulaţia din sens opus» şi 2.6 «Prioritate în raport cu circulaţia din sens opus» reglementează ordinea de trecere pe sectoarele de drum unde este imposibilă trecerea simultană a două vehicule care se deplasează din sensuri opuse. Pentru informarea participanţilor la trafic despre apropierea de un sector de drum periculos, precum şi pentru stabilirea ori suspendarea interdicţiilor sau restricţiilor se utilizează alte indicatoare. P. 26 2), Nota explicativă la anexa nr. 3 (II. INDICATOARE DE PRIORITATE, 2.1 - 2.6).",
-        "image": "https://pdd-md.online/src/img/book/B/71.jpg",
-        "name": "Aceste indicatoare rutiere:"
+        ]
       },
       {
+        "name": "Если школьный автобус остановился на двухполосном шоссе для высадки пассажиров, включив красные сигнальные огни, то:",
         "buttons": [
           {
-            "text": "1) Continua deplasarea fără a reduce viteza. Conducătorul vehiculului care vine din sensul opus este obligat să vă cedeze trecerea.",
+            "text": "1) Можно объехать автобус по обочине",
             "seccess": false
           },
           {
-            "text": "2) Reduce viteza şi, în caz de necesitate, veţi opri pentru a ceda trecerea vehiculului care vine din sensul opus.",
+            "text": "2) Можно объехать автобус, в каком бы направлении вы ни двигались, при отсутствии детей",
+            "seccess": false
+          },
+          {
+            "text": "3) Транспорт, движущийся в любом направлении, должен остановиться",
             "seccess": true
           },
           {
-            "text": "3) Continua deplasarea şi, cedând trecerea, veţi ieşi pe acostament.",
+            "text": "4) Можно объехать автобус по встречной полосе при отсутствии встречного транспорта",
             "seccess": false
           }
-        ],
-        "comment": "In situaţia din imagine, indicatorul 2.5 «Prioritate pentru circulaţia din sens opus» vă obligă să reduceţi viteza şi, în caz de necisitate, să opriţi pentru a ceda trecerea vehiculului care vine din sensul opus şi se află pe sectorul de drum îngustat. Nota explicativă la anexa nr. 3 (II. INDICATOARE DE PRIORITATE, 2.5, Particularităţi de utilizare a indicatoarelor de prioritate, alineatul 1).",
-        "image": "https://pdd-md.online/src/img/book/B/107.jpg",
-        "name": "În situaţia din imagine veţi:"
+        ]
       },
       {
+        "name": "Что из перечисленного могут использовать велосипедисты?",
         "buttons": [
           {
-            "text": "1) Cu indicatorul de avertizare «Intersecţie a drumurilor de semnificaţie echivalentă».",
+            "text": "1) Велодорожку",
             "seccess": false
           },
           {
-            "text": "2) Cu indicatorul «Trecerea fără oprire interzisă».",
+            "text": "2) Обочину",
             "seccess": false
           },
           {
-            "text": "3) Cu indicatorul «Cedează trecerea».",
+            "text": "3) Проезжую часть",
+            "seccess": false
+          },
+          {
+            "text": "4) Все эти варианты",
             "seccess": true
-          },
-          {
-            "text": "4) Cu oricare din indicatoarele enumerate.",
-            "seccess": false
           }
-        ],
-        "comment": "Marcajul 1.13 format din triunghiuri alăturate cu vârfurile îndreptate spre vehiculele care se apropie, se foloseşte numai în asociere cu indicatorul 2.1 «Cedează trecerea». Nota explicativă la anexa nr. 3 (II. INDICATOARE DE PRIORITATE, 2.1), Nota explicativă la anexa nr. 4 (I. SEMNIFICAŢIA MARCAJELOR ORIZONTALE, B. Marcaje transversale, 1.13).",
-        "image": "https://pdd-md.online/src/img/book/B/141.jpg",
-        "name": "În asociere cu care indicator rutier se foloseşte marcajul format din triunghiuri alăturate?"
+        ]
       },
       {
+        "name": "Желтые знаки в форме ромба указывают на:",
         "buttons": [
           {
-            "text": "1) Substituirea marcajelor de bază pe locurile (sectoarele de drum) unde se efectuează lucrări.",
+            "text": "1) Необходимость остановиться",
+            "seccess": false
+          },
+          {
+            "text": "2) Расстояния до населенных пунктов",
+            "seccess": false
+          },
+          {
+            "text": "3) Возможные опасности на дороге",
             "seccess": true
           },
           {
-            "text": "2) Marcajul, semnificaţia căruia intră în vigoare numai în cazul în care funcţionează semnalul galben intermitent al semaforului.",
-            "seccess": false
-          },
-          {
-            "text": "3) Marcajul, semnificaţia căruia intră în vigoare numai în cazul în care semafoarele nu funcţionează.",
+            "text": "4) Ограничение скорости",
             "seccess": false
           }
-        ],
-        "comment": "Liniile şi săgeţile marcajului de culoare portocalie din imagine, semnifică substituirea marcajelor de bază pe locurile (sectoarele de drum) unde se efectuează lucrări. Nota explicativă la anexa nr. 4 (I. SEMNIFICAŢIA MARCAJELOR ORIZONTALE, C. Alte marcaje, 1.28, alineatul 7).",
-        "image": "https://pdd-md.online/src/img/book/B/177.jpg",
-        "name": "Liniile şi săgeţile marcajului de culoare portocalie, din imagine, semnifică:"
+        ]
       },
       {
+        "name": "Что из перечисленного является правилом безопасного вождения?",
         "buttons": [
           {
-            "text": "1) Permite începerea deplasării.",
+            "text": "1) Всегда смотрите прямо на дорогу перед собой",
             "seccess": false
           },
           {
-            "text": "2) Înseamnă că de intersecţie se apropie un vehicul cu regim prioritar de circulaţie.",
-            "seccess": false
-          },
-          {
-            "text": "3) Înseamnă că timpul rezervat semnalului roşu expiră, fără ca prin aceasta să se modifice semnificaţia de interzicere a trecerii.",
+            "text": "2) Осматривайтесь по сторонам, чтобы быть в курсе дорожной ситуации",
             "seccess": true
+          },
+          {
+            "text": "3) Уверенность в своих силах поможет избежать любых опасностей",
+            "seccess": false
+          },
+          {
+            "text": "4) Другие водители должны подстраиваться под ваши оплошности",
+            "seccess": false
           }
-        ],
-        "comment": "Semnalul de culoare roşie pus în funcţiune concomitent cu semnalul galben înseamnă că timpul rezervat semnalului roşu expiră, fără ca prin aceasta să se modifice semnificaţia de interzicere a trecerii. P. 20 2).",
-        "image": "https://pdd-md.online/src/img/book/B/211.jpg",
-        "name": "Semnalul de culoare roşie pus în funcţiune concomitent cu semnalul galben:"
+        ]
       },
       {
+        "name": "Для предотвращения заносов на скользкой дороге нужно:",
         "buttons": [
           {
-            "text": "1) Numai în condiţii de vizibilitate redusă.",
+            "text": "1) Замедляться перед входом в поворот",
             "seccess": false
           },
           {
-            "text": "2) Numai în perioada 1 noiembrie - 31 martie inclusiv.",
+            "text": "2) Тормозить заранее и с осторожностью",
             "seccess": false
           },
           {
-            "text": "3) Pe parcursul întregului an doar în timpul instruirii.",
+            "text": "3) Уменьшить давление на педаль тормоза, если колеса начнут блокироваться",
+            "seccess": false
+          },
+          {
+            "text": "4) Все перечисленное",
             "seccess": true
-          },
-          {
-            "text": "4) La discreţia instructorului.",
-            "seccess": false
           }
-        ],
-        "comment": "În timpul instruirii la autovehiculele destinate acestui scop, pe timp de zi, pe parcursul întregului an, trebuie pusă în funcțiune lumina de întâlnire sau lumina de deplasare pe timp de zi ori puse în funcțiune farurile anticeață. Aceasta este necesar pentru atenţionarea altor participanţi la trafic precum și pentru semnalizarea vehiculului în cazul deplasării pe timp de zi. P. 34 3) b), P. 34 5) c).",
-        "image": "https://pdd-md.online/src/img/book/B/247.jpg",
-        "name": "Pentru atenţionarea altor participanţi la trafic precum și pentru semnalizarea vehiculului în cazul deplasării pe timp de zi, conducătorii vehiculelor de instruire trebuie să conecteze lumina de întâlnire sau lumina de deplasare pe timp de zi ori lumina anticeață:"
+        ]
       },
       {
+        "name": "Мигающий красный сигнал светофора означает:",
         "buttons": [
           {
-            "text": "1) Da, deoarece partea carosabilă are numai câte o bandă pe sens.",
+            "text": "1) То же, что и знак \"Въезд запрещен\" (Do Not Enter)",
             "seccess": false
           },
           {
-            "text": "2) Da, deoarece în staţie nu este oprit nici un vehicul de rută.",
+            "text": "2) То же, что и знак \"Yield\"",
             "seccess": false
           },
           {
-            "text": "3) Nu, deoarece în locurile de dislocare a staţiilor vehiculelor de rută întoarcerea este interzisă.",
+            "text": "3) То же, что и знак \"STOP\"",
             "seccess": true
+          },
+          {
+            "text": "4) То же, что и знак \"Wrong Way\"",
+            "seccess": false
           }
-        ],
-        "comment": "În situaţia dată, conducătorul autoturismului nu poate efectua regulamentar manevra de întoarcere, deoarece în locurile de dislocare a staţiilor vehiculelor de rută această manevră este interzisă. P. 41 1) е).",
-        "image": "https://pdd-md.online/src/img/book/B/281.jpg",
-        "name": "În situaţia din imagine, conducătorul autoturismului efectuează regulamentar manevra de întoarcere?"
+        ]
       },
       {
+        "name": "В каком из перечисленных вариантов не нужно останавливаться?",
         "buttons": [
           {
-            "text": "1) Nu mai mare de 50 km/h.",
+            "text": "1) На мигающий красный сигнал светофора",
             "seccess": false
           },
           {
-            "text": "2) Nu mai mare de 60 km/h.",
-            "seccess": false
-          },
-          {
-            "text": "3) Nu mai mare de 70 km/h.",
+            "text": "2) На мигающий желтый сигнал светофора",
             "seccess": true
           },
           {
-            "text": "4) Nu mai mare de 90 km/h.",
+            "text": "3) У знака \"STOP\"",
+            "seccess": false
+          },
+          {
+            "text": "4) На красный сигнал светофора",
             "seccess": false
           }
-        ],
-        "comment": "Limita maximă de viteză pe drumurile din afara localităţilor pentru autoturisme, care tractează o remorca - 70 km/h. P. 47 2) c).",
-        "image": "https://pdd-md.online/src/img/book/B/317.jpg",
-        "name": "În situaţia din imagine, cu ce viteză poate continua deplasarea acest autoturism în afara localităţilor?"
+        ]
       },
       {
+        "name": "Поворачивая направо, нужно:",
         "buttons": [
           {
-            "text": "1) Doar pe banda de circulaţie din stânga.",
+            "text": "1) Начать перестраиваться после пересечения центра перекрестка",
+            "seccess": false
+          },
+          {
+            "text": "2) Начинать маневр из правой полосы",
             "seccess": true
           },
           {
-            "text": "2) Doar pe banda de circulaţie din dreapta.",
+            "text": "3) Начинать маневр из левой полосы",
             "seccess": false
           },
           {
-            "text": "3) Pe oricare din benzi.",
+            "text": "4) Начинать маневр с центральной полосы движения",
             "seccess": false
           }
-        ],
-        "comment": "Vehiculele se depăşesc numai pe partea stângă. Prin urmare, în situaţia din imagine, camionul poate fi depăşit doar pe banda din stânga. P. 52 1), alineatul 1.",
-        "image": "https://pdd-md.online/src/img/book/B/351.jpg",
-        "name": "Precizaţi, în situaţia din imagine, pe care bandă de circulaţie poate fi depăşit autocamionul?"
+        ]
       },
       {
+        "name": "При движении во время тумана или при плохой видимости, вы должны использовать:",
         "buttons": [
           {
-            "text": "1) Camionul, autoturismul, microbuzul.",
+            "text": "1) Только габаритные огни",
             "seccess": false
           },
           {
-            "text": "2) Autoturismul, camionul, microbuzul.",
-            "seccess": false
-          },
-          {
-            "text": "3) Microbuzul, autoturismul, camionul.",
-            "seccess": false
-          },
-          {
-            "text": "4) Autoturismul, microbuzul, camionul.",
+            "text": "2) Фары ближнего света",
             "seccess": true
+          },
+          {
+            "text": "3) Фары дальнего света",
+            "seccess": false
+          },
+          {
+            "text": "4) Аварийные сигналы",
+            "seccess": false
           }
-        ],
-        "comment": "Intersecţia în care în semafoare funcţionează semnalul galben intermitent se consideră intersecţie cu circulaţia nedirijată. În situaţia dată, primul va trece autoturismul care se apropie de intersecţie pe drumul cu prioritate. Ulterior va traversa intersecţia microbuzul, care se deplasează înainte pe drumul fără prioritate, apoi camionul care virează la stânga de pe acelaşi drum. P. 56 2), alineatul 1, P. 59 1), 2).",
-        "image": "https://pdd-md.online/src/img/book/B/387.jpg",
-        "name": "La semnalul galben intermitent al semafoarelor, vehiculele vor traversa intersecţia în ordinea următoare:"
+        ]
       },
       {
+        "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Camionul, autoturismul, motocicleta.",
+            "text": "1) Повернуть передние колеса в сторону бордюра",
+            "seccess": false
+          },
+          {
+            "text": "2) Установить колеса параллельно бордюру",
+            "seccess": false
+          },
+          {
+            "text": "3) Повернуть колеса в любую сторону",
+            "seccess": false
+          },
+          {
+            "text": "4) Повернуть передние колеса в сторону проезжей части",
             "seccess": true
-          },
-          {
-            "text": "2) Autoturismul, camionul, motocicleta.",
-            "seccess": false
-          },
-          {
-            "text": "3) Autoturismul, motocicleta, camionul.",
-            "seccess": false
           }
-        ],
-        "comment": "Camionul şi autoturismul se apropie de intersecţie pe drumul cu prioritate. Primul va traversa intersecţia camionul, care se apropie de aceasta din dreapta autoturismului, apoi autoturismul. Motocicleta, ce se deplasează pe drumul fără prioritate, va trece intersecţia ultima. P. 59 2), 3), 4).",
-        "image": "https://pdd-md.online/src/img/book/B/421.jpg",
-        "name": "Indicaţi ordinea de traversare a intersecţiei:"
+        ]
       },
       {
+        "name": "Этот знак означает:",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Autoturismului galben traversează intersecţia, cedând trecerea celui verde, apoi cel albastru concomitent cu microbuzul.",
+            "text": "1) Переход запрещен",
             "seccess": false
           },
           {
-            "text": "2) Autoturismul albastru concomitent cu microbuzul, autoturismul verde, autoturismul galben.",
+            "text": "2) Впереди школьная зона",
             "seccess": false
           },
           {
-            "text": "3) Autoturismul verde, apoi cel albastru concomitent cu microbuzul, autoturismul galben.",
+            "text": "3) Впереди пешеходный переход",
             "seccess": true
+          },
+          {
+            "text": "4) Рабочие на проезжей части",
+            "seccess": false
           }
-        ],
-        "comment": "Primul va traversa intersecţia autoturismul verde, deoarece din dreapta acestuia de intersecţie nu se apropie alte vehicule. Apoi, conducându-se de aceeaşi regulă, va trece intersecţia autoturismul albastru concomitent cu microbuzul. Ultimul va traversa intersecţia autoturismul galben. P. 59 4).",
-        "image": "https://pdd-md.online/src/img/book/B/457.jpg",
-        "name": "Vehiculele vor traversa intersecţia în ordinea următoare:"
+        ]
       },
       {
+        "name": "Вы собираетесь повернуть направо на перекрестке, когда на светофоре горит красный свет. Вы должны:",
         "buttons": [
           {
-            "text": "1) Conducătorul autoturismului.",
+            "text": "1) Включить поворотник и ждать зеленого сигнала",
             "seccess": false
           },
           {
-            "text": "2) Conducătorul autocamionului.",
+            "text": "2) Сбавить скорость и осмотреться по сторонам",
             "seccess": false
           },
           {
-            "text": "3) Ambii conducători.",
-            "seccess": false
-          },
-          {
-            "text": "4) Nici unul din conducători.",
+            "text": "3) Остановиться, включить поворотник и повернуть, если это безопасно и отсутствуют запрещающие знаки",
             "seccess": true
+          },
+          {
+            "text": "4) Дождаться зеленой стрелки",
+            "seccess": false
           }
-        ],
-        "comment": "În situaţia dată nu au dreptul de a opri nici unul din conducători, deoarece Regulamentul interzice oprirea atât pe poduri cât şi sub acestea. P. 69 b).",
-        "image": "https://pdd-md.online/src/img/book/B/491.jpg",
-        "name": "Conducătorul cărui vehicul are dreptul de a opri?"
+        ]
       },
       {
+        "name": "Белые знаки в форме вертикального прямоугольника означают:",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Se permite cu o viteză nu mai mare de 15 km/h.",
+            "text": "1) Что впереди школьная зона",
             "seccess": false
           },
           {
-            "text": "2) Se permite cu o viteză nu mai mare de 30 km/h.",
-            "seccess": false
-          },
-          {
-            "text": "3) Nu se permite.",
+            "text": "2) Вы должны следовать правилам, указанным на знаке",
             "seccess": true
+          },
+          {
+            "text": "3) Расположение и расстояние до населенных пунктов",
+            "seccess": false
+          },
+          {
+            "text": "4) Потенциальные опасности на дороге",
+            "seccess": false
           }
-        ],
-        "comment": "Regulamentul interzice remorcarea vehiculului, cu frâna de serviciu deteriorată, prin intermediul legăturii flexibile. P. 75 a).",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Precizaţi dacă se permite remorcarea vehiculului cu frâna de serviciu deteriorată prin intermediul legăturii flexibile?"
+        ]
       },
       {
+        "name": "Если светофор не работает, водители должны:",
         "buttons": [
           {
-            "text": "1) Să folosească semnalele luminoase şi sonore speciale în alte cazuri decât cele justificate de urgenţa misiunii.",
+            "text": "1) Двигаться так, как будто для всех направлений горит жетый сигнал",
+            "seccess": false
+          },
+          {
+            "text": "2) Двигаться так, как будто для всех направлений горит зеленый сигнал",
+            "seccess": false
+          },
+          {
+            "text": "3) Остановиться, если это возможно",
+            "seccess": false
+          },
+          {
+            "text": "4) Двигаться так, как будто для всех направлений установлен знак \"STOP\"",
             "seccess": true
-          },
-          {
-            "text": "2) Să devieze de la exigenţele indicatoarelor şi marcajelor rutiere, în cazul executării misiunilor de serviciu de urgenţă.",
-            "seccess": false
-          },
-          {
-            "text": "3) Să devieze de la exigenţele semnalelor semaforului, în cazul executării misiunilor de serviciu de urgenţă.",
-            "seccess": false
-          },
-          {
-            "text": "4) Să execute oricare din acţiunile enumerate.",
-            "seccess": false
           }
-        ],
-        "comment": "Prin Regulament conducătorilor vehiculelor cu regim prioritar de circulaţie li se interzice să folosească semnalele luminoase şi sonore speciale în alte cazuri decât cele justificate de urgenţa misiunii. Însă, în cazul executării acestor misiuni, conducătorii în cauză pot devia de la exigenţele indicatoarelor, marcajelor rutiere, precum şi de la exigenţele semnalelor semaforului. P. 105 1), P. 106 4).",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Conducătorilor vehiculelor cu regim prioritar de circulaţie li se interzice:"
+        ]
       },
       {
+        "name": "Белую сплошную линию на шоссе можно пересекать:",
         "buttons": [
           {
-            "text": "1) La autoturism lipsesc trusa medicală, stingătorul de incendiu, triunghiul de presemnalizare sau lanterna portativă cu lumină roșie intermitentă, precum și vesta de protecție-avertizare fluorescent-reflectorizantă.",
+            "text": "1) Для обгона",
             "seccess": false
           },
           {
-            "text": "2) La motocicletă, ciclomotor lipsesc arcurile de protecţie, suporturile pentru picioare, la şa - mânerul de susţinere a pasagerului, prevăzute prin construcţie.",
-            "seccess": false
-          },
-          {
-            "text": "3) La roţile axei din spate a autoturismului sunt montate pneuri cu profilul benzii de rulare reşapat.",
+            "text": "2) Для предотвращения аварийной ситуации",
             "seccess": true
+          },
+          {
+            "text": "3) Для смены полосы на перекрестке",
+            "seccess": false
+          },
+          {
+            "text": "4) Все варианты верны",
+            "seccess": false
           }
-        ],
-        "comment": "Nu este interzisă exploatarea vehiculelor în cazul în care la roţile axei din spate a autoturismului sunt montate pneuri cu profilul benzii de rulare reşapat. Atunci când la autoturism lipsesc trusa medicală, stingătorul de incendiu, triunghiul de presemnalizare sau lanterna portativă cu lumină roșie intermitentă precum și vesta de protecțieavertizare fluorescent-reflectorizantă, iar la motocicletă ori ciclomotor lipsesc arcurile de protecţie, suporturile pentru picioare, la şa - mânerul de susţinere a pasagerului, exploatarea acestor vehicule este interzisă. P. 122 5) f), P. 122 6) j), alineatul 2, P. 122 6) l).",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Exploatarea vehiculelor nu este interzisă în cazul în care:"
+        ]
       },
       {
+        "name": "Какое из утверждений о круговом перекрестке является неверным?",
         "buttons": [
           {
-            "text": "1) Contribuie la crearea confortului, astfel facilitând conducerea autovehiculului.",
+            "text": "1) Включите правый поворотник, чтобы обозначить свое намерение выехать",
             "seccess": false
           },
           {
-            "text": "2) Conduce la reducerea considerabilă a vizibilităţii, mai cu seamă la deplasarea pe timp de noapte, prin aceasta periclitându-se siguranţa circulaţiei.",
+            "text": "2) Заезжайте на кольцевой перекресток с левой стороны и двигайтесь по часовой стрелке",
             "seccess": true
           },
           {
-            "text": "3) Măreşte probabilitatea de orbire de la lumina farurilor vehiculelor ce vin din sens opus.",
+            "text": "3) Уступите дорогу автомобилям и велосипедистам, едущим по кругу",
+            "seccess": false
+          },
+          {
+            "text": "4) Не пытайтесь обогнать велосипедистов на круговой развязке",
             "seccess": false
           }
-        ],
-        "comment": "Siguranţa de deplasare este direct dependentă de gradul de informare a conducătorului. Atunci când parbrizul şi suprafeţele de geam ale portierelor din faţă sunt umbrite, transparenţa acestora se reduce considerabil, precum şi se reduce vizibilitatea, mai cu seamă, la deplasarea pe timp de noapte. În aşa condiţii, conducătorul nu se poate pe deplin informa în direcţia de mers, pe părţile laterale, precum şi prin oglinzile retrovizoare. Umbrirea geamurilor nicidecum nu înlesneşte conducerea vehiculului. De aceea Regulamentul interzice umbrirea parbrizului şi geamurile portierilor din faţă. P. 122 6) e).",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Umbrirea parbrizului şi a suprafeţelor de geam ale portierelor din faţă la autovehicul:"
+        ]
       },
       {
+        "name": "Водители, приближаясь к велосипедисту в ночное время, НЕ должны:",
         "buttons": [
           {
-            "text": "1) Doar de ieșirea inopinată pe partea carosabilă a pietonilor.",
+            "text": "1) Использовать фары ближнего света",
             "seccess": false
           },
           {
-            "text": "2) Doar de deschiderea inopinată a portierei a unuia dintre vehiculele parcate.",
+            "text": "2) Держаться от него на дистанции не менее 3 футов",
             "seccess": false
           },
           {
-            "text": "3) Doar de pornirea inopinată a unuia dintre vehiculele parcate.",
-            "seccess": false
-          },
-          {
-            "text": "4) De oricare din acțiunile enumerate.",
+            "text": "3) Подавать звуковой сигнал",
             "seccess": true
+          },
+          {
+            "text": "4) Соблюдать осторожность",
+            "seccess": false
           }
-        ],
-        "comment": "Staționarea vehiculelor pe ambele părți a părții carosabile limitează câmpul vizual ce face dificilă observarea pietonilor. Totodată probabilitatea, că cineva din conducătorii vehiculelor aflate în staționare poate să pornească sau să deschidă portiera este înaltă. Astfel, în așa situație, conducătorul trebuie să se păzească de oricare din acțiunile enumerate și să demonstreze prudență sporită, pentru a evita orice pericol.",
-        "image": "https://pdd-md.online/src/img/book/B/667.jpg",
-        "name": "În situația din imagine trebuie să vă păziți:"
+        ]
       },
       {
+        "name": "Что означает этот знак?",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Acestea de fiecare dată se produc foarte repede.",
+            "text": "1) Впереди круговое движение",
             "seccess": false
           },
           {
-            "text": "2) Învelișul cablajului echipamentului electric, precum și a habitaclului este sintetic, astfel în caz de incendiu, se emite o cantitate mare de gaze toxice, ceea ce duce la consecințe grave.",
-            "seccess": false
-          },
-          {
-            "text": "3) Incendiile se produc în spații închise (sub capota motorului sau în habitaclu).",
-            "seccess": false
-          },
-          {
-            "text": "4) Aceste se produc doar în condițiile enumerate la răspunsurile 1 și 2.",
-            "seccess": false
-          },
-          {
-            "text": "5) Aceste se produc în oricare din condițiile enumerate.",
+            "text": "2) Впереди разделитель. Держитесь правее",
             "seccess": true
+          },
+          {
+            "text": "3) Впереди разделенное движение заканчивается",
+            "seccess": false
+          },
+          {
+            "text": "4) Ваша полоса сужается. Держитесь левее.",
+            "seccess": false
           }
-        ],
-        "comment": "Învelișul cablajului echipamentului electric, precum și al habitaclului este sintetic. Acesta are proprietăți de ardere intensivă și eliminare a gazelor toxice cu concentrație înaltă, deoarece ardereа se produce în spații închise. În așa condiții încendiul prezintă pericol mare. În plus scurtcircuitul care poate avea loc la cablajul electric, frecvent conduce la producerea incendiului.",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Incendiile produse la autovehicule sunt foarte periculoase deoarece:"
+        ]
       },
       {
+        "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Culcată pe spate pe o tablă dură.",
+            "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
+            "seccess": false
+          },
+          {
+            "text": "2) Автомобиль, движущийся по сквозной дороге (2)",
             "seccess": true
           },
           {
-            "text": "2) Culcată pe spate pe un aşternut moale.",
+            "text": "3) Автомобиль, который первым подъедет к перекрестку",
             "seccess": false
           },
           {
-            "text": "3) Culcată pe o parte pe o tablă dură.",
+            "text": "4) Автомобиль, перевозящий более двух пассажиров",
             "seccess": false
           }
-        ],
-        "comment": "În cazul leziunii segmentului toracic al coloanei vertebrale la persoana traumatizată, aceasta trebuie culcată pe o tablă dură, în scopul imobilizării coloanei şi evitării consecinţelor grave care pot avea loc în cazul culcării pe o parte sau pe un aşternut moale.",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "În ce mod poate fi transportată persoana traumatizată având leziunea segmentului toracic a coloanei vertebrale?"
+        ]
       },
       {
+        "name": "Какое из утверждений верное?",
         "buttons": [
           {
-            "text": "1) Cu regim prioritar de circulaţie.",
+            "text": "1) Все грузовики имеют пневматические тормоза, помогающие им быстрее остановиться",
             "seccess": false
           },
           {
-            "text": "2) Care aparţin consulatelor diplomatice.",
+            "text": "2) Грузовики более маневренные, чем легковые автомобили",
             "seccess": false
           },
           {
-            "text": "3) Aflate în traficul internaţional.",
+            "text": "3) У грузовиков тормозной путь больше, чем у легковых автомобилей",
             "seccess": true
           },
           {
-            "text": "4) Tuturor vehiculelor enumerate.",
+            "text": "4) У грузовиков слепые зоны меньше, чем у легковых автомобилей",
             "seccess": false
           }
-        ],
-        "comment": "În Republica Moldova vehiculele se conduc pe partea dreaptă a părții carosabile în sensul de mers. Se interzice circulaţia pe drumurile publice a autovehiculelor care au volanul amplasat pe partea dreaptă a axei longitudinale, cu excepţia vehiculelor aflate în traficul internaţional. P. 2.",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Căror vehicule ce au volanul amplasat pe partea dreaptă a axei longitudinale li se permite circulaţia pe drumurile publice?"
+        ]
       },
       {
+        "name": "Этот знак означает:",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
         "buttons": [
           {
-            "text": "1) Imobilizarea vehiculului pe un timp nu mai mare de 5 min., precum şi pe un timp mai mare, în cazul în care este necesar de a îmbarca sau a debarca persoane, ori a încărca sau descărca bunuri.",
+            "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
             "seccess": false
           },
           {
-            "text": "2) Imobilizarea vehiculului din cauza defecţiunilor tehnice, eventualului pericol legat de transportarea încărcăturii, starea sănătăţii conducătorului (pasagerului) sau obstacolului de pe drum.",
+            "text": "2) За поворотом школьная зона",
+            "seccess": false
+          },
+          {
+            "text": "3) Не снижайте скорость на повороте ниже 25 миль/ч",
+            "seccess": false
+          },
+          {
+            "text": "4) Рекомендуемая скорость для входа в поворот не более 25 миль/ч",
+            "seccess": true
+          }
+        ]
+      },
+      {
+        "name": "Какую из указанных форм имеет знак STOP?",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+        "buttons": [
+          {
+            "text": "1) № 1",
+            "seccess": false
+          },
+          {
+            "text": "2) № 2",
+            "seccess": false
+          },
+          {
+            "text": "3) № 3",
             "seccess": true
           },
           {
-            "text": "3) Imobilizarea vehiculului pe drum pentru un motiv altul decât acela, de a îmbarca sau a debarca persoane, de a încărca sau descărca bunuri, în cazul în care timpul necesar pentru aceasta nu este limitat.",
+            "text": "4) № 4",
             "seccess": false
           }
-        ],
-        "comment": "Oprire fortuită - imobilizarea vehiculului din cauza defecţiunilor tehnice, eventualului pericol legat de transportarea încărcăturii, starea sănătăţii conducătorului (pasagerului) sau a obstacolului de pe drum. P. 7, alineatul 32.",
-        "image": "https://pdd-md.online/src/img/noimage.jpg",
-        "name": "Prin termenul «oprire fortuită» se înţelege:"
+        ]
+      },
+      {
+        "name": "Автомобили, въезжающие на скоростную трассу:",
+        "buttons": [
+          {
+            "text": "1) Имеют преимущество проезда перед грузовиками",
+            "seccess": false
+          },
+          {
+            "text": "2) Должны уступить транспорту, движущемуся по шоссе",
+            "seccess": true
+          },
+          {
+            "text": "3) Имеют право проезда",
+            "seccess": false
+          },
+          {
+            "text": "4) Должны сразу перестроиться в левую полосу",
+            "seccess": false
+          }
+        ]
+      },
+      {
+        "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
+        "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+        "buttons": [
+          {
+            "text": "1) Немедленно развернуться",
+            "seccess": true
+          },
+          {
+            "text": "2) Двигаться дальше с осторожностью",
+            "seccess": false
+          },
+          {
+            "text": "3) То же, что перед знаком \"СТОП\"",
+            "seccess": false
+          },
+          {
+            "text": "4) Остановиться и вызвать полицию",
+            "seccess": false
+          }
+        ]
+      },
+      {
+        "name": "Что имеет большее преимущество?",
+        "buttons": [
+          {
+            "text": "1) Знак \"STOP\"",
+            "seccess": false
+          },
+          {
+            "text": "2) Непрерывно горящий красный сигнал светофора",
+            "seccess": false
+          },
+          {
+            "text": "3) Мигающий красный сигнал",
+            "seccess": false
+          },
+          {
+            "text": "4) Указания регулировщика",
+            "seccess": true
+          }
+        ]
       }
     ]
   },

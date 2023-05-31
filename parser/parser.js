@@ -16,20 +16,13 @@ let categories = {
 let tests = [];
 let language = 'rom';
 const categoryLinks = [];
+const testsLinks = ["https://russiantestdmv.com/testy-dmv-shtata-vashington-na-russkom-yazyke/test-dmv-shtata-vashington-1/"];
 
-await loadMainPage();
-for (let link of categoryLinks) {
-  const ticketsLinks = await loadTicketsPage(link);
-  console.log(ticketsLinks);
-  // const ticket = type+index;
-  // const exist = tests.find((item) => `${ticket}` in item);
-  // if (exist || !test) break;
-  // console.log(ticket)
-  // tests.push(
-  //   parseTest(test, ticket)
-  // );
-  // delay(500);
-}
+// await parseMainPage();
+// await parseAllCategories();
+await parseTests();
+// console.log(testsLinks);
+
 // for (let key in categories) {
 //   const type = categories[key];
 
@@ -48,7 +41,7 @@ for (let link of categoryLinks) {
 // write(tests, language);
 console.log('Завершено');
 
-async function loadMainPage() {
+async function parseMainPage() {
   return await fetch("https://russiantestdmv.com/")
   .then((res) => res.text())
   .then((text) => {
@@ -60,7 +53,7 @@ async function loadMainPage() {
   });
 }
 
-async function loadTicketsPage(link) {
+async function parseSingleGategoryPage(link) {
   return await fetch(link)
   .then((res) => res.text())
   .then((text) => {
@@ -74,61 +67,116 @@ async function loadTicketsPage(link) {
   });
 }
 
-function parseTest(test, ticket) {
-  console.log(22222)
-  const output = [];
-  for (let i = 0; i < test.length; i++) {
-    let buttons = [];
-    let answers = [];
-    let current = {};
-    let item = test[i]
-    let correctAnwser = parseInt(item.hash.charAt(5 + item.qid % 10 * 2));
-    answers = item.answers.split('|');
-    for (let i = 1; i <= answers.length; i++) {
-      buttons.push({
-        "text": `${i}) ${answers[i - 1]}`,
-        "seccess": i == correctAnwser,
-      });
-    }
-
-    current.buttons = buttons;
-    current.comment = item.hint;
-    current.image = item.has_img == '0' ? 
-      `https://pdd-md.online/src/img/noimage.jpg` :
-      `https://pdd-md.online/src/img/book/${item.category}/${item.qid}.jpg`;
-
-    // downloadImageFromURL(current.image, current.image.split('/').slice(-1)[0], `../src/img/book/${item.category}/`);
-    current.name = item.question;
-    output.push(current);
+async function parseAllCategories() {
+  for (let link of categoryLinks) {
+    const ticketsLinks = await parseSingleGategoryPage(link);
+    testsLinks.push(...ticketsLinks);
   }
-  
-  return {
-    [ticket]: output,
-  };
 }
 
-function downloadImageFromURL(url, filename, path) {
-  console.log(url, filename, path)
-  var client = http;
-  if (url.toString().indexOf("https") === 0){
-    client = https;
-   }
+async function loadSingleTestPage(link) {
+  return await fetch(link)
+  .then((res) => res.text())
+  .then((text) => {
+    return text;
+  });
+}
 
-  client.request(url, function(response) {                                        
-    var data = new Transform();                                                    
+function parseTestPage(html) {
+  const test = [];
+  const document = parse(html);
+  const questions = document.querySelectorAll(".advq_question_container");
 
-    response.on('data', function(chunk) {                                       
-       data.push(chunk);                                                         
-    });                                                                         
+  questions.forEach((item) => {
+    test.push(
+      formatSingleQuestion(item)
+    );
+  });
 
-    response.on('end', function() {
-      if (!fs.existsSync(path)) {
-        fs.mkdirSync(path, { recursive: true })
-      }                                    
-      fs.writeFileSync(path + filename, data.read());                               
-    });                                                                         
- }).end();
-};
+  return test;
+}
+
+function formatSingleQuestion(item) {
+  const name = item.querySelector(".advq_question").innerText;
+  const image = item.querySelector(".advq_question_image img")?.getAttribute("src");
+  const buttons = [...item.querySelectorAll(".quiz_unselected_answer")].reduce((arr, button, index) => {
+    const text = `${index + 1}) ${button.querySelector("label").innerText}`;
+    const seccess = button.querySelector("input").getAttribute("data-rule") == "1";
+    arr.push({ text, seccess });
+    return arr;
+  }, []);
+  return {
+    name,
+    image,
+    buttons,
+  }
+}
+
+async function parseTests() {
+  for (let link of testsLinks) {
+    const testPageHtml = await loadSingleTestPage(link);
+    const test = parseTestPage(testPageHtml);
+    tests.push(test);
+  }
+
+  write(tests, language);
+}
+
+// function parseTest(test, ticket) {
+//   console.log(22222)
+//   const output = [];
+//   for (let i = 0; i < test.length; i++) {
+//     let buttons = [];
+//     let answers = [];
+//     let current = {};
+//     let item = test[i]
+//     let correctAnwser = parseInt(item.hash.charAt(5 + item.qid % 10 * 2));
+//     answers = item.answers.split('|');
+//     for (let i = 1; i <= answers.length; i++) {
+//       buttons.push({
+//         "text": `${i}) ${answers[i - 1]}`,
+//         "seccess": i == correctAnwser,
+//       });
+//     }
+
+//     current.buttons = buttons;
+//     current.comment = item.hint;
+//     current.image = item.has_img == '0' ? 
+//       `https://pdd-md.online/src/img/noimage.jpg` :
+//       `https://pdd-md.online/src/img/book/${item.category}/${item.qid}.jpg`;
+
+//     // downloadImageFromURL(current.image, current.image.split('/').slice(-1)[0], `../src/img/book/${item.category}/`);
+//     current.name = item.question;
+//     output.push(current);
+//   }
+  
+//   return {
+//     [ticket]: output,
+//   };
+// }
+
+// function downloadImageFromURL(url, filename, path) {
+//   console.log(url, filename, path)
+//   var client = http;
+//   if (url.toString().indexOf("https") === 0){
+//     client = https;
+//    }
+
+//   client.request(url, function(response) {                                        
+//     var data = new Transform();                                                    
+
+//     response.on('data', function(chunk) {                                       
+//        data.push(chunk);                                                         
+//     });                                                                         
+
+//     response.on('end', function() {
+//       if (!fs.existsSync(path)) {
+//         fs.mkdirSync(path, { recursive: true })
+//       }                                    
+//       fs.writeFileSync(path + filename, data.read());                               
+//     });                                                                         
+//  }).end();
+// };
 
 function delay(ms) {
   return new Promise((resolve) => {
@@ -137,5 +185,6 @@ function delay(ms) {
 }
 
 function write(obj, lang = 'rus') {
-  fs.writeFileSync(`../docs/${lang}.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
+  // fs.writeFileSync(`../docs/${lang}.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
+  fs.writeFileSync(`./${lang}.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
 }
