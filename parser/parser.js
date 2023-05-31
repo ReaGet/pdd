@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as https from 'https';
 import { Stream, Transform } from 'stream';
+import { parse } from "node-html-parser";
 
 let categories = {
   'B': 'AB',
@@ -14,24 +15,39 @@ let categories = {
 
 let tests = [];
 let language = 'rom';
+const categoryLinks = [];
 
-for (let key in categories) {
-  const type = categories[key];
+await loadMainPage();
 
-  for (let index = 1; index < 50; index++) {
-    const test = await getTest(key, index, language);
-    const ticket = type+index;
-    const exist = tests.find((item) => `${ticket}` in item);
-    if (exist || !test) break;
-    console.log(ticket)
-    tests.push(
-      parseTest(test, ticket)
-    );
-    delay(500);
-  }
-}
+// for (let key in categories) {
+//   const type = categories[key];
+
+//   for (let index = 1; index < 50; index++) {
+//     const test = await getTest(key, index, language);
+//     const ticket = type+index;
+//     const exist = tests.find((item) => `${ticket}` in item);
+//     if (exist || !test) break;
+//     console.log(ticket)
+//     tests.push(
+//       parseTest(test, ticket)
+//     );
+//     delay(500);
+//   }
+// }
 // write(tests, language);
 console.log('Завершено');
+
+async function loadMainPage() {
+  return await fetch("https://russiantestdmv.com/")
+  .then((res) => res.text())
+  .then((text) => {
+    const document = parse(text);
+    const items = document.querySelectorAll("#generate-section-1 .customBtn11 a");
+    items.map((item) => {
+      categoryLinks.push(link);
+    })
+  });
+}
 
 async function getTest(category, number, lang = 'rus') {
   return await fetch(`https://pdd-md.online/core.php?cmd=get_q_ticket&lang=${lang}&category=${category}&ticket=${number}`)
