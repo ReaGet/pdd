@@ -62,15 +62,7 @@ let categories = [
 
 async function init() {
     tests = await fetchData("./rus.tests.js");
-    currentCategoryTests = tests[testTheme];
-    currentCategoryTests.map((test) => {
-        test.test.map((question, index) => {
-            question.category = testTheme;
-            question.title = test.title;
-            question.index = index;
-            return question;
-        })
-    });
+    setCurrentCategoryTests(testTheme);
     statisticsData = getStatisticsData()?.results || {};
     document.addEventListener("click", handleClick);
     actions.openLearningMenu(testTheme);
@@ -84,6 +76,19 @@ function fetchData(url) {
     return fetch(url)
         .then(res => res.json())
         .then(data => data);
+}
+
+function setCurrentCategoryTests(name, subCategory) {
+    currentCategoryTests = tests[name];
+    currentCategoryTests.map((test) => {
+        test.test.map((question, index) => {
+            question.category = testTheme;
+            question.subCategory = subCategory || "",
+            question.title = test.title;
+            question.index = index;
+            return question;
+        })
+    });
 }
 
 function handleClick(event) {
@@ -104,6 +109,7 @@ const actions = {
             setClickedTabActive(category);
             category = category.dataset.category;
         }
+        setCurrentCategoryTests(category);
         
         let testsItemes = createListOfTestsTitles(currentCategoryTests, category);
         let categoriesItemes = createListOfCategories(categories);
@@ -111,15 +117,18 @@ const actions = {
     },
     openCategoryItem(target) {
         let category = target?.dataset.category;
-        let testsItemes = createListOfTestsTitles(tests[category], category);
+        let testsItemes = createListOfTestsTitles(tests[category], category, category);
+        setCurrentCategoryTests(category, category);
         content.innerHTML = `<div class="categories__inner">${testsItemes}</div>`;
     },
     startTest(target) {
         currentTestProgress = {};
-        const { title, category } = target.dataset;
+        const { title, category, subcategory } = target.dataset;
         currentTest = tests[category].find((item) => item.title === title);
         currentTest.category = category;
-        console.log(currentTest);
+        if (subcategory) {
+            currentTest.subCategory = subcategory;
+        }
         startTest();
     },
     handleAnswer(target) {
@@ -175,11 +184,11 @@ function setClickedTabActive(tab) {
     tab.classList.add('active');
 }
 
-function createListOfTestsTitles(items, category) {
+function createListOfTestsTitles(items, category, subCategory) {
     return items.reduce((markup, test) => {
         const { title } = test;
         markup += `
-            <div class="bilet" data-category="${category}" data-title="${title}" data-action="startTest">
+            <div class="bilet" data-category="${category}" data-title="${title}" data-subcategory="${subCategory}" data-action="startTest">
                 <h3>${title}</h3>
             </div>
         `;
@@ -240,11 +249,12 @@ function showCurrentQuestion(index) {
     }
     
     handleNextButton(index);
+    const title  = [currentTest.category, currentTest.title, currentTest?.subCategory].filter((item) => item != "undefined");
 
-    if (currentQuestion.category && currentQuestion.title) {
+    if (title) {
         questionText.innerHTML = `
             <p>
-            <strong id="questionNum">${currentQuestion.category}, ${currentQuestion.title} </strong>
+            <strong id="questionNum">${title}</strong>
             ${currentQuestion.name}
             </p>
         `;
@@ -306,6 +316,7 @@ function _handleAnswer(answerIndex, questionIndex) {
     const currentQuestion = currentTest.test[questionIndex];
     const buttons = content.querySelectorAll('#otvety button');
     const testType = `${currentQuestion.category}, ${currentQuestion.title}`;
+    console.log(currentTest, currentQuestion)
 
     if (!statisticsData[testType]) {
         statisticsData[testType] = {};
@@ -357,7 +368,7 @@ function showResult() {
 
     const results = calculateResult();
     const time = isExam ? Timer.getRemainingTime() : Timer.getTime();
-    const title  = [currentTest.category, currentTest.title].filter((item) => item.trim());
+    const title  = [currentTest.category, currentTest.title, currentTest?.subcategory].filter((item) => item !== "undefined");
     console.log(currentTest);
 
     const template = `
@@ -399,7 +410,7 @@ function calculateResult() {
 
 function getStatisticsData() {
     const data = localStorage.getItem(`${testTheme}__statisticsData`);
-    console.log(2, data);
+    // console.log(2, data);
     if (!data)
         return {};
 
@@ -418,7 +429,7 @@ function showStatistics() {
     const stats = getStatisticsData(),
         data = stats?.results || {},
         total = stats?.total || 1;
-    console.log(data, total);
+    // console.log(data, total);
     // console.log(data, total);
     const cache = {
         correct: 0,
@@ -470,7 +481,6 @@ function getHardTestQuestions() {
     let questionsArray = [];
     currentTestProgress = {};
     let _category = "";
-    // console.log(statisticsData);
     
     for (let key in statisticsData) {
         const [category, testName] = key.split(", ");
