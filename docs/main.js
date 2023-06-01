@@ -46,8 +46,8 @@ const testTheme = document.querySelector("[data-action=openLearningMenu]").datas
 let tests = null;
 let isExam = false;
 let currentTestProgress = {};
-let currentQuestionId = null;
 let testDone = false;
+let statisticsData = {};
 let currentCategoryTests = null;
 let currentTest = null;
 let categories = [
@@ -58,6 +58,7 @@ let categories = [
 ];
 
 async function init() {
+    statisticsData = getStatisticsData();
     tests = await fetchData("./rus.tests.js");
     currentCategoryTests = tests[testTheme];
     document.addEventListener("click", handleClick);
@@ -125,7 +126,7 @@ const actions = {
         content.innerHTML = "Exam";
     },
     openStatisticsMenu() {
-        content.innerHTML = "Statistics";
+        showStatistics();
     },
 };
 
@@ -174,7 +175,6 @@ function showCurrentQuestion(index) {
     const imageElement = content.querySelector(".foto img");
     const leftBlock = content.querySelector("#left");
     let currentQuestion = currentTest.test[index - 1];
-    currentQuestionId = currentQuestion.type;
     
     otvety.innerHTML = "";
     for (let i = 0; i < currentQuestion.buttons.length; i++) {
@@ -256,22 +256,21 @@ function handleNextButton(index) {
 }
 
 function handleAnswer(answerIndex, questionIndex) {
-    console.log(answerIndex, questionIndex);
     const currentNavigation = content.querySelectorAll('.btnQuestion');
     const currentQuestion = currentTest.test[questionIndex];
     const buttons = content.querySelectorAll('#otvety button');
-    const testType = currentQuestion.type;
+    const testType = `${currentTest.category}, ${currentTest.title}`;
 
-    // if (!statisticsData[testType]) {
-    //     statisticsData[testType] = {};
-    // }
-    // if (!statisticsData[testType][currentQuestion.index]) {
-    //     statisticsData[testType][currentQuestion.index] = {
-    //         correct: 0,
-    //         incorrect: 0,
-    //         done: false,
-    //     }
-    // }
+    if (!statisticsData[testType]) {
+        statisticsData[testType] = {};
+    }
+    if (!statisticsData[testType][questionIndex]) {
+        statisticsData[testType][questionIndex] = {
+            correct: 0,
+            incorrect: 0,
+            done: false,
+        }
+    }
 
     const correctAnswerIndex = currentQuestion.buttons.findIndex((button) => {
         return button.seccess;
@@ -282,13 +281,13 @@ function handleAnswer(answerIndex, questionIndex) {
     if (answerIndex === correctAnswerIndex) {
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('verno');
-        // statisticsData[testType][currentQuestion.index].correct++;
-        // statisticsData[testType][currentQuestion.index].done = true;
+        statisticsData[testType][questionIndex].correct++;
+        statisticsData[testType][questionIndex].done = true;
     } else {
         buttons.item(answerIndex).classList.add('Neverno');
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('Neverno');
-        // statisticsData[testType][currentQuestion.index].incorrect++;
+        statisticsData[testType][questionIndex].incorrect++;
     }
 
     currentTestProgress[questionIndex] = {
@@ -305,7 +304,7 @@ function handleAnswer(answerIndex, questionIndex) {
 
     handleNextButton(questionIndex + 1);
 
-    // saveStatistics();
+    saveStatistics();
 }
 
 function showResult() {
@@ -323,7 +322,7 @@ function showResult() {
                 <td>${locale[prefix].time}</td>
             </tr>
             <tr>
-                <td>${currentQuestionId}</td>
+                <td>${currentTest.category}, ${currentTest.title}</td>
                 <td><span class="verno">${results.correct}</span></td>
                 <td><span class="Neverno">${results.incorrect}</span></td>
                 <td>${time}</td>
@@ -349,6 +348,116 @@ function calculateResult() {
         correct: correct,
         incorrect: incorrect,
     };
+}
+
+function getStatisticsData() {
+    const data = localStorage.getItem(`${testTheme}__statisticsData`);
+    if (!data)
+        return {};
+
+    return JSON.parse(data);
+}
+
+function saveStatistics() {
+    const data = JSON.stringify(statisticsData);
+    localStorage.setItem(`${testTheme}__statisticsData`, data);
+}
+
+function showStatistics() {
+    const data = getStatisticsData();
+    console.log(currentTest);
+    const keys = Object.keys(currentTest);
+    console.log(keys);
+    const cache = {
+        AB: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
+        C: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
+        D: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
+        E: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
+        F: {
+            correct: 0,
+            incorrect: 0,
+            done: 0,
+        },
+    };
+    
+    for (let i in data) {
+        let type = i.match(/[a-z]+/i).at(0);
+        if (type === 'total') {
+            continue;
+        }
+        for (let j in data[i]) {
+            cache[type].correct += data[i][j].correct;
+            cache[type].incorrect += data[i][j].incorrect;
+            cache[type].done += data[i][j].done ? 1 : 0;
+        }
+    }
+    
+    const template = `
+        <div class="table-statistics__wrapper">
+            <table class="table table-statistics">
+                <tr>
+                    <td>${locale[prefix].category}</td>
+                    <td>AB</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>${locale[prefix].passedStat}</td>
+                    <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
+                    <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
+                    <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
+                    <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
+                    <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
+                </tr>
+                <tr>
+                    <td>${locale[prefix].correctStat}</td>
+                    <td>${cache.AB.correct}</td>
+                    <td>${cache.C.correct}</td>
+                    <td>${cache.D.correct}</td>
+                    <td>${cache.E.correct}</td>
+                    <td>${cache.F.correct}</td>
+                </tr>
+                <tr>
+                    <td>${locale[prefix].wrongStat}</td>
+                    <td>${cache.AB.incorrect}</td>
+                    <td>${cache.C.incorrect}</td>
+                    <td>${cache.D.incorrect}</td>
+                    <td>${cache.E.incorrect}</td>
+                    <td>${cache.F.incorrect}</td>
+                </tr>
+                <tr>
+                    <td>${locale[prefix].hard}</td>
+                    <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="C"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="D"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="E"></button></td>
+                    <td><button class="btn-statistics" typeQuestoins="F"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="statistics-bottom">
+            <button class="btn btn-remove">${locale[prefix].removeStat}</button>
+        </div>
+    `;
+    contentMain.innerHTML = template;
 }
 
 function scrollTo(element) {
