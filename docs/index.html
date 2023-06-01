@@ -12,7 +12,7 @@
 <body>
     <div id="main">
         <div id="navpdd">
-            <h3 class="elemNavpdd active" contentHtml="menuQuestions">
+            <h3 class="elemNavpdd active" data-action="openLearningMenu" data-category="Вашингтон">
                 <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; width: 1.2em;" xml:space="preserve">
                         <rect x="20.204" y="4" style="fill:#FFFFFF;" width="340.389" height="412.687" />
@@ -58,7 +58,7 @@
                         </g>
                 </svg> Обучение</span>
             </h3>
-            <h3 class="elemNavpdd" contentHtml="examen">
+            <h3 class="elemNavpdd" data-action="openExamenMenu">
                 <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496.158 496.158" style="enable-background:new 0 0 496.158 496.158; width: 1.2em;" xml:space="preserve">
                         <path style="fill:#48A1AF;" d="M0,248.085C0,111.063,111.069,0.003,248.075,0.003c137.013,0,248.083,111.061,248.083,248.082
@@ -103,7 +103,7 @@
                         </g>
                     </svg>
                     Экзамен</span></h3>
-            <h3 class="elemNavpdd" contentHtml="statistica">
+            <h3 class="elemNavpdd" data-action="openStatisticsMenu">
                 <span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001; width: 1.2em;" xml:space="preserve">
                         <rect y="24.45" style="fill:#FF6F52;" width="145.925" height="463.102" />
                         <rect x="183.032" y="252.535" style="fill:#4EBFED;" width="145.925" height="235.004" />
@@ -251,8 +251,8 @@
                 <p>Здесь будет комментарий к вопросу Lorem ipsum dolor sit amet cons</p>
             </div>
             <div id="controls">
-                <button class="btn btn-controls btn-comment">Комментарий</button>
-                <button class="btn btn-controls btn-next">Далее</button>
+                <button style="display: none" class="btn btn-controls btn-comment">Комментарий</button>
+                <button class="btn btn-controls btn-next" data-action="nextQuestion">Далее</button>
             </div>
         </div>
 

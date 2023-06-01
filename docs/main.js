@@ -1,61 +1,68 @@
-let prefix = '';
-if (/(\/ru\/)/ig.test(location.href)) {
-    var questionsALLJSON = await fetchData('./rus.tests.js');
-	prefix = 'ru';
-} else {
-    var questionsALLJSON = await fetchData('./rom.tests.js');
-	prefix = 'rom';
-}
+let prefix = "ru";
+// if (/(\/ru\/)/ig.test(location.href)) {
+//     var questionsALLJSON = await fetchData("./rus.tests.js");
+// 	prefix = "ru";
+// } else {
+//     var questionsALLJSON = await fetchData("./rom.tests.js");
+// 	prefix = "rom";
+// }
+
 const locale = {
 	ru: {
-		category: 'Категория',
-		passedStat: 'Пройдено вопросов',
-		correctStat: 'Правильных ответов',
-		wrongStat: 'Неверных ответов',
-		hard: 'Сложные вопросы',
-		removeStat: 'Удалить статистику',
-		correct: 'Правильно',
-		wrong: 'Неверно',
-		time: 'Время',
-        comment: 'Комментарий',
-        next: 'Далее',
-        finish: 'Завершить'
+		category: "Категория",
+		passedStat: "Пройдено вопросов",
+		correctStat: "Правильных ответов",
+		wrongStat: "Неверных ответов",
+		hard: "Сложные вопросы",
+		removeStat: "Удалить статистику",
+		correct: "Правильно",
+		wrong: "Неверно",
+		time: "Время",
+        comment: "Комментарий",
+        next: "Далее",
+        finish: "Завершить"
 	},
 	rum: {
-		category: 'Categorie',
-		passedStat: 'Au trecut întrebări',
-		correctStat: 'Răspunsuri corecte',
-		wrongStat: 'Răspunsuri greșite',
-		hard: 'Întrebări dificile',
-		removeStat: 'Ștergeți statisticile',
-		correct: 'Corect',
-		wrong: 'Gresit',
-		time: 'Timp',
-        comment: 'Cometariu',
-        next: 'Mai departe',
-        finish: 'A termina'
+		category: "Categorie",
+		passedStat: "Au trecut întrebări",
+		correctStat: "Răspunsuri corecte",
+		wrongStat: "Răspunsuri greșite",
+		hard: "Întrebări dificile",
+		removeStat: "Ștergeți statisticile",
+		correct: "Corect",
+		wrong: "Gresit",
+		time: "Timp",
+        comment: "Cometariu",
+        next: "Mai departe",
+        finish: "A termina"
 	}
 }
-console.log(questionsALLJSON)
-// import {
-//     arrQuestVars,
-//     questionsALLJSON
-// } from './tests.js';
-import Timer from './timer.js';
+import Timer from "./timer.js";
 
-const contentMain = document.querySelector('#contentMain');
-const categories = document.querySelector('#menuQuestions');
-const examenCategories = document.querySelector('#examenQuestions');
-const questionTemplate = document.querySelector('#pddQuestionAsCategory');
-const numQuestions = questionTemplate.querySelector('#numQuestion');
-const examTimerWrapper = questionTemplate.querySelector('.examTimerWrapper');
-let currentTest = null;
-let currentQuestionId = null;
-let currentTestProgress = {};
-let statisticsData = {};
-let testDone = false;
+const content = document.querySelector("#contentMain");
+const questionTemplate = document.querySelector("#pddQuestionAsCategory");
+const testPagination = document.querySelector("#pddQuestionAsCategory #numQuestion");
+const testTheme = document.querySelector("[data-action=openLearningMenu]").dataset.category;
+let tests = null;
 let isExam = false;
+let currentTestProgress = {};
+let currentQuestionId = null;
+let testDone = false;
+let currentCategoryTests = null;
+let currentTest = null;
+let categories = [
+    "Дорожные знаки США",
+    "Примеры тестов CDL",
+    "100 популярных вопросов",
+    "Права на мотоцикл",
+];
 
+async function init() {
+    tests = await fetchData("./rus.tests.js");
+    currentCategoryTests = tests[testTheme];
+    document.addEventListener("click", handleClick);
+    actions.openLearningMenu(testTheme);
+}
 /**
  * 
  * @param {*} url 
@@ -66,324 +73,132 @@ function fetchData(url) {
         .then(res => res.json())
         .then(data => data);
 }
-/**
- * @description инициализирует работу скрипта
- */
-function init() {
-    const fisrtTab = document.querySelector('.elemNavpdd');
-    statisticsData = getStatisticsData();
 
-    setTab(fisrtTab);
-    setCategoriesTestCount();
-    document.addEventListener('click', handleClick);
-}
-/**
- * @description Устанавливает количество вопросов каждой категории
- */
-function setCategoriesTestCount() {
-    const pddCategories = categories.querySelectorAll('.pddCategory');
-    const pddCategoriesExamen = examenCategories.querySelectorAll('.pddCategory');
-    const cache = {};
-
-    statisticsData = getStatisticsData();
-    questionsALLJSON.map((category) => {
-        let key = Object.keys(category).at(0);
-        let count = category[key].length;
-        key = key.match(/[a-z]+/i).at(0);
-        
-        if (!cache[key]) cache[key] = {};
-        if (!cache[key]['total']) cache[key]['total'] = 0;
-        if (!cache[key]['done']) cache[key]['done'] = 0;
-
-        cache[key].total += count;
-    });
-    
-    for (let i in statisticsData) {
-        let type = i.match(/[a-z]+/i).at(0);
-        if (type === 'total') {
-            continue;
-        }
-        for (let j in statisticsData[i]) {
-            cache[type].done += statisticsData[i][j].done ? 1 : 0; 
-        }
-    }
-    
-    pddCategories.forEach((item) => {
-        const type = item.getAttribute('typequestoins');
-        const h3 = item.querySelector('h3');
-        let total = 0;
-
-        if (cache[type]) {
-            total = cache[type]['total'];
-        }
-
-        if (!statisticsData['total']) {
-            statisticsData['total'] = {};
-        }
-
-        if (!statisticsData['total'][type]) {
-            statisticsData['total'][type] = total;
-        }
-
-        if (!total) {
-            item.style.display = 'none';
-        } else {
-            h3.innerHTML = `${cache[type].done} / ${total}`;
-        }
-    });
-
-    pddCategoriesExamen.forEach((item) => {
-        const type = item.getAttribute('typequestoins');
-        const h3 = item.querySelector('h3');
-        let total = 0;
-
-        if (cache[type]) {
-            total = cache[type]['total'];
-        }
-
-        if (!total) {
-            item.style.display = 'none';
-        }
-    });
-}
-/**
- * 
- * @param {*} element элемент, к которому нужно прокрутить
- */
-function scrollTo(element) {
-    const offsetTop = element.offsetTop;
-    window.scroll({
-        top: offsetTop, 
-        left: 0, 
-        behavior: 'smooth'
-    });
-}
-/**
- * 
- * @param {*} category номер билета. Пример, AB1
- * @returns количество вопросов в билете
- */
-function countQuestionsInCategory(category) {
-    return questionsALLJSON.find((item) => {
-        return Object.keys(item).includes(category)
-    })[category].length;
-}
-/**
- * 
- * @param {*} element тип контента
- * @description Вставляем на странице определенный контент
- */
-function setContent(element) {
-    const type = element.getAttribute('contenthtml');
-    switch (type) {
-        case 'menuQuestions':
-            examTimerWrapper.classList.add('dnone');
-            setCategoriesTestCount();
-            contentMain.innerHTML = categories.innerHTML;
-            isExam = false;
-            break;
-        case 'examen':
-            examTimerWrapper.classList.add('dnone');
-            contentMain.innerHTML = examenCategories.innerHTML;
-            isExam = true;
-            break;
-        case 'statistica':
-            examTimerWrapper.classList.add('dnone');
-            showStatistics();
-            isExam = false;
-            break;
-        case 'pddCategory':
-            const examLong = element.getAttribute('examLong');
-            if (!examLong)
-                setCategoryContent(element);
-            else
-                setExamQuestions(element);
-            break;
-        default:
-            contentMain.innerHTML = categories.innerHTML;
-            break
-    }
-}
-/**
- * 
- * @param {*} element кнопка категории, которую нужно запустить
- * @description генерируем вопросы для экзамена по необходимому типу и запускаем тест
- */
-function setExamQuestions(element) {
-    const type = element.getAttribute('typeQuestoins');
-    const examLong = +element.getAttribute('examLong');
-    const questionsCount = +element.getAttribute('questionsCount');
-
-    let questionsArray = [];
-    currentTestProgress = {};
-    currentTest = [];
-    
-    questionsArray = questionsALLJSON.filter((test, i) => {
-        let key = Object.keys(test).at(0);
-        return key.match(/[a-z]+/i).at(0) == type;
-    });
-
-    for (let i = 0; i < questionsCount; i++) {
-        const typeIndex = random(questionsArray.length);
-        const test = questionsArray[typeIndex];
-        const type = Object.keys(test).at(0);
-        const questions = questionsArray[typeIndex][type];
-        const questionIndex = random(questions.length);
-        let question = questions[questionIndex];
-
-        question['index'] = questionIndex;
-        question['type'] = type;
-        currentTest.push(question);
+function handleClick(event) {
+    const target = event.target.closest("[data-action]") || event.target,
+        actionName = target.dataset.action;
+    if (!actionName) {
+        return;
     }
 
-    examTimerWrapper.classList.remove('dnone');
-    setTest();
-    Timer.startCountdown(0, examLong, 0, contentMain.querySelector('.examTimerWrapper .timer'));
-    Timer.bindToTimeout(function() {
-        contentMain.querySelector('.examTimerWrapper .timer').classList.add('Neverno');
-        const buttons = contentMain.querySelectorAll('#otvety button');
-        buttons.forEach((button) => button.disabled = true);
-        testDone = true;
-        handleNextButton(0);
-    });
+    actions[actionName] && actions[actionName](target);
 }
-/**
- * 
- * @param {*} number 
- * @returns возращает случайное число, до указанного
- */
-function random(number) {
-    return Math.floor(Math.random() * number);
+
+const actions = {
+    openLearningMenu(category) {
+        isExam = false;
+        if (typeof category === "object") {
+            category = category.dataset.category;
+        }
+        let testsItemes = createListOfTestsTitles(currentCategoryTests, category);
+        let categoriesItemes = createListOfCategories(categories);
+        content.innerHTML = `<div class="categories__inner">${testsItemes}${categoriesItemes}</div>`;
+    },
+    openCategoryItem(target) {
+        let category = target?.dataset.category;
+        let testsItemes = createListOfTestsTitles(tests[category], category);
+        content.innerHTML = `<div class="categories__inner">${testsItemes}</div>`;
+    },
+    startTest(target) {
+        currentTestProgress = {};
+        const { title, category } = target.dataset;
+        currentTest = tests[category].find((item) => item.title === title);
+        currentTest.category = category;
+        console.log(currentTest);
+        startTest();
+    },
+    handleAnswer(target) {
+        const answerIndex = target.getAttribute('numberanswer');
+        const questionIndex = target.getAttribute('curquestion');
+        handleAnswer(Number(answerIndex), Number(questionIndex - 1));
+    },
+    nextQuestion() {
+        nextQuestion();
+    },
+    openQuestion(target) {
+        const index = Number(target.getAttribute('question-id'));
+        updateNavigation(index);
+        showCurrentQuestion(index);
+    },
+    openExamenMenu() {
+        isExam = true;
+        content.innerHTML = "Exam";
+    },
+    openStatisticsMenu() {
+        content.innerHTML = "Statistics";
+    },
+};
+
+function createListOfTestsTitles(items, category) {
+    return items.reduce((markup, test) => {
+        const { title } = test;
+        markup += `
+            <div class="bilet" data-category="${category}" data-title="${title}" data-action="startTest">
+                <h3>${title}</h3>
+            </div>
+        `;
+        return markup;
+    }, "");
 }
-/**
- * 
- * @param {*} tab вкладка на которую нажали
- * @description Делаем нажатую вкладку активной
- */
-function setTab(tab) {
-    let tabs = document.querySelectorAll('.elemNavpdd');
 
-    tabs.forEach((element) => {
-        element.classList.remove('active');
-    });
-        
-    tab.classList.add('active');
-
-    setContent(tab);
+function createListOfCategories(items) {
+    return items.reduce((markup, title) => {
+        markup += `
+            <div class="bilet" data-action="openCategoryItem" data-category="${title}">
+                <h3>${title}</h3>
+            </div>
+        `;
+        return markup;
+    }, "");
 }
-/**
- * 
- * @param {*} button кнопка на которую нажали
- * @description Создаем кнопки и вставляем их в основной контент
- */
-function setCategoryContent(button) {
-    const categoryType = button.getAttribute('typeQuestoins');
-    const wrapper = document.createElement('div');
-    const cache = {};
-    let count = questionsALLJSON.filter((category) => {
-        let key = Object.keys(category).at(0);
-        key = key.match(/[a-z]+/i).at(0);
-        return key === categoryType;
-    }).length;
 
-    wrapper.setAttribute('id', 'biletNums');
-
-    // countQuestionsInCategory('AB1')
-
-    contentMain.innerHTML = '';
-    
-    for (let key in statisticsData) {
-        if (key === 'total') {
-            continue;
-        }
-        let type = key.match(/[a-z]+/i).at(0);
-        let index = key.match(/[0-9]+/i).at(0);
-        if (!cache[type]) {
-            cache[type] = {};
-        }
-        
-        for (let idx in statisticsData[key]) {
-            if (!cache[type][index]) {
-                cache[type][index] = 0;
-            }
-            if (statisticsData[key][idx].done) {
-                cache[type][index]++;
-            }
-        }
-    }
-
-    for (let i = 1; i < count + 1; i++) {
-        let item = document.createElement('div');
-        let check = cache[categoryType];
-        let count = 0;
-        let className = '';
-
-        if (check) {
-            check = check[i];
-        }
-
-        if (check !== undefined) {
-            count = countQuestionsInCategory(categoryType + i);
-            className = count - check <= 2 ? 'verno' : 'Neverno';
-        }
-
-        item.innerHTML = `<div class="bilet ${className}" biletType=${categoryType} biletNum=${i}><h3>${i}</h3></div>`;
-        wrapper.append(item.firstChild);
-    }
-    contentMain.append(wrapper);
-}
-/**
- * 
- * @description Запускаем тест
- */
-function setTest() {
+function startTest() {
     testDone = false;
-    setTestNavigationButtons();
-    contentMain.innerHTML = questionTemplate.innerHTML;
+    testPagination.innerHTML = createPagination();
+    content.innerHTML = questionTemplate.innerHTML;
     showCurrentQuestion(1);
     Timer.start();
 }
-/**
- * 
- * @param {*} index номер вопроса
- * @param {*} testId номер билета
- * @description Заполняет данными текущий вопрос на странице
- */
+
+function createPagination() {
+    let pagination = "";
+    for (let i = 1; i <= currentTest.test.length; i++) {
+        pagination += `<div class="btnQuestion ${i == 1 ? "active" : ""}" question-id="${i}" data-action="openQuestion">${i}</div>`;
+    }
+    return pagination;
+}
+
 function showCurrentQuestion(index) {
-    const otvety = contentMain.querySelector('#otvety');
-    const questionText = contentMain.querySelector('.question');
-    const imageElement = contentMain.querySelector('.foto img');
-    const commentElement = contentMain.querySelector('#comment');
-    const showCommentElement = contentMain.querySelector('.btn-comment');
-    const currentQuestion = currentTest[index - 1];
+    const otvety = content.querySelector("#otvety");
+    const questionText = content.querySelector(".question");
+    const imageElement = content.querySelector(".foto img");
+    const leftBlock = content.querySelector("#left");
+    let currentQuestion = currentTest.test[index - 1];
     currentQuestionId = currentQuestion.type;
     
-    otvety.innerHTML = '';
+    otvety.innerHTML = "";
     for (let i = 0; i < currentQuestion.buttons.length; i++) {
         const text = currentQuestion.buttons[i].text;
-        otvety.innerHTML += `<button numberAnswer="${i}" CurQuestion="${index}" type="button" class="btn btn-answer btn-default">${text}</button>`;
+        otvety.innerHTML += `<button numberAnswer="${i}" CurQuestion="${index}" type="button" class="btn btn-answer btn-default" data-action="handleAnswer">${text}</button>`;
     }
 
     if (testDone) {
-        const buttons = contentMain.querySelectorAll('#otvety button');
+        const buttons = content.querySelectorAll("#otvety button");
         buttons.forEach((button) => button.disabled = true);
     }
-    
-    imageElement.src = currentQuestion.image;
-    commentElement.classList.add('dnone');
 
-    if (currentQuestion.comment) {
-        showCommentElement.classList.remove('dnone');
-        commentElement.innerHTML = `<p>${currentQuestion.comment}</p>`;
+    if (currentQuestion.image) {
+        leftBlock.style.display = "block";
+        imageElement.src = currentQuestion.image;
     } else {
-        showCommentElement.classList.add('dnone');
+        leftBlock.style.display = "none";
     }
     
     handleNextButton(index);
 
     questionText.innerHTML = `
         <p>
-        <strong id="questionNum">${currentQuestion.type} </strong>
+        <strong id="questionNum">${currentTest.category}, ${currentTest.title} </strong>
         ${currentQuestion.name}
         </p>
     `;
@@ -394,64 +209,69 @@ function showCurrentQuestion(index) {
 
     const {currentAnswer} = currentTestProgress[index - 1];
     handleAnswer(currentAnswer, Number(index - 1));
-    // contentMain.innerHTML = questionTemplate.innerHTML;
 }
-/**
- * 
- * @param {*} index номер следующего вопроса
- * @description Заменяет текст кнопку далее 
- */
+
+function nextQuestion() {
+    const activeNavigationButton = content.querySelector('.btnQuestion.active');
+    const navigationButtons = Array.from(content.querySelectorAll('.btnQuestion'));
+    let index = [].indexOf.call(navigationButtons, activeNavigationButton) + 1;
+
+    index = Math.max(1, (index + 1) % (currentTest.test.length + 1));
+    let nextIndex = Math.max(1, (index + 1) % (currentTest.test.length + 1));
+    console.log(index);
+    let nextQuestion = navigationButtons[index - 1];
+    while (nextQuestion.classList.contains('verno') ||
+        nextQuestion.classList.contains('Neverno')) {
+        index = Math.max(1, (index + 1) % (currentTest.test.length + 1));
+        nextQuestion = navigationButtons[index - 1];
+        if (nextQuestion.classList.contains('active')) {
+            break;
+        }
+    }
+
+    setTimeout(() => scrollTo(content), 300);
+
+    if (testDone) {
+        showResult();
+        return;
+    }
+
+    updateNavigation(index);
+    showCurrentQuestion(index);
+}
+
+function updateNavigation(index) {
+    const currentNavigation = content.querySelectorAll('.btnQuestion');
+    const currentNavigationButton = content.querySelector(`.btnQuestion[question-id="${index}"]`);
+    currentNavigation.forEach((item) => item.classList.remove('active'));
+    currentNavigationButton.classList.add('active');
+}
+
 function handleNextButton(index) {
-    const nextQuestionElement = contentMain.querySelector('.btn-next');
-    nextQuestionElement.setAttribute('nextQuestion', index + 1);
+    const nextQuestionElement = content.querySelector(".btn-next");
+    nextQuestionElement.setAttribute("nextQuestion", index + 1);
     if (testDone) {
         nextQuestionElement.innerHTML = locale[prefix].finish;        
     }
 }
-/**
- * 
- * @param {*} index номер текущего вопроса
- * @description подсвечивает текущий вопрос в навигации
- */
-function updateNavigation(index) {
-    const currentNavigation = contentMain.querySelectorAll('.btnQuestion');
-    const currentNavigationButton = contentMain.querySelector(`.btnQuestion[question-id="${index}"]`);
-    currentNavigation.forEach((item) => item.classList.remove('active'));
-    currentNavigationButton.classList.add('active');
-}
-/**
- * 
- * @param {*} testId Идентификатор
- */
-function setTestNavigationButtons() {
-    numQuestions.innerHTML = '';
-    for (let i = 1; i <= currentTest.length; i++) {
-        numQuestions.innerHTML += `<div class="btnQuestion ${i == 1 ? 'active' : ''}" question-id="${i}">${i}</div>`;
-    }
-}
-/**
- * 
- * @param {*} answerIndex номер варианта ответа
- * @param {*} questionIndex номер вопроса
- */
+
 function handleAnswer(answerIndex, questionIndex) {
-    const currentNavigation = contentMain.querySelectorAll('.btnQuestion');
-    const commentElement = contentMain.querySelector('#comment');
-    const currentQuestion = currentTest[questionIndex];
-    const showCommentElement = contentMain.querySelector('.btn-comment');
-    const buttons = contentMain.querySelectorAll('#otvety button');
+    console.log(answerIndex, questionIndex);
+    const currentNavigation = content.querySelectorAll('.btnQuestion');
+    const currentQuestion = currentTest.test[questionIndex];
+    const buttons = content.querySelectorAll('#otvety button');
     const testType = currentQuestion.type;
 
-    if (!statisticsData[testType]) {
-        statisticsData[testType] = {};
-    }
-    if (!statisticsData[testType][currentQuestion.index]) {
-        statisticsData[testType][currentQuestion.index] = {
-            correct: 0,
-            incorrect: 0,
-            done: false,
-        }
-    }
+    // if (!statisticsData[testType]) {
+    //     statisticsData[testType] = {};
+    // }
+    // if (!statisticsData[testType][currentQuestion.index]) {
+    //     statisticsData[testType][currentQuestion.index] = {
+    //         correct: 0,
+    //         incorrect: 0,
+    //         done: false,
+    //     }
+    // }
 
     const correctAnswerIndex = currentQuestion.buttons.findIndex((button) => {
         return button.seccess;
@@ -462,13 +282,13 @@ function handleAnswer(answerIndex, questionIndex) {
     if (answerIndex === correctAnswerIndex) {
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('verno');
-        statisticsData[testType][currentQuestion.index].correct++;
-        statisticsData[testType][currentQuestion.index].done = true;
+        // statisticsData[testType][currentQuestion.index].correct++;
+        // statisticsData[testType][currentQuestion.index].done = true;
     } else {
         buttons.item(answerIndex).classList.add('Neverno');
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('Neverno');
-        statisticsData[testType][currentQuestion.index].incorrect++;
+        // statisticsData[testType][currentQuestion.index].incorrect++;
     }
 
     currentTestProgress[questionIndex] = {
@@ -476,83 +296,18 @@ function handleAnswer(answerIndex, questionIndex) {
         correctAnswer: correctAnswerIndex,
     };
 
-    if (Object.keys(currentTestProgress).length === currentTest.length) {
+    if (Object.keys(currentTestProgress).length === currentTest.test.length) {
         testDone = true;
     } else {
         testDone = false;
     }
+    console.log(currentTestProgress);
 
     handleNextButton(questionIndex + 1);
 
-    commentElement.classList.remove('dnone');
-    showCommentElement.classList.add('dnone');
-
-    saveStatistics();
+    // saveStatistics();
 }
-/**
- * @description сохраняем данные в хранилище
- */
-function saveStatistics() {
-    const data = JSON.stringify(statisticsData);
-    localStorage.setItem(`${prefix}__statisticsData`, data);
-}
-/**
- * 
- * @returns получаем данные их хранилища
- */
-function getStatisticsData() {
-    const data = localStorage.getItem(`${prefix}__statisticsData`);
-    if (!data)
-        return {};
 
-    return JSON.parse(data);
-}
-/**
- * 
- * @param {*} target кнопка, на которую нажали
- * @description Обработка нажатий кнопок управления
- */
-function handleControls(target) {
-    const type = target.classList.contains('btn-comment') ? 'comment' : 'next';
-
-    switch(type) {
-        case 'comment':
-            const commentElement = contentMain.querySelector('#comment');
-            commentElement.classList.toggle('dnone');
-        break;
-        case 'next':
-            const activeNavigationButton = contentMain.querySelector('.btnQuestion.active');
-            const navigationButtons = Array.from(contentMain.querySelectorAll('.btnQuestion'));
-            let index = [].indexOf.call(navigationButtons, activeNavigationButton) + 1;
-
-            index = Math.max(1, (index + 1) % (currentTest.length + 1));
-            let nextIndex = Math.max(1, (index + 1) % (currentTest.length + 1));
-
-            let nextQuestion = navigationButtons[index - 1];
-            while (nextQuestion.classList.contains('verno') ||
-                nextQuestion.classList.contains('Neverno')) {
-                index = Math.max(1, (index + 1) % (currentTest.length + 1));
-                nextQuestion = navigationButtons[index - 1];
-                if (nextQuestion.classList.contains('active')) {
-                    break;
-                }
-            }
-
-            setTimeout(() => scrollTo(contentMain), 300);
-
-            if (testDone) {
-                showResult();
-                return;
-            }
-
-            updateNavigation(index);
-            showCurrentQuestion(index);
-        break;
-    }
-}
-/**
- * @description Показать результаты теста
- */
 function showResult() {
     Timer.stop();
 
@@ -577,106 +332,7 @@ function showResult() {
     `;
     contentMain.innerHTML = template;
 }
-/**
- * @description Показать статистику
- */
-function showStatistics() {
-    const data = getStatisticsData();
-    const cache = {
-        AB: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        C: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        D: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        E: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        F: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-    };
-    
-    for (let i in data) {
-        let type = i.match(/[a-z]+/i).at(0);
-        if (type === 'total') {
-            continue;
-        }
-        for (let j in data[i]) {
-            cache[type].correct += data[i][j].correct;
-            cache[type].incorrect += data[i][j].incorrect;
-            cache[type].done += data[i][j].done ? 1 : 0;
-        }
-    }
-    
-    const template = `
-        <div class="table-statistics__wrapper">
-            <table class="table table-statistics">
-                <tr>
-                    <td>${locale[prefix].category}</td>
-                    <td>AB</td>
-                    <td>C</td>
-                    <td>D</td>
-                    <td>E</td>
-                    <td>F</td>
-                </tr>
-                <tr>
-                    <td>${locale[prefix].passedStat}</td>
-                    <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
-                    <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
-                    <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
-                    <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
-                    <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
-                </tr>
-                <tr>
-                    <td>${locale[prefix].correctStat}</td>
-                    <td>${cache.AB.correct}</td>
-                    <td>${cache.C.correct}</td>
-                    <td>${cache.D.correct}</td>
-                    <td>${cache.E.correct}</td>
-                    <td>${cache.F.correct}</td>
-                </tr>
-                <tr>
-                    <td>${locale[prefix].wrongStat}</td>
-                    <td>${cache.AB.incorrect}</td>
-                    <td>${cache.C.incorrect}</td>
-                    <td>${cache.D.incorrect}</td>
-                    <td>${cache.E.incorrect}</td>
-                    <td>${cache.F.incorrect}</td>
-                </tr>
-                <tr>
-                    <td>${locale[prefix].hard}</td>
-                    <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="C"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="D"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="E"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="F"></button></td>
-                </tr>
-            </table>
-        </div>
-        <div class="statistics-bottom">
-            <button class="btn btn-remove">${locale[prefix].removeStat}</button>
-        </div>
-    `;
-    contentMain.innerHTML = template;
-}
-/**
- * 
- * @returns Подсчитываем кол-во правильных и неправильных ответов
- */
+
 function calculateResult() {
     let correct = 0;
     let incorrect = 0;
@@ -694,113 +350,14 @@ function calculateResult() {
         incorrect: incorrect,
     };
 }
-/**
- * 
- * @param {*} event это значение передается при нажатии клика на элемент
- */
-function handleClick(event) {
-    let target = event.target;
-    if (checkClass(target, 'elemNavpdd')) {
-        setTab(
-            getElementWithClass(target, 'elemNavpdd')
-        );
-    }
-    if (checkClass(target, 'pddCategory')) {
-        setContent(
-            getElementWithClass(target, 'pddCategory')
-        );
-    }
-    if (checkClass(target, 'bilet')) {
-        target = getElementWithClass(target, 'bilet');
-        const testType = target.getAttribute('bilettype');
-        const testNumber = target.getAttribute('biletnum');
-        const testId = testType + testNumber;
-        let questionsArray = [];
-        currentTestProgress = {};
-        questionsArray = questionsALLJSON.filter((test) => testId in test).at(0);
-        currentTest = questionsArray[testId];
-        currentTest.map((item, i) => {
-            item.index = i;
-            item.type = testId;
-        });
-        setTest();
-    }
-    if (checkClass(target, 'btnQuestion')) {
-        const index = Number(target.getAttribute('question-id'));
-        updateNavigation(index);
-        showCurrentQuestion(index);
-    }
-    if (checkClass(target, 'btn-answer')) {
-        const answerIndex = target.getAttribute('numberanswer');
-        const questionIndex = target.getAttribute('curquestion');
-        handleAnswer(Number(answerIndex), Number(questionIndex - 1));
-    }
-    if (checkClass(target, 'btn-controls')) {
-        handleControls(target);
-    }
-    if (checkClass(target, 'btn-statistics')) {
-        let type = target.getAttribute('typeQuestoins');
-        let questionsArray = getHardTestQuestions(type);
 
-        if (questionsArray.length === 0)
-            return;
-        
-        currentTest = questionsArray;
-        setTest();
-    }
-    if (checkClass(target, 'btn-remove')) {
-        localStorage.clear();
-        showStatistics();
-    }
-}
-/**
- * 
- * @param {*} type тип вопроса
- * @returns массив вопросов, на которые не смогли ответить
- */
-function getHardTestQuestions(type) {
-    let questionsArray = [];
-    currentTestProgress = {};
-    for (let key in statisticsData) {
-        let parsedKey = key.match(/[a-z]+/i).at(0);
-        if (key === 'total' || type != parsedKey) {
-            continue;
-        }
-        
-        for (let i in statisticsData[key]) {
-            let arr = questionsALLJSON.filter((test) => key in test).at(0);
-            if (!statisticsData[key][i].done) {
-                let question = arr[key].at(i);
-                question.type = key;
-                question.index = i;
-                questionsArray.push(question);
-            }
-        }
-    }
-
-    return questionsArray;
-}
-/**
- * 
- * @param {*} target элемент, на который нажали
- * @param {*} className имя класса, наличие которого хотим проверить
- * @returns Возвращает true, если текущий элемент или родительский содержит указанный класс
- */
-function checkClass(target, className) {
-    return target.classList.contains(className) ||
-        target.closest(`.${className}`);
-}
-/**
- * 
- * @param {*} target элемент, на который нажали
- * @param {*} className имя класса, наличие которого хотим проверить
- * @returns Возвращает ближайший элемент, который содержит указанный класс
- */
-function getElementWithClass(target, className) {
-    if (target.classList.contains(className))
-        return target;
-    
-    return target.closest(`.${className}`);
+function scrollTo(element) {
+    const offsetTop = element.offsetTop;
+    window.scroll({
+        top: offsetTop, 
+        left: 0, 
+        behavior: 'smooth'
+    });
 }
 
 init();
