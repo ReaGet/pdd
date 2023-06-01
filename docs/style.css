@@ -246,6 +246,15 @@ img{
     color: #fff;
 }
 
+.btn-start {
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #2a8098;
+    color: #fff;
+    text-align: center;
+}
+
 #controls .btn-comment {
     align-self: flex-start;
 }
@@ -254,7 +263,7 @@ img{
     margin-left: auto;
 }
 
-#controls .btn:hover {
+#controls .btn:hover, .btn-start:hover {
     background-color: #235e6e;
 }
 

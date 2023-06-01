@@ -20,7 +20,8 @@ const locale = {
 		time: "Время",
         comment: "Комментарий",
         next: "Далее",
-        finish: "Завершить"
+        finish: "Завершить",
+        exam: "Экзамен",
 	},
 	rum: {
 		category: "Categorie",
@@ -34,7 +35,8 @@ const locale = {
 		time: "Timp",
         comment: "Cometariu",
         next: "Mai departe",
-        finish: "A termina"
+        finish: "A termina",
+        exam: "Examen",
 	}
 }
 import Timer from "./timer.js";
@@ -42,6 +44,7 @@ import Timer from "./timer.js";
 const content = document.querySelector("#contentMain");
 const questionTemplate = document.querySelector("#pddQuestionAsCategory");
 const testPagination = document.querySelector("#pddQuestionAsCategory #numQuestion");
+const examTimerWrapper = questionTemplate.querySelector('.examTimerWrapper');
 const testTheme = document.querySelector("[data-action=openLearningMenu]").dataset.category;
 let tests = null;
 let isExam = false;
@@ -61,9 +64,10 @@ async function init() {
     tests = await fetchData("./rus.tests.js");
     currentCategoryTests = tests[testTheme];
     currentCategoryTests.map((test) => {
-        test.test.map((question) => {
+        test.test.map((question, index) => {
             question.category = testTheme;
             question.title = test.title;
+            question.index = index;
             return question;
         })
     });
@@ -94,10 +98,13 @@ function handleClick(event) {
 
 const actions = {
     openLearningMenu(category) {
+        examTimerWrapper.classList.add('dnone');
         isExam = false;
         if (typeof category === "object") {
+            setClickedTabActive(category);
             category = category.dataset.category;
         }
+        
         let testsItemes = createListOfTestsTitles(currentCategoryTests, category);
         let categoriesItemes = createListOfCategories(categories);
         content.innerHTML = `<div class="categories__inner">${testsItemes}${categoriesItemes}</div>`;
@@ -118,7 +125,7 @@ const actions = {
     handleAnswer(target) {
         const answerIndex = target.getAttribute('numberanswer');
         const questionIndex = target.getAttribute('curquestion');
-        handleAnswer(Number(answerIndex), Number(questionIndex - 1));
+        _handleAnswer(Number(answerIndex), Number(questionIndex - 1));
     },
     nextQuestion() {
         nextQuestion();
@@ -128,23 +135,45 @@ const actions = {
         updateNavigation(index);
         showCurrentQuestion(index);
     },
-    openExamenMenu() {
+    openExamenMenu(target) {
+        examTimerWrapper.classList.add('dnone');
         isExam = true;
-        content.innerHTML = "Exam";
+        setClickedTabActive(target);
+        content.innerHTML = "<div class='btn btn-start' data-action='startExam'>Начать экзамен</div>";
     },
-    openStatisticsMenu() {
+    startExam() {
+        _startExam();
+    },
+    openStatisticsMenu(target) {
+        examTimerWrapper.classList.add('dnone');
+        setClickedTabActive(target);
         showStatistics();
     },
     solveMistakes() {
         currentTest = getHardTestQuestions();
+        if (currentTest.test.length === 0) {
+            return;
+        }
         console.log(currentTest)
         startTest();
     },
     clearStats() {
-        localStorage.clear();
+        // localStorage.clear();
+        localStorage.removeItem(`${testTheme}__statisticsData`);
+        statisticsData = {};
         showStatistics();
     }
 };
+
+function setClickedTabActive(tab) {
+    let tabs = document.querySelectorAll('.elemNavpdd');
+
+    tabs.forEach((element) => {
+        element.classList.remove('active');
+    });
+        
+    tab.classList.add('active');
+}
 
 function createListOfTestsTitles(items, category) {
     return items.reduce((markup, test) => {
@@ -226,7 +255,7 @@ function showCurrentQuestion(index) {
     }
 
     const {currentAnswer} = currentTestProgress[index - 1];
-    handleAnswer(currentAnswer, Number(index - 1));
+    _handleAnswer(currentAnswer, Number(index - 1));
 }
 
 function nextQuestion() {
@@ -236,7 +265,6 @@ function nextQuestion() {
 
     index = Math.max(1, (index + 1) % (currentTest.test.length + 1));
     let nextIndex = Math.max(1, (index + 1) % (currentTest.test.length + 1));
-    console.log(index);
     let nextQuestion = navigationButtons[index - 1];
     while (nextQuestion.classList.contains('verno') ||
         nextQuestion.classList.contains('Neverno')) {
@@ -273,19 +301,17 @@ function handleNextButton(index) {
     }
 }
 
-function handleAnswer(answerIndex, questionIndex) {
+function _handleAnswer(answerIndex, questionIndex) {
     const currentNavigation = content.querySelectorAll('.btnQuestion');
     const currentQuestion = currentTest.test[questionIndex];
     const buttons = content.querySelectorAll('#otvety button');
     const testType = `${currentQuestion.category}, ${currentQuestion.title}`;
 
-    console.log(statisticsData[testType][questionIndex]);
-
     if (!statisticsData[testType]) {
         statisticsData[testType] = {};
     }
-    if (!statisticsData[testType][questionIndex]) {
-        statisticsData[testType][questionIndex] = {
+    if (!statisticsData[testType][currentQuestion.index]) {
+        statisticsData[testType][currentQuestion.index] = {
             correct: 0,
             incorrect: 0,
             done: false,
@@ -301,13 +327,13 @@ function handleAnswer(answerIndex, questionIndex) {
     if (answerIndex === correctAnswerIndex) {
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('verno');
-        statisticsData[testType][questionIndex].correct++;
-        statisticsData[testType][questionIndex].done = true;
+        statisticsData[testType][currentQuestion.index].correct++;
+        statisticsData[testType][currentQuestion.index].done = true;
     } else {
         buttons.item(answerIndex).classList.add('Neverno');
         buttons.item(correctAnswerIndex).classList.add('verno');
         currentNavigation.item(questionIndex).classList.add('Neverno');
-        statisticsData[testType][questionIndex].incorrect++;
+        statisticsData[testType][currentQuestion.index].incorrect++;
     }
 
     currentTestProgress[questionIndex] = {
@@ -331,6 +357,8 @@ function showResult() {
 
     const results = calculateResult();
     const time = isExam ? Timer.getRemainingTime() : Timer.getTime();
+    const title  = [currentTest.category, currentTest.title].filter((item) => item.trim());
+    console.log(currentTest);
 
     const template = `
         <table class="table">
@@ -341,7 +369,7 @@ function showResult() {
                 <td>${locale[prefix].time}</td>
             </tr>
             <tr>
-                <td>${currentTest.category}, ${currentTest.title}</td>
+                <td>${title.join(", ")}</td>
                 <td><span class="verno">${results.correct}</span></td>
                 <td><span class="Neverno">${results.incorrect}</span></td>
                 <td>${time}</td>
@@ -371,6 +399,7 @@ function calculateResult() {
 
 function getStatisticsData() {
     const data = localStorage.getItem(`${testTheme}__statisticsData`);
+    console.log(2, data);
     if (!data)
         return {};
 
@@ -389,7 +418,7 @@ function showStatistics() {
     const stats = getStatisticsData(),
         data = stats?.results || {},
         total = stats?.total || 1;
-
+    console.log(data, total);
     // console.log(data, total);
     const cache = {
         correct: 0,
@@ -440,26 +469,76 @@ function showStatistics() {
 function getHardTestQuestions() {
     let questionsArray = [];
     currentTestProgress = {};
-    console.log(currentCategoryTests);
+    let _category = "";
+    // console.log(statisticsData);
     
     for (let key in statisticsData) {
         const [category, testName] = key.split(", ");
-        console.log(category, testName);
+        _category = category;
+        // console.log(category, testName);
         for (let index in statisticsData[key]) {
             // console.log(statisticsData[key][index], statisticsData[key][index].done);
             if (!statisticsData[key][index].done) {
-                // console.log(typeof statisticsData[key][index].done)
+                // console.log(statisticsData[key][index])
                 const test = currentCategoryTests.find((item) => item.title === testName);
                 const question = test.test[index];
+                question.index = index;
                 questionsArray.push(question);
-                console.log(222222, key, index, question);
+                // console.log(222222, key, index, question);
             }
         }
     }
 
     return {
         test: questionsArray,
+        category: _category,
+        title: "",
     };
+}
+
+function _startExam() {
+    const examLong = 50;
+    const questionsCount = 5;
+
+    currentTestProgress = {};
+    currentTest = [];
+    const examTest = {
+        category:locale[prefix].exam,
+        test: [],
+        title: '',
+    };
+
+    console.log(currentCategoryTests);
+    
+    // questionsArray = currentCategoryTests.filter((test, i) => {
+    //     let key = Object.keys(test).at(0);
+    //     return key.match(/[a-z]+/i).at(0) == type;
+    // });
+
+    for (let i = 0; i < questionsCount; i++) {
+        const typeIndex = random(currentCategoryTests.length);
+        const test = currentCategoryTests[typeIndex];
+        console.log(test);
+        const questions = test.test;
+        const questionIndex = random(questions.length);
+        let question = questions[questionIndex];
+        console.log(question);
+
+        question['index'] = questionIndex;
+        examTest.test.push(question);
+    }
+
+    currentTest = examTest;
+    examTimerWrapper.classList.remove('dnone');
+    startTest();
+    Timer.startCountdown(0, examLong, 0, contentMain.querySelector('.examTimerWrapper .timer'));
+    Timer.bindToTimeout(function() {
+        contentMain.querySelector('.examTimerWrapper .timer').classList.add('Neverno');
+        const buttons = contentMain.querySelectorAll('#otvety button');
+        buttons.forEach((button) => button.disabled = true);
+        testDone = true;
+        handleNextButton(0);
+    });
 }
 
 function scrollTo(element) {
@@ -469,6 +548,10 @@ function scrollTo(element) {
         left: 0, 
         behavior: 'smooth'
     });
+}
+
+function random(number) {
+    return Math.floor(Math.random() * number);
 }
 
 init();
