@@ -58,9 +58,16 @@ let categories = [
 ];
 
 async function init() {
-    statisticsData = getStatisticsData();
     tests = await fetchData("./rus.tests.js");
     currentCategoryTests = tests[testTheme];
+    currentCategoryTests.map((test) => {
+        test.test.map((question) => {
+            question.category = testTheme;
+            question.title = test.title;
+            return question;
+        })
+    });
+    statisticsData = getStatisticsData()?.results || {};
     document.addEventListener("click", handleClick);
     actions.openLearningMenu(testTheme);
 }
@@ -128,6 +135,15 @@ const actions = {
     openStatisticsMenu() {
         showStatistics();
     },
+    solveMistakes() {
+        currentTest = getHardTestQuestions();
+        console.log(currentTest)
+        startTest();
+    },
+    clearStats() {
+        localStorage.clear();
+        showStatistics();
+    }
 };
 
 function createListOfTestsTitles(items, category) {
@@ -196,12 +212,14 @@ function showCurrentQuestion(index) {
     
     handleNextButton(index);
 
-    questionText.innerHTML = `
-        <p>
-        <strong id="questionNum">${currentTest.category}, ${currentTest.title} </strong>
-        ${currentQuestion.name}
-        </p>
-    `;
+    if (currentQuestion.category && currentQuestion.title) {
+        questionText.innerHTML = `
+            <p>
+            <strong id="questionNum">${currentQuestion.category}, ${currentQuestion.title} </strong>
+            ${currentQuestion.name}
+            </p>
+        `;
+    }
 
     if (!currentTestProgress[index - 1]) {
         return;
@@ -259,7 +277,9 @@ function handleAnswer(answerIndex, questionIndex) {
     const currentNavigation = content.querySelectorAll('.btnQuestion');
     const currentQuestion = currentTest.test[questionIndex];
     const buttons = content.querySelectorAll('#otvety button');
-    const testType = `${currentTest.category}, ${currentTest.title}`;
+    const testType = `${currentQuestion.category}, ${currentQuestion.title}`;
+
+    console.log(statisticsData[testType][questionIndex]);
 
     if (!statisticsData[testType]) {
         statisticsData[testType] = {};
@@ -300,7 +320,6 @@ function handleAnswer(answerIndex, questionIndex) {
     } else {
         testDone = false;
     }
-    console.log(currentTestProgress);
 
     handleNextButton(questionIndex + 1);
 
@@ -355,7 +374,10 @@ function getStatisticsData() {
     if (!data)
         return {};
 
-    return JSON.parse(data);
+    return {
+        results: JSON.parse(data),
+        total: currentCategoryTests.reduce((c, item) => (c += item.test.length), 0),
+    };
 }
 
 function saveStatistics() {
@@ -364,47 +386,22 @@ function saveStatistics() {
 }
 
 function showStatistics() {
-    const data = getStatisticsData();
-    console.log(currentTest);
-    const keys = Object.keys(currentTest);
-    console.log(keys);
+    const stats = getStatisticsData(),
+        data = stats?.results || {},
+        total = stats?.total || 1;
+
+    // console.log(data, total);
     const cache = {
-        AB: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        C: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        D: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        E: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
-        F: {
-            correct: 0,
-            incorrect: 0,
-            done: 0,
-        },
+        correct: 0,
+        incorrect: 0,
+        done: 0,
     };
     
     for (let i in data) {
-        let type = i.match(/[a-z]+/i).at(0);
-        if (type === 'total') {
-            continue;
-        }
         for (let j in data[i]) {
-            cache[type].correct += data[i][j].correct;
-            cache[type].incorrect += data[i][j].incorrect;
-            cache[type].done += data[i][j].done ? 1 : 0;
+            cache.correct += data[i][j].correct;
+            cache.incorrect += data[i][j].incorrect;
+            cache.done += data[i][j].done ? 1 : 0;
         }
     }
     
@@ -413,51 +410,56 @@ function showStatistics() {
             <table class="table table-statistics">
                 <tr>
                     <td>${locale[prefix].category}</td>
-                    <td>AB</td>
-                    <td>C</td>
-                    <td>D</td>
-                    <td>E</td>
-                    <td>F</td>
+                    <td style="width: 50%">${testTheme}</td>
                 </tr>
                 <tr>
                     <td>${locale[prefix].passedStat}</td>
-                    <td>${Math.round(cache.AB.done / (data.total?.AB || 1)  * 100)}%</td>
-                    <td>${Math.round(cache.C.done / (data.total?.C || 1) * 100)}%</td>
-                    <td>${Math.round(cache.D.done / (data.total?.D || 1) * 100)}%</td>
-                    <td>${Math.round(cache.E.done / (data.total?.E || 1) * 100)}%</td>
-                    <td>${Math.round(cache.F.done / (data.total?.F || 1) * 100)}%</td>
+                    <td style="width: 50%">${Math.round(cache.done / (total || 1)  * 100)}%</td>
                 </tr>
                 <tr>
                     <td>${locale[prefix].correctStat}</td>
-                    <td>${cache.AB.correct}</td>
-                    <td>${cache.C.correct}</td>
-                    <td>${cache.D.correct}</td>
-                    <td>${cache.E.correct}</td>
-                    <td>${cache.F.correct}</td>
+                    <td style="width: 50%">${cache.correct}</td>
                 </tr>
                 <tr>
                     <td>${locale[prefix].wrongStat}</td>
-                    <td>${cache.AB.incorrect}</td>
-                    <td>${cache.C.incorrect}</td>
-                    <td>${cache.D.incorrect}</td>
-                    <td>${cache.E.incorrect}</td>
-                    <td>${cache.F.incorrect}</td>
+                    <td style="width: 50%">${cache.incorrect}</td>
                 </tr>
                 <tr>
                     <td>${locale[prefix].hard}</td>
-                    <td><button class="btn-statistics" typeQuestoins="AB"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="C"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="D"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="E"></button></td>
-                    <td><button class="btn-statistics" typeQuestoins="F"></button></td>
+                    <td style="width: 50%"><button class="btn-statistics" data-action="solveMistakes"></button></td>
                 </tr>
             </table>
         </div>
         <div class="statistics-bottom">
-            <button class="btn btn-remove">${locale[prefix].removeStat}</button>
+            <button class="btn btn-remove" data-action="clearStats">${locale[prefix].removeStat}</button>
         </div>
     `;
     contentMain.innerHTML = template;
+}
+
+function getHardTestQuestions() {
+    let questionsArray = [];
+    currentTestProgress = {};
+    console.log(currentCategoryTests);
+    
+    for (let key in statisticsData) {
+        const [category, testName] = key.split(", ");
+        console.log(category, testName);
+        for (let index in statisticsData[key]) {
+            // console.log(statisticsData[key][index], statisticsData[key][index].done);
+            if (!statisticsData[key][index].done) {
+                // console.log(typeof statisticsData[key][index].done)
+                const test = currentCategoryTests.find((item) => item.title === testName);
+                const question = test.test[index];
+                questionsArray.push(question);
+                console.log(222222, key, index, question);
+            }
+        }
+    }
+
+    return {
+        test: questionsArray,
+    };
 }
 
 function scrollTo(element) {
