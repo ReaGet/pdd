@@ -241,7 +241,7 @@ function showCurrentQuestion(index) {
         buttons.forEach((button) => button.disabled = true);
     }
 
-    imageElement.src = currentQuestion.image || "/src/img/noimage.jpg";
+    imageElement.src = currentQuestion.image || "./noimage.png";
 
     // if (currentQuestion.image) {
     //     leftBlock.style.display = "block";
@@ -254,9 +254,14 @@ function showCurrentQuestion(index) {
     const title  = [currentQuestion.category, currentQuestion.title, currentQuestion?.subCategory].filter((item) => item);
 
     if (title) {
+        // questionText.innerHTML = `
+        //     <p>
+        //     <strong id="questionNum">${title.join(", ")}</strong>
+        //     ${currentQuestion.name}
+        //     </p>
+        // `;
         questionText.innerHTML = `
             <p>
-            <strong id="questionNum">${title.join(", ")}</strong>
             ${currentQuestion.name}
             </p>
         `;

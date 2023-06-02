@@ -56,13 +56,6 @@ let currentTest = null;
 let categories = [];
 
 async function init() {
-    if (/(\/ru\/)/ig.test(location.href)) {
-        tests = await fetchData("https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js");
-    	prefix = "ru";
-    } else {
-        tests = await fetchData("https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js");
-    	prefix = "rom";
-    }
     // tests = await fetchData("./rus.tests2.js");
     setCurrentCategoryTests(testTheme);
     statisticsData = getStatisticsData()?.results || {};
@@ -243,12 +236,14 @@ function showCurrentQuestion(index) {
         buttons.forEach((button) => button.disabled = true);
     }
 
-    if (currentQuestion.image) {
-        leftBlock.style.display = "block";
-        imageElement.src = currentQuestion.image;
-    } else {
-        leftBlock.style.display = "none";
-    }
+    imageElement.src = currentQuestion.image || "./noimage.png";
+
+    // if (currentQuestion.image) {
+    //     leftBlock.style.display = "block";
+    //     imageElement.src = currentQuestion.image;
+    // } else {
+    //     leftBlock.style.display = "none";
+    // }
     
     handleNextButton(index);
     const title  = [currentQuestion.category, currentQuestion.title, currentQuestion?.subCategory].filter((item) => item);
