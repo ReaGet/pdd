@@ -1,9 +1,9 @@
 let prefix = "ru";
 // if (/(\/ru\/)/ig.test(location.href)) {
-//     var questionsALLJSON = await fetchData("./rus.tests.js");
+//     var tests = await fetchData("./rus.tests2.js");
 // 	prefix = "ru";
 // } else {
-//     var questionsALLJSON = await fetchData("./rom.tests.js");
+//     var tests = await fetchData("./rus.tests2.js");
 // 	prefix = "rom";
 // }
 
@@ -23,7 +23,7 @@ const locale = {
         finish: "Завершить",
         exam: "Экзамен",
 	},
-	rum: {
+	rom: {
 		category: "Categorie",
 		passedStat: "Au trecut întrebări",
 		correctStat: "Răspunsuri corecte",
@@ -53,15 +53,17 @@ let testDone = false;
 let statisticsData = {};
 let currentCategoryTests = null;
 let currentTest = null;
-let categories = [
-    "Дорожные знаки США",
-    "Примеры тестов CDL",
-    "100 популярных вопросов",
-    "Права на мотоцикл",
-];
+let categories = [];
 
 async function init() {
-    tests = await fetchData("./rus.tests2.js");
+    if (/(\/ru\/)/ig.test(location.href)) {
+        tests = await fetchData("https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js");
+    	prefix = "ru";
+    } else {
+        tests = await fetchData("https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js");
+    	prefix = "rom";
+    }
+    // tests = await fetchData("./rus.tests2.js");
     setCurrentCategoryTests(testTheme);
     statisticsData = getStatisticsData()?.results || {};
     document.addEventListener("click", handleClick);
@@ -445,7 +447,7 @@ function showStatistics() {
             cache.done += data[i][j].done ? 1 : 0;
         }
     }
-    
+    console.log(prefix, locale)
     const template = `
         <div class="table-statistics__wrapper">
             <table class="table table-statistics">

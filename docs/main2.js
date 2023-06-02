@@ -61,7 +61,7 @@ let categories = [
 ];
 
 async function init() {
-    tests = await fetchData("./rus.tests2.js");
+    tests = await fetchData("./rus.tests.js");
     setCurrentCategoryTests(testTheme);
     statisticsData = getStatisticsData()?.results || {};
     document.addEventListener("click", handleClick);
