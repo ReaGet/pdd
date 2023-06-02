@@ -55,9 +55,9 @@ let currentCategoryTests = null;
 let currentTest = null;
 let categories = [
     "Дорожные знаки США",
-    "Примеры тестов CDL",
+    // "Примеры тестов CDL",
     "100 популярных вопросов",
-    "Права на мотоцикл",
+    // "Права на мотоцикл",
 ];
 
 async function init() {
@@ -241,12 +241,14 @@ function showCurrentQuestion(index) {
         buttons.forEach((button) => button.disabled = true);
     }
 
-    if (currentQuestion.image) {
-        leftBlock.style.display = "block";
-        imageElement.src = currentQuestion.image;
-    } else {
-        leftBlock.style.display = "none";
-    }
+    imageElement.src = currentQuestion.image || "/src/img/noimage.jpg";
+
+    // if (currentQuestion.image) {
+    //     leftBlock.style.display = "block";
+    //     imageElement.src = currentQuestion.image || "/src/img/noimage.jpg";
+    // } else {
+    //     leftBlock.style.display = "none";
+    // }
     
     handleNextButton(index);
     const title  = [currentQuestion.category, currentQuestion.title, currentQuestion?.subCategory].filter((item) => item);
