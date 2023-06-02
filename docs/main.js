@@ -163,7 +163,7 @@ const actions = {
         if (currentTest.test.length === 0) {
             return;
         }
-        console.log(currentTest)
+        // console.log(currentTest)
         startTest();
     },
     clearStats() {
@@ -249,12 +249,12 @@ function showCurrentQuestion(index) {
     }
     
     handleNextButton(index);
-    const title  = [currentTest.category, currentTest.title, currentTest?.subCategory].filter((item) => item != "undefined");
+    const title  = [currentQuestion.category, currentQuestion.title, currentQuestion?.subCategory].filter((item) => item);
 
     if (title) {
         questionText.innerHTML = `
             <p>
-            <strong id="questionNum">${title}</strong>
+            <strong id="questionNum">${title.join(", ")}</strong>
             ${currentQuestion.name}
             </p>
         `;
@@ -315,8 +315,9 @@ function _handleAnswer(answerIndex, questionIndex) {
     const currentNavigation = content.querySelectorAll('.btnQuestion');
     const currentQuestion = currentTest.test[questionIndex];
     const buttons = content.querySelectorAll('#otvety button');
-    const testType = `${currentQuestion.category}, ${currentQuestion.title}`;
-    console.log(currentTest, currentQuestion)
+    // const testType = `${currentQuestion.category}, ${currentQuestion.title}`;
+    const testType = [currentQuestion.category, currentQuestion.title, currentQuestion.subCategory].filter((item) => item).join(",");
+    // console.log(currentTest, currentQuestion, testType)
 
     if (!statisticsData[testType]) {
         statisticsData[testType] = {};
@@ -368,8 +369,8 @@ function showResult() {
 
     const results = calculateResult();
     const time = isExam ? Timer.getRemainingTime() : Timer.getTime();
-    const title  = [currentTest.category, currentTest.title, currentTest?.subcategory].filter((item) => item !== "undefined");
-    console.log(currentTest);
+    const title  = [currentTest.category].filter((item) => item !== "undefined");
+    // console.log(currentTest);
 
     const template = `
         <table class="table">
@@ -483,16 +484,24 @@ function getHardTestQuestions() {
     let _category = "";
     
     for (let key in statisticsData) {
-        const [category, testName] = key.split(", ");
+        const [category, testName, subCategory] = key.split(",");
         _category = category;
         // console.log(category, testName);
         for (let index in statisticsData[key]) {
             // console.log(statisticsData[key][index], statisticsData[key][index].done);
             if (!statisticsData[key][index].done) {
                 // console.log(statisticsData[key][index])
-                const test = currentCategoryTests.find((item) => item.title === testName);
+                // console.log(tests, currentCategoryTests)
+                let test = tests[category].find((item) => item.title === testName);
+                if (!test) {
+                    test = tests[subCategory].find((item) => item.title === testName);
+                }
                 const question = test.test[index];
                 question.index = index;
+                question.category = category;
+                if (subCategory) {
+                    question.subCategory = subCategory;
+                }
                 questionsArray.push(question);
                 // console.log(222222, key, index, question);
             }
@@ -508,7 +517,7 @@ function getHardTestQuestions() {
 
 function _startExam() {
     const examLong = 50;
-    const questionsCount = 5;
+    const questionsCount = 40;
 
     currentTestProgress = {};
     currentTest = [];
@@ -518,7 +527,7 @@ function _startExam() {
         title: '',
     };
 
-    console.log(currentCategoryTests);
+    // console.log(currentCategoryTests);
     
     // questionsArray = currentCategoryTests.filter((test, i) => {
     //     let key = Object.keys(test).at(0);
@@ -526,15 +535,23 @@ function _startExam() {
     // });
 
     for (let i = 0; i < questionsCount; i++) {
-        const typeIndex = random(currentCategoryTests.length);
-        const test = currentCategoryTests[typeIndex];
-        console.log(test);
+        const cats = [...categories, testTheme];
+        const catIndex = random(cats.length);
+        const _test = tests[cats[catIndex]];
+        const typeIndex = random(_test.length);
+        // console.log(_test, 123123);
+        const test = _test[typeIndex];
+        // console.log(test);
         const questions = test.test;
         const questionIndex = random(questions.length);
         let question = questions[questionIndex];
-        console.log(question);
+        // console.log(question);
 
-        question['index'] = questionIndex;
+        question.index = questionIndex;
+        question.category = testTheme;
+        if (cats[catIndex] !== testTheme) {
+            question.subCategory = cats[catIndex];
+        }
         examTest.test.push(question);
     }
 
