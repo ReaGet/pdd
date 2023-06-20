@@ -53,6 +53,8 @@ let testDone = false;
 let statisticsData = {};
 let currentCategoryTests = null;
 let currentTest = null;
+let currentTestTotalCorrect = 0;
+let currentTestType = '';
 let categories = [];
 
 async function init() {
@@ -124,6 +126,7 @@ const actions = {
         if (subcategory) {
             currentTest.subCategory = subcategory;
         }
+        currentTestType = "test";
         startTest();
     },
     handleAnswer(target) {
@@ -147,6 +150,7 @@ const actions = {
     },
     startExam() {
         _startExam();
+        currentTestType = "exam";
     },
     openStatisticsMenu(target) {
         examTimerWrapper.classList.add('dnone');
@@ -154,10 +158,12 @@ const actions = {
         showStatistics();
     },
     solveMistakes() {
+        console.log("mistakes")
         currentTest = getHardTestQuestions();
         if (currentTest.test.length === 0) {
             return;
         }
+        currentTestType = "mistakes";
         // console.log(currentTest)
         startTest();
     },
@@ -180,10 +186,24 @@ function setClickedTabActive(tab) {
 }
 
 function createListOfTestsTitles(items, category, subCategory) {
+    // console.log(statisticsData)
     return items.reduce((markup, test) => {
+        const currentQuestion = test.test[0];
+        // console.log(currentQuestion);
+        const testType = [currentQuestion.category, currentQuestion.title, currentQuestion.subCategory].filter((item) => item).join(",");
+        // console.log(test, statisticsData[testType], testType);
+        const testCache = statisticsData[testType];
+        let passedClassname = '';
+        if (testCache) {
+            if (testCache.totalCorrect >= test.threshold) {
+                passedClassname = "verno";
+            } else {
+                passedClassname = "Neverno";
+            }
+        } 
         const { title } = test;
         markup += `
-            <div class="bilet" data-category="${category}" data-title="${title}" data-subcategory="${subCategory}" data-action="startTest">
+            <div class="bilet ${passedClassname}" data-category="${category}" data-title="${title}" data-subcategory="${subCategory}" data-action="startTest">
                 <h3>${title}</h3>
             </div>
         `;
@@ -206,6 +226,7 @@ function startTest() {
     testDone = false;
     testPagination.innerHTML = createPagination();
     content.innerHTML = questionTemplate.innerHTML;
+    currentTestTotalCorrect = 0;
     showCurrentQuestion(1);
     Timer.start();
 }
@@ -235,12 +256,12 @@ function showCurrentQuestion(index) {
         const buttons = content.querySelectorAll("#otvety button");
         buttons.forEach((button) => button.disabled = true);
     }
-    
-    imageElement.src = currentQuestion.image || "https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/noimage.png";
+
+    imageElement.src = currentQuestion.image || "./noimage.png";
 
     // if (currentQuestion.image) {
     //     leftBlock.style.display = "block";
-    //     imageElement.src = currentQuestion.image;
+    //     imageElement.src = currentQuestion.image || "/src/img/noimage.jpg";
     // } else {
     //     leftBlock.style.display = "none";
     // }
@@ -343,6 +364,7 @@ function _handleAnswer(answerIndex, questionIndex) {
         currentNavigation.item(questionIndex).classList.add('verno');
         statisticsData[testType][currentQuestion.index].correct++;
         statisticsData[testType][currentQuestion.index].done = true;
+        currentTestTotalCorrect++;
     } else {
         buttons.item(answerIndex).classList.add('Neverno');
         buttons.item(correctAnswerIndex).classList.add('verno');
@@ -361,18 +383,33 @@ function _handleAnswer(answerIndex, questionIndex) {
         testDone = false;
     }
 
+    statisticsData[testType].totalCorrect = currentTestTotalCorrect;
+
     handleNextButton(questionIndex + 1);
 
     saveStatistics();
 }
 
 function showResult() {
+    const currentQuestion = currentTest.test[0];
+    const testType = [currentQuestion.category, currentQuestion.title, currentQuestion.subCategory].filter((item) => item).join(",");
+
     Timer.stop();
 
     const results = calculateResult();
+    let testPassed = false;
+    if (results.correct >= currentTest.threshold) {
+        testPassed = true;
+    }
     const time = isExam ? Timer.getRemainingTime() : Timer.getTime();
     const title  = [currentTest.category].filter((item) => item !== "undefined");
-    // console.log(currentTest);
+
+    // statisticsData[testType].totalCorrect = results.correct;
+    // saveStatistics();
+    let hiddenClass = "";
+    if (currentTestType === "mistakes") {
+        hiddenClass = "hidden";
+    }
 
     const template = `
         <table class="table">
@@ -389,6 +426,9 @@ function showResult() {
                 <td>${time}</td>
             </tr>
         </table>
+        <div class="${hiddenClass}" style="width: 100%; padding: 20px 0; text-align: center; font-weight: bold;">
+            ${testPassed ? "Вы прошли тест" : "Вы не прошли тест"}
+        </div>
     `;
     contentMain.innerHTML = template;
 }
@@ -439,15 +479,18 @@ function showStatistics() {
         incorrect: 0,
         done: 0,
     };
-    
+    // console.log(stats);
     for (let i in data) {
         for (let j in data[i]) {
-            cache.correct += data[i][j].correct;
-            cache.incorrect += data[i][j].incorrect;
+            console.log(data[i][j].correct);
+            cache.correct += (data[i][j].correct > 0 ? data[i][j].correct : 0);
+            cache.incorrect += (data[i][j].incorrect > 0 ? data[i][j].incorrect : 0);
             cache.done += data[i][j].done ? 1 : 0;
         }
     }
-    console.log(prefix, locale)
+    
+    // console.log(cache);
+    
     const template = `
         <div class="table-statistics__wrapper">
             <table class="table table-statistics">
@@ -490,11 +533,15 @@ function getHardTestQuestions() {
         _category = category;
         // console.log(category, testName);
         for (let index in statisticsData[key]) {
+            if (isNaN(Number(index))) {
+                continue;
+            }
             // console.log(statisticsData[key][index], statisticsData[key][index].done);
             if (!statisticsData[key][index].done) {
                 // console.log(statisticsData[key][index])
                 // console.log(tests, currentCategoryTests)
                 let test = tests[category].find((item) => item.title === testName);
+                // console.log(category,2, subCategory, test);
                 if (!test) {
                     test = tests[subCategory].find((item) => item.title === testName);
                 }
@@ -509,10 +556,11 @@ function getHardTestQuestions() {
             }
         }
     }
-
+    
     return {
         test: questionsArray,
         category: _category,
+        threshold: Math.round(questionsArray.length * 0.8),
         title: "",
     };
 }
