@@ -137,6 +137,9 @@ img{
     color: #fff;
     background-color: #58b9da;
 }
+.bilet h3 {
+    padding: 0;
+}
 .foto{
     padding-right: 5%;
 }
@@ -178,6 +181,9 @@ img{
 .Neverno{
     background-color: red !important;
     color: white;
+}
+.hidden {
+    display: none;
 }
 .question {
     /* margin: 0.5em;

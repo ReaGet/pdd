@@ -56,7 +56,7 @@ let currentTest = null;
 let categories = [];
 
 async function init() {
-    // tests = await fetchData("./rus.tests2.js");
+    tests = await fetchData("https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js");
     setCurrentCategoryTests(testTheme);
     statisticsData = getStatisticsData()?.results || {};
     document.addEventListener("click", handleClick);
@@ -235,8 +235,8 @@ function showCurrentQuestion(index) {
         const buttons = content.querySelectorAll("#otvety button");
         buttons.forEach((button) => button.disabled = true);
     }
-
-    imageElement.src = currentQuestion.image || "./noimage.png";
+    
+    imageElement.src = currentQuestion.image || "https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/noimage.png";
 
     // if (currentQuestion.image) {
     //     leftBlock.style.display = "block";
@@ -249,9 +249,14 @@ function showCurrentQuestion(index) {
     const title  = [currentQuestion.category, currentQuestion.title, currentQuestion?.subCategory].filter((item) => item);
 
     if (title) {
+        // questionText.innerHTML = `
+        //     <p>
+        //     <strong id="questionNum">${title.join(", ")}</strong>
+        //     ${currentQuestion.name}
+        //     </p>
+        // `;
         questionText.innerHTML = `
             <p>
-            <strong id="questionNum">${title.join(", ")}</strong>
             ${currentQuestion.name}
             </p>
         `;

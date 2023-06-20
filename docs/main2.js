@@ -55,13 +55,13 @@ let currentCategoryTests = null;
 let currentTest = null;
 let categories = [
     "Дорожные знаки США",
-    "Примеры тестов CDL",
+    // "Примеры тестов CDL",
     "100 популярных вопросов",
-    "Права на мотоцикл",
+    // "Права на мотоцикл",
 ];
 
 async function init() {
-    tests = await fetchData("./rus.tests.js");
+    tests = await fetchData("./rus.tests2.js");
     setCurrentCategoryTests(testTheme);
     statisticsData = getStatisticsData()?.results || {};
     document.addEventListener("click", handleClick);
@@ -240,21 +240,28 @@ function showCurrentQuestion(index) {
         const buttons = content.querySelectorAll("#otvety button");
         buttons.forEach((button) => button.disabled = true);
     }
+    
+    imageElement.src = currentQuestion.image || "./noimage.png";
 
-    if (currentQuestion.image) {
-        leftBlock.style.display = "block";
-        imageElement.src = currentQuestion.image;
-    } else {
-        leftBlock.style.display = "none";
-    }
+    // if (currentQuestion.image) {
+    //     leftBlock.style.display = "block";
+    //     imageElement.src = currentQuestion.image;
+    // } else {
+    //     leftBlock.style.display = "none";
+    // }
     
     handleNextButton(index);
     const title  = [currentQuestion.category, currentQuestion.title, currentQuestion?.subCategory].filter((item) => item);
 
     if (title) {
+        // questionText.innerHTML = `
+        //     <p>
+        //     <strong id="questionNum">${title.join(", ")}</strong>
+        //     ${currentQuestion.name}
+        //     </p>
+        // `;
         questionText.innerHTML = `
             <p>
-            <strong id="questionNum">${title.join(", ")}</strong>
             ${currentQuestion.name}
             </p>
         `;
