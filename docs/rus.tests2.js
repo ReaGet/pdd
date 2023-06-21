@@ -94,7 +94,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -125,7 +125,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -156,7 +156,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -172,7 +172,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъезжают к нерегулируемому перекрестку, у кого из них преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-650x200.jpg",
             "buttons": [{
                 "text": "1) У автомобиля справа (2)",
                 "seccess": true
@@ -263,7 +263,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -324,7 +324,7 @@
             }]
         }, {
             "name": "Что следует сделать перед знаком \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться остановиться, если потребуется",
                 "seccess": true
@@ -355,7 +355,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -389,7 +389,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -469,7 +469,7 @@
             }]
         }, {
             "name": "Знак \"медленный транспорт должен ехать справа\" (Slower Traffic Keep Right) используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-194-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-194-650x200.jpg",
             "buttons": [{
                 "text": "1) На многополосных магистралях",
                 "seccess": true
@@ -500,7 +500,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди поворот направо",
                 "seccess": false
@@ -531,7 +531,7 @@
             }]
         }, {
             "name": "Что означают знаки в форме вымпела?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Znaki-v-forme-vympela-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znaki-v-forme-vympela-650x200.jpg",
             "buttons": [{
                 "text": "1) Школьный переход",
                 "seccess": false
@@ -577,7 +577,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-29-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-29-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди дорожные работы. Справа объездной путь.",
                 "seccess": false
@@ -593,7 +593,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Не пересекайте велодорожку",
                 "seccess": false
@@ -624,7 +624,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) Боковая дорога справа",
                 "seccess": false
@@ -655,7 +655,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-137-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-137-650x200.jpg",
             "buttons": [{
                 "text": "1) Водители, поворачивающие направо, должны пропустить велосипедистов на велодорожке",
                 "seccess": true
@@ -791,7 +791,7 @@
             }]
         }, {
             "name": "Вы собираетесь повернуть налево с односторонней улицы на другую одностороннюю улицу с двумя рядами. Вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Povorot-nalevo-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-nalevo-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть в правый ряд (2)",
                 "seccess": false
@@ -807,7 +807,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворачивать налево запрещено",
                 "seccess": false
@@ -973,7 +973,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-191-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-191-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди сокращение количества полос",
                 "seccess": false
@@ -989,7 +989,7 @@
             }]
         }, {
             "name": "Этот знак сообщает водителям о том, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-112-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-112-650x200.jpg",
             "buttons": [{
                 "text": "1) Они должны повернуть налево на перекрестке",
                 "seccess": false
@@ -1069,7 +1069,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Рядом деловой район, следите за пешеходами",
                 "seccess": false
@@ -1100,7 +1100,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Переход запрещен",
                 "seccess": false
@@ -1131,7 +1131,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъезжают к нерегулируемому перекрестку, у кого из них преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-650x200.jpg",
             "buttons": [{
                 "text": "1) У автомобиля справа (2)",
                 "seccess": true
@@ -1147,7 +1147,7 @@
             }]
         }, {
             "name": "Увидев знак в форме ромба, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Znak-v-forme-romba-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znak-v-forme-romba-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться",
                 "seccess": false
@@ -1163,7 +1163,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди разделитель полос движения",
                 "seccess": false
@@ -1179,7 +1179,7 @@
             }]
         }, {
             "name": "Красный автомобиль (1), поворачивающий налево, должен:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу пешеходам на тротуаре и автомобилям",
                 "seccess": true
@@ -1195,7 +1195,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусам и автомобилям запрещено перемещаться по выделенной полосе",
                 "seccess": false
@@ -1286,7 +1286,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди однополосный мост",
                 "seccess": false
@@ -1467,7 +1467,7 @@
             }]
         }, {
             "name": "Белые вертикальные знаки прямоугольной формы сообщают водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -1498,7 +1498,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавьте скорость: впереди резкий поворот",
                 "seccess": false
@@ -1529,7 +1529,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Левый поворот запрещен",
                 "seccess": false
@@ -1545,7 +1545,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) На обочине мягкий грунт",
                 "seccess": false
@@ -1561,7 +1561,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Одностороннее движение заканчивается",
                 "seccess": false
@@ -1607,7 +1607,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-012-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-012-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -1822,7 +1822,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу грузовикам, идущим с холма справа",
                 "seccess": false
@@ -1838,7 +1838,7 @@
             }]
         }, {
             "name": "Автомобили 1, 2, 3 одновременно подъехали к перекрестку. Кто из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль, который поворачивает налево (1) должен пропустить автомобили движущиеся прямо и направо",
                 "seccess": true
@@ -1869,7 +1869,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-021-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-021-650x200.jpg",
             "buttons": [{
                 "text": "1) Ж/Д переезд для транспорта с высоким клиренсом",
                 "seccess": false
@@ -1900,7 +1900,7 @@
             }]
         }, {
             "name": "Вы (1) подъехали к перекрестку одновременно с другим водителем (2) и оба собираетесь ехать прямо. У кого из вас право проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) У вас",
                 "seccess": false
@@ -1916,7 +1916,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещено парковаться в 8:30 утра и в 5:30 вечера",
                 "seccess": false
@@ -1932,7 +1932,7 @@
             }]
         }, {
             "name": "Знак \"Yield\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавьте скорость и уступите транспорту, пересекающему ваш путь",
                 "seccess": true
@@ -1978,7 +1978,7 @@
             }]
         }, {
             "name": "В каких местах установлены данные знаки:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) На правой стороне дороги, лицом к водителю",
                 "seccess": false
@@ -2009,7 +2009,7 @@
             }]
         }, {
             "name": "Знак \"Парковка запрещена\" (\"No Parking\") означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-121-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-121-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещена парковка в любое время",
                 "seccess": false
@@ -2025,7 +2025,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога впереди делает резкий поворот направо",
                 "seccess": false
@@ -2041,7 +2041,7 @@
             }]
         }, {
             "name": "Что означает знак \"Soft Shoulder\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-009-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-009-650x200.jpg",
             "buttons": [{
                 "text": "1) Грунтовая обочина",
                 "seccess": true
@@ -2162,7 +2162,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться, если это необходимо",
                 "seccess": true
@@ -2377,7 +2377,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди знак \"STOP\"",
                 "seccess": true
@@ -2393,7 +2393,7 @@
             }]
         }, {
             "name": "При приближении к транспорту, на задней части которого установлен светоотражающий оранжевый треугольник, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-13-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-13-650x200.jpg",
             "buttons": [{
                 "text": "1) Двигаться сбоку от него в той же полосе, с той же скоростью, что и он",
                 "seccess": false
@@ -2544,7 +2544,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Правая полоса заканчивается",
                 "seccess": false
@@ -2695,7 +2695,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-057-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-057-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди церковь",
                 "seccess": false
@@ -2711,7 +2711,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-111-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-111-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны повернуть налево",
                 "seccess": false
@@ -2742,7 +2742,7 @@
             }]
         }, {
             "name": "Некоторые полосы на скоростных шоссе, маркированные знаком ромба, предназначены для:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Машин карпулинга и транспорта с высокой вместительностью (High-occupancy vehicle)",
                 "seccess": true
@@ -2927,7 +2927,7 @@
             }]
         }, {
             "name": "Что означает знак, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-075-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-075-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": false
@@ -3108,7 +3108,7 @@
             }]
         }, {
             "name": "Вы хотите повернуть направо на перекрестке, на котором установлен данный знак. Вам нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-03-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-03-650x200.jpg",
             "buttons": [{
                 "text": "1) Дождаться зеленого сигнала",
                 "seccess": false
@@ -3139,7 +3139,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-134-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-134-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди дорожные работы и на проезжей части могут находиться рабочие",
                 "seccess": true
@@ -3185,7 +3185,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной изгиб дороги",
                 "seccess": false
@@ -3201,7 +3201,7 @@
             }]
         }, {
             "name": "Форму пятиугольника имеет знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Znak-pyatiugolnoj-formy-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znak-pyatiugolnoj-formy-1-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусной остановки",
                 "seccess": false
@@ -3232,7 +3232,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-077-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-077-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо запрещен",
                 "seccess": false
@@ -3278,7 +3278,7 @@
             }]
         }, {
             "name": "Вы (1) собираетесь повернуть налево на перекрестке, встречный автомобиль (2) движется по прямой. Вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-pri-levom-povorote-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-pri-levom-povorote-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть, потому что у вас преимущество проезда",
                 "seccess": false
@@ -3429,7 +3429,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) Ограничение скорости в ночное время 45 миль/ч",
                 "seccess": true
@@ -3445,7 +3445,7 @@
             }]
         }, {
             "name": "Что означает знак \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Нужно остановиться",
                 "seccess": false
@@ -3461,7 +3461,7 @@
             }]
         }, {
             "name": "Дорожный знак восьмиугольной формы означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Будьте готовы к возможной опасности впереди",
                 "seccess": false
@@ -4005,7 +4005,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак STOP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -4036,7 +4036,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -4082,7 +4082,7 @@
             }]
         }, {
             "name": "Что следует сделать перед знаком \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться остановиться, если потребуется",
                 "seccess": true
@@ -4113,7 +4113,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -4144,7 +4144,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -4160,7 +4160,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -4236,7 +4236,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -4267,7 +4267,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -4283,7 +4283,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -4329,7 +4329,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -4442,7 +4442,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди парковка для велосипедов",
                 "seccess": false
@@ -4455,7 +4455,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт может двигаться только в направлении указанном стрелкой",
                 "seccess": true
@@ -4513,7 +4513,7 @@
             }]
         }, {
             "name": "Этот знак относится к:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-194-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-194-650x200.jpg",
             "buttons": [{
                 "text": "1) Знакам ограничения скорости",
                 "seccess": false
@@ -4526,7 +4526,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть на обочину",
                 "seccess": false
@@ -4560,7 +4560,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановитесь и уступите другому транспорту",
                 "seccess": false
@@ -4630,7 +4630,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны остановиться перед железнодорожными путями и дождаться сигнала регулировщика",
                 "seccess": false
@@ -4643,7 +4643,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-044-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-044-650x200.jpg",
             "buttons": [{
                 "text": "1) Сокращение числа полос",
                 "seccess": false
@@ -4656,7 +4656,7 @@
             }]
         }, {
             "name": "Поворачивая с двухполосного шоссе на четырехполосное, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/04/povorot-s-dvuhpolosnogo-shosse-na-chetyrehpolosnoe-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/povorot-s-dvuhpolosnogo-shosse-na-chetyrehpolosnoe-1-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть на правую полосу, с левой стороны от центральной разделительной линии (1)",
                 "seccess": false
@@ -4714,7 +4714,7 @@
             }]
         }, {
             "name": "Когда водители видят желтый Х-образный сигнал (2), они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться и поменять полосу движения, когда это будет безопасно",
                 "seccess": true
@@ -4775,7 +4775,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Справа к шоссе примыкает еще одна дорога",
                 "seccess": true
@@ -4800,7 +4800,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-191-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-191-650x200.jpg",
             "buttons": [{
                 "text": "1) Держитесь справа от разделителя",
                 "seccess": true
@@ -4817,7 +4817,7 @@
         "threshold": 28,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-111-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-111-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди знак STOP",
                 "seccess": false
@@ -4830,7 +4830,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-047-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-047-650x200.jpg",
             "buttons": [{
                 "text": "1) Асфальтированная дорога заканчивается и начинается грунтовая ",
                 "seccess": true
@@ -4942,7 +4942,7 @@
             }]
         }, {
             "name": "При повороте налево с односторонней улицы на двухстороннюю, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Povorot-s-odnostoronnej-ulicy-na-dvuhstoronnjuju-1-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-s-odnostoronnej-ulicy-na-dvuhstoronnjuju-1-650x200.png",
             "buttons": [{
                 "text": "1) Выезжать по правую сторону от центральной линии (1)",
                 "seccess": true
@@ -4985,7 +4985,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-103-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-103-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди шоссе с разделителем",
                 "seccess": false
@@ -4998,7 +4998,7 @@
             }]
         }, {
             "name": "Этот знак используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-100-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-100-650x200.jpg",
             "buttons": [{
                 "text": "1) На перекрестках. Увидев его, вы должны уступить право проезда другому транспорту",
                 "seccess": false
@@ -5011,7 +5011,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт в левой полосе должен повернуть налево",
                 "seccess": false
@@ -5036,7 +5036,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-156-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-156-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка для людей с инвалидностью",
                 "seccess": true
@@ -5049,7 +5049,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Железнодорожный переезд",
                 "seccess": true
@@ -5095,7 +5095,7 @@
             }]
         }, {
             "name": "Можете ли вы припарковаться у этого знака в 10 часов утра?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Да, если у вас есть специальное разрешение",
                 "seccess": false
@@ -5108,7 +5108,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Отель",
                 "seccess": false
@@ -5133,7 +5133,7 @@
             }]
         }, {
             "name": "Это знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Znak-Vezd-zapreshhen-1-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znak-Vezd-zapreshhen-1-650x200.png",
             "buttons": [{
                 "text": "1) STOP",
                 "seccess": false
@@ -5146,7 +5146,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога поворачивает направо и потом налево",
                 "seccess": false
@@ -5159,7 +5159,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди боковая дорога",
                 "seccess": false
@@ -5172,7 +5172,7 @@
             }]
         }, {
             "name": "Этот знак указывает, что центральную полосу можно использовать для:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-185-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-185-650x200.jpg",
             "buttons": [{
                 "text": "1) Разворота",
                 "seccess": false
@@ -5209,7 +5209,7 @@
             }]
         }, {
             "name": "Водитель перед вами поднял левую руку вверх. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-podnyataya-vverh-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-podnyataya-vverh-650x200.jpg",
             "buttons": [{
                 "text": "1) Он поворачивает направо",
                 "seccess": true
@@ -5238,7 +5238,7 @@
         "threshold": 28,
         "test": [{
             "name": "Этот знак на выезде с шоссе на эстакаду указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Минимальную безопасную скорость на эстакаде",
                 "seccess": false
@@ -5308,7 +5308,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-108-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-108-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны уступить право проезда",
                 "seccess": false
@@ -5333,7 +5333,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-194-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-194-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусы и машины карпулинга должны двигаться в правой полосе",
                 "seccess": false
@@ -5379,7 +5379,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса заканчивается, сместитесь левее",
                 "seccess": true
@@ -5392,7 +5392,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево запрещен",
                 "seccess": false
@@ -5462,7 +5462,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Спуске или возвышенности",
                 "seccess": true
@@ -5487,7 +5487,7 @@
             }]
         }, {
             "name": "Этот жест дорожного регулировщика означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Ukazaniya-regulirovshhika-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Ukazaniya-regulirovshhika-650x200.png",
             "buttons": [{
                 "text": "1) Сбавьте скорость",
                 "seccess": false
@@ -5500,7 +5500,7 @@
             }]
         }, {
             "name": "Когда белая боковая линия отклоняется под углом к центру проезжей части, это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-kraya-dorogi-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-kraya-dorogi-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост",
                 "seccess": false
@@ -5546,7 +5546,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди слияние трафика",
                 "seccess": false
@@ -5580,7 +5580,7 @@
             }]
         }, {
             "name": "На круговом перекрестке вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Krugovoe-dvizhenie-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Krugovoe-dvizhenie-650x200.png",
             "buttons": [{
                 "text": "1) Менять полосу до того, как осмотрите зеркала и слепые зоны",
                 "seccess": false
@@ -5629,7 +5629,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-004-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-004-650x200.jpg",
             "buttons": [{
                 "text": "1) Сужение проезжей части",
                 "seccess": false
@@ -5658,7 +5658,7 @@
         "threshold": 28,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-164-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-164-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны двигаться на скорости 50 миль/ч ",
                 "seccess": false
@@ -5671,7 +5671,7 @@
             }]
         }, {
             "name": "Знаки с синим фоном:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-147-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-147-650x200.jpg",
             "buttons": [{
                 "text": "1) Предупреждающие",
                 "seccess": false
@@ -5708,7 +5708,7 @@
             }]
         }, {
             "name": "Этот знак указывает водителям, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Односторонняя улица заканчивается",
                 "seccess": false
@@ -5742,7 +5742,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-030-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-030-650x200.jpg",
             "buttons": [{
                 "text": "1) Минимальная скорость на данном участке 45 миль/ч",
                 "seccess": false
@@ -5755,7 +5755,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Внимание, на дороге нетрезвые водители!",
                 "seccess": false
@@ -5837,7 +5837,7 @@
             }]
         }, {
             "name": "При повороте налево с односторонней улицы на другую одностороннюю улицу с двумя полосами, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Povorot-nalevo-s-odnostoronnej-na-odnostoronnjuju-ulicu-1-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-nalevo-s-odnostoronnej-na-odnostoronnjuju-ulicu-1-650x200.png",
             "buttons": [{
                 "text": "1) Закончить маневр в правой полосе (1)",
                 "seccess": false
@@ -5880,7 +5880,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Vezd-zapreshhen-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vezd-zapreshhen-650x200.png",
             "buttons": [{
                 "text": "1) Разворачиваться запрещено",
                 "seccess": false
@@ -5926,7 +5926,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Сужение проезжей части",
                 "seccess": false
@@ -5987,7 +5987,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-185-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-185-650x200.jpg",
             "buttons": [{
                 "text": "1) Весь транспорт должен повернуть налево",
                 "seccess": false
@@ -6000,7 +6000,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Грузовики сдают задним ходом",
                 "seccess": false
@@ -6037,7 +6037,7 @@
             }]
         }, {
             "name": "Большой грузовик, поворачивающий направо на улицу с двумя полосами:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Povorot-gruzovika-napravo-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-gruzovika-napravo-650x200.png",
             "buttons": [{
                 "text": "1) Всегда должен оставаться в правой полосе (1)",
                 "seccess": false
@@ -6078,7 +6078,7 @@
         "threshold": 28,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-74-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-74-650x200.jpg",
             "buttons": [{
                 "text": "1) На перекрестке установлены 4 знака STOP",
                 "seccess": false
@@ -6091,7 +6091,7 @@
             }]
         }, {
             "name": "Знак \"Slower Traffic Keep Right\" (Медленный транспорт должен держаться справа) используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-194-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-194-650x200.jpg",
             "buttons": [{
                 "text": "1) На большинстве перекрестков",
                 "seccess": false
@@ -6104,7 +6104,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны;",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться остановиться перед знаком STOP",
                 "seccess": true
@@ -6141,7 +6141,7 @@
             }]
         }, {
             "name": "Вы (1) подъехали к перекрестку и собираетесь повернуть налево. С противоположной стороны другой автомобиль (2) собирается пересечь перекресток по прямой. Вы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-pri-levom-povorote-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-pri-levom-povorote-650x200.jpg",
             "buttons": [{
                 "text": "1) Должны повернуть налево, поскольку у вас преимущество проезда",
                 "seccess": false
@@ -6163,7 +6163,7 @@
             }]
         }, {
             "name": "Увидев знак \"Merging Traffic Ahead\" (Впереди cлияние трафика), водители должны сменить полосу или уступить дорогу транспорту, въезжающему на шоссе.",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Неверно",
                 "seccess": false
@@ -6194,7 +6194,7 @@
             }]
         }, {
             "name": "В какой полосе вы должны закончить маневр при повороте налево с двухсторонней улицы на одностороннюю?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Povorot-s-dvuhstoronnej-na-odnostoronnjuju-ulicu-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-s-dvuhstoronnej-na-odnostoronnjuju-ulicu-650x200.jpg",
             "buttons": [{
                 "text": "1) В левой (2)",
                 "seccess": true
@@ -6219,7 +6219,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост",
                 "seccess": false
@@ -6265,7 +6265,7 @@
             }]
         }, {
             "name": "Вы (1) и автомобиль справа от вас (2) одновременно подъехали к перекрестку со знаками STOP и собираетесь пересечь его по прямой. У кого из вас преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) У вас",
                 "seccess": false
@@ -6317,7 +6317,7 @@
             }]
         }, {
             "name": "О чем предупреждает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост, по которому может проехать только одна машина",
                 "seccess": false
@@ -6342,7 +6342,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает о приближении к:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-057-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-057-650x200.jpg",
             "buttons": [{
                 "text": "1) Железнодорожному переезду",
                 "seccess": false
@@ -6367,7 +6367,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-189-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-189-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт в правой полосе должен двигаться прямо ",
                 "seccess": false
@@ -6392,7 +6392,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди дорогу пересекает велодорожка",
                 "seccess": true
@@ -6405,7 +6405,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-100-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-100-650x200.jpg",
             "buttons": [{
                 "text": "1) Медленно движущийся транспорт",
                 "seccess": true
@@ -6442,7 +6442,7 @@
             }]
         }, {
             "name": "На двухполосной дороге вы (1) можете совершить обгон, если с вашей стороны сплошная желтая линия разметки.",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/08/Obgon-na-dvuhpolosnoj-doroge-616x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Obgon-na-dvuhpolosnoj-doroge-616x200.png",
             "buttons": [{
                 "text": "1) Верно",
                 "seccess": false
@@ -6476,7 +6476,7 @@
             }]
         }, {
             "name": "Кто имеет преимущество проезда на нерегулируемом перекрестке, красная машина (1) или синяя машина справа от в нее (2)?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Синий автомобиль (2)",
                 "seccess": true
@@ -6505,7 +6505,7 @@
             }]
         }, {
             "name": "Подъехав к этому знаку, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-27-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-27-650x200.jpg",
             "buttons": [{
                 "text": "1) Двигаться с осторожностью и следить за детьми на дороге",
                 "seccess": false
@@ -6560,7 +6560,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-201-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-201-650x200.jpg",
             "buttons": [{
                 "text": "1) Сливайтесь с потоком, когда наберете указанную скорость",
                 "seccess": false
@@ -6609,7 +6609,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходный переход",
                 "seccess": true
@@ -6700,7 +6700,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-077-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-077-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрет разворачиваться",
                 "seccess": false
@@ -6791,7 +6791,7 @@
             }]
         }, {
             "name": "Регулирующие знаки относятся к:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-166-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-166-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендательным",
                 "seccess": false
@@ -6834,7 +6834,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Шоссе с разделителем, по которому вы едете, скоро заканчивается",
                 "seccess": false
@@ -6847,7 +6847,7 @@
             }]
         }, {
             "name": "Знак железнодорожного переезда в виде креста означает то же, что и знак Yield (\"Уступи дорогу\").",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-098-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-098-650x200.jpg",
             "buttons": [{
                 "text": "1) Верно",
                 "seccess": true
@@ -6857,7 +6857,7 @@
             }]
         }, {
             "name": "Восьмиугольная форма используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Для знаков, предупреждающих о возможной опасности на дороге",
                 "seccess": false
@@ -6882,7 +6882,7 @@
             }]
         }, {
             "name": "Знаки с перечеркнутым красным кругом означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-75-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-75-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны уступить встречному транспорту",
                 "seccess": false
@@ -6911,7 +6911,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/dorojnie-znaki-ssha-212-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-212-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди ремонтные работы",
                 "seccess": true
@@ -6957,7 +6957,7 @@
             }]
         }, {
             "name": "Этот знак сообщает водителям, что они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Проезжать через перекресток на обычной скорости",
                 "seccess": false
@@ -7000,7 +7000,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться к остановке",
                 "seccess": false
@@ -7025,7 +7025,7 @@
             }]
         }, {
             "name": "Эти знаки указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-092-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-092-650x200.jpg",
             "buttons": [{
                 "text": "1) Расстояние до населенных пунктов",
                 "seccess": false
@@ -7062,7 +7062,7 @@
             }]
         }, {
             "name": "Этот знак указывает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) На полосу, которую запрещено использовать автобусам и машинам карпулинга",
                 "seccess": false
@@ -7177,7 +7177,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/01/sign-103-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-103-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы в деловом районе. Следите за пешеходами",
                 "seccess": false
@@ -7353,7 +7353,7 @@
             }]
         }, {
             "name": "Знак STOP означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-097-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-097-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны полностью остановиться и продолжать движение, только если путь свободен",
                 "seccess": true
@@ -7387,7 +7387,7 @@
             }]
         }, {
             "name": "Форму вымпела имеет знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Znaki-v-forme-vympela-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znaki-v-forme-vympela-650x200.jpg",
             "buttons": [{
                 "text": "1) No Passing Zone (Обгон запрещен)",
                 "seccess": true
@@ -7433,7 +7433,7 @@
             }]
         }, {
             "name": "Что означает МИГАЮЩИЙ сигнал светофора в виде поднятой ладони?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-70-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-70-650x200.jpg",
             "buttons": [{
                 "text": "1) То же, что и знак STOP",
                 "seccess": false
@@ -7503,7 +7503,7 @@
             }]
         }, {
             "name": "Этот знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Что они должны дождаться зеленого сигнала светофора, прежде чем повернуть налево или направо",
                 "seccess": false
@@ -7564,7 +7564,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Двигаться по прямой нельзя, нужно повернуть налево или направо",
                 "seccess": true
@@ -7577,7 +7577,7 @@
             }]
         }, {
             "name": "Этот знак сообщает водителям, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-034-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-034-650x200.jpg",
             "buttons": [{
                 "text": "1) На дороге могут находиться животные",
                 "seccess": true
@@ -7680,7 +7680,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-051-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-051-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди крутой поворот",
                 "seccess": true
@@ -7693,7 +7693,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть налево",
                 "seccess": false
@@ -7791,7 +7791,7 @@
             }]
         }, {
             "name": "Жестовый сигнал водителя в виде вытянутой вниз левой руки означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-opushhennaya-vniz-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-opushhennaya-vniz-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо",
                 "seccess": false
@@ -7804,7 +7804,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-067-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-067-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди боковая дорога",
                 "seccess": false
@@ -7883,7 +7883,7 @@
             }]
         }, {
             "name": "Этот знак указывает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимально разрешенная ширина транспорта на шоссе 12 футов и 6 дюймов",
                 "seccess": false
@@ -7926,7 +7926,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка с ограничением по времени",
                 "seccess": true
@@ -7996,7 +7996,7 @@
             }]
         }, {
             "name": "Если вы видите знак \"Lane Closed Ahead\" (Полоса впереди закрыта), вам нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-026-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-026-650x200.jpg",
             "buttons": [{
                 "text": "1) Развернуться, потому что вы едете в неверном направлении",
                 "seccess": false
@@ -8143,7 +8143,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -8177,7 +8177,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -8268,7 +8268,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -8284,7 +8284,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -8330,7 +8330,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -8406,7 +8406,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -8422,7 +8422,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъезжают к нерегулируемому перекрестку, у кого из них преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-650x200.jpg",
             "buttons": [{
                 "text": "1) У автомобиля справа (2)",
                 "seccess": true
@@ -8528,7 +8528,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -8544,7 +8544,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -8576,7 +8576,7 @@
             }]
         }, {
             "name": "Увидев знак в виде креста, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-098-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-098-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу поезду, если это необходимо",
                 "seccess": true
@@ -8769,7 +8769,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Внимание: нетрезвые водители!",
                 "seccess": false
@@ -8818,7 +8818,7 @@
             }]
         }, {
             "name": "Знак, изображенный на картинке:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/dorojnie-znaki-ssha-256-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-256-650x200.jpg",
             "buttons": [{
                 "text": "1) Размещается на задней части медленно двигающегося транспорта",
                 "seccess": true
@@ -8903,7 +8903,7 @@
             }]
         }, {
             "name": "Этот сигнал означает, что пешеходы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/signali-svetofora-dlya-peshehoda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/signali-svetofora-dlya-peshehoda-650x200.jpg",
             "buttons": [{
                 "text": "1) Не должны переходить дорогу",
                 "seccess": false
@@ -8976,7 +8976,7 @@
             }]
         }, {
             "name": "Этот знак означает, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса зарезервирована для определенного вида транспорта или для определенных целей",
                 "seccess": true
@@ -9013,7 +9013,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановитесь у железнодорожного переезда и дождитесь разрешающего сигнала",
                 "seccess": false
@@ -9050,7 +9050,7 @@
             }]
         }, {
             "name": "Вы можете законно ездить по полосе для машин карпулинга (HOV-lane), обозначенной разметкой в виде белого ромба:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/polosa-dlya-mashin-carpulinga-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/polosa-dlya-mashin-carpulinga-650x200.jpg",
             "buttons": [{
                 "text": "1) Если на других полосах движения образовалась пробка",
                 "seccess": false
@@ -9127,7 +9127,7 @@
         "threshold": 38,
         "test": [{
             "name": "Что означают предупреждающие знаки?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/sign-202-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-202-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди опасность",
                 "seccess": false
@@ -9212,7 +9212,7 @@
             }]
         }, {
             "name": "При повороте налево с односторонней на двухстороннюю улицу, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Povorot-s-odnostoronnej-ulicy-na-dvuhstoronnjuju-1-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-s-odnostoronnej-ulicy-na-dvuhstoronnjuju-1-650x200.png",
             "buttons": [{
                 "text": "1) Закончить свой маневр слева от центральной линии (2)",
                 "seccess": false
@@ -9273,7 +9273,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Их полоса заканчивается",
                 "seccess": false
@@ -9298,7 +9298,7 @@
             }]
         }, {
             "name": "Этот знак указывает, что вам запрещено обгонять другой транспорт:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/dorojnie-znaki-ssha-218-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-218-650x200.jpg",
             "buttons": [{
                 "text": "1) Пока вы не проедете этот знак",
                 "seccess": false
@@ -9323,7 +9323,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-057-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-057-650x200.jpg",
             "buttons": [{
                 "text": "1) Т-образный перекресток (T-intersection)",
                 "seccess": false
@@ -9360,7 +9360,7 @@
             }]
         }, {
             "name": "Если боковая линия проезжей части отклоняется под углом к центру, это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-kraya-dorogi-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-kraya-dorogi-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога впереди сужается",
                 "seccess": true
@@ -9457,7 +9457,7 @@
             }]
         }, {
             "name": "Когда водители видят этот знак, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Перестроиться в правый ряд",
                 "seccess": false
@@ -9482,7 +9482,7 @@
             }]
         }, {
             "name": "Когда вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Всегда останавливаться перед перекрестком",
                 "seccess": false
@@ -9495,7 +9495,7 @@
             }]
         }, {
             "name": "Когда водитель видит желтый сигнал в виде буквы X, он должен:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Signaly-dlya-polos-dvizheniya-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dlya-polos-dvizheniya-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться безопасно сменить пололсу",
                 "seccess": true
@@ -9520,7 +9520,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) К проезжей части добавляется еще одна полоса",
                 "seccess": false
@@ -9569,7 +9569,7 @@
             }]
         }, {
             "name": "Две двойные сплошные желтые линии разметки, нанесенные на расстоянии 2 футов и более друг от друга:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dve-dvojnyh-sploshnyh-linii-razmetki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dve-dvojnyh-sploshnyh-linii-razmetki-650x200.jpg",
             "buttons": [{
                 "text": "1) Отмечают полосу, зарезервированную для особого вида транспорта",
                 "seccess": false
@@ -9582,7 +9582,7 @@
             }]
         }, {
             "name": "Этот знак указывает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-50-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-50-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальную безопасную скорость при выезде с шоссе на пандус",
                 "seccess": true
@@ -9667,7 +9667,7 @@
             }]
         }, {
             "name": "Диагональная разметка рядом с местом для парковки людей с инвалидностью означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/sign-122-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-122-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка на данной разметке запрещена",
                 "seccess": true
@@ -9768,7 +9768,7 @@
             }]
         }, {
             "name": "Вы хотите припарковаться на двухсторонней улице, идущей с горки, на которой нет бордюра. В какую сторону нужно повернуть передние колеса?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-sklone-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-sklone-650x200.jpg",
             "buttons": [{
                 "text": "1) Вправо (в сторону бордюра)",
                 "seccess": true
@@ -9793,7 +9793,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-023-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-023-650x200.jpg",
             "buttons": [{
                 "text": "1) Светофор",
                 "seccess": true
@@ -9818,7 +9818,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-059-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-059-650x200.jpg",
             "buttons": [{
                 "text": "1) Резкий поворот",
                 "seccess": true
@@ -9831,7 +9831,7 @@
             }]
         }, {
             "name": "Когда вы видите этот красно-белый знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-097-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-097-650x200.jpg",
             "buttons": [{
                 "text": "1) Убедиться в отсутствии транспорта со всех направлений, прежде чем продолжать движение",
                 "seccess": true
@@ -9844,7 +9844,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт, поворачивающий налево, должен развернуться",
                 "seccess": false
@@ -9869,7 +9869,7 @@
             }]
         }, {
             "name": "Вы хотите повернуть налево. На полосе в центре проезжей части нанесена желтая разметка, как на иллюстрации. Вы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/dorojnaya-razmetka-ssha-43-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnaya-razmetka-ssha-43-1-650x200.jpg",
             "buttons": [{
                 "text": "1) Не должны выезжать на эту полосу ни при каких обстоятельствах",
                 "seccess": false
@@ -10002,7 +10002,7 @@
             }]
         }, {
             "name": "Этот сигнал регулировщика означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/test-img-213-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/test-img-213-650x200.jpg",
             "buttons": [{
                 "text": "1) Перестройтесь левее",
                 "seccess": false
@@ -10087,7 +10087,7 @@
             }]
         }, {
             "name": "Этот знак указывает водителям, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Они должны дождаться, когда загорится зеленый сигнал, прежде чем смогут повернуть налево или направо",
                 "seccess": false
@@ -10172,7 +10172,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Круговой перекресток",
                 "seccess": false
@@ -10285,7 +10285,7 @@
             }]
         }, {
             "name": "Пешеходы уже находятся на пешеходном переходе, когда включается МИГАЮЩИЙ сигнал Don't Walk или символ в виде поднятой ладони. Пешеходы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-70-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-70-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно остановиться",
                 "seccess": false
@@ -10298,7 +10298,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъехали к перекрестку со знаком STOP 4-way и собираются пересечь его по прямой. Кто из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-74-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-74-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль слева должен уступить автомобилю справа",
                 "seccess": true
@@ -10323,7 +10323,7 @@
             }]
         }, {
             "name": "Дорожные знаки с красным кругом и символом, перечеркнутым косой чертой, означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-75-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-75-650x200.jpg",
             "buttons": [{
                 "text": "1) Действие, указанное символом, разрешено",
                 "seccess": false
@@ -10372,7 +10372,7 @@
             }]
         }, {
             "name": "Вы хотите припарковаться у обочины без бордюра на улице, идущей в горку. В каком направлении вы должны повернуть колеса?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Вправо, в сторону обочины",
                 "seccess": true
@@ -10493,7 +10493,7 @@
             }]
         }, {
             "name": "Знак, изображенный на картинке, означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-137-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-137-650x200.jpg",
             "buttons": [{
                 "text": "1) Водители, поворачивающие направо, должны уступить велосипедистам, которые едут прямо",
                 "seccess": true
@@ -10518,7 +10518,7 @@
             }]
         }, {
             "name": "Если встречный водитель перед вами поворачивает налево, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/new-test-img-211-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/new-test-img-211-650x200.jpg",
             "buttons": [{
                 "text": "1) Не сбавлять скорость, поскольку у вас преимущество проезда",
                 "seccess": false
@@ -10579,7 +10579,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пешеходный переход",
                 "seccess": true
@@ -10616,7 +10616,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-198-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-198-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная безопасная скорость на повороте — 25 миль/ч",
                 "seccess": true
@@ -10641,7 +10641,7 @@
             }]
         }, {
             "name": "Этот знак указывает, что центральная полоса движения:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-185-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-185-650x200.jpg",
             "buttons": [{
                 "text": "1) Скоро закончится",
                 "seccess": false
@@ -10874,7 +10874,7 @@
             }]
         }, {
             "name": "Водители, которые видят этот знак, должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-048-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-048-650x200.jpg",
             "buttons": [{
                 "text": "1) Посмотреть, нет ли машин слева и справа от них",
                 "seccess": false
@@ -10971,7 +10971,7 @@
             }]
         }, {
             "name": "Когда водители видят этот знак, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить грузовикам, спускающимся с горки справа",
                 "seccess": false
@@ -11056,7 +11056,7 @@
             }]
         }, {
             "name": "Вы едете рядом с велосипедной полосой. На перекрестке впереди вы собираетесь повернуть направо. При этом вы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Povorot-napravo-cherez-velosipednuju-dorozhku-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-napravo-cherez-velosipednuju-dorozhku-650x200.jpg",
             "buttons": [{
                 "text": "1) Не должны выезжать на полосу для велосипедистов",
                 "seccess": false
@@ -11093,7 +11093,7 @@
             }]
         }, {
             "name": "Когда водители видят знак \"Дорога закрыта\" (Road Closed), они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-133-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-133-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": false
@@ -11106,7 +11106,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-044-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-044-650x200.jpg",
             "buttons": [{
                 "text": "1) Сокращение количества полос движения",
                 "seccess": false
@@ -11179,7 +11179,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Физический разделитель шоссе заканчивается",
                 "seccess": true
@@ -11204,7 +11204,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост, сбавьте скорость и двигайтесь с осторожностью",
                 "seccess": false
@@ -11301,7 +11301,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-159-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-159-650x200.jpg",
             "buttons": [{
                 "text": "1) Если для вас горит зеленый сигнал, вы имеете преимущество при повороте налево",
                 "seccess": false
@@ -11326,7 +11326,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-047-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-047-650x200.jpg",
             "buttons": [{
                 "text": "1) На обочине мягкий грунт",
                 "seccess": false
@@ -11339,7 +11339,7 @@
             }]
         }, {
             "name": "Этот знак указывает, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Двигаться прямо нельзя. Поверните налево или направо",
                 "seccess": true
@@ -11352,7 +11352,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Бизнес-район. Следите за людьми на проезжей части",
                 "seccess": false
@@ -11429,7 +11429,7 @@
             }]
         }, {
             "name": "Вы едете по крайней правой полосе четырехполосного шоссе и видите слева от себя широкую прерывистую белую разметку. Вы находитесь на полосе для:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/new-test-img-192-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/new-test-img-192-650x200.jpg",
             "buttons": [{
                 "text": "1) Машин с большим количеством пассажиров и должны перестроиться в другую полосу",
                 "seccess": false
@@ -11598,7 +11598,7 @@
             }]
         }, {
             "name": "Знак в форме вымпела означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/road-sign-211-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/road-sign-211-650x200.jpg",
             "buttons": [{
                 "text": "1) Школьная зона",
                 "seccess": false
@@ -11767,7 +11767,7 @@
             }]
         }, {
             "name": "Этот знак перед железнодорожным переездом означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-098-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-098-650x200.jpg",
             "buttons": [{
                 "text": "1) Смотрите по сторонам, прислушивайтесь и готовьтесь остановиться в случае необходимости",
                 "seccess": true
@@ -11936,7 +11936,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что на проезжей части может находиться:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/road-sign-210-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/road-sign-210-650x200.jpg",
             "buttons": [{
                 "text": "1) Медленный электротранспорт",
                 "seccess": true
@@ -11965,7 +11965,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди полоса, предназначенная только для велосипедистов",
                 "seccess": false
@@ -12050,7 +12050,7 @@
             }]
         }, {
             "name": "При приближении к этому знаку, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться остановиться перед знаком STOP, который будет впереди",
                 "seccess": true
@@ -12063,7 +12063,7 @@
             }]
         }, {
             "name": "Вы (1) собираетесь обогнать другой автомобиль (2) на шоссе со скоростным лимитом 55 миль/ч. Какой разрыв во встречном (3) потоке вам потребуется?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Prostranstvo-dlya-obgona-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Prostranstvo-dlya-obgona-650x200.jpg",
             "buttons": [{
                 "text": "1) 1600 футов",
                 "seccess": true
@@ -12220,7 +12220,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Холм",
                 "seccess": true
@@ -12257,7 +12257,7 @@
             }]
         }, {
             "name": "Этот знак означает, что парковка предназначена:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/sign-121-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-121-650x200.jpg",
             "buttons": [{
                 "text": "1) Для транспорта людей с инвалидностью (без специального стикера и номеров)",
                 "seccess": false
@@ -12282,7 +12282,7 @@
             }]
         }, {
             "name": "При парковке на двухсторонней дороге без бордюра, идущей в горку, вы должны повернуть передние колеса:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Влево (в сторону проезжей части)",
                 "seccess": false
@@ -12295,7 +12295,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Все транспортные средства должны сместиться левее",
                 "seccess": true
@@ -12308,7 +12308,7 @@
             }]
         }, {
             "name": "Что нужно делать, если вы видите знак \"Wrong Way\" (\"Неверное направление\")?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": false
@@ -12405,7 +12405,7 @@
             }]
         }, {
             "name": "В какую сторону нужно повернуть передние колеса при парковке на спуске, если справа есть бордюр?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-sklone-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-sklone-650x200.jpg",
             "buttons": [{
                 "text": "1) Вправо (в сторону бордюра)",
                 "seccess": true
@@ -12418,7 +12418,7 @@
             }]
         }, {
             "name": "Два или более автомобиля остановились на перекрестке перед знаком STOP и находятся под прямым углом друг к другу. Кто должен уступить право проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Водитель справа (2) должен уступить водителю слева (1)",
                 "seccess": false
@@ -12455,7 +12455,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Нужно будет повернуть налево, либо направо",
                 "seccess": false
@@ -12468,7 +12468,7 @@
             }]
         }, {
             "name": "Знак Yield означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановитесь и посмотрите в обе стороны, прежде, чем продолжить движение",
                 "seccess": false
@@ -12493,7 +12493,7 @@
             }]
         }, {
             "name": "Когда водители видят этот знак, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Не разгоняться и не совершать резких торможений",
                 "seccess": true
@@ -12658,7 +12658,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -12749,7 +12749,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак STOP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -12765,7 +12765,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -12784,7 +12784,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -12800,7 +12800,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -12861,7 +12861,7 @@
             }]
         }, {
             "name": "Что следует сделать перед знаком \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться остановиться, если потребуется",
                 "seccess": true
@@ -12907,7 +12907,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -12938,7 +12938,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Переход запрещен",
                 "seccess": false
@@ -13003,7 +13003,7 @@
             }]
         }, {
             "name": "Знак \"Yield\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Проезжайте, пока сигнал светофора не переключился на красный",
                 "seccess": false
@@ -13049,7 +13049,7 @@
             }]
         }, {
             "name": "Что означает знак DIP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-68-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-68-650x200.jpg",
             "buttons": [{
                 "text": "1) Департамент полиции",
                 "seccess": false
@@ -13065,7 +13065,7 @@
             }]
         }, {
             "name": "Данный знак предупреждает водителей о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-039-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-039-650x200.jpg",
             "buttons": [{
                 "text": "1) Сокращении полос движения",
                 "seccess": false
@@ -13126,7 +13126,7 @@
             }]
         }, {
             "name": "Что означает мигающий сигнал, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-70-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-70-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходы должны перейти улицу",
                 "seccess": false
@@ -13292,7 +13292,7 @@
             }]
         }, {
             "name": "Это знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди разделитель шоссе",
                 "seccess": false
@@ -13458,7 +13458,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной поворот",
                 "seccess": false
@@ -13583,7 +13583,7 @@
             }]
         }, {
             "name": "Красный автомобиль, поворачивающий налево, должен:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу пешеходам и автомобилям",
                 "seccess": true
@@ -13674,7 +13674,7 @@
             }]
         }, {
             "name": "На что указывает данный дорожный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Холмистая местность",
                 "seccess": false
@@ -13750,7 +13750,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Не совершайте резких поворотов",
                 "seccess": false
@@ -13781,7 +13781,7 @@
             }]
         }, {
             "name": "Перед знаком \"Дорога закрыта\" ('Road Closed'), водители должны",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-133-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-133-650x200.jpg",
             "buttons": [{
                 "text": "1) Искать пути объезда",
                 "seccess": true
@@ -13902,7 +13902,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу грузовикам, идущим с холма справа",
                 "seccess": false
@@ -13933,7 +13933,7 @@
             }]
         }, {
             "name": "На что указывает данный сигнал?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-76-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-76-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам запрещено переходить дорогу",
                 "seccess": false
@@ -13964,7 +13964,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Следить за рабочими, переходящими дорогу",
                 "seccess": false
@@ -13980,7 +13980,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -13996,7 +13996,7 @@
             }]
         }, {
             "name": "В каких местах установлены знаки No Passing Zone?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) На правой стороне дороги",
                 "seccess": false
@@ -14027,7 +14027,7 @@
             }]
         }, {
             "name": "Для чего используются сигналы, регулирующие движение по полосам?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Чтобы показать, что пункт оплаты проезда закрыт",
                 "seccess": false
@@ -14242,7 +14242,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-164-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-164-650x200.jpg",
             "buttons": [{
                 "text": "1) Время на принятие решений",
                 "seccess": false
@@ -14273,7 +14273,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусам и автомобилям запрещено передвигаться по выделенной полосе",
                 "seccess": false
@@ -14304,7 +14304,7 @@
             }]
         }, {
             "name": "Если вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и не обгонять другой транспорт",
                 "seccess": true
@@ -14335,7 +14335,7 @@
             }]
         }, {
             "name": "Этот знак указывает на то, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-198-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-198-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать налево, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -14351,7 +14351,7 @@
             }]
         }, {
             "name": "Панели с мигающими стрелками используются:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-71-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-71-650x200.jpg",
             "buttons": [{
                 "text": "1) У железнодорожного переезда",
                 "seccess": false
@@ -14367,7 +14367,7 @@
             }]
         }, {
             "name": "Что означает разметка, изображенная на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
             "buttons": [{
                 "text": "1) Реверсивная дорога с зарезервированными полосами движения",
                 "seccess": false
@@ -14413,7 +14413,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъехали к перекрестку, на котором установлен знак \"Стоп\" с табличкой \"4 Way\". Кто из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-74-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-74-650x200.jpg",
             "buttons": [{
                 "text": "1) Водитель справа",
                 "seccess": false
@@ -14444,7 +14444,7 @@
             }]
         }, {
             "name": "Что означает знак \"One Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Однополосная дорога",
                 "seccess": false
@@ -14460,7 +14460,7 @@
             }]
         }, {
             "name": "Разворот в три приема используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) На перекрестке, чтобы перестроиться в нужную полосу",
                 "seccess": false
@@ -14491,7 +14491,7 @@
             }]
         }, {
             "name": "Что изображено на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) Параллельная парковка",
                 "seccess": false
@@ -14507,7 +14507,7 @@
             }]
         }, {
             "name": "Велосипедист на дороге перед вами опустил левую руку вниз. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-velosipedistov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-velosipedistov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) Он собирается повернуть налево",
                 "seccess": false
@@ -14523,7 +14523,7 @@
             }]
         }, {
             "name": "Если сейчас 10 часов утра, то этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы можете припарковаться здесь со специальным разрешением",
                 "seccess": false
@@ -14569,7 +14569,7 @@
             }]
         }, {
             "name": "Реверсивная полоса движения — это:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-na-srednej-linii-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-na-srednej-linii-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса, движение по которой может менять направление в разное время суток",
                 "seccess": true
@@ -14585,7 +14585,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-074-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-074-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкая дорога",
                 "seccess": false
@@ -14691,7 +14691,7 @@
             }]
         }, {
             "name": "О чем предупреждает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной поворот",
                 "seccess": false
@@ -14816,7 +14816,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево запрещен",
                 "seccess": false
@@ -14892,7 +14892,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) Ночью двигайтесь по шоссе № 45",
                 "seccess": false
@@ -14998,7 +14998,7 @@
             }]
         }, {
             "name": "Из каких трех участков состоит эстакада?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Uchastki-estakady-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Uchastki-estakady-650x200.jpg",
             "buttons": [{
                 "text": "1) Въездная полоса, полоса ускорения, полоса торможения",
                 "seccess": false
@@ -15029,7 +15029,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку, предупреждающему об опасности, к примеру, о резком повороте или спуске?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": true
@@ -15045,7 +15045,7 @@
             }]
         }, {
             "name": "Что должны делать водители, увидев этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Искать регулировщика",
                 "seccess": false
@@ -15166,7 +15166,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо на красный сигнал запрещен",
                 "seccess": false
@@ -15242,7 +15242,7 @@
             }]
         }, {
             "name": "Восьмиугольный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Соблюдайте установленный скоростной режим",
                 "seccess": false
@@ -15258,7 +15258,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) О перекрестке впереди",
                 "seccess": false
@@ -15289,7 +15289,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот",
                 "seccess": false
@@ -15305,7 +15305,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-153-650x200.jpg",
             "buttons": [{
                 "text": "1) Связь с экстренными службами",
                 "seccess": false
@@ -15351,7 +15351,7 @@
             }]
         }, {
             "name": "Этот дорожный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди начинается участок с двусторонним движением",
                 "seccess": true
@@ -15461,7 +15461,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Не проезжайте, если ваш автомобиль выше, чем указано цифрами (футы и дюймы)",
                 "seccess": true
@@ -15507,7 +15507,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пересечение второстепенной дороги",
                 "seccess": false
@@ -15598,7 +15598,7 @@
             }]
         }, {
             "name": "Что означает знак, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Зона удвоения штрафа за нарушение",
                 "seccess": false
@@ -15659,7 +15659,7 @@
             }]
         }, {
             "name": "О чем предупреждает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны резко остановиться",
                 "seccess": false
@@ -15675,7 +15675,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -15751,7 +15751,7 @@
             }]
         }, {
             "name": "Если вы видите данный желтый сигнал (2) для своей полосы, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться безопасно сменить полосу движения",
                 "seccess": true
@@ -15767,7 +15767,7 @@
             }]
         }, {
             "name": "Если вы видите обращенные в вашу сторону красные отражатели на дороге, вы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Otrazhateli-na-obochine-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Otrazhateli-na-obochine-650x200.jpg",
             "buttons": [{
                 "text": "1) Можете столкнуться со встречным транспортом",
                 "seccess": false
@@ -15813,7 +15813,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться к тому, что дорога поворачивает направо",
                 "seccess": true
@@ -15844,7 +15844,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку железнодорожного переезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -15860,7 +15860,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная скорость на которой нужно пересекать перекресток — 30 миль/ч",
                 "seccess": false
@@ -15876,7 +15876,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-193-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-193-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны развернуться",
                 "seccess": true
@@ -15892,7 +15892,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-030-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-030-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованную безопасную скорость",
                 "seccess": false
@@ -15998,7 +15998,7 @@
             }]
         }, {
             "name": "В каком порядке должны проезжать автомобили 1, 2 и 3 на нерегулируемом перекрестке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) 1, 3, 2 (красный, зеленый, синий)",
                 "seccess": false
@@ -16034,7 +16034,7 @@
         "threshold": 23,
         "test": [{
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -16140,7 +16140,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -16159,7 +16159,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -16175,7 +16175,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -16236,7 +16236,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Переход запрещен",
                 "seccess": false
@@ -16267,7 +16267,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъезжают к нерегулируемому перекрестку, у кого из них преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-650x200.jpg",
             "buttons": [{
                 "text": "1) У автомобиля справа (2)",
                 "seccess": true
@@ -16313,7 +16313,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -16359,7 +16359,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -16420,7 +16420,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак STOP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -16451,7 +16451,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -16471,7 +16471,7 @@
         "threshold": 40,
         "test": [{
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2023/05/dorozhnye-znaki-SShA-254-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorozhnye-znaki-SShA-254-650x200.jpg",
             "buttons": [{
                 "text": "1) Второстепенная дорога примыкает слева",
                 "seccess": false
@@ -16502,7 +16502,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Разделенная автомагистраль впереди заканчивается",
                 "seccess": true
@@ -16548,7 +16548,7 @@
             }]
         }, {
             "name": "Что должны делать водители, когда они видят этот дорожный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Проверить наличие регулировщика движения",
                 "seccess": false
@@ -16564,7 +16564,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Узкий мост впереди. Замедлитесь и продолжайте движение с осторожностью",
                 "seccess": false
@@ -16760,7 +16760,7 @@
             }]
         }, {
             "name": "Этот дорожный знак предупреждает водителей, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-047-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-047-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт должен немедленно покинуть проезжую часть",
                 "seccess": false
@@ -16776,7 +16776,7 @@
             }]
         }, {
             "name": "Этот знак является:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2023/05/Forma-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Forma-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) Регулирующим",
                 "seccess": false
@@ -16807,7 +16807,7 @@
             }]
         }, {
             "name": "Сейчас 10 утра Этот знак говорит вам, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Вам не разрешено парковаться здесь",
                 "seccess": true
@@ -16823,7 +16823,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди начинается общая полоса",
                 "seccess": false
@@ -16854,7 +16854,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди перекресток",
                 "seccess": false
@@ -16930,7 +16930,7 @@
             }]
         }, {
             "name": "Этот дорожный знак предупреждает вас о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Слиянии трафика",
                 "seccess": false
@@ -16976,7 +16976,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди изгиб дороги",
                 "seccess": false
@@ -17082,7 +17082,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-111-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-111-650x200.jpg",
             "buttons": [{
                 "text": "1) Низкий клиренс",
                 "seccess": false
@@ -17203,7 +17203,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди крутой спуск или подъем",
                 "seccess": true
@@ -17219,7 +17219,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает о том, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Зона, на которой запрещены обгоны",
                 "seccess": false
@@ -17299,7 +17299,7 @@
             }]
         }, {
             "name": "Этот дорожный знак предупреждает водителей, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Улица или проезжая часть с односторонним движением переходит в двухстороннее движение",
                 "seccess": true
@@ -17435,7 +17435,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Они должны повернуть направо или налево",
                 "seccess": false
@@ -17466,7 +17466,7 @@
             }]
         }, {
             "name": "Этот дорожный знак указывает, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусы и другой пассажирский транспорт не могут ехать по отмеченной специальной полосе",
                 "seccess": false
@@ -17482,7 +17482,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди школьная зона",
                 "seccess": false
@@ -17495,7 +17495,7 @@
             }]
         }, {
             "name": "Что должны делать водители, когда красные сигналы на железнодорожном переезде начинают мигать?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Signaly-zheleznodorozhnogo-pereezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-zheleznodorozhnogo-pereezda-650x200.jpg",
             "buttons": [{
                 "text": "1) Выключить зажигание",
                 "seccess": false
@@ -17616,7 +17616,7 @@
             }]
         }, {
             "name": "Когда вы поворачиваете налево с двухсторонней дороги на шоссе с четырьмя полосами, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Povorot-s-dvuhstoronnej-ulicy-na-dvuhstronnjuju-chetyrehpolosnuju-ulicu-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-s-dvuhstoronnej-ulicy-na-dvuhstronnjuju-chetyrehpolosnuju-ulicu-650x200.jpg",
             "buttons": [{
                 "text": "1) Въезжать в правую полосу, слева от центральной линии (1)",
                 "seccess": false
@@ -17662,7 +17662,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-067-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-067-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди конец дороги",
                 "seccess": false
@@ -17678,7 +17678,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Велосипеды имеют право проезда",
                 "seccess": false
@@ -17769,7 +17769,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Левого поворота нет",
                 "seccess": false
@@ -17800,7 +17800,7 @@
             }]
         }, {
             "name": "Что указывают знаки в форме вымпела?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Forma-dorozhnyh-znakov-SShA-6-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Forma-dorozhnyh-znakov-SShA-6-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступи дорогу",
                 "seccess": false
@@ -17891,7 +17891,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Двустороннее движение",
                 "seccess": true
@@ -17922,7 +17922,7 @@
             }]
         }, {
             "name": "Когда водители видят сигнал в виде желтого Х, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2023/05/Zheltyj-signal-nad-polosoj-dvizheniya-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zheltyj-signal-nad-polosoj-dvizheniya-650x200.jpg",
             "buttons": [{
                 "text": "1) Полностью остановиться на стоп-линии",
                 "seccess": false
@@ -17968,7 +17968,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди начинается разделенное шоссе",
                 "seccess": false
@@ -17984,7 +17984,7 @@
             }]
         }, {
             "name": "Когда водители видят этот знак, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Быть готовыми резко тормозить и останавливаться",
                 "seccess": false
@@ -18049,7 +18049,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает, что впереди:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние трафика",
                 "seccess": false
@@ -18065,7 +18065,7 @@
             }]
         }, {
             "name": "На что указывает этот дорожный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Госпиталь",
                 "seccess": true
@@ -18096,7 +18096,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-057-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-057-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди регулировщик дорожного движения",
                 "seccess": false
@@ -18157,7 +18157,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-112-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-112-650x200.jpg",
             "buttons": [{
                 "text": "1) Разворот запрещен",
                 "seccess": false
@@ -18233,7 +18233,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога. Двигайтесь с осторожностью",
                 "seccess": false
@@ -18249,7 +18249,7 @@
             }]
         }, {
             "name": "Когда водители видят этот знак, они:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-02-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-02-650x200.jpg",
             "buttons": [{
                 "text": "1) Должны быть готовы делать крутые повороты на высокой скорости",
                 "seccess": false
@@ -18355,7 +18355,7 @@
             }]
         }, {
             "name": "Вы остановились на знаке STOP и собираетесь проехать через перекресток прямо. Автомобиль на перекрестке остановился одновременно с вами у знака STOP справа и едет прямо. У кого из вас право проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) У вас (1)",
                 "seccess": false
@@ -18461,7 +18461,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди улица с односторонним движением",
                 "seccess": false
@@ -18522,7 +18522,7 @@
             }]
         }, {
             "name": "Знак восьмиугольной формы означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Forma-dorozhnyh-znakov-SShA-3-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Forma-dorozhnyh-znakov-SShA-3-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди железнодорожный переезд",
                 "seccess": false
@@ -18613,7 +18613,7 @@
             }]
         }, {
             "name": "Когда водители видят такой знак, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Полностью остановиться и вызвать полицию",
                 "seccess": false
@@ -18704,7 +18704,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-023-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-023-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса закрыта для движения",
                 "seccess": false
@@ -18750,7 +18750,7 @@
             }]
         }, {
             "name": "Когда вы приближаетесь к этому знаку, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться при необходимости",
                 "seccess": true
@@ -19130,7 +19130,7 @@
             }]
         }, {
             "name": "Паркуясь около бордюра на дороге, идущей вниз с холма, нужно повернуть колеса:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-sklone-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-sklone-650x200.jpg",
             "buttons": [{
                 "text": "1) Вправо, в сторону бордюра",
                 "seccess": false
@@ -19630,7 +19630,7 @@
             }]
         }, {
             "name": "Когда водители видят желтый сигнал в виде символа X, они должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Signaly-dlya-polos-dvizheniya-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dlya-polos-dvizheniya-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться сменить полосу движения",
                 "seccess": true
@@ -19826,7 +19826,7 @@
             }]
         }, {
             "name": "При повороте с двухстронней улицы на другую двухстороннюю улицу с четырьмя полосами движения вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Povorot-s-dvuhstoronnej-ulicy-na-dvuhstronnjuju-chetyrehpolosnuju-ulicu-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-s-dvuhstoronnej-ulicy-na-dvuhstronnjuju-chetyrehpolosnuju-ulicu-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть в левую полосу, справа от центральной линии (1)",
                 "seccess": false
@@ -20037,7 +20037,7 @@
             }]
         }, {
             "name": "В каком порядке должны проезжать автомобили 1, 2 и 3 на нерегулируемом перекрестке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) 1, 3, 2 (красный, зеленый, синий)",
                 "seccess": false
@@ -20053,7 +20053,7 @@
             }]
         }, {
             "name": "Белая линия разметки отклоняется под углом в сторону проезжей части. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-kraya-dorogi-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-kraya-dorogi-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди сужение дороги",
                 "seccess": true
@@ -20114,7 +20114,7 @@
             }]
         }, {
             "name": "Знак в форме вымпела означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Forma-dorozhnyh-znakov-SShA-6-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Forma-dorozhnyh-znakov-SShA-6-650x200.jpg",
             "buttons": [{
                 "text": "1) Школьная зона",
                 "seccess": false
@@ -20284,7 +20284,7 @@
         "threshold": 40,
         "test": [{
             "name": "Знак треугольной формы — это:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/Forma-dorozhnyh-znakov-SShA-2-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Forma-dorozhnyh-znakov-SShA-2-650x200.jpg",
             "buttons": [{
                 "text": "1)  Yield (\"Уступи дорогу\")",
                 "seccess": true
@@ -20405,7 +20405,7 @@
             }]
         }, {
             "name": "Дорожная разметка в виде стрелок:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/11/dorojnaya-razmetka-v-vide-strelok-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnaya-razmetka-v-vide-strelok-650x200.jpg",
             "buttons": [{
                 "text": "1) Указывает на полосы, которые вы должны использовать",
                 "seccess": true
@@ -20436,7 +20436,7 @@
             }]
         }, {
             "name": "Какая форма у знака No Passing Zone (Обгон запрещен)?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/12/Formy-dorozhnyh-znakov-11-1-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-11-1-650x200.png",
             "buttons": [{
                 "text": "1) Ромб",
                 "seccess": false
@@ -20677,7 +20677,7 @@
             }]
         }, {
             "name": "Дорожные знаки с красным кругом и символом, перечеркнутым красной чертой, означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-75-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-75-650x200.jpg",
             "buttons": [{
                 "text": "1) Действие, обозначенное символом, разрешено",
                 "seccess": false
@@ -20738,7 +20738,7 @@
             }]
         }, {
             "name": "Желтая МИГАЮЩАЯ стрелка, указывающая налево, означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/12/Zheltaya-strelka-svetofora-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zheltaya-strelka-svetofora-650x200.png",
             "buttons": [{
                 "text": "1) Если вы поворачиваете налево, то должны остановиться. Скоро загорится красный сигнал",
                 "seccess": false
@@ -20919,7 +20919,7 @@
             }]
         }, {
             "name": "Сигнал регулировщика на картинке означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/test-img-212-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/test-img-212-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановитесь",
                 "seccess": false
@@ -20935,7 +20935,7 @@
             }]
         }, {
             "name": "Какие цвета у знаков, указывающих на сервисы для водителей?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/12/Znaki-punktov-uslug-dlya-voditelej-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znaki-punktov-uslug-dlya-voditelej-650x200.png",
             "buttons": [{
                 "text": "1) Зеленые с белым",
                 "seccess": false
@@ -21076,7 +21076,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -21092,7 +21092,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -21108,7 +21108,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -21139,7 +21139,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -21218,7 +21218,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак STOP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -21399,7 +21399,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -21415,7 +21415,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -21431,7 +21431,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -21661,7 +21661,7 @@
             }]
         }, {
             "name": "Прямоугольную форму имеет знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pryamougolnye-dorozhnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pryamougolnye-dorozhnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Ограничения скорости",
                 "seccess": true
@@ -21752,7 +21752,7 @@
             }]
         }, {
             "name": "Что означает знак STOP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-097-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-097-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавьте скорость и будьте готовы остановиться",
                 "seccess": false
@@ -21828,7 +21828,7 @@
             }]
         }, {
             "name": "Форму ромба имеет знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Znak-v-forme-romba-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znak-v-forme-romba-650x200.jpg",
             "buttons": [{
                 "text": "1) Предупреждающий о потенциальной опасности",
                 "seccess": true
@@ -21934,7 +21934,7 @@
             }]
         }, {
             "name": "Если сплошная белая линия у правого края шоссе отклоняется в левую сторону, это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди перекресток",
                 "seccess": false
@@ -21950,7 +21950,7 @@
             }]
         }, {
             "name": "Вы можете повернуть налево с односторонней улицы (1) на другую одностороннюю улицу (2), если:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-odnostoronnem-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-odnostoronnem-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Включили сигнал поворота",
                 "seccess": false
@@ -22165,7 +22165,7 @@
             }]
         }, {
             "name": "Вы поворачиваете налево с двухсторонней улицы на улицу с односторонним движением. В какую полосу вы должны перестроиться?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Povorot-s-dvuhstoronnej-na-odnostoronnjuju-ulicu-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-s-dvuhstoronnej-na-odnostoronnjuju-ulicu-650x200.jpg",
             "buttons": [{
                 "text": "1) В правую (1)",
                 "seccess": false
@@ -22226,7 +22226,7 @@
             }]
         }, {
             "name": "Автомобили 1, 2, 3 одновременно подъехали к перекрестку. Кто из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль, поворачивающий направо (3) должен уступить транспорту, поворачивающему налево",
                 "seccess": false
@@ -22242,7 +22242,7 @@
             }]
         }, {
             "name": "Когда два автомобиля одновременно подъезжают к перекрестку с разных направлений, который из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-650x200.jpg",
             "buttons": [{
                 "text": "1) Либо один, либо другой",
                 "seccess": false
@@ -22288,7 +22288,7 @@
             }]
         }, {
             "name": "Разворот в три приема используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Turn-steps-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Turn-steps-650x200.jpg",
             "buttons": [{
                 "text": "1) На изгибе дороги, когда разворот запрещен знаками",
                 "seccess": false
@@ -22304,7 +22304,7 @@
             }]
         }, {
             "name": "В какой последовательности должны двигаться автомобили на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) 3,2,1",
                 "seccess": true
@@ -22350,7 +22350,7 @@
             }]
         }, {
             "name": "Водитель впереди вас опустил руку вниз. Что он означает?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-opushhennaya-vniz-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-opushhennaya-vniz-650x200.jpg",
             "buttons": [{
                 "text": "1) Он поворачивает налево",
                 "seccess": false
@@ -22366,7 +22366,7 @@
             }]
         }, {
             "name": "Если водитель перед вами вытянул левую руку в сторону, это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-vytyanutaya-vlevo.-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-vytyanutaya-vlevo.-650x200.jpg",
             "buttons": [{
                 "text": "1) Он поворачивает налево",
                 "seccess": true
@@ -22502,7 +22502,7 @@
             }]
         }, {
             "name": "Вы (1) подъехали к перекрестку одновременно с другим водителем (2) и оба собираетесь ехать прямо. У кого из вас право проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) У вас",
                 "seccess": false
@@ -22548,7 +22548,7 @@
             }]
         }, {
             "name": "Водитель впереди вас поднял левую руку вверх, что означает этот сигнал?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-podnyataya-vverh-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-podnyataya-vverh-650x200.jpg",
             "buttons": [{
                 "text": "1) Он собирается повернуть налево",
                 "seccess": false
@@ -22872,7 +22872,7 @@
         "threshold": 14,
         "test": [{
             "name": "При парковке на дороге без бордюра, идущей с горки, передние колеса нужно повернуть:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-sklone-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-sklone-650x200.jpg",
             "buttons": [{
                 "text": "1) В любую сторону",
                 "seccess": false
@@ -22903,7 +22903,7 @@
             }]
         }, {
             "name": "Когда вы можете парковаться рядом с этим знаком?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-004-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-004-650x200.jpg",
             "buttons": [{
                 "text": "1) По воскресеньям, по не дольше, чем на 2 часа",
                 "seccess": false
@@ -22919,7 +22919,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка разрешена в ночное время не дольше, чем на 1 час",
                 "seccess": false
@@ -22932,7 +22932,7 @@
             }]
         }, {
             "name": "При парковке на дороге с бордюром, идущей в горку, вы должны повернуть передние колеса:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) В сторону проезжей части",
                 "seccess": true
@@ -22963,7 +22963,7 @@
             }]
         }, {
             "name": "При парковке на дороге, идущей в горку, на машине с ручной КПП, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Включить только стояночный тормоз",
                 "seccess": false
@@ -22979,7 +22979,7 @@
             }]
         }, {
             "name": "Знак \"Парковка запрещена\" (\"No Parking\") означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-007-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещена парковка в любое время",
                 "seccess": false
@@ -23010,7 +23010,7 @@
             }]
         }, {
             "name": "Знак \"Не останавливаться\" (No Stopping) означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-006-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-006-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещена остановка в любое время",
                 "seccess": false
@@ -23071,7 +23071,7 @@
             }]
         }, {
             "name": "Останавливаться под знаком \"Стоянка запрещена\" (No Standing) можно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Для выгрузки и погрузки товаров",
                 "seccess": false
@@ -23361,7 +23361,7 @@
             }]
         }, {
             "name": "Увидев знак \"Lane Closed Ahead\", означающий, что одна из полос закрыта на ремонт, вы должны :",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-026-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-026-650x200.jpg",
             "buttons": [{
                 "text": "1) Перестроиться в другой ряд, когда это будет безопасно",
                 "seccess": true
@@ -23407,7 +23407,7 @@
             }]
         }, {
             "name": "Согласно закону, на нерегулируемых перекрестках:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-avtomobilya-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Водители, поворачивающие налево, должны уступить водителям, движущимся прямо",
                 "seccess": true
@@ -23986,7 +23986,7 @@
             }]
         }, {
             "name": "Полосы для ускорения (участок 2 на картинке) у въездов на шоссе, нужны для:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Polosa-dlya-uskoreniya-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Polosa-dlya-uskoreniya-650x200.jpg",
             "buttons": [{
                 "text": "1) Проверки тормозов перед въездом на шоссе",
                 "seccess": false
@@ -24242,7 +24242,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Взрывные работы",
                 "seccess": false
@@ -24352,7 +24352,7 @@
             }]
         }, {
             "name": "Водитель перед вами опустил левую руку вниз влево. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-opushhennaya-vniz-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-opushhennaya-vniz-650x200.jpg",
             "buttons": [{
                 "text": "1) Он собирается замедлиться или остановиться",
                 "seccess": true
@@ -24413,7 +24413,7 @@
             }]
         }, {
             "name": "Водитель в машине перед вами вытянул левую руку влево. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-vytyanutaya-vlevo.-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-vytyanutaya-vlevo.-650x200.jpg",
             "buttons": [{
                 "text": "1) Он собирается остановиться",
                 "seccess": false
@@ -24534,7 +24534,7 @@
             }]
         }, {
             "name": "Грузовик в соседней полосе поворачивает направо. При этом он:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Povorot-gruzovika-napravo-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Povorot-gruzovika-napravo-650x200.jpg",
             "buttons": [{
                 "text": "1) Должен повернуть в левую полосу (1)",
                 "seccess": false
@@ -24716,7 +24716,7 @@
         "threshold": 40,
         "test": [{
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-154-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-154-650x200.jpg",
             "buttons": [{
                 "text": "1) Зону для отдыха",
                 "seccess": true
@@ -24732,7 +24732,7 @@
             }]
         }, {
             "name": "Этот знак указывает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-63-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-63-650x200.jpg",
             "buttons": [{
                 "text": "1) Направление движения на круговых перекрестках",
                 "seccess": true
@@ -24748,7 +24748,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние трафика справа",
                 "seccess": false
@@ -24764,7 +24764,7 @@
             }]
         }, {
             "name": "Знак предупреждает о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-015-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-015-650x200.jpg",
             "buttons": [{
                 "text": "1) Детской площадке",
                 "seccess": false
@@ -24780,7 +24780,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Нет левого поворота",
                 "seccess": false
@@ -24796,7 +24796,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-023-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-023-650x200.jpg",
             "buttons": [{
                 "text": "1) Продолжайте двигаться с прежней скоростью",
                 "seccess": false
@@ -24812,7 +24812,7 @@
             }]
         }, {
             "name": "Данный знак предупреждает, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкая дорога шириной 12 футов, 6 дюймов",
                 "seccess": false
@@ -24828,7 +24828,7 @@
             }]
         }, {
             "name": "В каких местах установлены данные знаки:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) На правой стороне дороги, лицом к водителю",
                 "seccess": false
@@ -24844,7 +24844,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-071-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-071-650x200.jpg",
             "buttons": [{
                 "text": "1) Боковая дорога, примыкающая слева",
                 "seccess": true
@@ -24860,7 +24860,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-022-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-022-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди тупик",
                 "seccess": true
@@ -24876,7 +24876,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-020-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-020-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение автомобилей запрещено",
                 "seccess": false
@@ -24892,7 +24892,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-003-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-003-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди парковочная зона",
                 "seccess": false
@@ -24908,7 +24908,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Хайвей",
                 "seccess": false
@@ -24924,7 +24924,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Одностороннее движение",
                 "seccess": false
@@ -24940,7 +24940,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-011-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-011-650x200.jpg",
             "buttons": [{
                 "text": "1) Съезд с шоссе",
                 "seccess": true
@@ -24956,7 +24956,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-009-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-009-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступите автобусу на перекрестке",
                 "seccess": false
@@ -24972,7 +24972,7 @@
             }]
         }, {
             "name": "На что указывает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-001-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-001-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт в правой полосе должен повернуть направо, а транспорт в других полосах может двигаться прямо или повернуть направо",
                 "seccess": true
@@ -24988,7 +24988,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-094-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-094-650x200.jpg",
             "buttons": [{
                 "text": "1) Номер межштатного шоссе",
                 "seccess": true
@@ -25004,7 +25004,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-012-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-012-650x200.jpg",
             "buttons": [{
                 "text": "1) Одностороннее движение",
                 "seccess": false
@@ -25020,7 +25020,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Сильный боковой ветер",
                 "seccess": true
@@ -25036,7 +25036,7 @@
             }]
         }, {
             "name": "На этом знаке указано:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-024-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-024-650x200.jpg",
             "buttons": [{
                 "text": "1) Расстояние до населенного пункта",
                 "seccess": false
@@ -25052,7 +25052,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди четырехполосное шоссе",
                 "seccess": false
@@ -25068,7 +25068,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-159-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-159-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы можете повернуть налево без остановки",
                 "seccess": false
@@ -25084,7 +25084,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-018-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-018-650x200.jpg",
             "buttons": [{
                 "text": "1) Паромная переправа",
                 "seccess": false
@@ -25100,7 +25100,7 @@
             }]
         }, {
             "name": "Если вы видите это знак, вы должны ехать со скоростью:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-155-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-155-650x200.jpg",
             "buttons": [{
                 "text": "1) Не более 50 миль/ч",
                 "seccess": false
@@ -25116,7 +25116,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Разрешено движение грузовиков весом 18 000 фунтов (около 8 000 кг)",
                 "seccess": false
@@ -25132,7 +25132,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-61-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-61-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога заканчивается Т-образным перекрестком",
                 "seccess": true
@@ -25148,7 +25148,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-010-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-010-650x200.jpg",
             "buttons": [{
                 "text": "1) Не блокируйте перекресток",
                 "seccess": true
@@ -25164,7 +25164,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает о том, что вы приближаетесь к:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Железнодорожному переезду",
                 "seccess": true
@@ -25180,7 +25180,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-097-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-097-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавьте скорость и будьте готовы остановиться",
                 "seccess": false
@@ -25196,7 +25196,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди участок с ограничением скорости 35 миль/ч",
                 "seccess": false
@@ -25212,7 +25212,7 @@
             }]
         }, {
             "name": "Вы подъехали к перекрестку с данным знаком. Когда вы сможете повернуть направо?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Если горит зеленый сигнал или стрелка",
                 "seccess": true
@@ -25228,7 +25228,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Обгонять медленный транспорт на скорости не менее 30 миль/ч",
                 "seccess": false
@@ -25244,7 +25244,7 @@
             }]
         }, {
             "name": "Увидев этот знак для своей полосы, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-183-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-183-650x200.jpg",
             "buttons": [{
                 "text": "1) Слиться с трафиком на шоссе",
                 "seccess": false
@@ -25260,7 +25260,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-013-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-013-650x200.jpg",
             "buttons": [{
                 "text": "1) Извилистая дорога",
                 "seccess": false
@@ -25276,7 +25276,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Не садись нетрезвым за руль",
                 "seccess": false
@@ -25292,7 +25292,7 @@
             }]
         }, {
             "name": "Вы можете передвигаться по полосе с этим знаком:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-192-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-192-650x200.jpg",
             "buttons": [{
                 "text": "1) Если вы едете на велосипеде",
                 "seccess": true
@@ -25308,7 +25308,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-184-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-184-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние трафика с двух сторон",
                 "seccess": false
@@ -25324,7 +25324,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди разделение полос движения",
                 "seccess": false
@@ -25340,7 +25340,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-191-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-191-650x200.jpg",
             "buttons": [{
                 "text": "1) Конец разделителя",
                 "seccess": false
@@ -25356,7 +25356,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-112-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-112-650x200.jpg",
             "buttons": [{
                 "text": "1) Весь транспорт должен повернуть направо",
                 "seccess": false
@@ -25372,7 +25372,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорожные работы",
                 "seccess": false
@@ -25388,7 +25388,7 @@
             }]
         }, {
             "name": "Когда вы можете увидеть данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) На скоростном шоссе в час пик",
                 "seccess": false
@@ -25404,7 +25404,7 @@
             }]
         }, {
             "name": "Каким из этих знаков обозначается участок межштатного шоссе, проходящего через деловой центр города (Business Loops)?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-60-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-60-650x200.jpg",
             "buttons": [{
                 "text": "1) 1",
                 "seccess": false
@@ -25420,7 +25420,7 @@
             }]
         }, {
             "name": "Знак Yield означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Притормози, если видишь машину аварийной службы",
                 "seccess": false
@@ -25436,7 +25436,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-062-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-062-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди Т-образный перекресток. Уступите дорогу сквозному движению.",
                 "seccess": true
@@ -25452,7 +25452,7 @@
             }]
         }, {
             "name": "Что вы должны сделать, увидев на перекрестке этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Продолжить движение по прямой",
                 "seccess": false
@@ -25468,7 +25468,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-014-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-014-650x200.jpg",
             "buttons": [{
                 "text": "1) Участке дорожных работ",
                 "seccess": false
@@ -25484,7 +25484,7 @@
             }]
         }, {
             "name": "Этот знак нужен для предотвращения:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-108-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-108-650x200.jpg",
             "buttons": [{
                 "text": "1) Въезда на переполненные стоянки",
                 "seccess": false
@@ -25500,7 +25500,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-068-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-068-650x200.jpg",
             "buttons": [{
                 "text": "1) Объездной путь",
                 "seccess": false
@@ -25536,7 +25536,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -25582,7 +25582,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -25703,7 +25703,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъезжают к нерегулируемому перекрестку, у кого из них преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-650x200.jpg",
             "buttons": [{
                 "text": "1) У автомобиля справа (2)",
                 "seccess": true
@@ -25839,7 +25839,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -25855,7 +25855,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -25871,7 +25871,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -25935,7 +25935,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -25955,7 +25955,7 @@
         "threshold": 30,
         "test": [{
             "name": "Что должны делать водители, увидев этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость, убедиться в отсутствии поезда и быть готовым остановиться",
                 "seccess": true
@@ -25986,7 +25986,7 @@
             }]
         }, {
             "name": "Из каких трех участков состоит эстакада?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Uchastki-estakady-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Uchastki-estakady-650x200.jpg",
             "buttons": [{
                 "text": "1) Скоростной въезд, полоса разгона, парковка",
                 "seccess": false
@@ -26017,7 +26017,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) Ограничение скорости в ночное время — 45 км/ч",
                 "seccess": false
@@ -26033,7 +26033,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево и направо на красный свет запрещены",
                 "seccess": false
@@ -26049,7 +26049,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) В местах установки знака запрещено поворачивать налево",
                 "seccess": false
@@ -26080,7 +26080,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-153-650x200.jpg",
             "buttons": [{
                 "text": "1) Магазин телефонов",
                 "seccess": false
@@ -26126,7 +26126,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) Что с указанного направления на шоссе выходит второстепенная дорога",
                 "seccess": false
@@ -26262,7 +26262,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-163-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-163-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованная скорость 30 миль/ч, максимальная — 55 миль/ч",
                 "seccess": false
@@ -26383,7 +26383,7 @@
             }]
         }, {
             "name": "Восьмиугольный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавьте скорость",
                 "seccess": false
@@ -26414,7 +26414,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) К вашей дороге добавляется еще одна полоса",
                 "seccess": false
@@ -26445,7 +26445,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку, предупреждающему об опасности, к примеру, о резком повороте или спуске?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": true
@@ -26536,7 +26536,7 @@
             }]
         }, {
             "name": "Этот дорожный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Что они не могут двигаться вперед",
                 "seccess": false
@@ -26631,7 +26631,7 @@
             }]
         }, {
             "name": "Если сейчас 10 часов утра, то этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы можете припарковаться здесь со специальным разрешением",
                 "seccess": false
@@ -26647,7 +26647,7 @@
             }]
         }, {
             "name": "В каком положении рекомендуется держать руки на руле?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/05/Polozhenie-ruk-na-rule-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Polozhenie-ruk-na-rule-650x200.jpg",
             "buttons": [{
                 "text": "1) На 8 и 4 часа либо на 10 и 5 часов",
                 "seccess": false
@@ -26693,7 +26693,7 @@
             }]
         }, {
             "name": "Велосипедист на дороге перед вами опустил левую руку вниз. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-velosipedistov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-velosipedistov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) Он предлагает вам обогнать его",
                 "seccess": false
@@ -26709,7 +26709,7 @@
             }]
         }, {
             "name": "Разворот в три приема используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) На перекрестке, чтобы перестроиться в нужную полосу",
                 "seccess": false
@@ -26770,7 +26770,7 @@
             }]
         }, {
             "name": "Панели с мигающими стрелками используются:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-71-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-71-650x200.jpg",
             "buttons": [{
                 "text": "1) Там, где отсутствуют повороты налево или направо",
                 "seccess": false
@@ -26816,7 +26816,7 @@
             }]
         }, {
             "name": "Что означает разметка, изображенная на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
             "buttons": [{
                 "text": "1) Скоростное шоссе с реверсивной полосой движения",
                 "seccess": false
@@ -26832,7 +26832,7 @@
             }]
         }, {
             "name": "Если вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и не обгонять другой транспорт",
                 "seccess": true
@@ -26878,7 +26878,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Правая полоса заканчивается",
                 "seccess": true
@@ -26894,7 +26894,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъехали к перекрестку, на котором установлен знак \"Стоп\" с табличкой \"4 Way\". Кто из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-129-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-129-650x200.jpg",
             "buttons": [{
                 "text": "1) Тот, кто едет медленнее",
                 "seccess": false
@@ -26925,7 +26925,7 @@
             }]
         }, {
             "name": "Этот знак указывает на то, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-198-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-198-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -26941,7 +26941,7 @@
             }]
         }, {
             "name": "Реверсивная полоса движения — это:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-na-srednej-linii-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-na-srednej-linii-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса для транспорта большой вместительности",
                 "seccess": false
@@ -26987,7 +26987,7 @@
             }]
         }, {
             "name": "О чем предупреждает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": true
@@ -27033,7 +27033,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусам и автомобилям запрещено передвигаться по выделенной полосе",
                 "seccess": false
@@ -27064,7 +27064,7 @@
             }]
         }, {
             "name": "О чем сообщают дорожные знаки с красным фоном?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-108-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-108-650x200.jpg",
             "buttons": [{
                 "text": "1) Сообщают о школьной зоне",
                 "seccess": false
@@ -27110,7 +27110,7 @@
             }]
         }, {
             "name": "Что изображено на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) Разворот в три приема",
                 "seccess": true
@@ -27126,7 +27126,7 @@
             }]
         }, {
             "name": "Что означает знак \"One Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Однополосная дорога",
                 "seccess": false
@@ -27172,7 +27172,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-164-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-164-650x200.jpg",
             "buttons": [{
                 "text": "1) Минимальную скорость",
                 "seccess": false
@@ -27207,7 +27207,7 @@
             }]
         }, {
             "name": "Что означает знак, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованную скорость в школьной зоне",
                 "seccess": false
@@ -27253,7 +27253,7 @@
             }]
         }, {
             "name": "Если вы паркуете автомобиль с ручной коробкой передач на дороге, идущей в горку, вы должны включить:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Первую передачу",
                 "seccess": true
@@ -27359,7 +27359,7 @@
             }]
         }, {
             "name": "Если вы видите обращенные в вашу сторону красные отражатели на дороге, вы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Otrazhateli-na-obochine-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Otrazhateli-na-obochine-650x200.jpg",
             "buttons": [{
                 "text": "1) Находитесь на неправильной стороне",
                 "seccess": false
@@ -27390,7 +27390,7 @@
             }]
         }, {
             "name": "Если вы видите данный желтый сигнал (2) для своей полосы, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться у стоп-линии",
                 "seccess": false
@@ -27436,7 +27436,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-193-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-193-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны развернуться",
                 "seccess": true
@@ -27482,7 +27482,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-136-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-136-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди дорожные работы. Движением управляет регулировщик",
                 "seccess": true
@@ -27513,7 +27513,7 @@
             }]
         }, {
             "name": "О чем предупреждает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны резко остановиться",
                 "seccess": false
@@ -27544,7 +27544,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-160-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-160-650x200.jpg",
             "buttons": [{
                 "text": "1) Пристегните ремни",
                 "seccess": true
@@ -27575,7 +27575,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пересечение второстепенной дороги",
                 "seccess": false
@@ -27621,7 +27621,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться к тому, что дорога поворачивает направо",
                 "seccess": true
@@ -27637,7 +27637,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-030-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-030-650x200.jpg",
             "buttons": [{
                 "text": "1) Нет верного варианта",
                 "seccess": false
@@ -27683,7 +27683,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена только по требованию сотрудника полиции",
                 "seccess": true
@@ -27699,7 +27699,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Не проезжайте, если ваш автомобиль выше, чем указано цифрами (футы и дюймы)",
                 "seccess": true
@@ -27730,7 +27730,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку железнодорожного переезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -27761,7 +27761,7 @@
             }]
         }, {
             "name": "В каком порядке должны проезжать автомобили 1, 2 и 3 на нерегулируемом перекрестке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) 2, 3, 1 (синий, зеленый, красный)",
                 "seccess": true
@@ -27811,7 +27811,7 @@
         "threshold": 30,
         "test": [{
             "name": "Перед знаком \"Дорога закрыта\" ('Road Closed'), водители должны",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-133-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-133-650x200.jpg",
             "buttons": [{
                 "text": "1) Развернуться",
                 "seccess": false
@@ -27932,7 +27932,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -27963,7 +27963,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Быть готовыми к резкому торможению и остановке",
                 "seccess": false
@@ -28144,7 +28144,7 @@
             }]
         }, {
             "name": "Красный автомобиль, поворачивающий налево, должен:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
             "buttons": [{
                 "text": "1) Продолжить движение до перекрестка и развернуться там",
                 "seccess": false
@@ -28175,7 +28175,7 @@
             }]
         }, {
             "name": "На дороге с уклоном водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Заехать одним колесом на обочину",
                 "seccess": false
@@ -28236,7 +28236,7 @@
             }]
         }, {
             "name": "Для чего используются сигналы, регулирующие движение по полосам?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Чтобы показать, какие полосы закрыты и открыты",
                 "seccess": false
@@ -28327,7 +28327,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Увеличить скорость",
                 "seccess": false
@@ -28343,7 +28343,7 @@
             }]
         }, {
             "name": "На что указывает данный сигнал?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-76-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-76-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам разрешено переходить дорогу",
                 "seccess": true
@@ -28359,7 +28359,7 @@
             }]
         }, {
             "name": "На что указывает данный дорожный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Холмистая местность",
                 "seccess": false
@@ -28390,7 +28390,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Не совершайте резких поворотов",
                 "seccess": false
@@ -28406,7 +28406,7 @@
             }]
         }, {
             "name": "В каких местах установлены знаки No Passing Zone?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) На левой стороне дороги, лицом к водителю",
                 "seccess": true
@@ -28426,7 +28426,7 @@
         "threshold": 30,
         "test": [{
             "name": "Знак \"Yield\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны полностью остановиться",
                 "seccess": false
@@ -28457,7 +28457,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди поворот направо, а потом налево",
                 "seccess": false
@@ -28533,7 +28533,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-186-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-186-650x200.jpg",
             "buttons": [{
                 "text": "1) Над шоссе проходит эстакада",
                 "seccess": false
@@ -28669,7 +28669,7 @@
             }]
         }, {
             "name": "Если вы видите над своей полосой подобный знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/01/sign-100-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-100-650x200.jpg",
             "buttons": [{
                 "text": "1) Вам запрещено съезжать с шоссе по этой полосе",
                 "seccess": false
@@ -28715,7 +28715,7 @@
             }]
         }, {
             "name": "Оранжевый треугольник на задней части транспорта означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-13-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-13-650x200.jpg",
             "buttons": [{
                 "text": "1) Этот транспорт перевозит радиоактивные материалы",
                 "seccess": false
@@ -28866,7 +28866,7 @@
             }]
         }, {
             "name": "Данный знак предупреждает водителей о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-039-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-039-650x200.jpg",
             "buttons": [{
                 "text": "1) Впадине или углублении на дороге",
                 "seccess": false
@@ -28912,7 +28912,7 @@
             }]
         }, {
             "name": "Что означает мигающий сигнал, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-70-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-70-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам разрешено перейти дорогу",
                 "seccess": false
@@ -29018,7 +29018,7 @@
             }]
         }, {
             "name": "Это знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Извилистая дорога",
                 "seccess": false
@@ -29039,7 +29039,7 @@
         "threshold": 23,
         "test": [{
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -29100,7 +29100,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -29146,7 +29146,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -29162,7 +29162,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак STOP?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -29178,7 +29178,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -29302,7 +29302,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -29333,7 +29333,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -29424,7 +29424,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -29489,7 +29489,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-185-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-185-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот налево для обоих направлений движения",
                 "seccess": false
@@ -29520,7 +29520,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-047-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-047-650x200.jpg",
             "buttons": [{
                 "text": "1) На обочине отсутствует дорожное покрытие",
                 "seccess": false
@@ -29536,7 +29536,7 @@
             }]
         }, {
             "name": "Зеленая стрелка над вашей полосой движения означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Зарезервированную полосу",
                 "seccess": false
@@ -29582,7 +29582,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": true
@@ -29643,7 +29643,7 @@
             }]
         }, {
             "name": "Этот знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-057-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-057-650x200.jpg",
             "buttons": [{
                 "text": "1) Больница",
                 "seccess": false
@@ -29689,7 +29689,7 @@
             }]
         }, {
             "name": "Дорожные знаки с оранжевым фоном означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/01/sign-95-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-95-650x200.jpg",
             "buttons": [{
                 "text": "1) Железнодорожный переезд",
                 "seccess": false
@@ -29705,7 +29705,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-079-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-079-650x200.jpg",
             "buttons": [{
                 "text": "1) Работает эвакуатор",
                 "seccess": false
@@ -29766,7 +29766,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-191-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-191-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди сокращение числа полос движения",
                 "seccess": false
@@ -29797,7 +29797,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-103-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-103-650x200.jpg",
             "buttons": [{
                 "text": "1) Развороты запрещены",
                 "seccess": false
@@ -29843,7 +29843,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Извилистая дорога",
                 "seccess": false
@@ -29949,7 +29949,7 @@
             }]
         }, {
             "name": "Если вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Следить за дорожными рабочими на проезжей части",
                 "seccess": false
@@ -30025,7 +30025,7 @@
             }]
         }, {
             "name": "Форма знака нумерации шоссе говорит о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-60-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-60-650x200.jpg",
             "buttons": [{
                 "text": "1) Допустимой скорости на данном шоссе",
                 "seccess": false
@@ -30041,7 +30041,7 @@
             }]
         }, {
             "name": "Перед знаком \"Дорога закрыта\" (Road Closed), водитель должен",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-133-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-133-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться и ждать зеленого сигнала",
                 "seccess": false
@@ -30181,7 +30181,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -30227,7 +30227,7 @@
             }]
         }, {
             "name": "Увидев знак Wrong Way, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -30303,7 +30303,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Развороты запрещены",
                 "seccess": true
@@ -30364,7 +30364,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной изгиб дороги",
                 "seccess": true
@@ -30440,7 +30440,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение грузовиков запрещено",
                 "seccess": false
@@ -30456,7 +30456,7 @@
             }]
         }, {
             "name": "Знак \"Slower Traffic Keep Right\" в основном используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-194-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-194-650x200.jpg",
             "buttons": [{
                 "text": "1) В школьных зонах",
                 "seccess": false
@@ -30517,7 +30517,7 @@
             }]
         }, {
             "name": "О чем предупреждает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди знак \"Стоп\"",
                 "seccess": true
@@ -30593,7 +30593,7 @@
             }]
         }, {
             "name": "Знак \"Yield\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Проезжайте, пока сигнал светофора не переключился на красный",
                 "seccess": false
@@ -30699,7 +30699,7 @@
             }]
         }, {
             "name": "Данный знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Указывает на максимально допустимую скорость",
                 "seccess": false
@@ -30775,7 +30775,7 @@
             }]
         }, {
             "name": "Восьмиугольный дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Будьте готовы к возможной опасности впереди",
                 "seccess": false
@@ -30870,7 +30870,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-023-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-023-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди вы должны будете остановиться",
                 "seccess": false
@@ -30901,7 +30901,7 @@
             }]
         }, {
             "name": "Линия, обозначающая край дороги, смещается к центру проезжей части. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-kraya-dorogi-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-kraya-dorogi-650x200.jpg",
             "buttons": [{
                 "text": "1) Вам нужно повернуть направо",
                 "seccess": false
@@ -30917,7 +30917,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -30936,7 +30936,7 @@
             }]
         }, {
             "name": "На иллюстрации изображены:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnye-ukazateli-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-ukazateli-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) Знаки нумерации автострад",
                 "seccess": true
@@ -30952,7 +30952,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-052-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-052-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога, ведите машину осторожно",
                 "seccess": false
@@ -31028,7 +31028,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, запрещающим въезд?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -31152,7 +31152,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак остановки?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -31171,7 +31171,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-134-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-134-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди зона ремонта и на проезжей части могут находиться рабочие",
                 "seccess": true
@@ -31217,7 +31217,7 @@
             }]
         }, {
             "name": "Вы (1) собираетесь повернуть налево на перекрестке, встречный автомобиль (2) движется по прямой. Вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-pri-levom-povorote-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-pri-levom-povorote-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть, потому что у вас преимущество проезда",
                 "seccess": false
@@ -31248,7 +31248,7 @@
             }]
         }, {
             "name": "Вы хотите повернуть направо на перекрестке, на котором установлен данный знак. Вам нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-03-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-03-650x200.jpg",
             "buttons": [{
                 "text": "1) Дождаться зеленого сигнала",
                 "seccess": false
@@ -31324,7 +31324,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку железнодорожного переезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -31433,7 +31433,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку, предупреждающему об опасности, к примеру, о резком повороте или спуске?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": true
@@ -31542,7 +31542,7 @@
             }]
         }, {
             "name": "Из каких трех участков состоит эстакада?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Uchastki-estakady-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Uchastki-estakady-650x200.jpg",
             "buttons": [{
                 "text": "1) Въездная полоса, полоса ускорения, полоса торможения",
                 "seccess": false
@@ -31622,7 +31622,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-074-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-074-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди дорожные работы",
                 "seccess": false
@@ -31638,7 +31638,7 @@
             }]
         }, {
             "name": "О чем предупреждает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо запрещен",
                 "seccess": false
@@ -31834,7 +31834,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди скользкое покрытие",
                 "seccess": true
@@ -31865,7 +31865,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка запрещена в 8:30 вечера и 5:30 утра",
                 "seccess": false
@@ -31881,7 +31881,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-012-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-012-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди поворот на 270 градусов",
                 "seccess": true
@@ -31912,7 +31912,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Весь транспорт должен двигаться направо",
                 "seccess": false
@@ -31943,7 +31943,7 @@
             }]
         }, {
             "name": "Знак \"One Way\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Водители могут двигаться только в направлении, указанном стрелкой",
                 "seccess": true
@@ -31974,7 +31974,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-044-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-044-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост",
                 "seccess": true
@@ -32050,7 +32050,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-198-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-198-650x200.jpg",
             "buttons": [{
                 "text": "1) За поворотом школьная зона",
                 "seccess": false
@@ -32096,7 +32096,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди разделитель. Держитесь правее",
                 "seccess": true
@@ -32127,7 +32127,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы приближаетесь к школе",
                 "seccess": false
@@ -32143,7 +32143,7 @@
             }]
         }, {
             "name": "Вы (1) остановились у перекрестка со знаком \"STOP\" и собираетесь двигаться прямо. Справа от вас другой автомобиль (2) также собирается ехать по прямой. У кого из вас преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) У того, кто первым подъехал к перекрестку",
                 "seccess": false
@@ -32283,7 +32283,7 @@
             }]
         }, {
             "name": "Пятиугольную форму имеет знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Znak-pyatiugolnoj-formy-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znak-pyatiugolnoj-formy-1-650x200.jpg",
             "buttons": [{
                 "text": "1) Школьного перехода",
                 "seccess": true
@@ -32329,7 +32329,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Велосипедисты должны уступить автомобилям",
                 "seccess": false
@@ -32360,7 +32360,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-153-650x200.jpg",
             "buttons": [{
                 "text": "1) Связь с экстренными службами",
                 "seccess": false
@@ -32451,7 +32451,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-111-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-111-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот направо",
                 "seccess": false
@@ -32497,7 +32497,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Мосте шириной не более 12 футов и 6 дюймов",
                 "seccess": false
@@ -32513,7 +32513,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить грузовикам на перекрестке",
                 "seccess": false
@@ -32616,7 +32616,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) В ночное время используйте для объезда шоссе №45",
                 "seccess": false
@@ -32632,7 +32632,7 @@
             }]
         }, {
             "name": "Знак STOP на четырехстороннем перекрестке означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-74-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-74-650x200.jpg",
             "buttons": [{
                 "text": "1) Если два водителя одновременно достигла такого перекрестка, преимущество проезда будет водителя слева",
                 "seccess": false
@@ -32648,7 +32648,7 @@
             }]
         }, {
             "name": "Если вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться остановиться у знака STOP",
                 "seccess": true
@@ -32664,7 +32664,7 @@
             }]
         }, {
             "name": "Двойную желтую разметку, с одной сплошной и одной прерывистой линией:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/01/broken-yellow-line-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/broken-yellow-line-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещено пересекать с любого направления",
                 "seccess": false
@@ -32680,7 +32680,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-201-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-201-650x200.jpg",
             "buttons": [{
                 "text": "1) Через 40 футов дорога поворачивает направо",
                 "seccess": false
@@ -32741,7 +32741,7 @@
             }]
         }, {
             "name": "Данную форму имеет знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnye-znaki-SShA-treugolnoj-formy-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-SShA-treugolnoj-formy-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступи (Yield)",
                 "seccess": true
@@ -32984,7 +32984,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -33045,7 +33045,7 @@
             }]
         }, {
             "name": "Что следует сделать перед знаком \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться остановиться, если потребуется",
                 "seccess": true
@@ -33136,7 +33136,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -33167,7 +33167,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Переход запрещен",
                 "seccess": false
@@ -33243,7 +33243,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -33274,7 +33274,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -33290,7 +33290,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -33321,7 +33321,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -33352,7 +33352,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -33405,7 +33405,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной поворот",
                 "seccess": false
@@ -33451,7 +33451,7 @@
             }]
         }, {
             "name": "Данный знак предупреждает водителей о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-039-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-039-650x200.jpg",
             "buttons": [{
                 "text": "1) Сокращении полос движения",
                 "seccess": false
@@ -33602,7 +33602,7 @@
             }]
         }, {
             "name": "Если вы видите над своей полосой данный знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/01/sign-100-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-100-650x200.jpg",
             "buttons": [{
                 "text": "1) Вам запрещено съезжать с шоссе по этой полосе",
                 "seccess": false
@@ -33708,7 +33708,7 @@
             }]
         }, {
             "name": "Оранжевый треугольник на задней части транспорта означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-13-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-13-650x200.jpg",
             "buttons": [{
                 "text": "1) Этот транспорт перевозит легковоспламеняющихся материалы",
                 "seccess": false
@@ -33754,7 +33754,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-186-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-186-650x200.jpg",
             "buttons": [{
                 "text": "1) Вам нужно повернуть налево или направо",
                 "seccess": false
@@ -33785,7 +33785,7 @@
             }]
         }, {
             "name": "Знак \"Yield\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Проезжайте, пока сигнал светофора не переключился на красный",
                 "seccess": false
@@ -33831,7 +33831,7 @@
             }]
         }, {
             "name": "Это знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди разделитель шоссе",
                 "seccess": false
@@ -33937,7 +33937,7 @@
             }]
         }, {
             "name": "Что означает мигающий сигнал, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-70-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-70-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам разрешено перейти дорогу",
                 "seccess": false
@@ -34017,7 +34017,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо на красный сигнал запрещен",
                 "seccess": false
@@ -34063,7 +34063,7 @@
             }]
         }, {
             "name": "Из каких трех участков состоит эстакада?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Uchastki-estakady-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Uchastki-estakady-650x200.jpg",
             "buttons": [{
                 "text": "1) Въездная полоса, полоса ускорения, полоса торможения",
                 "seccess": false
@@ -34079,7 +34079,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот",
                 "seccess": false
@@ -34095,7 +34095,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку, предупреждающему об опасности, к примеру, о резком повороте или спуске?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": true
@@ -34111,7 +34111,7 @@
             }]
         }, {
             "name": "Что должны делать водители, увидев этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Искать регулировщика",
                 "seccess": false
@@ -34157,7 +34157,7 @@
             }]
         }, {
             "name": "Этот дорожный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди начинается участок с двусторонним движением",
                 "seccess": true
@@ -34218,7 +34218,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-153-650x200.jpg",
             "buttons": [{
                 "text": "1) Связь с экстренными службами",
                 "seccess": false
@@ -34324,7 +34324,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-163-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-163-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы можете превысить допустимую скорость не более, чем на 30 миль в час",
                 "seccess": false
@@ -34385,7 +34385,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) О перекрестке впереди",
                 "seccess": false
@@ -34476,7 +34476,7 @@
             }]
         }, {
             "name": "Восьмиугольный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Соблюдайте установленный скоростной режим",
                 "seccess": false
@@ -34522,7 +34522,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево запрещен",
                 "seccess": false
@@ -34583,7 +34583,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) Ночью двигайтесь по шоссе № 45",
                 "seccess": false
@@ -34663,7 +34663,7 @@
             }]
         }, {
             "name": "Красный автомобиль, поворачивающий налево, должен:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу пешеходам и автомобилям",
                 "seccess": true
@@ -34709,7 +34709,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу грузовикам, идущим с холма справа",
                 "seccess": false
@@ -34785,7 +34785,7 @@
             }]
         }, {
             "name": "Для чего используются сигналы, регулирующие движение по полосам?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Чтобы показать, что пункт оплаты проезда закрыт",
                 "seccess": false
@@ -34801,7 +34801,7 @@
             }]
         }, {
             "name": "В каких местах установлены знаки No Passing Zone?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) На правой стороне дороги",
                 "seccess": false
@@ -34817,7 +34817,7 @@
             }]
         }, {
             "name": "На что указывает данный дорожный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Холмистая местность",
                 "seccess": false
@@ -34908,7 +34908,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -34924,7 +34924,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Следить за рабочими, переходящими дорогу",
                 "seccess": false
@@ -35045,7 +35045,7 @@
             }]
         }, {
             "name": "Перед знаком \"Дорога закрыта\" ('Road Closed'), водители должны",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-133-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-133-650x200.jpg",
             "buttons": [{
                 "text": "1) Искать пути объезда",
                 "seccess": true
@@ -35076,7 +35076,7 @@
             }]
         }, {
             "name": "На что указывает данный сигнал?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-76-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-76-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам запрещено переходить дорогу",
                 "seccess": false
@@ -35107,7 +35107,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Не совершайте резких поворотов",
                 "seccess": false
@@ -35262,7 +35262,7 @@
             }]
         }, {
             "name": "Реверсивная полоса движения — это:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-na-srednej-linii-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-na-srednej-linii-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса, движение по которой может менять направление в разное время суток",
                 "seccess": true
@@ -35308,7 +35308,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкая дорога",
                 "seccess": false
@@ -35414,7 +35414,7 @@
             }]
         }, {
             "name": "Что означает знак \"One Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Однополосная дорога",
                 "seccess": false
@@ -35460,7 +35460,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-164-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-164-650x200.jpg",
             "buttons": [{
                 "text": "1) Время на принятие решений",
                 "seccess": false
@@ -35476,7 +35476,7 @@
             }]
         }, {
             "name": "Если сейчас 10 часов утра, то этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы можете припарковаться здесь со специальным разрешением",
                 "seccess": false
@@ -35507,7 +35507,7 @@
             }]
         }, {
             "name": "Велосипедист на дороге перед вами опустил левую руку вниз. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-velosipedistov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-velosipedistov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) Он собирается повернуть налево",
                 "seccess": false
@@ -35523,7 +35523,7 @@
             }]
         }, {
             "name": "Что означает разметка, изображенная на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
             "buttons": [{
                 "text": "1) Реверсивная дорога с зарезервированными полосами движения",
                 "seccess": false
@@ -35539,7 +35539,7 @@
             }]
         }, {
             "name": "Разворот в три приема используется:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) На перекрестке, чтобы перестроиться в нужную полосу",
                 "seccess": false
@@ -35555,7 +35555,7 @@
             }]
         }, {
             "name": "Этот знак указывает на то, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-198-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-198-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать, если они едут со скоростью 25 миль/ч (40 км/ч) и меньше",
                 "seccess": false
@@ -35571,7 +35571,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусам и автомобилям запрещено передвигаться по выделенной полосе",
                 "seccess": false
@@ -35722,7 +35722,7 @@
             }]
         }, {
             "name": "Что изображено на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) Параллельная парковка",
                 "seccess": false
@@ -35768,7 +35768,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъехали к перекрестку, на котором установлен знак \"Стоп\" с табличкой \"4 Way\". Кто из них должен уступить?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-129-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-129-650x200.jpg",
             "buttons": [{
                 "text": "1) Водитель справа",
                 "seccess": false
@@ -35784,7 +35784,7 @@
             }]
         }, {
             "name": "Панели с мигающими стрелками используются:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-71-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-71-650x200.jpg",
             "buttons": [{
                 "text": "1) У железнодорожного переезда",
                 "seccess": false
@@ -35800,7 +35800,7 @@
             }]
         }, {
             "name": "Если вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и не обгонять другой транспорт",
                 "seccess": true
@@ -35816,7 +35816,7 @@
             }]
         }, {
             "name": "О чем предупреждает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной поворот",
                 "seccess": false
@@ -35851,7 +35851,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пересечение второстепенной дороги",
                 "seccess": false
@@ -35882,7 +35882,7 @@
             }]
         }, {
             "name": "Если вы видите данный желтый сигнал (2) для своей полосы, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться безопасно сменить полосу движения",
                 "seccess": true
@@ -35913,7 +35913,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-193-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-193-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны развернуться",
                 "seccess": true
@@ -35959,7 +35959,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Не проезжайте, если ваш автомобиль выше, чем указано цифрами (футы и дюймы)",
                 "seccess": true
@@ -35990,7 +35990,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-136-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-136-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пешеходный переход",
                 "seccess": false
@@ -36006,7 +36006,7 @@
             }]
         }, {
             "name": "В каком порядке должны проезжать автомобили 1, 2 и 3 на нерегулируемом перекрестке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) 1, 3, 2 (красный, зеленый, синий)",
                 "seccess": false
@@ -36097,7 +36097,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-030-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-030-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованную безопасную скорость",
                 "seccess": false
@@ -36128,7 +36128,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться к тому, что дорога поворачивает направо",
                 "seccess": true
@@ -36144,7 +36144,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-160-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-160-650x200.jpg",
             "buttons": [{
                 "text": "1) Перевозка детей разрешена только в детских автокреслах",
                 "seccess": false
@@ -36190,7 +36190,7 @@
             }]
         }, {
             "name": "О чем предупреждает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны резко остановиться",
                 "seccess": false
@@ -36236,7 +36236,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку железнодорожного переезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -36282,7 +36282,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping Any Time\" обозначает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -36328,7 +36328,7 @@
             }]
         }, {
             "name": "Что означает знак, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Через 30 миль съезд с шоссе",
                 "seccess": false
@@ -36359,7 +36359,7 @@
             }]
         }, {
             "name": "Если вы видите обращенные в вашу сторону красные отражатели на дороге, вы:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Otrazhateli-na-obochine-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Otrazhateli-na-obochine-650x200.jpg",
             "buttons": [{
                 "text": "1) Находитесь на неправильной стороне",
                 "seccess": false
@@ -36485,7 +36485,7 @@
             }]
         }, {
             "name": "Белые знаки в форме вертикального прямоугольника означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg",
             "buttons": [{
                 "text": "1) Что впереди школьная зона",
                 "seccess": false
@@ -36561,7 +36561,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Переход запрещен",
                 "seccess": false
@@ -36592,7 +36592,7 @@
             }]
         }, {
             "name": "Что следует сделать перед знаком \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и приготовиться остановиться, если потребуется",
                 "seccess": true
@@ -36638,7 +36638,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знакам, регулирующим скорость?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -36747,7 +36747,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку \"Yield\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -36763,7 +36763,7 @@
             }]
         }, {
             "name": "Паркуясь рядом с бордюром на дороге, идущей в горку, нужно:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Parkovka-na-podeme-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Parkovka-na-podeme-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть передние колеса в сторону бордюра",
                 "seccess": false
@@ -36794,7 +36794,7 @@
             }]
         }, {
             "name": "Два автомобиля приближаются к нерегулируемому Т-образному перекрестку. Кто из них имеет преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомобиль справа (1) всегда имеет преимущество проезда",
                 "seccess": false
@@ -36870,7 +36870,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев знак \"Wrong Way\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -36965,7 +36965,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку железнодорожного переезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -37029,7 +37029,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-030-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-030-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованную безопасную скорость",
                 "seccess": false
@@ -37045,7 +37045,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Не проезжайте, если ваш автомобиль выше, чем указано цифрами (футы и дюймы)",
                 "seccess": true
@@ -37076,7 +37076,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и держаться левее",
                 "seccess": false
@@ -37092,7 +37092,7 @@
             }]
         }, {
             "name": "Какая из указанных форм относится к знаку, предупреждающему об опасности, к примеру, о резком повороте или спуске?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": true
@@ -37186,7 +37186,7 @@
             }]
         }, {
             "name": "Знак \"No Stopping\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена для посадки и высадки пассажиров",
                 "seccess": false
@@ -37202,7 +37202,7 @@
             }]
         }, {
             "name": "Если вы видите обращенные в вашу сторону красные отражатели на дороге:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Otrazhateli-na-obochine-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Otrazhateli-na-obochine-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы находитесь на неправильной стороне",
                 "seccess": false
@@ -37233,7 +37233,7 @@
             }]
         }, {
             "name": "Если вы видите желтый сигнал (2) для вашей полосы, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-dvizheniya-po-polosam-650x200.jpg",
             "buttons": [{
                 "text": "1) Приготовиться безопасно сменить полосу движения",
                 "seccess": true
@@ -37309,7 +37309,7 @@
             }]
         }, {
             "name": "В каком порядке должны проезжать автомобили 1, 2 и 3 на нерегулируемом перекрестке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Tri-mashiny-na-T-obraznom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) 1, 3, 2 (красный, зеленый, синий)",
                 "seccess": false
@@ -37340,7 +37340,7 @@
             }]
         }, {
             "name": "Какую из указанных форм имеет знак остановки?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Formy-dorozhnyh-znakov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) № 1",
                 "seccess": false
@@ -37374,7 +37374,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-193-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-193-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны развернуться",
                 "seccess": true
@@ -37390,7 +37390,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-164-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-164-650x200.jpg",
             "buttons": [{
                 "text": "1) Время на принятие решений",
                 "seccess": false
@@ -37556,7 +37556,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо на красный сигнал запрещен",
                 "seccess": false
@@ -37572,7 +37572,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Резко затормозить",
                 "seccess": false
@@ -37727,7 +37727,7 @@
             }]
         }, {
             "name": "Две сплошные белые линии разметки:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/03/dvojnaya-sploshnaya-seraya-razmetka-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dvojnaya-sploshnaya-seraya-razmetka-650x200.png",
             "buttons": [{
                 "text": "1) Отделяют проезжую часть от обочины",
                 "seccess": false
@@ -37773,7 +37773,7 @@
             }]
         }, {
             "name": "Этот дорожный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди начинается участок с двусторонним движением",
                 "seccess": true
@@ -37819,7 +37819,7 @@
             }]
         }, {
             "name": "Этот знак предупреждает водителей:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) О перекрестке впереди",
                 "seccess": false
@@ -37895,7 +37895,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот",
                 "seccess": false
@@ -37941,7 +37941,7 @@
             }]
         }, {
             "name": "Этот знак указывает на то, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Водителям запрещено поворачивать направо, если они едут со скоростью 25 миль/ч и меньше",
                 "seccess": false
@@ -38077,7 +38077,7 @@
             }]
         }, {
             "name": "Восьмиугольный знак сообщает водителям:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Соблюдайте установленный скоростной режим",
                 "seccess": false
@@ -38093,7 +38093,7 @@
             }]
         }, {
             "name": "Если вы видите этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-075-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-075-650x200.jpg",
             "buttons": [{
                 "text": "1) Сбавить скорость и не обгонять другой транспорт",
                 "seccess": true
@@ -38124,7 +38124,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево запрещен",
                 "seccess": false
@@ -38185,7 +38185,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-153-650x200.jpg",
             "buttons": [{
                 "text": "1) Связь с экстренными службами",
                 "seccess": false
@@ -38201,7 +38201,7 @@
             }]
         }, {
             "name": "Что такое \"Реверсивная полоса движения\" (Reversible Lane)?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-na-srednej-linii-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-na-srednej-linii-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса, движение по которой может менять направление в разное время суток",
                 "seccess": true
@@ -38232,7 +38232,7 @@
             }]
         }, {
             "name": "Что должны делать водители, увидев этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Искать регулировщика",
                 "seccess": false
@@ -38293,7 +38293,7 @@
             }]
         }, {
             "name": "Из каких трех участков состоит эстакада?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Uchastki-estakady-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Uchastki-estakady-650x200.jpg",
             "buttons": [{
                 "text": "1) Въездная полоса, полоса ускорения, полоса торможения",
                 "seccess": false
@@ -38339,7 +38339,7 @@
             }]
         }, {
             "name": "Знак \"One Way\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Есть только одна дорога, поворачивающая налево",
                 "seccess": false
@@ -38415,7 +38415,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) Ночью двигайтесь по шоссе № 45",
                 "seccess": false
@@ -38465,7 +38465,7 @@
             }]
         }, {
             "name": "О чем предупреждает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной поворот",
                 "seccess": false
@@ -38481,7 +38481,7 @@
             }]
         }, {
             "name": "На что указывает данный дорожный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Холмистая местность",
                 "seccess": false
@@ -38527,7 +38527,7 @@
             }]
         }, {
             "name": "Что изображено на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razvorot-v-tri-priema-foto-650x200.jpg",
             "buttons": [{
                 "text": "1) Разворот в три приема",
                 "seccess": true
@@ -38633,7 +38633,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкая дорога",
                 "seccess": false
@@ -38754,7 +38754,7 @@
             }]
         }, {
             "name": "Велосипедист перед вами опустил левую руку вниз. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-velosipedistov-SShA-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Signaly-velosipedistov-SShA-650x200.jpg",
             "buttons": [{
                 "text": "1) Он поворачивает налево",
                 "seccess": false
@@ -38980,7 +38980,7 @@
             }]
         }, {
             "name": "Дорожная разметка, изображенная на картинке означает полосу:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnaya-razmetka-so-strelkami-650x200.jpg",
             "buttons": [{
                 "text": "1) Для поворота направо",
                 "seccess": false
@@ -39161,7 +39161,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Не совершайте резких поворотов",
                 "seccess": false
@@ -39177,7 +39177,7 @@
             }]
         }, {
             "name": "Что изображено на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-80-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-80-650x200.jpg",
             "buttons": [{
                 "text": "1) Указатель направления для велосипедистов",
                 "seccess": false
@@ -39227,7 +39227,7 @@
             }]
         }, {
             "name": "Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться, если это необходимо",
                 "seccess": true
@@ -39393,7 +39393,7 @@
             }]
         }, {
             "name": "Дорожный знак \"Restricted Lane\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-5-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-5-650x200.jpg",
             "buttons": [{
                 "text": "1) Автобусам и автомобилям запрещено передвигаться по выделенной полосе",
                 "seccess": false
@@ -39409,7 +39409,7 @@
             }]
         }, {
             "name": "Что должен сделать водитель, увидев данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Немедленно развернуться",
                 "seccess": true
@@ -39485,7 +39485,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-103-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-103-650x200.jpg",
             "buttons": [{
                 "text": "1) Разворот запрещен",
                 "seccess": false
@@ -39711,7 +39711,7 @@
             }]
         }, {
             "name": "Сейчас 10 часов утра, этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы не можете здесь парковаться",
                 "seccess": true
@@ -39727,7 +39727,7 @@
             }]
         }, {
             "name": "На что указывает данный сигнал?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-76-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-76-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам запрещено переходить дорогу",
                 "seccess": false
@@ -39878,7 +39878,7 @@
             }]
         }, {
             "name": "Если вы находитесь в полосе с разметкой в виде изогнутой стрелки и словом \"ONLY\":",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-ONLY-1-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnaya-razmetka-ONLY-1-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны повернуть налево",
                 "seccess": true
@@ -39924,7 +39924,7 @@
             }]
         }, {
             "name": "В каких местах установлены данные знаки:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) На правой стороне дороги, лицом к водителю",
                 "seccess": false
@@ -40019,7 +40019,7 @@
             }]
         }, {
             "name": "О чем предупреждает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот",
                 "seccess": true
@@ -40110,7 +40110,7 @@
             }]
         }, {
             "name": "Что означает знак \"Soft Shoulder\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-009-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-009-650x200.jpg",
             "buttons": [{
                 "text": "1) На обочине отсутствует асфальтное покрытие",
                 "seccess": true
@@ -40126,7 +40126,7 @@
             }]
         }, {
             "name": "Два автомобиля одновременно подъехали к нерегулируемому перекрестку, у кого из них преимущество проезда?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Pravo-proezda-na-nekontroliruemom-perekrestke-650x200.jpg",
             "buttons": [{
                 "text": "1) Ни у кого",
                 "seccess": false
@@ -40142,7 +40142,7 @@
             }]
         }, {
             "name": "Знаки восьмиугольной формы это:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Vosmiugolnyj-dorozhnyj-znak-650x200.jpg",
             "buttons": [{
                 "text": "1) Предупреждения о потенциальной опасности на дороге",
                 "seccess": false
@@ -40158,7 +40158,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-191-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-191-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди сокращение полос движения",
                 "seccess": false
@@ -40219,7 +40219,7 @@
             }]
         }, {
             "name": "Что означает разметка, изображенная на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-72-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-72-650x200.jpg",
             "buttons": [{
                 "text": "1) Полосу для велосипедистов",
                 "seccess": true
@@ -40235,7 +40235,7 @@
             }]
         }, {
             "name": "Что означает этот знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди мост, по которому может проехать только один автомобиль",
                 "seccess": false
@@ -40341,7 +40341,7 @@
             }]
         }, {
             "name": "Водитель или велосипедист перед вами вытянул влево левую руку. Это означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-vytyanutaya-vlevo.-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zhestovye-signaly-voditelej.-Ruka-vytyanutaya-vlevo.-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево",
                 "seccess": true
@@ -40417,7 +40417,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступить дорогу грузовикам, идущим с холма справа",
                 "seccess": false
@@ -40538,7 +40538,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-100-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-100-650x200.jpg",
             "buttons": [{
                 "text": "1) \"Уступи\"",
                 "seccess": false
@@ -40584,7 +40584,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Двигаться вперед запрещено",
                 "seccess": false
@@ -40600,7 +40600,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди круговое движение",
                 "seccess": false
@@ -40616,7 +40616,7 @@
             }]
         }, {
             "name": "Что означает дорожная разметка на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-na-srednej-linii-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Razmetka-na-srednej-linii-650x200.jpg",
             "buttons": [{
                 "text": "1) Можно использовать полосу для разворота",
                 "seccess": false
@@ -40662,7 +40662,7 @@
             }]
         }, {
             "name": "Дорожные знаки с красным кругом и косой чертой означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-75-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-75-650x200.jpg",
             "buttons": [{
                 "text": "1) Маневр, указанный на знаке, может быть выполнен только после полной остановки",
                 "seccess": false
@@ -40693,7 +40693,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": false
@@ -40709,7 +40709,7 @@
             }]
         }, {
             "name": "Знак \"STOP\" с табличкой \"4-way\" или \"All Way\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-129-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-129-650x200.jpg",
             "buttons": [{
                 "text": "1) Если два автомобиля подъезжают к перекрестку одновременно, водитель слева уступает водителю справа",
                 "seccess": false
@@ -40819,7 +40819,7 @@
             }]
         }, {
             "name": "Что означает мигающий сигнал, изображенный на картинке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-70-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-70-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходы должны перейти улицу",
                 "seccess": false
@@ -40925,7 +40925,7 @@
             }]
         }, {
             "name": "Что означает знак с надписью \"DIP\"?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-042-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-042-650x200.jpg",
             "buttons": [{
                 "text": "1) Департамент полиции",
                 "seccess": false
@@ -41001,7 +41001,7 @@
             }]
         }, {
             "name": "Для чего используется панель с мигающей стрелкой?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-71-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-71-650x200.jpg",
             "buttons": [{
                 "text": "1) Чтобы указать направление, по которому запрещено двигаться",
                 "seccess": false
@@ -41167,7 +41167,7 @@
             }]
         }, {
             "name": "Это знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Разделитель полос движения",
                 "seccess": false
@@ -41258,7 +41258,7 @@
             }]
         }, {
             "name": "Что означает данный знак?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двойной поворот",
                 "seccess": false
@@ -41379,7 +41379,7 @@
             }]
         }, {
             "name": "Данный знак предупреждает водителей о:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-044-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-044-650x200.jpg",
             "buttons": [{
                 "text": "1) Сокращении полос движения",
                 "seccess": false
@@ -41470,7 +41470,7 @@
             }]
         }, {
             "name": "Знак \"Yield\" означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны полностью остановиться",
                 "seccess": false
@@ -41491,7 +41491,7 @@
         "threshold": 32,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-179-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-179-650x200.jpg",
             "buttons": [{
                 "text": "1) Поток транспорта двигается в направлении, указанном стрелкой",
                 "seccess": true
@@ -41507,7 +41507,7 @@
             }]
         }, {
             "name": "Что указано на этом знаке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-094-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-094-650x200.jpg",
             "buttons": [{
                 "text": "1) Номер межштатной магистрали",
                 "seccess": true
@@ -41523,7 +41523,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-112-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-112-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо запрещен",
                 "seccess": false
@@ -41539,7 +41539,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-156-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-156-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещено останавливаться для высадки пассажиров",
                 "seccess": false
@@ -41555,7 +41555,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-074-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-074-650x200.jpg",
             "buttons": [{
                 "text": "1) Правая полоса заканчивается",
                 "seccess": false
@@ -41571,7 +41571,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-056-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-056-650x200.jpg",
             "buttons": [{
                 "text": "1) Держитесь правее, въезжая на шоссе",
                 "seccess": false
@@ -41587,7 +41587,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-042-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-042-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий подъем дороги",
                 "seccess": false
@@ -41603,7 +41603,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-195-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-195-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная рекомендуемая скорость при любых условиях — 30 миль/ч",
                 "seccess": false
@@ -41619,7 +41619,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-073-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-073-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди заканчивается разделенное шоссе",
                 "seccess": true
@@ -41635,7 +41635,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-051-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-051-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние транспорта слева",
                 "seccess": false
@@ -41651,7 +41651,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-022-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-022-650x200.jpg",
             "buttons": [{
                 "text": "1) Въезд запрещен",
                 "seccess": false
@@ -41667,7 +41667,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-163-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-163-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная скорость 55 миль/ч. Штраф за превышение — 30$",
                 "seccess": false
@@ -41683,7 +41683,7 @@
             }]
         }, {
             "name": "Этими знаками обозначаются:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-092-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-092-650x200.jpg",
             "buttons": [{
                 "text": "1) Межштатные магистрали",
                 "seccess": false
@@ -41699,7 +41699,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-041-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-041-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди ремонт дороги",
                 "seccess": false
@@ -41715,7 +41715,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-087-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-087-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди школьная зона",
                 "seccess": false
@@ -41731,7 +41731,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-029-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-029-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога впереди закрыта",
                 "seccess": false
@@ -41747,7 +41747,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-026-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-026-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди знак STOP",
                 "seccess": false
@@ -41763,7 +41763,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-111-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-111-650x200.jpg",
             "buttons": [{
                 "text": "1) Развороты запрещены",
                 "seccess": false
@@ -41779,7 +41779,7 @@
             }]
         }, {
             "name": "Данный символ на информационном знаке указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-141-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-141-650x200.jpg",
             "buttons": [{
                 "text": "1) Пожарную станцию",
                 "seccess": false
@@ -41795,7 +41795,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-116-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-116-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходный переход",
                 "seccess": false
@@ -41811,7 +41811,7 @@
             }]
         }, {
             "name": "Что указано на этом знаке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-202-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-202-650x200.jpg",
             "buttons": [{
                 "text": "1) Скорость на съезде с шоссе",
                 "seccess": false
@@ -41827,7 +41827,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Одностороннее движение",
                 "seccess": false
@@ -41843,7 +41843,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди лыжники",
                 "seccess": false
@@ -41859,7 +41859,7 @@
             }]
         }, {
             "name": "Этот символ на информационном знаке указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-139-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-139-650x200.jpg",
             "buttons": [{
                 "text": "1) Аэропорт",
                 "seccess": true
@@ -41872,7 +41872,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-093-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-093-650x200.jpg",
             "buttons": [{
                 "text": "1) Межштатная магистраль",
                 "seccess": false
@@ -41888,7 +41888,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-095-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-095-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди тупик",
                 "seccess": false
@@ -41904,7 +41904,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-077-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-077-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди перекресток с круговым движением",
                 "seccess": true
@@ -41920,7 +41920,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-027-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-027-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди мост или тоннель, высотой 12 футов и 6 дюймов",
                 "seccess": true
@@ -41936,7 +41936,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-192-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-192-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса для мотоциклов",
                 "seccess": false
@@ -41952,7 +41952,7 @@
             }]
         }, {
             "name": "На этом знаке указана рекомендованная скорость:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-086-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-086-650x200.jpg",
             "buttons": [{
                 "text": "1) На повороте",
                 "seccess": false
@@ -41968,7 +41968,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-185-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-185-650x200.jpg",
             "buttons": [{
                 "text": "1) Центральная полоса используется для движения по прямой",
                 "seccess": false
@@ -41984,7 +41984,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-183-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-183-650x200.jpg",
             "buttons": [{
                 "text": "1) Резкий поворот налево",
                 "seccess": false
@@ -42000,7 +42000,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-169-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-169-650x200.jpg",
             "buttons": [{
                 "text": "1) К шоссе добавляются 2 дополнительных полосы",
                 "seccess": false
@@ -42016,7 +42016,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-113-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-113-650x200.jpg",
             "buttons": [{
                 "text": "1) Исторический маршрут",
                 "seccess": false
@@ -42032,7 +42032,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-018-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-018-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение грузовиков запрещено",
                 "seccess": false
@@ -42048,7 +42048,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-160-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-160-650x200.jpg",
             "buttons": [{
                 "text": "1) Пристегните ремень",
                 "seccess": true
@@ -42064,7 +42064,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-017-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-017-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди движение грузовиков",
                 "seccess": false
@@ -42080,7 +42080,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-130-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-130-650x200.jpg",
             "buttons": [{
                 "text": "1) Резкий поворот направо",
                 "seccess": false
@@ -42096,7 +42096,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-016-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-016-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещено движение автомобилей",
                 "seccess": false
@@ -42112,7 +42112,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-180-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-180-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт в полосе должен двигаться прямо",
                 "seccess": true
@@ -42132,7 +42132,7 @@
         "threshold": 32,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-075-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-075-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние трафика справа",
                 "seccess": false
@@ -42148,7 +42148,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-187-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-187-650x200.jpg",
             "buttons": [{
                 "text": "1) Неверное направление",
                 "seccess": false
@@ -42164,7 +42164,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-059-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-059-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны повернуть налево",
                 "seccess": false
@@ -42180,7 +42180,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-173-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-173-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пешеходный переход",
                 "seccess": false
@@ -42196,7 +42196,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-058-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-058-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот направо",
                 "seccess": false
@@ -42212,7 +42212,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-136-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-136-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога впереди закрыта",
                 "seccess": false
@@ -42228,7 +42228,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-032-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-032-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди стоянка для грузовиков",
                 "seccess": false
@@ -42244,7 +42244,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-177-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-177-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пешеходный переход, смотрите по сторонам",
                 "seccess": false
@@ -42260,7 +42260,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-062-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-062-650x200.jpg",
             "buttons": [{
                 "text": "1) Стоянка такси",
                 "seccess": false
@@ -42276,7 +42276,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-114-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-114-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение грузовиков запрещено",
                 "seccess": false
@@ -42292,7 +42292,7 @@
             }]
         }, {
             "name": "На знаке указана:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-164-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-164-650x200.jpg",
             "buttons": [{
                 "text": "1) Минимальная скорость в любых условиях",
                 "seccess": false
@@ -42308,7 +42308,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-099-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-099-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот направо запрещен",
                 "seccess": false
@@ -42324,7 +42324,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-144-650x200.jpg",
             "buttons": [{
                 "text": "1) Отель",
                 "seccess": false
@@ -42340,7 +42340,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-015-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-015-650x200.jpg",
             "buttons": [{
                 "text": "1) Не останавливайтесь на железнодорожных путях",
                 "seccess": false
@@ -42356,7 +42356,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны остановиться",
                 "seccess": false
@@ -42372,7 +42372,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-191-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-191-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": false
@@ -42388,7 +42388,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-054-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди дорожные работы",
                 "seccess": false
@@ -42404,7 +42404,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-108-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-108-650x200.jpg",
             "buttons": [{
                 "text": "1) Въезд грузовиков запрещен",
                 "seccess": false
@@ -42420,7 +42420,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-170-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-170-650x200.jpg",
             "buttons": [{
                 "text": "1) Держитесь правее",
                 "seccess": false
@@ -42436,7 +42436,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-107-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-107-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево запрещен",
                 "seccess": false
@@ -42452,7 +42452,7 @@
             }]
         }, {
             "name": "Этот знак указывает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-004-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-004-650x200.jpg",
             "buttons": [{
                 "text": "1) Направление движения",
                 "seccess": true
@@ -42468,7 +42468,7 @@
             }]
         }, {
             "name": "Этим символом на информационном знаке обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-140-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-140-650x200.jpg",
             "buttons": [{
                 "text": "1) Школа",
                 "seccess": false
@@ -42484,7 +42484,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-072-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-072-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога поворачивает направо, затем налево",
                 "seccess": true
@@ -42500,7 +42500,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-008-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-008-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди холм",
                 "seccess": true
@@ -42516,7 +42516,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-065-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-065-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди двухстороннее движение",
                 "seccess": true
@@ -42532,7 +42532,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-057-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-057-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди больница",
                 "seccess": false
@@ -42548,7 +42548,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-132-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-132-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот",
                 "seccess": false
@@ -42564,7 +42564,7 @@
             }]
         }, {
             "name": "Увидев этот знак, водители должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-040-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-040-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановиться",
                 "seccess": false
@@ -42580,7 +42580,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-103-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-103-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение пешеходов запрещено",
                 "seccess": false
@@ -42596,7 +42596,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-186-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-186-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога заканчивается Т-образным перекрестком с разделенным шоссе",
                 "seccess": false
@@ -42612,7 +42612,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди разделитель",
                 "seccess": true
@@ -42628,7 +42628,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога впереди закрыта",
                 "seccess": false
@@ -42644,7 +42644,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-046-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-046-650x200.jpg",
             "buttons": [{
                 "text": "1) Обочина ниже, чем проезжая часть",
                 "seccess": true
@@ -42660,7 +42660,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Повороты запрещены",
                 "seccess": false
@@ -42676,7 +42676,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-097-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-097-650x200.jpg",
             "buttons": [{
                 "text": "1) Полностью остановитесь и продолжайте движение, если помехи отсутствуют",
                 "seccess": true
@@ -42692,7 +42692,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-172-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-172-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение пешеходов запрещено",
                 "seccess": false
@@ -42708,7 +42708,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-134-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-134-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди детская площадка",
                 "seccess": false
@@ -42724,7 +42724,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-143-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-143-650x200.jpg",
             "buttons": [{
                 "text": "1) Больницу",
                 "seccess": false
@@ -42740,7 +42740,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-044-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-044-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост",
                 "seccess": true
@@ -42756,7 +42756,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-034-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-034-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди зоопарк",
                 "seccess": false
@@ -42776,7 +42776,7 @@
         "threshold": 32,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-036-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-036-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога занесена снегом",
                 "seccess": false
@@ -42792,7 +42792,7 @@
             }]
         }, {
             "name": "Этот знак указывает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-084-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-084-650x200.jpg",
             "buttons": [{
                 "text": "1) Расстояние до населенного пункта",
                 "seccess": false
@@ -42808,7 +42808,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-135-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-135-650x200.jpg",
             "buttons": [{
                 "text": "1) Автозаправка",
                 "seccess": false
@@ -42824,7 +42824,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-146-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-146-650x200.jpg",
             "buttons": [{
                 "text": "1) Паркомат",
                 "seccess": false
@@ -42840,7 +42840,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-030-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-030-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди изменение скоростного режима",
                 "seccess": true
@@ -42856,7 +42856,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-148-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-148-650x200.jpg",
             "buttons": [{
                 "text": "1) Перевозка лошадей разрешена только в специальных прицепах",
                 "seccess": false
@@ -42872,7 +42872,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-043-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": false
@@ -42888,7 +42888,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-020-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-020-650x200.jpg",
             "buttons": [{
                 "text": "1) На дороге углубление",
                 "seccess": false
@@ -42904,7 +42904,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-063-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-063-650x200.jpg",
             "buttons": [{
                 "text": "1) К шоссе примыкает боковая дорога",
                 "seccess": true
@@ -42920,7 +42920,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-098-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-098-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди перекресток",
                 "seccess": false
@@ -42936,7 +42936,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-024-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-024-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди светофор",
                 "seccess": false
@@ -42952,7 +42952,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-152-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-152-650x200.jpg",
             "buttons": [{
                 "text": "1) Отель",
                 "seccess": false
@@ -42968,7 +42968,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди шоссе с разделителем",
                 "seccess": false
@@ -42984,7 +42984,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-049-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-049-650x200.jpg",
             "buttons": [{
                 "text": "1) Выезд с улицы отсутствует",
                 "seccess": true
@@ -43000,7 +43000,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога изгибается в правую сторону",
                 "seccess": true
@@ -43016,7 +43016,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-022-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-022-650x200.jpg",
             "buttons": [{
                 "text": "1) Параллельно вашему пути проходит железная дорога",
                 "seccess": true
@@ -43032,7 +43032,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-060-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-060-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот направо",
                 "seccess": true
@@ -43048,7 +43048,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-055-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-055-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние трафика справа",
                 "seccess": false
@@ -43064,7 +43064,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-150-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-150-650x200.jpg",
             "buttons": [{
                 "text": "1) Кемпинг или турбаза",
                 "seccess": true
@@ -43080,7 +43080,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-033-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-033-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди зоопарк",
                 "seccess": false
@@ -43096,7 +43096,7 @@
             }]
         }, {
             "name": "Этим символом на информационном щите обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-142-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-142-650x200.jpg",
             "buttons": [{
                 "text": "1) Вокзал или ж/д станция",
                 "seccess": true
@@ -43112,7 +43112,7 @@
             }]
         }, {
             "name": "Вы находитесь в левой полосе. Увидев этот знак, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-167-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-167-650x200.jpg",
             "buttons": [{
                 "text": "1) Повернуть налево",
                 "seccess": true
@@ -43128,7 +43128,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-061-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-061-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": false
@@ -43144,7 +43144,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-053-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-053-650x200.jpg",
             "buttons": [{
                 "text": "1) Справа шоссе № 25",
                 "seccess": false
@@ -43160,7 +43160,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-068-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-068-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди резкий поворот",
                 "seccess": false
@@ -43176,7 +43176,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-190-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-190-650x200.jpg",
             "buttons": [{
                 "text": "1) Правая полоса заканчивается",
                 "seccess": false
@@ -43192,7 +43192,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-168-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-168-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение грузовиков запрещено",
                 "seccess": false
@@ -43208,7 +43208,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-035-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-035-650x200.jpg",
             "buttons": [{
                 "text": "1) Укладка асфальта",
                 "seccess": false
@@ -43224,7 +43224,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-151-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-151-650x200.jpg",
             "buttons": [{
                 "text": "1) Маршрут для эвакуации во время урагана",
                 "seccess": false
@@ -43240,7 +43240,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-166-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-166-650x200.jpg",
             "buttons": [{
                 "text": "1) Участок, на котором запрещено обгонять, заканчивается",
                 "seccess": true
@@ -43256,7 +43256,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-052-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-052-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованная скорость на повороте 35 миль/ч",
                 "seccess": true
@@ -43272,7 +43272,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-037-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-037-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение сельскохозяйственной техники",
                 "seccess": false
@@ -43288,7 +43288,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-147-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-147-650x200.jpg",
             "buttons": [{
                 "text": "1) Библиотеку",
                 "seccess": false
@@ -43304,7 +43304,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-149-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-149-650x200.jpg",
             "buttons": [{
                 "text": "1) Госпиталь",
                 "seccess": false
@@ -43320,7 +43320,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-165-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-165-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди школьная зона",
                 "seccess": false
@@ -43336,7 +43336,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-067-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-067-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди развилка (Y-образный перекресток)",
                 "seccess": true
@@ -43352,7 +43352,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-105-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-105-650x200.jpg",
             "buttons": [{
                 "text": "1) Повороты направо запрещены",
                 "seccess": false
@@ -43368,7 +43368,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-021-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-021-650x200.jpg",
             "buttons": [{
                 "text": "1) Боковая дорога, примыкающая к шоссе, закрыта",
                 "seccess": false
@@ -43384,7 +43384,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-102-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-102-650x200.jpg",
             "buttons": [{
                 "text": "1) Въезд запрещен",
                 "seccess": false
@@ -43400,7 +43400,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-023-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-023-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди нерегулируемый перекресток",
                 "seccess": false
@@ -43420,7 +43420,7 @@
         "threshold": 32,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-031-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-031-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди зоопарк",
                 "seccess": false
@@ -43436,7 +43436,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-158-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-158-650x200.jpg",
             "buttons": [{
                 "text": "1) Разворачиваться запрещено",
                 "seccess": false
@@ -43452,7 +43452,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-198-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-198-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная скорость на повороте — 25 миль/ч",
                 "seccess": true
@@ -43468,7 +43468,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-019-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-019-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пешеходный переход или движение пешеходов",
                 "seccess": true
@@ -43484,7 +43484,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-089-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-089-650x200.jpg",
             "buttons": [{
                 "text": "1) Для встречного транспорта может гореть зеленый сигнал",
                 "seccess": true
@@ -43500,7 +43500,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-199-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-199-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная скорость на изгибе дороги 35 миль/ч",
                 "seccess": true
@@ -43516,7 +43516,7 @@
             }]
         }, {
             "name": "Вы едете по средней полосе трехполосного шоссе. Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-176-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-176-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны повернуть налево",
                 "seccess": false
@@ -43532,7 +43532,7 @@
             }]
         }, {
             "name": "Этот знак указывает на:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-145-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-145-650x200.jpg",
             "buttons": [{
                 "text": "1) Автомойку",
                 "seccess": false
@@ -43548,7 +43548,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-115-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-115-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановитесь перед школьным автобусом",
                 "seccess": true
@@ -43564,7 +43564,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-181-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-181-650x200.jpg",
             "buttons": [{
                 "text": "1) Держитесь левее",
                 "seccess": false
@@ -43580,7 +43580,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-124-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-124-650x200.jpg",
             "buttons": [{
                 "text": "1) На дороге свежий асфальт",
                 "seccess": false
@@ -43596,7 +43596,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-188-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-188-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди односторонняя улица",
                 "seccess": false
@@ -43612,7 +43612,7 @@
             }]
         }, {
             "name": "Если сейчас 12 часов дня, то этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-178-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-178-650x200.jpg",
             "buttons": [{
                 "text": "1) Вам запрещено выезжать на полосу для которой действует этот знак",
                 "seccess": false
@@ -43628,7 +43628,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-079-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-079-650x200.jpg",
             "buttons": [{
                 "text": "1) Правая полоса заканчивается",
                 "seccess": false
@@ -43644,7 +43644,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-078-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-078-650x200.jpg",
             "buttons": [{
                 "text": "1) На дороге ухаб",
                 "seccess": true
@@ -43660,7 +43660,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-184-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-184-650x200.jpg",
             "buttons": [{
                 "text": "1) Центральная полоса для поворота налево",
                 "seccess": true
@@ -43676,7 +43676,7 @@
             }]
         }, {
             "name": "Эти знаки означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-001-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-001-650x200.jpg",
             "buttons": [{
                 "text": "1) Лед на проезжей части",
                 "seccess": true
@@ -43692,7 +43692,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-085-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-085-650x200.jpg",
             "buttons": [{
                 "text": "1) Перекресток закрыт, развернитесь",
                 "seccess": false
@@ -43708,7 +43708,7 @@
             }]
         }, {
             "name": "Эти знаки означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-003-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-003-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога занесена снегом",
                 "seccess": false
@@ -43724,7 +43724,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-013-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-013-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога закрыта",
                 "seccess": false
@@ -43740,7 +43740,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-106-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-106-650x200.jpg",
             "buttons": [{
                 "text": "1) Движение грузового транспорта запрещено",
                 "seccess": true
@@ -43756,7 +43756,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-028-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-028-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди эстакада или тоннель высотой 3,8 метров",
                 "seccess": true
@@ -43772,7 +43772,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-071-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-071-650x200.jpg",
             "buttons": [{
                 "text": "1) Левая полоса закрыта",
                 "seccess": false
@@ -43788,7 +43788,7 @@
             }]
         }, {
             "name": "Знаками с коричневым фоном обозначаются:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-117-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-117-650x200.jpg",
             "buttons": [{
                 "text": "1) Национальные парки и исторические маршруты",
                 "seccess": true
@@ -43804,7 +43804,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-110-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-110-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка велосипедов запрещена",
                 "seccess": false
@@ -43820,7 +43820,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-090-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-090-650x200.jpg",
             "buttons": [{
                 "text": "1) Федеральное шоссе",
                 "seccess": false
@@ -43836,7 +43836,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-007-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-007-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога закрыта",
                 "seccess": false
@@ -43852,7 +43852,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-182-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-182-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы едете в неверном направлении",
                 "seccess": false
@@ -43868,7 +43868,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-118-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-118-650x200.jpg",
             "buttons": [{
                 "text": "1) До населенного пункта 23 мили",
                 "seccess": false
@@ -43884,7 +43884,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-129-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-129-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога впереди закрыта",
                 "seccess": false
@@ -43900,7 +43900,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-122-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-122-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещено парковаться на тротуаре",
                 "seccess": false
@@ -43916,7 +43916,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-080-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-080-650x200.jpg",
             "buttons": [{
                 "text": "1) Обочина с грунтовым покрытием",
                 "seccess": false
@@ -43932,7 +43932,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-161-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-161-650x200.jpg",
             "buttons": [{
                 "text": "1) Максимальная скорость в ночное время — 45 миль/ч",
                 "seccess": true
@@ -43948,7 +43948,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-010-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-010-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкий мост",
                 "seccess": false
@@ -43964,7 +43964,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-127-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-127-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса впереди закрыта",
                 "seccess": false
@@ -43980,7 +43980,7 @@
             }]
         }, {
             "name": "Что указано на этом знаке?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-162-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-162-650x200.jpg",
             "buttons": [{
                 "text": "1) Номер шоссе",
                 "seccess": false
@@ -43996,7 +43996,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-157-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-157-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка с 8:30 утра до 5:30 вечера запрещена",
                 "seccess": true
@@ -44012,7 +44012,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-039-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-039-650x200.jpg",
             "buttons": [{
                 "text": "1) Проезжая часть сужается",
                 "seccess": false
@@ -44028,7 +44028,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-109-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-109-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди пешеходный переход",
                 "seccess": false
@@ -44044,7 +44044,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-175-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-175-650x200.jpg",
             "buttons": [{
                 "text": "1) Уступите пешеходам",
                 "seccess": true
@@ -44064,7 +44064,7 @@
         "threshold": 27,
         "test": [{
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди узкая проезжая часть",
                 "seccess": false
@@ -44080,7 +44080,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-123-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-123-650x200.jpg",
             "buttons": [{
                 "text": "1) Запрещено высаживать пассажиров",
                 "seccess": false
@@ -44096,7 +44096,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-082-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-082-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка у подъездной дороги запрещена",
                 "seccess": false
@@ -44112,7 +44112,7 @@
             }]
         }, {
             "name": "Эти знаки означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-002-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-002-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди неконтролируемый перекресток",
                 "seccess": false
@@ -44128,7 +44128,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-193-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-193-650x200.jpg",
             "buttons": [{
                 "text": "1) Развороты запрещены",
                 "seccess": false
@@ -44144,7 +44144,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-009-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-009-650x200.jpg",
             "buttons": [{
                 "text": "1) Обочина ниже, чем проезжая часть",
                 "seccess": false
@@ -44160,7 +44160,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-006-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-006-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди низкий тоннель или эстакада",
                 "seccess": true
@@ -44176,7 +44176,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-126-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-126-650x200.jpg",
             "buttons": [{
                 "text": "1) Включайте фары во время дождя",
                 "seccess": true
@@ -44192,7 +44192,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-203-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-203-650x200.jpg",
             "buttons": [{
                 "text": "1) Ускорьтесь, если за вами едет транспорт с мигалками",
                 "seccess": false
@@ -44208,7 +44208,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-137-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-137-650x200.jpg",
             "buttons": [{
                 "text": "1) Перед поворотом направо уступите велосипедистам",
                 "seccess": true
@@ -44224,7 +44224,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-081-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-081-650x200.jpg",
             "buttons": [{
                 "text": "1) Все полосы движения закрыты",
                 "seccess": false
@@ -44240,7 +44240,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-011-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-011-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди ж/д переезд",
                 "seccess": false
@@ -44256,7 +44256,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-100-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-100-650x200.jpg",
             "buttons": [{
                 "text": "1) Тихоходный транспорт",
                 "seccess": true
@@ -44272,7 +44272,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-125-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-125-650x200.jpg",
             "buttons": [{
                 "text": "1) Остановка разрешена только по просьбе полицейского",
                 "seccess": true
@@ -44288,7 +44288,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-014-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-014-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди \"лежачий полицейский\"",
                 "seccess": false
@@ -44304,7 +44304,7 @@
             }]
         }, {
             "name": "На знаке указана:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-155-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-155-650x200.jpg",
             "buttons": [{
                 "text": "1) Рекомендованная скорость при движении с горки",
                 "seccess": false
@@ -44320,7 +44320,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-174-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-174-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходная улица. Въезд транспорта запрещен",
                 "seccess": false
@@ -44336,7 +44336,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-133-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-133-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди извилистая дорога",
                 "seccess": false
@@ -44352,7 +44352,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-153-650x200.jpg",
             "buttons": [{
                 "text": "1) Не разговаривайте по телефону за рулем",
                 "seccess": false
@@ -44368,7 +44368,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-012-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-012-650x200.jpg",
             "buttons": [{
                 "text": "1) Развороты разрешены",
                 "seccess": false
@@ -44384,7 +44384,7 @@
             }]
         }, {
             "name": "Вы едете в правом ряду. Увидев этот знак:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-189-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-189-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы можете повернуть налево или продолжать двигаться прямо",
                 "seccess": true
@@ -44400,7 +44400,7 @@
             }]
         }, {
             "name": "Данный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-120-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-120-650x200.jpg",
             "buttons": [{
                 "text": "1) Велосипедист может занимать всю полосу",
                 "seccess": true
@@ -44416,7 +44416,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-083-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-083-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога закрыта",
                 "seccess": false
@@ -44432,7 +44432,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-194-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-194-650x200.jpg",
             "buttons": [{
                 "text": "1) Левая полоса заканчивается",
                 "seccess": false
@@ -44448,7 +44448,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-048-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-048-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса закрыта",
                 "seccess": false
@@ -44464,7 +44464,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-119-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-119-650x200.jpg",
             "buttons": [{
                 "text": "1) Парковка на обочине запрещена",
                 "seccess": false
@@ -44480,7 +44480,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-047-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-047-650x200.jpg",
             "buttons": [{
                 "text": "1) Дорога закрыта",
                 "seccess": false
@@ -44496,7 +44496,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-003-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-003-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди холм высотой 1000 футов",
                 "seccess": false
@@ -44512,7 +44512,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-159-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-159-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворачивая налево на зеленый сигнал, уступите встречному транспорту",
                 "seccess": true
@@ -44528,7 +44528,7 @@
             }]
         }, {
             "name": "Эти знаки означают:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-101-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-101-650x200.jpg",
             "buttons": [{
                 "text": "1) Поворот налево запрещен",
                 "seccess": false
@@ -44544,7 +44544,7 @@
             }]
         }, {
             "name": "Этим знаком обозначается:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-154-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-154-650x200.jpg",
             "buttons": [{
                 "text": "1) Зона для отдыха",
                 "seccess": true
@@ -44560,7 +44560,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-171-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-171-650x200.jpg",
             "buttons": [{
                 "text": "1) Полоса используется для поворотов налево с 6 до 9 утра",
                 "seccess": false
@@ -44576,7 +44576,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-138-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-138-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди движение сельхозтехники",
                 "seccess": false
@@ -44592,7 +44592,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-045-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-045-650x200.jpg",
             "buttons": [{
                 "text": "1) Извилистая дорога",
                 "seccess": false
@@ -44658,7 +44658,7 @@
             }]
         }, {
             "name": "Какой из факторов НЕ влияет на скорость транспорта при спуске со склона?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-14-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-14-650x200.jpg",
             "buttons": [{
                 "text": "1) Вес транспорта и груза",
                 "seccess": false
@@ -45428,7 +45428,7 @@
             }]
         }, {
             "name": "Что из перечисленного верно в отношении решетки радиатора и зимней заглушки для радиатора (winterfront)?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Zimnyaya-zaglushka-radiatora-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Zimnyaya-zaglushka-radiatora-650x200.jpg",
             "buttons": [{
                 "text": "1) Если заглушку оставить открытой, двигатель может перегреться",
                 "seccess": false
@@ -45699,7 +45699,7 @@
             }]
         }, {
             "name": "Передний щит прицепа или кузова (headache racks):",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Perednij-shhit-kuzova-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Perednij-shhit-kuzova-650x200.jpg",
             "buttons": [{
                 "text": "1) Нужен для защиты кабины от груза при экстренном торможении",
                 "seccess": false
@@ -46000,7 +46000,7 @@
             }]
         }, {
             "name": "Знаки, указывающие высоту моста или эстакады:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-94-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-94-650x200.jpg",
             "buttons": [{
                 "text": "1) Всегда точны",
                 "seccess": false
@@ -47176,7 +47176,7 @@
             }]
         }, {
             "name": "Если у вас есть сомнения, что ваш транспорт пройдет под мостом, вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-94-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-94-650x200.jpg",
             "buttons": [{
                 "text": "1) Ехать медленнее",
                 "seccess": true
@@ -47612,7 +47612,7 @@
             }]
         }, {
             "name": "Рекомендованная скорость на повороте:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-25-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-25-650x200.jpg",
             "buttons": [{
                 "text": "1) Подходит для всех видов транспорта",
                 "seccess": false
@@ -47633,7 +47633,7 @@
         "threshold": 40,
         "test": [{
             "name": "Когда вы видите знак Merging Traffic (“Слияние трафика”) вы должны:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Замедлиться или остановиться и позволить въезжающему транспорту слиться с потоком на шоссе",
                 "seccess": false
@@ -47679,7 +47679,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-023-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-023-650x200.jpg",
             "buttons": [{
                 "text": "1) Будьте готовы остановиться, если индикатор начнет мигать",
                 "seccess": false
@@ -47761,7 +47761,7 @@
             }]
         }, {
             "name": "Вы можете припарковаться на парковочных местах для автомобилистов с инвалидностью",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/10/sign-121-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/sign-121-650x200.jpg",
             "buttons": [{
                 "text": "1) Только в том случае, если лицо, получившее разрешение или номерные знаки транспорта инвалида, не находится в транспортном средстве",
                 "seccess": false
@@ -47777,7 +47777,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-93-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Sign-93-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди поворот, рекомендованная скорость 40 миль/час или меньше",
                 "seccess": true
@@ -47859,7 +47859,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-038-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-038-650x200.jpg",
             "buttons": [{
                 "text": "1) Пешеходам запрещено переходить дорогу",
                 "seccess": false
@@ -48223,7 +48223,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-051-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-051-650x200.jpg",
             "buttons": [{
                 "text": "1) Повороты направо запрещены",
                 "seccess": false
@@ -48275,7 +48275,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-097-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-097-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди слияние движения",
                 "seccess": false
@@ -48318,7 +48318,7 @@
             }]
         }, {
             "name": "Что означает знак NO STANDING?",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-005-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Dorozhnye-znaki-shtata-Nju-Jork-005-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт может останавливаться только следуя дорожному знаку, сигналу или указаниям регулировщика",
                 "seccess": false
@@ -48338,7 +48338,7 @@
         "threshold": 40,
         "test": [{
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-076-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-076-650x200.jpg",
             "buttons": [{
                 "text": "1) Правая полоса заканчивается",
                 "seccess": false
@@ -48366,7 +48366,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-025-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-025-650x200.jpg",
             "buttons": [{
                 "text": "1) Предостережение о железной дороге впереди",
                 "seccess": false
@@ -48397,7 +48397,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2022/07/Znak-Vezd-zapreshhen-1-650x200.png",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/Znak-Vezd-zapreshhen-1-650x200.png",
             "buttons": [{
                 "text": "1) Стоп!",
                 "seccess": false
@@ -48509,7 +48509,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-066-650x200.jpg",
             "buttons": [{
                 "text": "1) Впереди слияние трафика, ведите машину с осторожностью",
                 "seccess": true
@@ -48525,7 +48525,7 @@
             }]
         }, {
             "name": "Этот регулирующий знак сообщает водителям, что:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-189-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-189-650x200.jpg",
             "buttons": [{
                 "text": "1) Транспорт на левой полосе должен повернуть налево на перекрестке впереди",
                 "seccess": true
@@ -48619,7 +48619,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-069-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-069-650x200.jpg",
             "buttons": [{
                 "text": "1) Слияние трафика",
                 "seccess": true
@@ -48863,7 +48863,7 @@
             }]
         }, {
             "name": "Этот дорожный знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-070-650x200.jpg",
             "buttons": [{
                 "text": "1) Держитесь правее",
                 "seccess": false
@@ -48933,7 +48933,7 @@
             }]
         }, {
             "name": "Этот знак используется, чтобы предупредить водителей:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-064-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-064-650x200.jpg",
             "buttons": [{
                 "text": "1) Об опасности сонливости за рулем",
                 "seccess": false
@@ -48964,7 +48964,7 @@
             }]
         }, {
             "name": "Этот знак означает:",
-            "image": "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-096-650x200.jpg",
+            "image": "https://russiandmvtests.com/wp-content/themes/dwt-listing/imgs/new_tests/dorojnie-znaki-ssha-096-650x200.jpg",
             "buttons": [{
                 "text": "1) Вы должны всегда полностью останавливаться перед перекрестком",
                 "seccess": false
