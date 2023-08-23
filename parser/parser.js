@@ -5,73 +5,59 @@ import * as https from 'https';
 import { Stream, Transform } from 'stream';
 import { parse } from "node-html-parser";
 
-let categories = {
-  'B': 'AB',
-  'C': 'C',
-  'D': 'D',
-  'E': 'E',
-  'F': 'F'
-}
-
 let tests = [];
-let language = 'rom';
 const categoryLinks = [];
-const testsLinks = ["https://russiantestdmv.com/testy-dmv-shtata-vashington-na-russkom-yazyke/test-dmv-shtata-vashington-1/"];
 
-// await parseMainPage();
-// await parseAllCategories();
+let done = 0;
+
+await parseMainPage();
 await parseTests();
-// console.log(testsLinks);
-
-// for (let key in categories) {
-//   const type = categories[key];
-
-//   for (let index = 1; index < 50; index++) {
-//     const test = await getTest(key, index, language);
-//     const ticket = type+index;
-//     const exist = tests.find((item) => `${ticket}` in item);
-//     if (exist || !test) break;
-//     console.log(ticket)
-//     tests.push(
-//       parseTest(test, ticket)
-//     );
-//     delay(500);
-//   }
-// }
-// write(tests, language);
 console.log('Завершено');
 
 async function parseMainPage() {
-  return await fetch("https://russiantestdmv.com/")
+  return await fetch("https://www.drivingtest.ca/practice-driving-tests/")
   .then((res) => res.text())
   .then((text) => {
     const document = parse(text);
-    const items = document.querySelectorAll("#generate-section-1 .customBtn11 a");
+    const items = document.querySelectorAll(".elementor-widget-wrap .elementor-icon-list-item a");
     items.map((item) => {
-      categoryLinks.push(item.getAttribute("href"));
+      categoryLinks.push({
+        link: item.getAttribute("href"),
+        title: item.innerText.replaceAll(/[\n]/g, "").trim(),
+      });
     })
   });
 }
-
-async function parseSingleGategoryPage(link) {
-  return await fetch(link)
-  .then((res) => res.text())
-  .then((text) => {
-    const links = [];
-    const document = parse(text);
-    const items = document.querySelectorAll(".testContainer a");
-    items.map((item) => {
-      links.push(item.getAttribute("href"));
+async function parseTests() {
+  categoryLinks.map(async (category, index) => {
+    const testsPage = await getSingleCategoryTests(category.link);
+    const categoryTest = { [category]: [] };
+    testsPage.map(async (_test) => {
+      const testPageHtml = await loadSingleTestPage(_test.link);
+      const test = parseSingleTestPage(testPageHtml, _test.title);
+      categoryTest[category].push(test);
     });
-    return links;
+    tests.push(categoryTest);
   });
+
+  write(tests);
 }
 
-async function parseAllCategories() {
-  for (let link of categoryLinks) {
-    const ticketsLinks = await parseSingleGategoryPage(link);
-    testsLinks.push(...ticketsLinks);
-  }
+async function getSingleCategoryTests(link) {
+  const testsLinks = [];
+  await fetch(link)
+  .then((res) => res.text())
+  .then((text) => {
+    const document = parse(text);
+    const items = document.querySelectorAll(".elementor-widget-wrap .elementor-icon-list-item a");
+    return items.map((item, index) => {
+      testsLinks.push({
+        link: item.getAttribute("href"),
+        title: index + 1,
+      });
+    })
+  });
+  return testsLinks;
 }
 
 async function loadSingleTestPage(link) {
@@ -82,29 +68,30 @@ async function loadSingleTestPage(link) {
   });
 }
 
-function parseTestPage(html) {
-  const test = {"asd": []};
+function parseSingleTestPage(html, title) {
+  const data = { title, test: [] };
   const document = parse(html);
-  const questions = document.querySelectorAll(".advq_question_container");
+  const questions = [...document.querySelectorAll(".step:not(.ays_thank_you_fs)")].slice(1);
 
   questions.forEach((item) => {
-    test["asd"].push(
+    data["test"].push(
       formatSingleQuestion(item)
     );
   });
 
-  return test;
+  return data;
 }
 
 function formatSingleQuestion(item) {
-  const name = item.querySelector(".advq_question").innerText;
-  const image = item.querySelector(".advq_question_image img")?.getAttribute("src");
-  const buttons = [...item.querySelectorAll(".quiz_unselected_answer")].reduce((arr, button, index) => {
-    const text = `${index + 1}) ${button.querySelector("label").innerText}`;
-    const seccess = button.querySelector("input").getAttribute("data-rule") == "1";
+  const name = item.querySelector(".ays_quiz_question p")?.innerText || "";
+  const image = item.querySelector(".ays-image-question-img img")?.getAttribute("data-lazy-src");
+  const buttons = [...item.querySelectorAll(".ays-quiz-answers .ays-field")].reduce((arr, button, index) => {
+    const text = `${index + 1}) ${button.querySelector(".ays-quiz-keyboard-label").innerText}`;
+    const seccess = button.querySelector("[name='ays_answer_correct[]']").value == "1";
     arr.push({ text, seccess });
     return arr;
   }, []);
+  
   return {
     name,
     image,
@@ -112,16 +99,6 @@ function formatSingleQuestion(item) {
   }
 }
 
-async function parseTests() {
-  for (let link of testsLinks) {
-    const testPageHtml = await loadSingleTestPage(link);
-    const test = parseTestPage(testPageHtml);
-    tests.push(test);
-  }
-
-  write(tests, language);
-}
-
 function write(obj, lang = 'rus') {
-  fs.writeFileSync(`./${lang}.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
+  fs.writeFileSync(`./new.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
 }
