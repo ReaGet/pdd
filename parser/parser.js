@@ -1,9 +1,7 @@
 import fetch from 'node-fetch';
 import * as fs from 'fs';
-import * as http from 'http';
-import * as https from 'https';
-import { Stream, Transform } from 'stream';
 import { parse } from "node-html-parser";
+import async from "async";
 
 let tests = [];
 const categoryLinks = [];
@@ -29,19 +27,74 @@ async function parseMainPage() {
   });
 }
 async function parseTests() {
-  categoryLinks.map(async (category, index) => {
-    await sleep(500);
-    const testsPage = await getSingleCategoryTests(category.link);
-    const categoryTest = { [category]: [] };
-    testsPage.map(async (_test) => {
-      const testPageHtml = await loadSingleTestPage(_test.link);
-      const test = parseSingleTestPage(testPageHtml, _test.title);
-      categoryTest[category].push(test);
-    });
-    tests.push(categoryTest);
-  });
+  const categoriesPages = [];
+  // const categoryTest = { [category.title]: [] }
+  // console.log(categoryLinks)
+  (async () => {
+    try {
+      console.log(222)
+      const result = await async.map(categoryLinks, (category, callback) => {
+        getSingleCategoryTests(category.link).then((data) => {
+          // console.log(category.title)
+          callback(category.title)
+        });
+      });
+      console.log(result)
+    }
+    catch (err) {
+        console.log(err);
+    }
+  })();
+  // async.map(categoryLinks, (category, callback) => {
+  //   getSingleCategoryTests(category.link).then((data) => {
+  //     console.log(category.title)
+  //     callback(category.title)
+  //   });
+  //   // callback({ title: category.title, page: categoryPage });
+  //   // console.log(testsPage)
+  //   // callback(null, testsPage);
+  //   // tests.push(categoryTest);
+  // }, (result) => {
+  //   console.log(2, result)
+  // })
+  // async.map(categoryLinks, async (category) => {
+  //   const categoryTest = { [category.title]: [] }
+  //   const testsPage = await getSingleCategoryTests(category.link);
+  //   async.map(testsPage, async (_test) => {
+  //     const testPageHtml = await loadSingleTestPage(_test.link);
+  //     const test = parseSingleTestPage(testPageHtml, _test.title);
 
-  write(tests);
+  //     categoryTest[category].push(test);
+  //   });
+  //   tests.push(categoryTest);
+  // }).then(() => {
+  //   write(tests);
+  // });
+  // categoryLinks.map(async (category, index) => {
+  //   const testsPage = await getSingleCategoryTests(category.link);
+  //   categoriesPages.push({
+  //     title: category.title,
+  //     page: testsPage,
+  //   });
+  //   console.log(categoriesPages.length)
+  // });
+  // console.log(categoriesPages)
+  
+  // const categoryTest = { [category]: [] };
+  // testsPage.map(async (_test) => {
+  //   await sleep(500);
+  //   const testPageHtml = await loadSingleTestPage(_test.link);
+  //   const test = parseSingleTestPage(testPageHtml, _test.title);
+  //   categoryTest[category].push(test);
+  // });
+  // tests.push(categoryTest);
+
+  // write(tests);
+}
+
+async function parseCategoryPage(category, callback) {
+  const testsPage = await getSingleCategoryTests(category.link);
+  return testsPage;
 }
 
 async function getSingleCategoryTests(link) {
@@ -59,6 +112,10 @@ async function getSingleCategoryTests(link) {
     })
   });
   return testsLinks;
+}
+
+async function parseTestPage(test) {
+  console.log(test)
 }
 
 async function loadSingleTestPage(link) {
