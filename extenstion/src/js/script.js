@@ -1,4 +1,5 @@
 import { parse } from "node-html-parser";
+import images from "./images";
 let tests = {};
 const testsLinks = [];
 const categoryLinks = [];
@@ -13,7 +14,7 @@ chrome.runtime.onMessage.addListener(async function (
   const { name, action, title } = request;
   console.log(name, action);
   if (action === "parse") {
-    start();
+    start2();
   } else {
     exportTests();
   }
@@ -28,6 +29,21 @@ async function start() {
   console.log("tests parsed");
   console.log(JSON.stringify(downloadedImages));
 }
+
+function start2() {
+  chunks(images, 1).forEach((chunk, i) => {
+    setTimeout(() => {
+      console.log(i + 1, images.length);
+      chunk.map(downloadImage2);
+    }, i * 500);
+  });
+}
+
+const chunks = (arr, chunkSize) => {
+  let results = [];
+  while (arr.length) results.push(arr.splice(0, chunkSize));
+  return results;
+};
 
 async function parseThemesLinks() {
   const items = document.querySelectorAll("#generate-section-1 .customBtn11 a");
@@ -128,6 +144,18 @@ function downloadImage(item) {
     document.body.removeChild(link);
   }
 }
+
+function downloadImage2(imageSrc) {
+  const urlItems = imageSrc?.split("/");
+  const name = urlItems ? urlItems[urlItems.length - 1] : "";
+  var link = document.createElement("a");
+  link.href = imageSrc;
+  link.download = name;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 
 function formatSingleQuestion(item) {
   const name = item.querySelector(".advq_question").innerText;

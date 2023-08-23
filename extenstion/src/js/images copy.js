@@ -1,4 +1,5 @@
-{
+
+export default [{
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Belye-pryamougolnye-vertikalnye-znaki-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-070-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Formy-dorozhnyh-znakov-SShA-1-650x200.jpg": true,
@@ -28,7 +29,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Pravo-proezda-na-podezdnoj-dorozhke-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-066-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-043-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-012-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-005-650x200.jpg": true,
@@ -61,7 +62,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Signaly-dvizheniya-po-polosam-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-144-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-054-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2022/07/Znak-Vezd-zapreshhen-1-650x200.png": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Zhestovye-signaly-voditelej.-Ruka-podnyataya-vverh-650x200.jpg": true,
@@ -92,7 +93,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Povorot-s-dvuhstoronnej-na-odnostoronnjuju-ulicu-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-201-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-166-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-75-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-27-650x200.jpg": true,
@@ -119,7 +120,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-50-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2022/10/sign-202-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2022/10/sign-122-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2022/11/dorojnie-znaki-ssha-218-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2022/10/dorojnaya-razmetka-ssha-43-1-650x200.jpg": true,
@@ -146,7 +147,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-71-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-so-strelkami-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Razmetka-na-srednej-linii-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2020/09/Razvorot-v-tri-priema-foto-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-153-650x200.jpg": true,
@@ -175,7 +176,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-006-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-005-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-007-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-004-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Polosa-dlya-uskoreniya-650x200.jpg": true,
@@ -200,7 +201,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-184-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-024-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-183-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-015-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/Dorozhnye-znaki-shtata-Nju-Jork-011-650x200.jpg": true,
@@ -226,7 +227,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-80-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Dorozhnaya-razmetka-ONLY-1-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-72-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-042-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-056-650x200.jpg": true,
@@ -249,7 +250,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-140-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-172-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-173-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-058-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-170-650x200.jpg": true,
@@ -272,7 +273,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-084-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-151-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-149-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-033-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-022-650x200.jpg": true,
@@ -294,7 +295,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-124-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-110-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-106-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-115-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-001-650x200.jpg": true,
@@ -317,7 +318,7 @@
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-175-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-122-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-145-650x200.jpg": true,
-}
+},
 {
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-028-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2021/03/dorojnie-znaki-ssha-182-650x200.jpg": true,
@@ -345,4 +346,5 @@
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-94-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-25-650x200.jpg": true,
   "https://russiantestdmv.com/wp-content/uploads/2020/08/Sign-93-650x200.jpg": true
-}
+},
+]
