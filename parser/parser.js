@@ -30,6 +30,7 @@ async function parseMainPage() {
 }
 async function parseTests() {
   categoryLinks.map(async (category, index) => {
+    await sleep(500);
     const testsPage = await getSingleCategoryTests(category.link);
     const categoryTest = { [category]: [] };
     testsPage.map(async (_test) => {
@@ -97,6 +98,10 @@ function formatSingleQuestion(item) {
     image,
     buttons,
   }
+}
+
+async function sleep(millis) {
+  return new Promise(resolve => setTimeout(resolve, millis));
 }
 
 function write(obj, lang = 'rus') {
