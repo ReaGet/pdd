@@ -24,6 +24,7 @@ async function parseMainPage() {
     })
   });
 }
+
 async function parseTests() {
   const tests = {};
   let testsPages = await async.map(categoryLinks, async (category) => {
@@ -79,18 +80,45 @@ async function loadSingleTestPage(link) {
 function parseSingleTestPage(page, test) {
   const data = { title: test.title, test: [] };
   const document = parse(page);
-  const questions = [...document.querySelectorAll(".step:not(.ays_thank_you_fs)")].slice(1);
+  let quizAppType = document.querySelector(".mtq_question") ? 1 : 0;
+  let questions = null;
+  if (quizAppType === 1) {
+    questions = document.querySelectorAll(".mtq_question");
+  } else {
+    questions = [...document.querySelectorAll(".step:not(.ays_thank_you_fs)")].slice(1);
+  }
 
   questions.forEach((item) => {
     data["test"].push(
-      formatSingleQuestion(item)
+      quizAppType === 1 ? formatSingleQuestionType1(item) : formatSingleQuestionType2(item)
     );
   });
 
   return data;
 }
 
-function formatSingleQuestion(item) {
+function formatSingleQuestionType1(item) {
+  let name = item.querySelector(".mtq_question_text")?.innerText || "";
+  const image = item.querySelector("img")?.getAttribute("data-lazy-src");
+  const buttons = [...item.querySelectorAll(".mtq_answer_table .mtq_clickable")].reduce((arr, button, index) => {
+    const text = `${index + 1}) ${button.querySelector(".mtq_answer_text").innerText}`;
+    const seccess = button.querySelector("[alt='Correct']") ? true : false;
+    arr.push({ text, seccess });
+    return arr;
+  }, []);
+
+  if (name) {
+    name = name.replaceAll(/<.*?>/gi, "");
+  }
+  
+  return {
+    name,
+    image,
+    buttons,
+  }
+}
+
+function formatSingleQuestionType2(item) {
   const name = item.querySelector(".ays_quiz_question p")?.innerText || "";
   const image = item.querySelector(".ays-image-question-img img")?.getAttribute("data-lazy-src");
   const buttons = [...item.querySelectorAll(".ays-quiz-answers .ays-field")].reduce((arr, button, index) => {
@@ -105,10 +133,6 @@ function formatSingleQuestion(item) {
     image,
     buttons,
   }
-}
-
-async function sleep(millis) {
-  return new Promise(resolve => setTimeout(resolve, millis));
 }
 
 function write(obj, lang = 'rus') {
