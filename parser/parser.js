@@ -3,9 +3,7 @@ import * as fs from 'fs';
 import { parse } from "node-html-parser";
 import async from "async";
 
-let tests = [];
 const categoryLinks = [];
-
 let done = 0;
 
 await parseMainPage();
@@ -27,79 +25,34 @@ async function parseMainPage() {
   });
 }
 async function parseTests() {
-  const categoriesPages = [];
-  // const categoryTest = { [category.title]: [] }
-  // console.log(categoryLinks)
-  (async () => {
-    try {
-      console.log(222)
-      const result = await async.map(categoryLinks, (category, callback) => {
-        getSingleCategoryTests(category.link).then((data) => {
-          // console.log(category.title)
-          callback(category.title)
-        });
-      });
-      console.log(result)
-    }
-    catch (err) {
-        console.log(err);
-    }
-  })();
-  // async.map(categoryLinks, (category, callback) => {
-  //   getSingleCategoryTests(category.link).then((data) => {
-  //     console.log(category.title)
-  //     callback(category.title)
-  //   });
-  //   // callback({ title: category.title, page: categoryPage });
-  //   // console.log(testsPage)
-  //   // callback(null, testsPage);
-  //   // tests.push(categoryTest);
-  // }, (result) => {
-  //   console.log(2, result)
-  // })
-  // async.map(categoryLinks, async (category) => {
-  //   const categoryTest = { [category.title]: [] }
-  //   const testsPage = await getSingleCategoryTests(category.link);
-  //   async.map(testsPage, async (_test) => {
-  //     const testPageHtml = await loadSingleTestPage(_test.link);
-  //     const test = parseSingleTestPage(testPageHtml, _test.title);
+  const tests = {};
+  let testsPages = await async.map(categoryLinks, async (category) => {
+    return await getSingleCategoryTests(category);
+  });
 
-  //     categoryTest[category].push(test);
-  //   });
-  //   tests.push(categoryTest);
-  // }).then(() => {
-  //   write(tests);
-  // });
-  // categoryLinks.map(async (category, index) => {
-  //   const testsPage = await getSingleCategoryTests(category.link);
-  //   categoriesPages.push({
-  //     title: category.title,
-  //     page: testsPage,
-  //   });
-  //   console.log(categoriesPages.length)
-  // });
-  // console.log(categoriesPages)
-  
-  // const categoryTest = { [category]: [] };
-  // testsPage.map(async (_test) => {
-  //   await sleep(500);
-  //   const testPageHtml = await loadSingleTestPage(_test.link);
-  //   const test = parseSingleTestPage(testPageHtml, _test.title);
-  //   categoryTest[category].push(test);
-  // });
-  // tests.push(categoryTest);
+  testsPages = testsPages.reduce((arr, item) => {
+    arr.push(...item)
+    return arr;
+  }, []);
 
-  // write(tests);
+  await async.map(testsPages, async (_test) => {
+    const page = await loadSingleTestPage(_test.link);
+    const test = await parseSingleTestPage(page, _test);
+    done++;
+
+    console.log(~~(done / testsPages.length * 100));
+
+    if (!tests[_test.category]) tests[_test.category] = [];
+
+    tests[_test.category].push(test);
+  });
+
+  write(tests);
 }
 
-async function parseCategoryPage(category, callback) {
-  const testsPage = await getSingleCategoryTests(category.link);
-  return testsPage;
-}
-
-async function getSingleCategoryTests(link) {
+async function getSingleCategoryTests(category) {
   const testsLinks = [];
-  await fetch(link)
+  await fetch(category.link)
   .then((res) => res.text())
   .then((text) => {
     const document = parse(text);
@@ -108,14 +61,11 @@ async function getSingleCategoryTests(link) {
       testsLinks.push({
         link: item.getAttribute("href"),
         title: index + 1,
+        category: category.title,
       });
     })
   });
   return testsLinks;
-}
-
-async function parseTestPage(test) {
-  console.log(test)
 }
 
 async function loadSingleTestPage(link) {
@@ -126,9 +76,9 @@ async function loadSingleTestPage(link) {
   });
 }
 
-function parseSingleTestPage(html, title) {
-  const data = { title, test: [] };
-  const document = parse(html);
+function parseSingleTestPage(page, test) {
+  const data = { title: test.title, test: [] };
+  const document = parse(page);
   const questions = [...document.querySelectorAll(".step:not(.ays_thank_you_fs)")].slice(1);
 
   questions.forEach((item) => {
