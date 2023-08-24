@@ -2,16 +2,24 @@ import fetch from 'node-fetch';
 import * as fs from 'fs';
 import { parse } from "node-html-parser";
 import async from "async";
+import https from "https";
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const categoryLinks = [];
 let done = 0;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 await parseMainPage();
 await parseTests();
 console.log('Завершено');
 
 async function parseMainPage() {
-  return await fetch("https://www.drivingtest.ca/practice-driving-tests/")
+  // return await fetch("https://www.drivingtest.ca/practice-driving-tests/")
+  // return await fetch("https://www.drivingtest.ca/motorcycle-knowledge-test/")
+  return await fetch("https://www.drivingtest.ca/commercial-drivers-licence-practice-test/")
   .then((res) => res.text())
   .then((text) => {
     const document = parse(text);
@@ -37,7 +45,9 @@ async function parseTests() {
   }, []);
 
   await async.map(testsPages, async (_test) => {
+    await sleep(100);
     const page = await loadSingleTestPage(_test.link);
+    await sleep(300);
     const test = await parseSingleTestPage(page, _test);
     done++;
 
@@ -62,6 +72,7 @@ async function getSingleCategoryTests(category) {
       testsLinks.push({
         link: item.getAttribute("href"),
         title: index + 1,
+        name: item.querySelector(".elementor-icon-list-text").innerText.replaceAll(/[\n]/g, "").trim(),
         category: category.title,
       });
     })
@@ -78,7 +89,7 @@ async function loadSingleTestPage(link) {
 }
 
 function parseSingleTestPage(page, test) {
-  const data = { title: test.title, test: [] };
+  const data = { title: test.title, name: test.name, test: [] };
   const document = parse(page);
   let quizAppType = document.querySelector(".mtq_question") ? 1 : 0;
   let questions = null;
@@ -99,19 +110,23 @@ function parseSingleTestPage(page, test) {
 
 function formatSingleQuestionType1(item) {
   let name = item.querySelector(".mtq_question_text")?.innerText || "";
-  const image = item.querySelector("img")?.getAttribute("data-lazy-src");
+  let image = item.querySelector("img")?.getAttribute("data-lazy-src");
   const buttons = [...item.querySelectorAll(".mtq_answer_table .mtq_clickable")].reduce((arr, button, index) => {
     const text = `${index + 1}) ${button.querySelector(".mtq_answer_text").innerText}`;
-    // console.log(button.querySelector("[alt='Correct']") ? true : false)
-    // const seccess = button.querySelector("[alt='Correct']") ? true : false;
     const seccess = (/alt=\W(correct)\W/gi).test(button.innerHTML);
-    console.log(button.innerHTML)
     arr.push({ text, seccess });
     return arr;
   }, []);
 
   if (name) {
     name = name.replaceAll(/<.*?>/gi, "");
+    name = name.replaceAll(/[\n]/g, "").trim();
+  }
+
+  if (!image) {
+    image = "/img/noimage.png";
+  } else {
+    // downloadImage(image);
   }
   
   return {
@@ -122,14 +137,25 @@ function formatSingleQuestionType1(item) {
 }
 
 function formatSingleQuestionType2(item) {
-  const name = item.querySelector(".ays_quiz_question p")?.innerText || "";
-  const image = item.querySelector(".ays-image-question-img img")?.getAttribute("data-lazy-src");
+  let name = item.querySelector(".ays_quiz_question p")?.innerText || "";
+  let image = item.querySelector(".ays-image-question-img img")?.getAttribute("data-lazy-src");
   const buttons = [...item.querySelectorAll(".ays-quiz-answers .ays-field")].reduce((arr, button, index) => {
     const text = `${index + 1}) ${button.querySelector(".ays-quiz-keyboard-label").innerText}`;
     const seccess = button.querySelector("[name='ays_answer_correct[]']").value == "1";
     arr.push({ text, seccess });
     return arr;
   }, []);
+  
+  if (name) {
+    name = name.replaceAll(/<.*?>/gi, "");
+    name = name.replaceAll(/[\n]/g, "").trim();
+  }
+
+  if (!image) {
+    image = "/img/noimage.png";
+  } else {
+    // downloadImage(image);
+  }
   
   return {
     name,
@@ -138,6 +164,54 @@ function formatSingleQuestionType2(item) {
   }
 }
 
-function write(obj, lang = 'rus') {
+async function downloadImage(link, tries = 0) {
+  await sleep(300);
+
+  if (link.includes("noimage")) {
+    return;
+  }
+  const imageName = link.split("/").slice(-1)[0]
+  const file = fs.createWriteStream(path.resolve(__dirname, "img", imageName));
+  const imageLink = link.replace("http:", "https:");
+
+  https.get(imageLink, response => {
+    response.pipe(file);
+
+    file.on('finish', () => {
+      file.close();
+      console.log(`Image downloaded as ${imageName}`);
+    });
+  }).on('error', err => {
+    // fs.unlink(imageName);
+    if (tries < 3) {
+      setTimeout(() => {
+        tries++;
+        downloadImage(link, tries);
+      }, 500);
+    }
+    console.error(`Error downloading image: ${err.message}`);
+  });
+  // fetch(link)
+  // .then((response) => response.arrayBuffer())
+  // .then((buffer) => {
+  //   // Write the buffer to a file
+  //   fs.writeFile(file, buffer, (err) => {
+  //     if (err) {
+  //       console.error(err);
+  //     } else {
+  //       console.log("Image downloaded successfully");
+  //     }
+  //   });
+  // })
+  // .catch((error) => {
+  //   console.error(error);
+  // });
+}
+
+async function sleep(millis) {
+  return new Promise(resolve => setTimeout(resolve, millis));
+}
+
+function write(obj) {
   fs.writeFileSync(`./new.tests.js`, JSON.stringify(obj, null, 2), 'utf-8');
 }
