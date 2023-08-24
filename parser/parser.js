@@ -102,7 +102,10 @@ function formatSingleQuestionType1(item) {
   const image = item.querySelector("img")?.getAttribute("data-lazy-src");
   const buttons = [...item.querySelectorAll(".mtq_answer_table .mtq_clickable")].reduce((arr, button, index) => {
     const text = `${index + 1}) ${button.querySelector(".mtq_answer_text").innerText}`;
-    const seccess = button.querySelector("[alt='Correct']") ? true : false;
+    // console.log(button.querySelector("[alt='Correct']") ? true : false)
+    // const seccess = button.querySelector("[alt='Correct']") ? true : false;
+    const seccess = (/alt=\W(correct)\W/gi).test(button.innerHTML);
+    console.log(button.innerHTML)
     arr.push({ text, seccess });
     return arr;
   }, []);

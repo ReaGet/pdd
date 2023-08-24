@@ -58,17 +58,13 @@ let currentCategoryTests = null;
 let currentTest = null;
 let currentTestTotalCorrect = 0;
 let currentTestType = "";
-let categories = [
-  "Дорожные знаки США",
-  // "Примеры тестов CDL",
-  "100 популярных вопросов",
-  // "Права на мотоцикл",
-];
+let categories = [];
 
 async function init() {
-  tests = await fetchData(
-    "https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js"
-  );
+  // tests = await fetchData(
+  //   "https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js"
+  // );
+  tests = await fetchData("./new.tests.js");
   setCurrentCategoryTests(testTheme);
   statisticsData = getStatisticsData()?.results || {};
   document.addEventListener("click", handleClick);
@@ -134,7 +130,8 @@ const actions = {
   startTest(target) {
     currentTestProgress = {};
     const { title, category, subcategory } = target.dataset;
-    currentTest = tests[category].find((item) => item.title === title);
+    console.log(title, category, subcategory, tests[category])
+    currentTest = tests[category].find((item) => item.title == title);
     currentTest.category = category;
     if (subcategory) {
       currentTest.subCategory = subcategory;
@@ -398,6 +395,8 @@ function _handleAnswer(answerIndex, questionIndex) {
   const correctAnswerIndex = currentQuestion.buttons.findIndex((button) => {
     return button.seccess;
   });
+
+  console.log(correctAnswerIndex)
 
   buttons.forEach((button) => (button.disabled = true));
 
