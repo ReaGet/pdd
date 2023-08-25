@@ -8,13 +8,14 @@ import { fileURLToPath } from 'url';
 
 const categoryLinks = [];
 let done = 0;
+let images = 0;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 await parseMainPage();
 await parseTests();
-console.log('Завершено');
+console.log('Завершено. Images:', images);
 
 async function parseMainPage() {
   // return await fetch("https://www.drivingtest.ca/practice-driving-tests/")
@@ -111,9 +112,11 @@ function parseSingleTestPage(page, test) {
 function formatSingleQuestionType1(item) {
   let name = item.querySelector(".mtq_question_text")?.innerText || "";
   let image = item.querySelector("img")?.getAttribute("data-lazy-src");
+  
   const buttons = [...item.querySelectorAll(".mtq_answer_table .mtq_clickable")].reduce((arr, button, index) => {
     const text = `${index + 1}) ${button.querySelector(".mtq_answer_text").innerText}`;
-    const seccess = (/alt=\W(correct)\W/gi).test(button.innerHTML);
+    // const seccess = (/alt=\W(correct)\W/gi).test(button.innerHTML);
+    const seccess = button.querySelector(".mtq_marker").getAttribute("alt").toLowerCase() == "correct";
     arr.push({ text, seccess });
     return arr;
   }, []);
@@ -126,7 +129,7 @@ function formatSingleQuestionType1(item) {
   if (!image) {
     image = "/img/noimage.png";
   } else {
-    // downloadImage(image);
+    downloadImage(image);
   }
   
   return {
@@ -141,7 +144,7 @@ function formatSingleQuestionType2(item) {
   let image = item.querySelector(".ays-image-question-img img")?.getAttribute("data-lazy-src");
   const buttons = [...item.querySelectorAll(".ays-quiz-answers .ays-field")].reduce((arr, button, index) => {
     const text = `${index + 1}) ${button.querySelector(".ays-quiz-keyboard-label").innerText}`;
-    const seccess = button.querySelector("[name='ays_answer_correct[]']").value == "1";
+    const seccess = button.querySelector("[name='ays_answer_correct[]']").getAttribute("value") == "1";
     arr.push({ text, seccess });
     return arr;
   }, []);
@@ -154,7 +157,7 @@ function formatSingleQuestionType2(item) {
   if (!image) {
     image = "/img/noimage.png";
   } else {
-    // downloadImage(image);
+    downloadImage(image);
   }
   
   return {
@@ -165,29 +168,34 @@ function formatSingleQuestionType2(item) {
 }
 
 async function downloadImage(link, tries = 0) {
-  await sleep(300);
+  // return;
+  await sleep(500);
 
   if (link.includes("noimage")) {
     return;
   }
-  const imageName = link.split("/").slice(-1)[0]
-  const file = fs.createWriteStream(path.resolve(__dirname, "img", imageName));
+  const imageName = link.split("/").slice(-1)[0];
+  const pathName = path.resolve(__dirname, "img", imageName);
+  const file = fs.createWriteStream(pathName);
   const imageLink = link.replace("http:", "https:");
 
   https.get(imageLink, response => {
     response.pipe(file);
 
     file.on('finish', () => {
+      images++;
       file.close();
       console.log(`Image downloaded as ${imageName}`);
     });
   }).on('error', err => {
     // fs.unlink(imageName);
-    if (tries < 3) {
+    if (tries < 5) {
       setTimeout(() => {
         tries++;
         downloadImage(link, tries);
       }, 500);
+    } else {
+      fs.unlink(pathName);
     }
     console.error(`Error downloading image: ${err.message}`);
   });
