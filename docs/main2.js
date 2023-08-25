@@ -183,7 +183,7 @@ const actions = {
   },
   clearStats() {
     // localStorage.clear();
-    localStorage.removeItem(`${testTheme}__statisticsData`);
+    localStorage.removeItem(`${testTheme}__statisticsData_${categoryType}`);
     statisticsData = {};
     showStatistics();
   },
@@ -509,7 +509,7 @@ function calculateResult() {
 }
 
 function getStatisticsData() {
-  const data = localStorage.getItem(`${testTheme}__statisticsData`);
+  const data = localStorage.getItem(`${testTheme}__statisticsData_${categoryType}`);
   // console.log(2, data);
   if (!data) return {};
 
@@ -521,7 +521,7 @@ function getStatisticsData() {
 
 function saveStatistics() {
   const data = JSON.stringify(statisticsData);
-  localStorage.setItem(`${testTheme}__statisticsData`, data);
+  localStorage.setItem(`${testTheme}__statisticsData_${categoryType}`, data);
 }
 
 function showStatistics() {
