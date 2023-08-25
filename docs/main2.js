@@ -59,12 +59,15 @@ let currentTest = null;
 let currentTestTotalCorrect = 0;
 let currentTestType = "";
 let categories = [];
+let categoryType = "";
 
 async function init() {
   // tests = await fetchData(
   //   "https://russiandmvtests.com/wp-content/themes/dwt-listing/assets/pdd/rus.tests2.js"
   // );
-  tests = await fetchData("./new.tests.js");
+  categoryType = document.querySelector("h3[data-type]").dataset.type;
+  tests = await fetchData(`./tests/${categoryType}.tests.js`);
+
   setCurrentCategoryTests(testTheme);
   statisticsData = getStatisticsData()?.results || {};
   document.addEventListener("click", handleClick);
@@ -130,7 +133,7 @@ const actions = {
   startTest(target) {
     currentTestProgress = {};
     const { title, category, subcategory } = target.dataset;
-    console.log(title, category, subcategory, tests[category])
+    // console.log(title, category, subcategory, tests[category])
     currentTest = tests[category].find((item) => item.title == title);
     currentTest.category = category;
     if (subcategory) {
@@ -169,7 +172,7 @@ const actions = {
     showStatistics();
   },
   solveMistakes() {
-    console.log("mistakes");
+    // console.log("mistakes");
     currentTest = getHardTestQuestions();
     if (currentTest.test.length === 0) {
       return;
@@ -198,9 +201,16 @@ function setClickedTabActive(tab) {
 
 function createListOfTestsTitles(items, category, subCategory) {
   // console.log(statisticsData)
+  items.sort((a, b) => {
+    return Number(a.title) - Number(b.title);
+  });
   return items.reduce((markup, test) => {
     const currentQuestion = test.test[0];
     // console.log(currentQuestion);
+    if (!test.test.length) {
+      return markup;
+    }
+
     const testType = [
       currentQuestion.category,
       currentQuestion.title,
@@ -396,7 +406,7 @@ function _handleAnswer(answerIndex, questionIndex) {
     return button.seccess;
   });
 
-  console.log(correctAnswerIndex)
+  // console.log(correctAnswerIndex)
 
   buttons.forEach((button) => (button.disabled = true));
 
@@ -579,6 +589,7 @@ function getHardTestQuestions() {
   let _category = "";
 
   for (let key in statisticsData) {
+    // console.log(key)
     const [category, testName, subCategory] = key.split(",");
     _category = category;
     // console.log(category, testName);
@@ -590,10 +601,11 @@ function getHardTestQuestions() {
       if (!statisticsData[key][index].done) {
         // console.log(statisticsData[key][index])
         // console.log(tests, currentCategoryTests)
-        let test = tests[category].find((item) => item.title === testName);
+        // console.log(tests[category], testName)
+        let test = tests[category].find((item) => item.title == testName);
         // console.log(category,2, subCategory, test);
         if (!test) {
-          test = tests[subCategory].find((item) => item.title === testName);
+          test = tests[subCategory]?.find((item) => item.title == testName);
         }
         const question = test.test[index];
         question.index = index;
@@ -636,23 +648,28 @@ function _startExam() {
 
   for (let i = 0; i < questionsCount; i++) {
     const cats = [...categories, testTheme];
+    // const cats = [testTheme];
     const catIndex = random(cats.length);
     const _test = tests[cats[catIndex]];
     const typeIndex = random(_test.length);
     // console.log(_test, 123123);
     const test = _test[typeIndex];
     // console.log(test);
-    const questions = test.test;
-    const questionIndex = random(questions.length);
-    let question = questions[questionIndex];
-    // console.log(question);
-
-    question.index = questionIndex;
-    question.category = testTheme;
-    if (cats[catIndex] !== testTheme) {
-      question.subCategory = cats[catIndex];
+    if (test.test.length) {
+      const questions = test.test;
+      const questionIndex = random(questions.length);
+      let question = questions[questionIndex];
+      // console.log(question);
+  
+      question.index = questionIndex;
+      question.category = testTheme;
+      if (cats[catIndex] !== testTheme) {
+        question.subCategory = cats[catIndex];
+      }
+      examTest.test.push(question);
+    } else {
+      i--;
     }
-    examTest.test.push(question);
   }
 
   currentTest = examTest;
